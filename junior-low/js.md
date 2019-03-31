@@ -84,11 +84,11 @@
 
 
 ## Ресурсы
-[Выражения и инструкции](https://ru.hexlet.io/courses/introduction_to_programming/lessons/expressions/theory_unit)
-[JavaScript: Выражения и инструкции](JavaScript: Выражения и инструкции)
-[Variable Declarations](https://www.typescriptlang.org/docs/handbook/variable-declarations.html)
-[What's so useful about closures (in JS)?](https://softwareengineering.stackexchange.com/questions/203507/whats-so-useful-about-closures-in-js)
-[Why would a program use a closure?](https://softwareengineering.stackexchange.com/questions/285941/why-would-a-program-use-a-closure)
-[Зачем нужны юнит-тесты](https://tproger.ru/translations/unit-tests-purposes/)
-[Как, используя TDD, сократить время разработки](https://www.simbirsoft.com/blog/razrabotka-cherez-testirovanie-polza-i-vred/)
-[Об использовании модульных тестов и TDD](https://eax.me/unit-testing/)
+* [Выражения и инструкции](https://ru.hexlet.io/courses/introduction_to_programming/lessons/expressions/theory_unit)
+* [JavaScript: Выражения и инструкции](https://puzzleweb.ru/javascript/2_syntax3.php)
+* [Variable Declarations](https://www.typescriptlang.org/docs/handbook/variable-declarations.html)
+* [What's so useful about closures (in JS)?](https://softwareengineering.stackexchange.com/questions/203507/whats-so-useful-about-closures-in-js)
+* [Why would a program use a closure?](https://softwareengineering.stackexchange.com/questions/285941/why-would-a-program-use-a-closure)
+* [Зачем нужны юнит-тесты](https://tproger.ru/translations/unit-tests-purposes/)
+* [Как, используя TDD, сократить время разработки](https://www.simbirsoft.com/blog/razrabotka-cherez-testirovanie-polza-i-vred/)
+* [Об использовании модульных тестов и TDD](https://eax.me/unit-testing/)
