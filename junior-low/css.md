@@ -44,3 +44,5 @@
 * [What You May Not Know About the Z-Index Property](https://webdesign.tutsplus.com/articles/what-you-may-not-know-about-the-z-index-property--webdesign-16892)
 * [Приоритеты (специфичность) селекторов]()
 * [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* [CSS и CSS3. Свойства для форматирования html-элементов](https://html5book.ru/css-css3/)
+* [CSS Tricks](https://css-tricks.com/)

@@ -42,6 +42,6 @@
 
 ## Ресурсы
 * [HTML Academy](https://htmlacademy.ru/)
-* [Справочник по вёрстке](http://htmlbook.ru/html5 )
-* [Основа методологии БЭМ](https://ru.bem.info/methodology/quick-start/ )
-* [Дополнительные уроки и статьи](https://ruseller.com/lessons.php)
+* [HTML on MDN](https://developer.mozilla.org/ru/docs/Web/HTML)
+* [HTML и HTML5. Описание тегов по основным разделам](https://html5book.ru/html-html5/)
+* [Основа методологии БЭМ](https://ru.bem.info/methodology/quick-start/)
