@@ -12,12 +12,22 @@
 * Что делает `hasOwnProperty`?
 * Когда использовать `null`, а когда `undefined`?
 * Какие есть способы создания глобальных переменных?
+
+#### Ресурсы
+* [Types (Airbnb JavaScript Style Guide)](https://github.com/airbnb/javascript#types)
+
 ### Выражения 
 * Что такое выражения и инструкции, и в чем отличия? 
 * Чем отличается `var`, `let`, `const`? В чем преимущество const и почему мы его предпочитаем использовать?
 * Что такое тернарный оператор?
 * `for..in`. Что делает оператор? Особенности работы с массивами.
 * Как безопасно проверить, что переменная существует и не словить ReferenceError?
+
+#### Ресурсы
+* [Выражения и инструкции](https://ru.hexlet.io/courses/introduction_to_programming/lessons/expressions/theory_unit)
+* [JavaScript: Выражения и инструкции](https://puzzleweb.ru/javascript/2_syntax3.php)
+* [Variable Declarations](https://www.typescriptlang.org/docs/handbook/variable-declarations.html)
+
 ### Массивы 
 * Способы создания массивов (литерал, конструктор, фабрика)
 * Удаление элемента из массива (какие есть способы и в чем особенности)
@@ -49,6 +59,11 @@
 * Что такое каррирование?
 * Что такое частичное применение?
 * Что такое мемоизация?
+
+#### Ресурсы
+* [What's so useful about closures (in JS)?](https://softwareengineering.stackexchange.com/questions/203507/whats-so-useful-about-closures-in-js)
+* [Why would a program use a closure?](https://softwareengineering.stackexchange.com/questions/285941/why-would-a-program-use-a-closure)
+
 
 ### Прототипы 
 * Что такое функция-конструктор, как их создавать и как ими пользоваться?
@@ -82,13 +97,7 @@
 * Что такое шпион и когда их стоит применять?
 * Стоит ли тестировать приватные методы класса? Почему?
 
-
-## Ресурсы
-* [Выражения и инструкции](https://ru.hexlet.io/courses/introduction_to_programming/lessons/expressions/theory_unit)
-* [JavaScript: Выражения и инструкции](https://puzzleweb.ru/javascript/2_syntax3.php)
-* [Variable Declarations](https://www.typescriptlang.org/docs/handbook/variable-declarations.html)
-* [What's so useful about closures (in JS)?](https://softwareengineering.stackexchange.com/questions/203507/whats-so-useful-about-closures-in-js)
-* [Why would a program use a closure?](https://softwareengineering.stackexchange.com/questions/285941/why-would-a-program-use-a-closure)
+#### Ресурсы
 * [Зачем нужны юнит-тесты](https://tproger.ru/translations/unit-tests-purposes/)
 * [Как, используя TDD, сократить время разработки](https://www.simbirsoft.com/blog/razrabotka-cherez-testirovanie-polza-i-vred/)
 * [Об использовании модульных тестов и TDD](https://eax.me/unit-testing/)
