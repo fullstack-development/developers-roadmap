@@ -32,6 +32,8 @@ This level requires basic skills to solve local tasks in a project.
   * Algebraic Data Type:
     * What are the declaration parts?
     * How and why do you use it?
+    * Record syntax.
+    * What is recursive data structure? Name some examples.
   * What is newtype declaration? Why does it exist? What are its constraints and properties? 
   * Polymorphic types:
     * What are polymorphic types and polymorphic functions?
@@ -39,8 +41,10 @@ This level requires basic skills to solve local tasks in a project.
     * What does instantiation of a type variable mean? At what time does it happen?
     * Can you put constraints on a type variable within a data declaration?
   * What is bottom (_|_)?
+  * What is kind?
 * Lists:
   * What are lists in haskell? What does stands them apart from the similar data structures in other languages?
+  * Name three main functions that work with lists.
   * List comprehensions.
   * Infinite lists.
   * Foldings lists:
@@ -79,6 +83,13 @@ This level requires basic skills to solve local tasks in a project.
 * Typeclasses (one parameter)
   * What are typeclasses?
   * Why do we use them?
+  * What is a superclass?
+  * Standard typeclasses:
+    * Eq, Ord
+    * Show, Read
+    * Enum
+    * Bounded
+    * Num, Floating, Integral
   * What is ad-hoc polymorphism and are the alternatives?
   * How to specify a typeclass in a type signature?
   * How to make default function implementation? Is it possible to specify the type of default implementation to be distinct from declared typeclass method?
@@ -112,6 +123,7 @@ This level requires basic skills to solve local tasks in a project.
   * Error management strategies:
     * How do Maybe and Either help with error management?
     * How to use try, catch and throw functions?
+  * Useful functions (filterM, foldM, forM, mapM, liftM and others)
 * Monad transformers:
   * What is lift function?
   * What is liftIO function?
@@ -128,6 +140,13 @@ This level requires basic skills to solve local tasks in a project.
 * Lazy evaluation
   * What is lazy evaluation?
   * How it differs from eager evaluation? What are the pros and cons of lazy evaluation?
+  * What is thunk? 
+    * Describe the concept of its inner structure.
+    * When in-memory representation of thunk occupies less space than storing the actual value of an object and visa versa?
+    * Can you nest thunks?
+  * What are outside in and inside out evaluation?
+  * What is the difference between call by value, call by name and call by need?
+  * What is WHNF? Why strict functions in haskell evaluate values to WHNF and not NF?
 
 
 ## Resources:
@@ -147,3 +166,10 @@ This level requires basic skills to solve local tasks in a project.
 * Modules:
   * [blog](https://ro-che.info/articles/2012-12-25-haskell-module-system-p1)
   * [stackoverflow](https://stackoverflow.com/questions/18035458/haskell-export-current-module-with-additional-imported-module)
+* Lazy evaluation:
+  * [habr](https://habr.com/ru/post/247213/)
+  * [haskell wiki](https://wiki.haskell.org/Lazy_vs._non-strict)
+  * [haskell wiki](https://wiki.haskell.org/Weak_head_normal_form)
+* Monads:
+  * [haskell wiki](https://wiki.haskell.org/All_About_Monads)
+  

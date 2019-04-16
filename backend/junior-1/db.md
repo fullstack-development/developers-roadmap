@@ -14,3 +14,4 @@
 
 ## Resources:
 * [postgrespro](https://postgrespro.ru/education/books)
+* [stepik](https://stepik.org/course/551/)
