@@ -1,10 +1,15 @@
 # Безопасность
 
-* SOP (Same-origin policy). Рассказать зачем нужно, какую проблему решает, какие способы обхода есть.
-* CORS (Cross-origin resource sharing)
-  * Preflight request (что такое, какие запросы требуют preflight request, какую инфу содержит, что будет в ответе с сервера).
-  * Access-control-* headers
-* JSONP (что такое, зачем нужен).
+* Что такое и зачем нужен SOP (Same-origin policy)? Как можно обойти ограничения SOP?
+* Что такое и зачем нужен CORS (Cross-origin resource sharing)?
+  * Preflight request
+    * Что такое?
+    * Зачем нужен?
+    * Какие запросы его требуют?
+    * Что он в себе содержит?
+    * Как на него отвечает сервер?
+  * Какие бывают `Access-control-*` заголовки и зачем они нужны?
+* Что такое JSONP и зачем он нужен?
 
 ### Ресурсы
 * [SOP](https://developer.mozilla.org/en/docs/Web/Security/Same-origin_policy)
