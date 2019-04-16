@@ -5,12 +5,12 @@
 * Какие есть отличия у тегов `div`, `p`, `span`, `a`?
 * Что такое инлайновые элементы (например, `b`, `i`, `strong`, `em`)?
 * Как создавать таблицы в html?
-    * border-spacing, border-collapse
-    * colspan, rowspan
-    * display: table, table-cell, table-row и т.д.
-    * table-layout
-    * caption
-    * scope
+    * `border-spacing`, `border-collapse`
+    * `colspan`, `rowspan`
+    * `display: table`, `table-cell`, `table-row` и т.д.
+    * `table-layout`
+    * `caption`
+    * `scope`
 * В чем заключаются отличие чекбокса от радио кнопок?
 * Что такое тег ` <label> ` и как с ним работать?
 * Что такое БЭМ? В чем заключаются основы методологии и в чем его польза?

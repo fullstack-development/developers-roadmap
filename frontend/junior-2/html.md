@@ -9,23 +9,23 @@
   * Что такое кросс-доменные iframes и какие у них ограничения?
 * Что делают `async`, `defer` у скриптов и какая между ними разница?
 * Рассказать про атрибуты `<form>`:
-  * action
-  * autocomplete
-  * enctype
-  * method
-  * name
+  * `action`
+  * `autocomplete`
+  * `enctype`
+  * `method`
+  * `name`
 * Рассказать про атрибуты `<input>`:
-  * form
-  * list
-  * maxlength
-  * multiple
-  * name
-  * placeholder
-  * readonly
-  * required
-  * tabindex
-  * value
-  * type
+  * `form`
+  * `list`
+  * `maxlength`
+  * `multiple`
+  * `name`
+  * `placeholder`
+  * `readonly`
+  * `required`
+  * `tabindex`
+  * `value`
+  * `type`
 * Рассказать про `<textarea>`:
   * Как запретить изменение размера?
   * Как задать значение по умолчанию?
