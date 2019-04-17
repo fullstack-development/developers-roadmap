@@ -38,7 +38,14 @@
   * `Promise.all`
   * `Promise.race`
 * В чем преимущества и недостатки коллбэков и промисов?
-
+* Какие значение и состояние будут у следующего промиса и почему:
+  ```javascript
+    const promise = new Promise((resolve, reject) => {
+      resolve(0);
+      reject(1);
+      resolve(2);
+    });
+  ```
 #### Ресурсы
 
 * [JavaScript — from callbacks to async/await](https://medium.freecodecamp.org/javascript-from-callbacks-to-async-await-1cc090ddad99)
