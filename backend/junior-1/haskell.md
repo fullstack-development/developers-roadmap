@@ -27,8 +27,7 @@ This level requires basic skills to solve local tasks in a project.
     * How function composition operator is declared? What are its precedence and associativity?
     * Is function composition associative?
     * What is the associativity of function composition? 
-      What if the associativity of function composition would have the opposite value to that which it has in Prelude, 
-      is there some other function in Prelude which operates the same (has the same semantics) as function composition operator (.), 
+      Is there some other function in Prelude which operates the same (has the same semantics) as function composition operator (.), 
       but has the opposite associativity?
 * Types:
   * What is a type in haskell? What is a type signature, what could it specify about a type and how it does that?
