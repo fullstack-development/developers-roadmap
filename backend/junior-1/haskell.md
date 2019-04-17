@@ -6,7 +6,7 @@ This level requires basic skills to solve local tasks in a project.
   * How to declare a function? What are the function declaration parts?
   * What is the type (type signature) of a function? 
   * Is it possible to declare a function without specifying its type signature? 
-    Can it cause problems, and if it can what problems it can create?
+    Can it cause problems, and if so, which ones?
   * How and when the `let... in...`  expression is used?
   * How and when the `where...`  expression is used? 
   * Function application:
@@ -41,7 +41,7 @@ This level requires basic skills to solve local tasks in a project.
   * Polymorphic types:
     * What are polymorphic types and polymorphic functions?
     * Examples of polymorphic types and functions.
-    * What does instantiation of a type variable mean? At what time does it happen?
+    * What does instantiation of a type variable mean? Does it happen at run time or at compile time?
     * Can you put constraints on a type variable within a data declaration?
   * What is bottom (_|_)?
   * What is kind?
@@ -68,7 +68,7 @@ This level requires basic skills to solve local tasks in a project.
     * Qualified import.
     * Import hiding some names.
   * Export:
-    * Can export only a part of declared names in a module?
+    * Is it possible to export only a part of declared names in a module?
     * What will be exported in this case:
     ```haskell
     module External (
@@ -146,7 +146,7 @@ This level requires basic skills to solve local tasks in a project.
   * How it differs from eager evaluation? What are the pros and cons of lazy evaluation?
   * What is thunk? 
     * Describe the concept of its inner structure.
-    * When in-memory representation of thunk occupies less space than storing the actual value of an object and visa versa?
+    * When in-memory representation of thunk occupies less space than storing the actual value of an object and vice versa?
     * Can you nest thunks?
   * What are outside in and inside out evaluation?
   * What is the difference between call by value, call by name and call by need?
