@@ -50,7 +50,7 @@
 * Какой наиболее простой паттерн, позволяющий облегчить читаемость функции, когда у нее огромное количество аргументов?
 * Как получить все аргументы функции (включая те, что не объявлены, но все-таки были переданы)?
 * Что такое рекурсия и когда удобно использовать?
-* Что такое замыкания и какая их главная область применения?
+* Что такое замыкания и каких случаях они могут быть полезны? Как сохранить состояние с помощью замыкания и для чего это состояние может быть использовано?
 * Как реализовать функцию `bind`?
 * Решить такую вот проблему: пускай у нас есть массив ссылок, и наша задача — сделать так, чтобы при клике на каждую выводился `alert`ом ее порядковый номер. Первое решение, что приходит в голову, выглядит так:
     ```javascript
@@ -67,6 +67,7 @@
 * Что такое мемоизация?
 
 #### Ресурсы
+* [Some Closure on Closures](https://dev.to/jckuhl/some-closure-on-closures-44ga)
 * [What's so useful about closures (in JS)?](https://softwareengineering.stackexchange.com/questions/203507/whats-so-useful-about-closures-in-js)
 * [Why would a program use a closure?](https://softwareengineering.stackexchange.com/questions/285941/why-would-a-program-use-a-closure)
 * [4 шаблона вызова функции. Крокфорд Д. JavaScript: сильные стороны.](https://orkhanalyshov.com/media/JavaScript/books/TheGoodParts.pdf#page=44&zoom=auto,-265,627)
