@@ -3,20 +3,20 @@
 * Рассказать про объектную модель (blob, tree, commit, tag) и .pack файлы.
 * Что такое "The Three Trees" (The HEAD, The Index, The Working Directory)?
 * Что делают, как и зачем использовать команды:
-  * checkout
-  * reset
-  * revert
-  * commit с флагом `--amend`
-  * clean
-  * rm
-  * reflog
-  * cherry-pick
-  * stash
-  * rebase
+  * `checkout`
+  * `reset`
+  * `revert`
+  * `commit` с флагом `--amend`
+  * `clean`
+  * `rm`
+  * `reflog`
+  * `cherry-pick`
+  * `stash`
+  * `rebase`
     * Что такое интерактивный режим ребейза и что он позволяет делать?
     * Какие есть опасности при использовании ребейза?
 * Как отменить merge commit?
-* Что такое HEAD и detached HEAD? Что значат HEAD^, HEAD~, HEAD@{1}?
+* Что такое `HEAD` и `detached HEAD`? Что значат `HEAD^`, `HEAD~`, `HEAD@{1}`?
 * Что такое Git flow, какие знаете примеры?
 
 ### Ресурсы
