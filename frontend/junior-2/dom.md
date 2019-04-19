@@ -26,3 +26,7 @@
   * Какими способами можно задать стили элементу через js?
   * Для чего используется свойство currentStyle?
 * Что такое DocumentFragment?
+
+### Ресурсы
+* [Хороший курс на learn js](https://learn.javascript.ru/document)
+* [Спецификация](https://www.w3.org/TR/REC-DOM-Level-1/expanded-toc.html)
