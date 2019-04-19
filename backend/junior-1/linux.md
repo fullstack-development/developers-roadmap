@@ -16,11 +16,11 @@
   * Renaming.
   * Writing in a file without using text editors.
 * Processes:
-  * Sending signals to processes
-  * List all processes
-  * Find process by PID
-  * Find process by program name
-  * Find process by port number
+  * How to send a signal to a process? Which signals could be sent?
+  * How to list all processes?
+  * How to find a process by the PID?
+  * How to find a process by the program name?
+  * How to find a process by the port number?
   * Which port numbers are reserved for administrator? Why does such restriction exist?
   * What is process supervising? Name various supervisors and their basic commands.
   * Inter-process communication methods and principles.

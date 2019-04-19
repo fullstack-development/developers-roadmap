@@ -82,7 +82,7 @@ This level requires basic skills to solve local tasks in a project.
   * `case... of...` expression.
   * Guards in a function declaration.
   * Pattern matching.
-    * How to pattern match on parts of the strings.
+    * How to pattern match on parts of the string?
 * Typeclasses (one parameter)
   * What are typeclasses?
   * Why do we use them?
@@ -93,7 +93,7 @@ This level requires basic skills to solve local tasks in a project.
     * `Enum`
     * `Bounded`
     * `Num`, `Floating`, `Integral`
-  * What is ad-hoc polymorphism and are the alternatives?
+  * What is ad-hoc polymorphism and what are the alternatives?
   * How to specify a typeclass in a type signature?
   * How to make default function implementation? 
     Is it possible to specify the type of default implementation to be distinct from declared typeclass method?
