@@ -5,7 +5,7 @@
 * Что такое объект document и в чем его отличия от window? Когда лучше использовать document, а когда window?
 * Как происходит навигация по DOM-элементам?
   * Для чего используются объекты node и element? В чем их сходства и различия?
-  * Что такое: `previousSibling`/`nextSibling`, `children`, `childNodes`, `firstChild`/`lastChild`, `firstElementChild`/`lastElementChild`.
+  * Что такое: `previousSibling`/`nextSibling`, `children`, `childNodes`, `firstChild`/`lastChild`, `firstElementChild`/`lastElementChild`?
   * Рассказать про методы навигации по DOM: `getElementById`, `getElementsByClassName`, `getElementsByTagName`, `getElementsByName`, `querySelector`, `querySelectorAll`, `closest`.
   * Имеются ли у некоторых элементов DOM свои дополнительные свойства для навигации? Если есть, привести примеры таких элементов.
 * Добавление/удаление/клонирование/вставка элементов и узлов. Какими способами это можно сделать?
