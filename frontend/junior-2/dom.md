@@ -1,8 +1,8 @@
 # DOM
 
-* Что такое DOM, BOM и объект window?
+* Что такое DOM, BOM и `window`?
 * Как происходит построение DOM дерева?
-* Что такое объект document и в чем его отличия от window? Когда лучше использовать document, а когда window?
+* Что такое `document` и в чем его отличия от `window`? Когда лучше использовать `document`, а когда `window`?
 * Как происходит навигация по DOM-элементам?
   * Для чего используются объекты node и element? В чем их сходства и различия?
   * Что такое: `previousSibling`/`nextSibling`, `children`, `childNodes`, `firstChild`/`lastChild`, `firstElementChild`/`lastElementChild`?
@@ -22,11 +22,12 @@
     </script>
     ```
 * CSS стили в DOM
-  * Рассказать что за свойство style у HTML элемента и для чего оно нужно.
+  * Рассказать что за свойство `style` у HTML элемента и для чего оно нужно.
   * Какими способами можно задать стили элементу через js?
   * Для чего используется свойство currentStyle?
 * Что такое DocumentFragment?
 
 ### Ресурсы
 * [Хороший курс на learn js](https://learn.javascript.ru/document)
-* [Спецификация](https://www.w3.org/TR/REC-DOM-Level-1/expanded-toc.html)
+* [w3c spec, first level dom](https://www.w3.org/TR/REC-DOM-Level-1/expanded-toc.html)
+* [whatwg spec, dom living standard](https://dom.spec.whatwg.org)
