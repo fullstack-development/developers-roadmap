@@ -24,10 +24,10 @@
 * CSS стили в DOM
   * Рассказать что за свойство `style` у HTML элемента и для чего оно нужно.
   * Какими способами можно задать стили элементу через js?
-  * Для чего используется свойство currentStyle?
-* Что такое DocumentFragment?
+  * Для чего используется свойство `currentStyle`?
+* Что такое `DocumentFragment`?
 
 ### Ресурсы
 * [Хороший курс на learn js](https://learn.javascript.ru/document)
 * [W3C spec, first level DOM](https://www.w3.org/TR/REC-DOM-Level-1/expanded-toc.html)
-* [WHATWG spec, dom living standard](https://dom.spec.whatwg.org)
+* [WHATWG spec, DOM living standard](https://dom.spec.whatwg.org)
