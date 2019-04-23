@@ -7,7 +7,7 @@
   * Для чего используются объекты node и element? В чем их сходства и различия?
   * Что такое: `previousSibling`/`nextSibling`, `children`, `childNodes`, `firstChild`/`lastChild`, `firstElementChild`/`lastElementChild`?
   * Рассказать про методы навигации по DOM: `getElementById`, `getElementsByClassName`, `getElementsByTagName`, `getElementsByName`, `querySelector`, `querySelectorAll`, `closest`.
-  * Имеются ли у некоторых элементов DOM свои дополнительные свойства для навигации? Если есть, привести примеры таких элементов.
+  * Рассказать про навигацию внутри `HTMLTable​Element` и `HTMLFormElement`.
 * Добавление/удаление/клонирование/вставка элементов и узлов. Какими способами это можно сделать?
 * Атрибуты и свойства
   * Рассказать как взаимодействовать с атрибутами HTML элемента через JS.
@@ -29,5 +29,5 @@
 
 ### Ресурсы
 * [Хороший курс на learn js](https://learn.javascript.ru/document)
-* [w3c spec, first level dom](https://www.w3.org/TR/REC-DOM-Level-1/expanded-toc.html)
-* [whatwg spec, dom living standard](https://dom.spec.whatwg.org)
+* [W3C spec, first level DOM](https://www.w3.org/TR/REC-DOM-Level-1/expanded-toc.html)
+* [WHATWG spec, dom living standard](https://dom.spec.whatwg.org)
