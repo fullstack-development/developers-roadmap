@@ -6,7 +6,20 @@
 * Что такое Event Loop?
 * Что такое Job queue?
 * Почему для асинхронных действий не получится использовать `try..catch`?
+    ```javascript
+    try {
+      setTimeout(function() { throw new Error('Async error!'); }, 1000);
+    } catch (e) {
+      console.log(e);
+    }
+    ```
 * Какие есть способы выполнить функцию асинхронно?
-
+* Что выведет данная конструкция:
+    ```javascript
+    for (var i = 0; i <= 3; i++){
+      setTimeout(function(){ console.log(i); }, 0); 
+    }
+    ```
+* Что значит цифра 100 в данном случае `setTimeout(func, 100)`?
 
 ### Ресурсы
