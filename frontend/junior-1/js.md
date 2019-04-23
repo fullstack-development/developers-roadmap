@@ -29,8 +29,8 @@
 * [Variable Declarations](https://www.typescriptlang.org/docs/handbook/variable-declarations.html)
 
 ## Массивы
-* Способы создания массивов (литерал, конструктор, фабричные методы)
-* Удаление элемента из массива (какие есть способы и в чем особенности)
+* Способы создания массивов (литерал, конструктор, фабричные методы `Array.from()` и `Array.of()`);
+* Удаление элемента из массива (какие есть способы и в чем особенности);
 * Свойство `length` у массива:
     * Какое значение будет у свойства `length` массива `a` и почему:
         ```javascript
@@ -84,12 +84,12 @@
     Нужен реальный пример. Чтобы понять вопрос, привожу псевдокод:
     ```javascript
     class Person
-    method getFullName()
-        return this.name + this.surname
+        method getFullName()
+            return this.name + this.surname
 
     class Employee extends Person
-    method getFullName()
-        return super() + this.position
+        method getFullName()
+            return super() + this.position
     ```
 * Какие есть способы навсегда привязать метод класса к его инстансу (чтобы `this` всегда был текущим экземпляром класса)?
 
