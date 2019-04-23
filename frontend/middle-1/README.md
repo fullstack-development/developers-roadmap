@@ -4,3 +4,7 @@
 - [ФП](./fp.md)
 - [Структуры данных](./dataStructures.md)
 - [Литература](./books.md)
+> TODO fill areas
+- Optimization
+    - Why to avoid premature optimization
+- Time management principles
