@@ -1,7 +1,7 @@
 # Front-end Middle Developer 2 level
 
 ## Области знаний
-- [Паттерны проектирование](./patterns.md)
+- [Паттерны проектирования](./patterns.md)
 > TODO fill areas
 - Basic knowledge of how networks works
 - Confident knowledge OOP
