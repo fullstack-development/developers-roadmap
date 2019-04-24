@@ -3,9 +3,9 @@
 - [ООП](./oop.md)
 - [ФП](./fp.md)
 - [Структуры данных](./dataStructures.md)
-- [Изоморфность](./isomorphism.md)
-- [Генераторы](./generators.md)
 - [Асинхронность](./async.md)
+- [Генераторы](./generators.md)
+- [Изоморфность](./isomorphism.md)
 > TODO fill areas
 - Optimization
     - Why to avoid premature optimization
