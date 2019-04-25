@@ -1,7 +1,7 @@
 # Front-end Middle Developer 2 level
 
 ## Области знаний
-- [ООП](./oop.md)
+- [Объектно-ориентированное программирование](./oop.md)
 > TODO fill areas
 - Basic knowledge of how networks works
 - Confident knowledge FP
