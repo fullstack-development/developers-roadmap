@@ -12,7 +12,7 @@
   * Record <T, U>
   * Exclude <T, U>
   * Extract <T, U>
-  * NonNullable <T>
+  * NonNullable < T >
   * ReturnType < T >
   * InstanceType < T >
 
