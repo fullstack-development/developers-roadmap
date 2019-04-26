@@ -6,5 +6,6 @@
 - [DOM](./dom.md)
 - [Тестирование](./testing.md)
 - [Git](./git.md)
+- [Typescript](./ts.md)
 - [Мобильные браузеры](./mobile.md)
 - [Литература](./books.md)
