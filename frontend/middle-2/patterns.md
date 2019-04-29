@@ -20,5 +20,5 @@
 * Какие примеры реализации этих паттернов в функциональном языке, или же в языке, где функции являются объектами первого класса, имеют замыкания и не имеют встроенных средств реализации для выражения классического ОО подхода, можно привести?
 
 # Ресурсы
-[Clojure Design Patterns](http://mishadoff.com/blog/clojure-design-patterns/)
-[Refactoring guru: design patterns](https://refactoring.guru/ru/design-patterns)
+* [Clojure Design Patterns](http://mishadoff.com/blog/clojure-design-patterns/)
+* [Refactoring guru: design patterns](https://refactoring.guru/ru/design-patterns)
