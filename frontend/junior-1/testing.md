@@ -19,3 +19,4 @@
 * [Автоматические тесты при помощи chai и mocha](https://learn.javascript.ru/testing/)
 * [Знакомство с фронтенд-тестированием. Часть первая. Введение](https://tproger.ru/translations/frontend-testing-1/)
 * [Знакомство с фронтенд-тестированием. Часть вторая. Юнит-тестирование](https://tproger.ru/translations/frontend-testing-2/)
+* [Регрессионное тестирование](https://ru.wikipedia.org/wiki/%D0%A0%D0%B5%D0%B3%D1%80%D0%B5%D1%81%D1%81%D0%B8%D0%BE%D0%BD%D0%BD%D0%BE%D0%B5_%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)
