@@ -7,5 +7,5 @@
 - [Безопасность](./security.md)
 - [Git](./git.md)
 - [API](./api.md)
-- [Typescript](./ts.md)
+- [TypeScript](./ts.md)
 - [Литература](./books.md)
