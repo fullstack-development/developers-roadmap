@@ -1,7 +1,7 @@
 # Git
 
 * Что такое Git?
-* Чем отличается git от github или gitlab?
+* В чём разница между Git, GitHub и GitLab?
 * Что представляют из себя 3 области: Working directory, Staging area, Repository?
 * Ветки
   * Что такое ветка?
