@@ -39,8 +39,9 @@
 * Что такое специальные html-сущности (неразрывный пробел, тире, которое не дефис) и как с ними работать?
 
 ### Ресурсы
-* [HTML Academy](https://htmlacademy.ru/)
-* [HTML on MDN](https://developer.mozilla.org/ru/docs/Web/HTML)
-* [HTML и HTML5. Описание тегов по основным разделам](https://html5book.ru/html-html5/)
-* [Основа методологии БЭМ](https://ru.bem.info/methodology/quick-start/)
-* [SVG: заливка и обводка](http://css.yoksel.ru/svg-fill-and-stroke/)
+* [HTML Academy](https://htmlacademy.ru/);
+* [HTML on MDN](https://developer.mozilla.org/ru/docs/Web/HTML);
+* [HTML и HTML5. Описание тегов по основным разделам](https://html5book.ru/html-html5/);
+* [Основа методологии БЭМ](https://ru.bem.info/methodology/quick-start/);
+* [Альтернативы БЭМ](https://habr.com/ru/post/256109/);
+* [SVG: заливка и обводка](http://css.yoksel.ru/svg-fill-and-stroke/).
