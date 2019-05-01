@@ -19,8 +19,8 @@
 * Как создать новый тип на основе имеющегося, с добавлением новых свойств? 
   * Практическое задание: _На основе имеющеющихся типов Avengers, Head, Dead, PersonalInformation создать новый тип SurvivorAvenger, который будет_:
     * _обязательно содержать тип Head_:
-    * _проверять принадлежность передаваемого типа к Avengers_:
-    * _исключать из передаваемого типа Dead_:
+    * _проверять, что передаваемый тип ограничен типом Avengers_:
+    * _исключать из передаваемого типа тип Dead_:
     * _содержать тип PersonalInformation для каждого типа удовлетворяющего выше перечисленным правилам_:
     ```
     type Avengers = "Thor" | "Hawkeye" | "Captain America" | "Iron Man" | "Dr. Strange" | "The Hulk" | "Captain Marvel" | "Black Widow" | "Falcon" | "Spiderman" | "Ant-Man";
