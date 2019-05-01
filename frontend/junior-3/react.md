@@ -41,7 +41,7 @@
               onClick={this.makeClickHandler(dataForClick)}
               activeUsers={activeUsersList}
               totalUsers={totalUsers}
-              options={this.filterOptions()}
+              options={this.enhanceOptions()}
             >
               <div>This is <b>Pure Component!</b></div>
             </PureComponent>
@@ -52,7 +52,7 @@
           return () => ... ;
         }
 
-        private filterOptions() {
+        private enhanceOptions() {
           const { options } = this.props;
           const uppercased = {};
           Object.keys(options).forEach(key => {
