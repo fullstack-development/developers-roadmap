@@ -22,12 +22,12 @@
     * _проверять, что передаваемый тип ограничен типом Avengers_:
     * _исключать из передаваемого типа тип Dead_:
     * _содержать тип PersonalInformation для каждого типа удовлетворяющего выше перечисленным правилам_:
-    ```
-    type Avengers = "Thor" | "Hawkeye" | "Captain America" | "Iron Man" | "Dr. Strange";
-    type Head = "Nick Fury" ;
-    type Dead = "Iron Man";
-    type PersonalInformation = { age: number, name: string, superpower: any };
-    ```
+      ```
+      type Avengers = "Thor" | "Hawkeye" | "Captain America" | "Iron Man" | "Dr. Strange";
+      type Head = "Nick Fury" ;
+      type Dead = "Iron Man";
+      type PersonalInformation = { age: number, name: string, superpower: any };
+      ```
 * Каково назначение нижеперечисленных инструкций?
   * `Readonly<T>`
   * `Partial<T>`
