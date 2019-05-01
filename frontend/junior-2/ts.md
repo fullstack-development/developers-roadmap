@@ -23,23 +23,23 @@
 * Каковы назначения модификаторов свойств классов?
 * В чем отличие абстрактных классов от интерфейсов?
 * Можно ли обявить в интерфейсе тип метода таким образом, чтобы он возвращал контекст своего вызова?
-```
-interface ISomething {
-  field: number;
-  getThis: // указать тип;
-}
-
-class Something {
-  public field: number;
-  constructor(field: number) { this.field = field; }
-  public getThis() /* указать тип */ {
-    // вернуть контекст;
+  ```
+  interface ISomething {
+    field: number;
+    getThis: // указать тип;
   }
-}
 
-const instance: ISomething = new Something(0);
-const result: ISomething = instance.getThis();
-```
+  class Something {
+    public field: number;
+    constructor(field: number) { this.field = field; }
+    public getThis() /* указать тип */ {
+      // вернуть контекст;
+    }
+  }
+
+  const instance: ISomething = new Something(0);
+  const result: ISomething = instance.getThis();
+  ```
 * Как реализовать перегрузку функции?
 * Для чего нужны generics?
 * Как указать компилятору, что дженерик тип реализует некоторый интерфейс? Как извлечь свойства этого интерфейса из такого типа?
