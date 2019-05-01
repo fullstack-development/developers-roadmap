@@ -1,6 +1,7 @@
 # Front-end Middle Developer 2 level
 
 ## Области знаний
+- [Паттерны проектирования](./patterns.md)
 - [Базовые принципы проектирования](./design.md)
 - [Объектно-ориентированное программирование](./oop.md)
 > TODO fill areas
@@ -8,7 +9,6 @@
 - Confident knowledge FP
     - basic FP patterns
     - how to write programs in declarative style
-- Design patterns
 - Basic DDD knowledge
 - Basic type systems theory
 - Team collaboration principles
