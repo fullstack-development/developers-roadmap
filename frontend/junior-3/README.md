@@ -5,6 +5,7 @@
 - [CSS](./css.md)
 - [JavaScript](./js.md)
 - [Безопасность](./security.md)
+- [DOM](./dom.md)
 - [Git](./git.md)
 - [API](./api.md)
 - [Литература](./books.md)
