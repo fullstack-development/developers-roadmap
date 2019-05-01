@@ -4,6 +4,7 @@
 - [Работа с данными](./data.md)
 - [CSS](./css.md)
 - [JavaScript](./js.md)
+- [React](./react.md)
 - [Безопасность](./security.md)
 - [DOM](./dom.md)
 - [Git](./git.md)
