@@ -23,9 +23,9 @@
     * _исключать из передаваемого типа тип Dead_:
     * _содержать тип PersonalInformation для каждого типа удовлетворяющего выше перечисленным правилам_:
     ```
-    type Avengers = "Thor" | "Hawkeye" | "Captain America" | "Iron Man" | "Dr. Strange" | "The Hulk" | "Captain Marvel" | "Black Widow" | "Falcon" | "Spiderman" | "Ant-Man";
+    type Avengers = "Thor" | "Hawkeye" | "Captain America" | "Iron Man" | "Dr. Strange";
     type Head = "Nick Fury" ;
-    type Dead = "Iron Man" | "Black Widow";
+    type Dead = "Iron Man";
     type PersonalInformation = { age: number, name: string, superpower: any };
     ```
 * Каково назначение нижеперечисленных инструкций?
