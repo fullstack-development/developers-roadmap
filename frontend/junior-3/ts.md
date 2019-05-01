@@ -14,6 +14,8 @@
   ```
 * Что такое Type Aliases, зачем нужны, чем отличаются от интерфейсов?
 * Как реализуются и предназначение условных типов?
+* Как задать дженерик типы для аргументов переданных в компоненту?
+* Для чего предназначен infer? Как извлечь дженерик типы без использования infer?
 * Создание новых типов с помощью mapped type.
 * Каково назначение нижеперечисленных инструкций?
   * `Readonly<T>`
@@ -28,3 +30,4 @@
 
 ### Ресурсы
 * [HandBook по TypeScript](https://www.typescriptlang.org/docs/handbook/advanced-types.html)
+* [Про infer](https://dev.to/miracleblue/how-2-typescript-serious-business-with-typescripts-infer-keyword-40i5)
