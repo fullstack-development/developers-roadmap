@@ -40,5 +40,5 @@
   * `InstanceType<T>`
 
 ### Ресурсы
-* [HandBook по TypeScript](https://www.typescriptlang.org/docs/handbook/advanced-types.html)
+* [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/advanced-types.html)
 * [Про infer](https://dev.to/miracleblue/how-2-typescript-serious-business-with-typescripts-infer-keyword-40i5)
