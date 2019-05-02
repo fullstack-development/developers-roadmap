@@ -25,14 +25,15 @@
   ```
   interface ISomething {
     field: number;
-    getThis: // указать тип;
+    getThis(): // указать тип;
   }
 
   class Something implements ISomething {
     public field: number;
     constructor(field: number) { this.field = field; }
-    public getThis() /* указать тип */ {
-      // вернуть контекст;
+    public getThis(): /* указать тип */ {
+      ...
+      return this;
     }
   }
 
