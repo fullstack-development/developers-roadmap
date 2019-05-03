@@ -64,6 +64,10 @@
       ```
 * Synthetic Events
   * Что такое и зачем нужны?
+  * Пусть на какое-то событие на `<input />` назначено 2 обработчика: один через атрибут `on...`, а другой через `addEventListener`.
+    * В чем разница между добавление обработчиков первым и вторым способом?
+    * В каком порядке могут выполняться обработчики? От чего это зависит?
+    * Может ли один из обработчиков отменить выполнение второго обработчика?
   * Что будет выведено на экран при клике на кнопку и почему?
   ```javascript
     class Component extends React.Component {
@@ -83,13 +87,10 @@
 
       @bind
       handleDocumentClick() {
-        alert('click document')
+        alert('click document');
       }
     }
   ```
-
-* Хуки
-  * каминг сун
 
 
 ### Ресурсы
@@ -97,3 +98,4 @@
 * [React as a UI Runtime](https://overreacted.io/react-as-a-ui-runtime/)
 * [React Fiber Architecture](https://github.com/acdlite/react-fiber-architecture) - здесь неплохо написано про reconciliation в целом, часть про детали реализации (fiber) опциональна.
 * [React events in depth w/ Kent C. Dodds, Ben Alpert, & Dan Abramov](https://www.youtube.com/watch?v=dRo_egw7tBc)
+* [Getting to know React DOM’s event handling system inside out](https://medium.com/the-guild/getting-to-know-react-doms-event-handling-system-inside-out-378c44d2a5d0)
