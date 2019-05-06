@@ -57,3 +57,4 @@
 * [Talk, Функции уровней модели OSI](https://www.youtube.com/watch?v=7cIC-o2wODs)
 * [AJAX и COMET, learn js](https://learn.javascript.ru/ajax)
 * [Using fetch, MDN](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+* [Http, MDN](https://developer.mozilla.org/ru/docs/Web/HTTP/Overview)
