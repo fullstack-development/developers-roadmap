@@ -1,4 +1,4 @@
-#Базовые принципы проектирования
+# Базовые принципы проектирования
 
 * Что такое инкапсуляция? Какова мотивация для улучшения уровня инкапсуляции?
 * Что такое абстрагирование? Какие есть отличия между абстракцией, инкапсуляцией и скрытием информации?
@@ -12,6 +12,6 @@
 * Почему преждевременная оптимизация может легко обернуться проблемой, а не решением при проектировании систем?
 
 
-# Ресурсы
+### Ресурсы
 * [Abstraction, Encapsulation, and Information Hiding](http://www.tonymarston.co.uk/php-mysql/abstraction.txt)
 * [Difference between Abstraction and Encapsulation](https://www.guru99.com/difference-between-abstraction-and-encapsulation.html#2)
