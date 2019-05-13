@@ -3,7 +3,7 @@
 ## Области знаний
 - [Базовые принципы проектирования](./design.md)
 - [Объектно-ориентированное программирование](./oop.md)
-- [ФП](./fp.md)
+- [Функциональное программированиеП](./fp.md)
 > TODO fill areas
 - Basic knowledge of how networks works
 - Design patterns
