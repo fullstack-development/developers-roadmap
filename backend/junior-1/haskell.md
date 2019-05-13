@@ -11,7 +11,9 @@ This level requires basic skills to solve local tasks in a project.
   * How and when the `where...`  expression is used? 
   * Function application:
     * What is function application operator? And what is its precedence value?
-    * What is partial application? What functions can be applied partially?
+    * What is partial application? 
+      * What functions can be applied partially?
+      * Why there are no function arguments with default values in Haskell?
     * Sectioning:
       * What is section?
       * Which functions could be used in sections?
@@ -35,7 +37,8 @@ This level requires basic skills to solve local tasks in a project.
   * Algebraic Data Type:
     * What are the declaration parts?
     * How and why do you use ADTs?
-    * How and why the record syntax is used?
+    * How and why the record syntax is used? 
+      How to extract a value from one of the fields of the corresponding ADT?
     * What is recursive data structure? Can you give some examples?
   * What is `newtype` declaration? Why does it exist? What are its constraints and properties? 
   * Polymorphic types:
@@ -43,20 +46,22 @@ This level requires basic skills to solve local tasks in a project.
     * Examples of polymorphic types and functions.
     * What does instantiation of a type variable mean? Does it happen at run time or at compile time?
     * Can you put constraints on a type variable within a data declaration?
-  * What is bottom (_|_)?
+  * What is bottom (`_|_`)? 
   * What is kind?
 * Lists:
-  * What are lists in haskell? What does stands them apart from the similar data structures in other languages?
+  * What are lists in haskell? 
+    What are the distinguishing features of lists from the similar data structures in other languages?
   * Name three main functions that work with lists.
   * List comprehensions.
-  * Infinite lists.
+  * What are infinite lists? What are the use cases of infinite lists?
   * Foldings lists:
     * `foldl`
     * `foldr`
     * `foldl1`, `foldr1`
     * `foldl'`, `foldr'`
     * Scans: `scanl`, `scanr`, and others.
-    * Examples of using associative and non-associative operators as a folding function. What are the differences between these use cases?
+    * Examples of using associative and non-associative operators as a folding function. 
+      What are the differences between these use cases?
     * Does it matter if a folding function has left or right associativity?
     * How `foldl`, `foldl'`, `foldr` and `foldr'` behave with infinite lists, and why do they have the particular behavior?
     * When `foldl'` does not solve the problem of deferring too many calculations?
@@ -70,12 +75,12 @@ This level requires basic skills to solve local tasks in a project.
   * Export:
     * Is it possible to export only a part of declared names in a module?
     * What will be exported in this case:
-    ```haskell
-    module External (
-      module Internal
-      ) where
-    import qualified Internal
-    ```
+      ```haskell
+      module External (
+        module Internal
+        ) where
+      import qualified Internal
+      ```
     * What are cyclic dependencies and what are the methods of resolving them?
 * Language control expressions
   * `if.. then... else...` expression.
@@ -86,13 +91,13 @@ This level requires basic skills to solve local tasks in a project.
 * Typeclasses (one parameter)
   * What are typeclasses?
   * Why do we use them?
-  * What is a superclass?
+  * What is a superclass? How to define a superclass relation?
   * Standard typeclasses:
     * `Eq`, `Ord`
     * `Show`, `Read`
     * `Enum`
     * `Bounded`
-    * `Num`, `Floating`, `Integral`
+    * What are the numeric typeclasses in Haskell? What are their relations?
   * What is ad-hoc polymorphism and what are the alternatives?
   * How to specify a typeclass in a type signature?
   * How to make default function implementation? 
