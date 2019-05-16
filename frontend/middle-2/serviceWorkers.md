@@ -30,11 +30,14 @@
   * Можно ли контролировать время отправки и время получения уведомления и как то отслеживать его?
   * Отличаются ли уведомления в разных браузерах/разных ОС?
 * Progressive web apps (PWA)
-  * Что такое PWA и для чего они используются?
-  * Для чего нужен сервис варке в PWA, почему без него невозможно реализовать полноценное PWA?
-  * Какова разница между PWA и наивными приложениями какие есть плюсы и минусы?
-  * Каковы ограничения у PWA при взаимодействии с ОС и из-за чего они возникают?
-  * Можно ли кастомизировать иконку PWA приложение на рабочем столе и его уведомления?
+  * Что такое PWA? Для чего они используются?
+  * Что такое Web app manifest? Как включить файл манифеста в ваше приложение?
+  * Для чего нужен сервис воркер в PWA? Почему без него невозможно реализовать полноценное PWA?
+  * Что такое Application shell? Как этот подход влияет на производительность PWA в купе с кешированием?
+  * Что такое Background sync? Чем полезна данная технология? Как ее реализовать?
+  * Какова разница между PWA и нативными приложениями? Какие есть плюсы и минусы?
+  * Каковы ограничения у PWA при взаимодействии с ОС? И из-за чего они возникают?
+  * Можно ли кастомизировать иконку PWA приложения на рабочем столе и его уведомления?
 * Какие подходы к разработке веб-приложений, помимо PWA, появились с приходом SW?
 * Какие еще воркеры существуют, их отличительные особенности и назначение?
 
@@ -46,3 +49,8 @@
 * [ServiceWorker, MessageChannel, & postMessage](https://ponyfoo.com/articles/serviceworker-messagechannel-postmessage)
 * [Push API spec](https://w3c.github.io/push-api/)
 * [Web Push Book](https://web-push-book.gauntface.com/)
+* [Introduction to Progressive Web App Architectures](https://developers.google.com/web/ilt/pwa/introduction-to-progressive-web-app-architectures)
+* [Web app manifest, spec](https://w3c.github.io/manifest/)
+* [Background Sync with Service Workers](https://davidwalsh.name/background-sync)
+* [Web Background Synchronization, spec](https://wicg.github.io/BackgroundSync/spec/)
+* [Могут ли PWA составить достойную конкуренцию нативным приложениям?](https://habr.com/ru/company/google/blog/414609/)
