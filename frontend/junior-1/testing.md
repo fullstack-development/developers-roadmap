@@ -18,4 +18,4 @@
 * [Об использовании модульных тестов и TDD](https://eax.me/unit-testing/)
 * [Автоматические тесты при помощи chai и mocha](https://learn.javascript.ru/testing/)
 * [Знакомство с фронтенд-тестированием. Часть первая. Введение](https://tproger.ru/translations/frontend-testing-1/)
-* [Знакомство с фронтенд-тестированием. Часть вторая. Юнит-тестирование](https://tproger.ru/translations/frontend-testing-2/)
+* [Осторожно! Возможны побочные эффекты](http://blog.csssr.ru/2017/10/07/side-effects)
