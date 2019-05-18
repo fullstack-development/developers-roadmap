@@ -4,6 +4,7 @@
 - [Паттерны проектирования](./patterns.md)
 - [Базовые принципы проектирования](./design.md)
 - [Объектно-ориентированное программирование](./oop.md)
+- [Реактивное программирование](./reactiveProgramming.md)
 > TODO fill areas
 - Basic knowledge of how networks works
 - Confident knowledge FP
