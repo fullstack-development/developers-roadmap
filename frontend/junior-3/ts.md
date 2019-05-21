@@ -17,16 +17,20 @@
 * Как задать автоматический вывод типов props внутри компоненты, исходя из типов передаваемых props?
 * Для чего предназначен infer?
 * Как создать новый тип на основе имеющегося, с добавлением новых свойств? 
-  * Практическое задание: _На основе имеющеющихся типов Avengers, Head, Dead, PersonalInformation создать новый тип SurvivorAvenger, который будет_:
+  * Практическое задание: _На основе имеющеющихся типов Avenger, Head, Dead и интерфейса PersonalInformation создать новый тип SurvivorAvenger, который будет_:
     * _обязательно содержать тип Head;_
-    * _проверять, что передаваемый тип ограничен типом Avengers;_
+    * _проверять, что передаваемый тип ограничен типом Avenger;_
     * _исключать из передаваемого типа тип Dead;_
-    * _содержать тип PersonalInformation для каждого типа удовлетворяющего выше перечисленным правилам;_
+    * _содержать интерфейс PersonalInformation для каждого типа удовлетворяющего выше перечисленным правилам;_
       ```
-      type Avengers = "Thor" | "Hawkeye" | "Captain America" | "Iron Man" | "Dr. Strange";
+      type Avenger = "Thor" | "Hawkeye" | "Captain America" | "Iron Man" | "Dr. Strange";
       type Head = "Nick Fury" ;
       type Dead = "Iron Man";
-      type PersonalInformation = { age: number, name: string, superpower: any };
+      interface PersonalInformation{ 
+        age: number, 
+        name: string, 
+        superpower: any
+      };
       ```
 * Каково назначение нижеперечисленных типов?
   * `Readonly<T>`
