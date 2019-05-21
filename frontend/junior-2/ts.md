@@ -40,7 +40,6 @@
   const instance: ISomething = new Something(0);
   const result: ISomething = instance.getThis();
   ```
-* Как реализовать перегрузку функции?
 * Для чего нужны generics?
   * Как ограничить возможные значения переменной типа?
   * Для чего нужен оператор `keyof`?
