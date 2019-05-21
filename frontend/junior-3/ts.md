@@ -28,8 +28,9 @@
       type Dead = "Iron Man";
       type PersonalInformation = { age: number, name: string, superpower: any };
       ```
-* Каково назначение нижеперечисленных инструкций?
+* Каково назначение нижеперечисленных типов?
   * `Readonly<T>`
+  * `Required<T>`
   * `Partial<T>`
   * `Pick<T, U>`
   * `Record<T, U>`
