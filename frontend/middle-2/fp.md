@@ -2,6 +2,7 @@
 
 * Изучить [книгу](https://github.com/MostlyAdequate/mostly-adequate-guide) Mostly Adequate Guide от Franklin Frisby (8-12 главы включительно).
 * Изучить [книгу](https://github.com/getify/Functional-Light-JS) Functional-Light JavaScript от Kyle Simpson (7-11 главы, плюс дополнения).
+* Ответить на вопросы по книгам:
   * Как реализовать функционал объектов через замыкания и наоборот? В чем преимущества каждого способа?
   * Как можно создать приватные значения в функции? Как можно сделать их иммутабельными?
   * Что такое категории? Что такое морфизмы?
