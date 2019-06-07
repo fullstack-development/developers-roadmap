@@ -6,6 +6,7 @@
 - [Асинхронность](./async.md)
 - [Генераторы](./generators.md)
 - [Изоморфность](./isomorphism.md)
+- [Тестирование](./testing.md)
 > TODO fill areas
 - Optimization
     - Why to avoid premature optimization
