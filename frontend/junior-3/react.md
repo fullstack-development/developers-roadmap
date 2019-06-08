@@ -63,6 +63,9 @@
         }
       }
       ```
+* Performance
+  * Что такое windowing или virtualizing списков?
+  * Всегда ли происходит перерисовка DOM-элемента, если `shouldComponentUpdate` вернул `true`?
 * Synthetic Events
   * Что такое и зачем нужны?
   * Пусть на какое-то событие на `<input />` назначено 2 обработчика: один через атрибут `on...`, а другой через `addEventListener`.
