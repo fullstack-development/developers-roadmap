@@ -8,6 +8,8 @@
 * Что такое JSX и зачем он нужен?
   * Почему атрибуты в JSX пишутся, используя camelCase (например, `tabIndex`, а не `tabindex`)? Почему `className`, а не `class`?
   * Почему название компоненты, которая используется в JSX, нужно писать с большой буквы?
+  * В чём проблема следующего кода `<p>{items.length && <El items={items} />}</p>`?
+  * Какие значение помимо `null` React полностью игнорируют при рендеринге?
   * Написать аналог с `React.createElement`:
     ```javascript
     <OuterComponent color="black" disabled>
