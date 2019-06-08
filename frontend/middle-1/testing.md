@@ -25,6 +25,7 @@
 * [Unit Tests, How to Write Testable Code and Why it Matters](https://www.toptal.com/qa/how-to-write-testable-code-and-why-it-matters)
 * [UnitTest by M. Fowler](https://martinfowler.com/bliki/UnitTest.html)
 * [Unit Tests from XP](http://www.extremeprogramming.org/rules/unittests.html)
+* [Test Reviews Vs. Code Reviews - Some Helpful Tips](https://osherove.com/blog/2007/3/13/test-reviews-vs-code-reviews-some-helpful-tips.html)
 * [Types and Tests](https://blog.cleancoder.com/uncle-bob/2017/01/13/TypesAndTests.html)
 * [Mocks Aren't Stubs](https://www.martinfowler.com/articles/mocksArentStubs.html)
 * [We don't write tests. There just isn't time for luxuries.](https://www.jamesgolick.com/2007/8/22/we-dont-write-tests-there-just-isnt-time-for-luxuries.html)
