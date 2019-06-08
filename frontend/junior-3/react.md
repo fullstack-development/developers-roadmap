@@ -91,13 +91,12 @@
       }
     }
   ```
-* Performance
-  * Когда передача инлайн-коллбек ухудшает производительность и почему? Пример: `<LoginButton onClick={(e) => this.handleClick(e, user)}>`
 
 
 ### Ресурсы
 * [React Documentation](https://reactjs.org/docs/getting-started.html)
 * [React as a UI Runtime](https://overreacted.io/react-as-a-ui-runtime/)
+* [Index as a key is an anti-pattern](https://medium.com/@robinpokorny/index-as-a-key-is-an-anti-pattern-e0349aece318)
 * [React Fiber Architecture](https://github.com/acdlite/react-fiber-architecture) - здесь неплохо написано про reconciliation в целом, часть про детали реализации (fiber) опциональна.
 * [React events in depth w/ Kent C. Dodds, Ben Alpert, & Dan Abramov](https://www.youtube.com/watch?v=dRo_egw7tBc)
 * [Getting to know React DOM’s event handling system inside out](https://medium.com/the-guild/getting-to-know-react-doms-event-handling-system-inside-out-378c44d2a5d0)
