@@ -8,4 +8,4 @@
 - [Мобильные браузеры](./mobile.md)
 - [Литература](./books.md)
 - [React](./react.md)
-- [Time](./time.md)
+- [Работа с датой](./time.md)
