@@ -41,6 +41,7 @@
   const instance: ISomething = new Something(0);
   const result: ISomething = instance.getThis();
   ```
+* Для чего используются Hybrid Types?  
 * Для чего используются Index types?  
   * Для чего нужен оператор `keyof`?
 * Для чего нужны generics?
