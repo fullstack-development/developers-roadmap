@@ -1,6 +1,6 @@
 # TypeScript
 
-* Для чего нужны и как использовать intersection и union типы? 
+* Для чего нужны и как использовать intersection, union и discriminated unions типы? 
   * Как работает `&` и `|`для функций? Какой тип будет у аргумента результирующей функции в обоих случаях:
     ```
     type FuncA = (a: { a: number }) => void;
