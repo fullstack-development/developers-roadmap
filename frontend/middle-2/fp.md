@@ -28,7 +28,26 @@
   * `cond`
   * `flatMap`/`chain`
 * Что такое "structural" и "generative" виды рекурсий?
-* Какие способы ограничения использования состояния существуют? Как их градировать по степени опасности?
+* Immutability and state.
+  * Может ли состояние программы быть иммутабельным?
+  * В чём проблема хранения состояния программы?
+  * Почему мутабельное состояние затрудняет соблюдение гарантии инвариантов на протяжении жизненного цикла программы?
+  * Почему мутабельность накладывает дополнительные требования к порядку выполнения функций, и как этого можно избегать?
+  * Какие способы ограничения использования состояния существуют? Как их градировать по степени опасности?
+    * Encapsulated for client mutable state (like externally pure function that use unescaped local counter)
+    * Simple encapsulated mutable state
+    * Encapsulated for programmer mutable state (like registers in binary code of the immutable language)
+    * Two-phase lifecycle of the mutable state
+    * Concurrent mutable state
+    * Immutable state
+    * Unmanaged and not encapsulated mutable state
+    * Managed encapsulated mutable state (has special control structures to like transactions)
+    * Monotonic mutable state
 
 ### Ресурсы
+* [Embracing Immutable Architecture](https://medium.com/react-weekly/embracing-immutable-architecture-dc04e3f08543)
+* [Изменяемое состояние: опасности и борьба с ними](http://fprog.ru/2009/issue1/eugene-kirpichov-fighting-mutable-state/)
+* [Immutable Data Structures and JavaScript](https://jlongster.com/Using-Immutable-Data-Structures-in-JavaScript#Immutable.js)
+* [Mutability Leads to Suffering](https://hackernoon.com/mutability-leads-to-suffering-23671a0def6a)
+* [The discussion thread about mutability](http://lambda-the-ultimate.org/node/724#comment-6580)
 * [Mostly Adequate Guide (rus)](https://github.com/MostlyAdequate/mostly-adequate-guide-ru)
