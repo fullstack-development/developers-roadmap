@@ -6,8 +6,11 @@
 - [Асинхронность](./async.md)
 - [Генераторы](./generators.md)
 - [Изоморфность](./isomorphism.md)
-- [Typescript](./typescript.md)
 - [Тестирование](./testing.md)
+
+## Специфично для нашего стека
+- [Typescript](./typescript.md)
+
 > TODO fill areas
 - Optimization
     - Why to avoid premature optimization
