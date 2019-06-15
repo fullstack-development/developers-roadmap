@@ -1,28 +1,25 @@
 # Functional programming
 
 ## Continuation Passing Style
-* [What CPS make explicit?]
-* [How would you form `if` function with CPS?]
-* [Is processes written in CPS form recursive or iterative? (see definitions in SICP)]
-* [How CPS allow "early exit"?]
-* [How CPS allow "multiple return"?]
-* [How implement coroutines with CPS?]
-* [How implement backtracking with CPS?]
-* [What is call/cc?]
-* [Why isn't call/cc supported out-of-the-box in standard JavaScript?]
-* [What are dangerous with using call/cc? Give as many examples, as possible]
-* [Why `call/cc` "reifying" the current continuation?]
-* [How to implement "short-circuit" (early exit) from fold (a.k.a. reduce) using call/cc?]
-* [How to implement cycles (like for/while) with call/cc?]
-* [What are coroutines? How to implement coroutines with continuations?]
-* [How to implement backtracking algorithms with continuations?How to implemen]
-* [Why the next proposition is important: the continuation passed to call/cc argument is in tail position in the call/cc call?]
+* What is Continuation? Why is it called Continuation Passing Style?
+* How would you form `if` function with CPS?
+* Is processes written in CPS form recursive or iterative? (see definitions in SICP)
+* How CPS allow "early exit"?
+* How CPS allow "multiple return"?
+* How implement coroutines with CPS?
+* How implement backtracking with CPS?
+* What is `call/cc`?
+* Why isn't `call/cc` supported out-of-the-box in standard JavaScript?
+* What are dangerous with using `call/cc`? Give as many examples, as possible
+* Why `call/cc` "reifying" the current continuation?
+* How to implement "short-circuit" (early exit) from fold (a.k.a. reduce) using `call/cc`?
+* How to implement cycles (like for/while) with `call/cc`?
+* Why the next proposition is important "the continuation passed to `call/cc` argument is in tail position in the `call/cc` call"?
   * Example:
-  * (let f (call/cc (lambda (k) (k 42))))
+  * `(let f (call/cc (lambda (k) (k 42))))`
   * Here we have `k` in the tail position of the whole `f`.
-* What does means that call/cc reify continuations?
 * How continuations can reify call-stack? Is there possible in every language?
-* How continuations can be implemented for JavaScript using exceptions? Is it possible to support call/cc with a such approach?
+* How continuations can be implemented for JavaScript using exceptions? Is it possible to support `call/cc` with a such approach?
 * What are delimited continuations? Why is it called so?
 
 ### Resources:
