@@ -12,7 +12,7 @@
    * Когда в TS проявляется Covariance, когда Bivariance, и когда Contravariance?
    * Если в функцию передать коллбек, который принимает другой коллбек, то параметры будут проявлять Covariance или Contravariance (вывести на примере самостоятельно)?
    * Если бы объекты и классы TS были Invariant, то как бы это повлияло на type safety и на удобство разработки?
-* Что такое Type Widening, и какие есть способы его избежать при разработке на TS?
+* Что такое Type Widening, и как этот механизм влияет на type safety в TS?
 * fresh object literal type:
   * Что это такое?
   * почему для него по-особому включается excess property checking? 
