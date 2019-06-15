@@ -8,5 +8,8 @@
 - [DOM](./dom.md)
 - [Git](./git.md)
 - [API](./api.md)
+- [Тестирование](./testing.md)
 - [Литература](./books.md)
+
+# Специфично для нашей компании
 - [React](./react.md)
