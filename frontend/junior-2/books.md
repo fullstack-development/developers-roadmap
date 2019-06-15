@@ -1,4 +1,4 @@
 # Литература
 
-* Изучить книгу "Code Craft: The Practice of Writing Excellent Code" Pete Goodliffe ("Ремесло программиста" Питера Гудлифа).
+* Изучить книгу "Code Craft: The Practice of Writing Excellent Code" Pete Goodliffe ("Ремесло программиста" Питера Гудлифа). <br>
   *Уделите внимание разделу "резюме" в конце каждой главы, а так же вопросам. На собеседовании будут задаваться случайные вопросы из разных глав.*
