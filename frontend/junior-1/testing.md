@@ -12,6 +12,7 @@
 * Зачем группировать наборы unit-тестов?
 
 ### Ресурсы
+* [A quick guide to Manual Testing Vs Automated Testing](https://reqtest.com/testing-blog/manual-testing-vs-automated-testing/)
 * [Зачем нужны юнит-тесты](https://tproger.ru/translations/unit-tests-purposes/)
 * [Как, используя TDD, сократить время разработки](https://www.simbirsoft.com/blog/razrabotka-cherez-testirovanie-polza-i-vred/)
 * [Об использовании модульных тестов и TDD](https://eax.me/unit-testing/)
