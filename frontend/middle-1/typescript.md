@@ -7,10 +7,10 @@
 * Compatibility.
   * Почему TS считает compatible тип функции с меньшим количество аргументов ((a: number) => 0; assignable to (b: number, s: string) => 0;)?
   * И как это распространяется на возвращаемый результат у функций?
-  * Можно ли считать из-за этого систему типов TS как unsound?
-* Что такое Type Variance?
+  * Нарушается ли у TS Type soundness из-за этого?
+* Что такое Type Variance, и что значат Bivariance, Covariance, Contravariance и Bivariance?
    *  Где в TS проявляется Covariance, а где Contravariance?
-   *  Если в функцию передать коллбек, который принимает другой коллбек, то это будет Covariance или Contravariance (вывести на примере самостоятельно)?
+   *  Если в функцию передать коллбек, который принимает другой коллбек, то параметры будут проявлять Covariance или Contravariance (вывести на примере самостоятельно)?
    *  Если бы объекты и классы TS были Invariant, то как бы это повлияло на type safety и на удобство разработки?
 * Что такое Type Widening, и какие есть способы его избежать при разработке на TS?
 * fresh object literal type:
