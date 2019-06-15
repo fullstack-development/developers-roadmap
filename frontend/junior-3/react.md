@@ -120,7 +120,7 @@
     }
     ```
 * Что такое Render Prop? Где и как может использоваться такой приём?
-* Как работают `Provider` и `connect` из `react-redux` (включая назначение `mapStateToProps` и работу подписок)?
+* Как работают `Provider` и `connect` из `react-redux` (включая назначение `mapStateToProps` и работу механизма подписок)?
 
 ### Ресурсы
 * [React Documentation](https://reactjs.org/docs/getting-started.html)
