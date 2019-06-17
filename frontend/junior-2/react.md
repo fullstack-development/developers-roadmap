@@ -53,5 +53,5 @@
   * Почему стандартная конструкция `try {} catch {}` не подходит для ловли ошибок при рендеринге?
 
 ### Ресурсы
-* [React Documentation](https://reactjs.org/docs/getting-started.html)
+* [React Documentation](https://reactJS.org/docs/getting-started.html)
 * [Why Do We Write super(props)?](https://overreacted.io/why-do-we-write-super-props/)
