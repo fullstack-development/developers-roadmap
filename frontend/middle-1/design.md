@@ -5,6 +5,7 @@
 * Что такое Coupling? Как инкапсуляция влияет на это?
 * Что такое Cohesion? Является ли эта величина обратной величине Coupling?
 * Что такое принцип DRY? Как принцип связан с Cohesion?
+* Как вы объясните фразу "Duplication is far cheaper than the wrong abstraction."?
 * Что такое принцип KISS?
 * Что такое принцип YAGNI? Как он соотносится с принципом KISS?
 * Что такое Separation of concerns?
