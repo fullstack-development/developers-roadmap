@@ -1,7 +1,7 @@
 # Функциональное программирование
 
 * Изучить книгу [Professor Frisby's Mostly Adequate Guide to Functional Programming](https://github.com/MostlyAdequate/mostly-adequate-guide) от Franklin Frisby (1-7 главы включительно).
-* Изучить книгу [Functional-Light JavaScript](https://github.com/getify/Functional-Light-JS) от Kyle Simpson (1-6 главы включительно).
+* Изучить книгу [Functional-Light JavaScript](https://github.com/getify/Functional-Light-JS) от Kyle Simpson (1-9 главы включительно).
 * Каковы отличия между функциями и процедурами? Почему функции предпочтительнее в ФП?
 * Что такое арность? Как получить арность функции в JS?
 * Что такое first-class citizen? Что в JS является таковым?

@@ -1,7 +1,7 @@
 # Функциональное программирование
 
-* Изучить [книгу](https://github.com/MostlyAdequate/mostly-adequate-guide) Mostly Adequate Guide от Franklin Frisby (8-12 главы включительно).
-* Изучить [книгу](https://github.com/getify/Functional-Light-JS) Functional-Light JavaScript от Kyle Simpson (9-11 главы, плюс дополнения).
+* Изучить книгу [Professor Frisby's Mostly Adequate Guide to Functional Programming](https://github.com/MostlyAdequate/mostly-adequate-guide) от Franklin Frisby (8-12 главы включительно).
+* Изучить книгу [Functional-Light JavaScript](https://github.com/getify/Functional-Light-JS) от Kyle Simpson (9-11 главы, плюс дополнения).
 * Как реализовать функционал объектов через замыкания и наоборот? В чем преимущества каждого способа?
 * Как можно создать приватные значения в функции? Как можно сделать их иммутабельными?
 * Что такое категории? Что такое морфизмы?
@@ -27,7 +27,6 @@
   * `pipe`
   * `cond`
   * `flatMap`/`chain`
-* Что такое "structural" и "generative" виды рекурсий?
 * Immutability and state.
   * Может ли состояние программы быть иммутабельным?
   * В чём проблема хранения состояния программы?
