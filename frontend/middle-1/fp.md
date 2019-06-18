@@ -1,13 +1,16 @@
 # Функциональное программирование
 
-* Изучить книгу [Mostly adequate guide to FP (in javascript)](https://github.com/MostlyAdequate/mostly-adequate-guide) от Franklin Frisby (1-7 главы включительно).
+* Изучить книгу [Professor Frisby's Mostly Adequate Guide to Functional Programming](https://github.com/MostlyAdequate/mostly-adequate-guide) от Franklin Frisby (1-7 главы включительно).
 * Изучить книгу [Functional-Light JavaScript](https://github.com/getify/Functional-Light-JS) от Kyle Simpson (1-6 главы включительно).
 * Каковы отличия между функциями и процедурами? Почему функции предпочтительнее в ФП?
 * Что такое арность? Как получить арность функции в JS?
 * Что такое first-class citizen? Что в JS является таковым?
 * Какие последствия от того, что в JS функции — тоже first-class citizen?
 * Что такое функция высшего порядка?
-* Что такое control flow? Какие проблемы появляются от ранних возвратов из функции? Каким образом можно избегать изменения control flow функции?
+* Control flow
+    * Что такое control flow?
+    * Какие проблемы появляются от ранних возвратов из функции?
+    * Каким образом можно избегать изменения control flow функции?
 * Частичное применение функций и каррирование
     * Когда может быть полезным частичное применение функций
     * Когда может быть полезным каррирование?
