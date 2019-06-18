@@ -17,6 +17,11 @@
 * [JS scope: static, dynamic, and runtime-augmented](https://codeburst.io/js-scope-static-dynamic-and-runtime-augmented-5abfee6223fe)
 * [Notes from the JS pit: closure optimization](http://blog.cdleary.com/2010/05/notes-from-the-js-pit-closure-optimization/)
 
+
+## Recursion
+TODO — fill the recursion questions
+* What are "structural" and "generative" types of recursion?
+
 ## Tail call
 * What is the tail call optimization? Why is it called "tail"? What is the problem with recursions without TCO?
 * Is call stack still needed for the languages with TCO? What's a problem with existence of call stacks in language?
