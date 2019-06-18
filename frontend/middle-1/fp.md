@@ -1,7 +1,7 @@
 # Функциональное программирование
 
-* Изучить [книгу Mostly Adequate Guide](https://github.com/MostlyAdequate/mostly-adequate-guide) от Franklin Frisby (1-7 главы включительно).
-* Изучить [книгу Functional-Light JavaScript](https://github.com/getify/Functional-Light-JS) от Kyle Simpson (1-6 главы включительно).
+* Изучить книгу [Mostly adequate guide to FP (in javascript)](https://github.com/MostlyAdequate/mostly-adequate-guide) от Franklin Frisby (1-7 главы включительно).
+* Изучить книгу [Functional-Light JavaScript](https://github.com/getify/Functional-Light-JS) от Kyle Simpson (1-6 главы включительно).
 * Каковы отличия между функциями и процедурами? Почему функции предпочтительнее в ФП?
 * Что такое арность? Как получить арность функции в JS?
 * Что такое first-class citizen? Что в JS является таковым?
@@ -27,5 +27,7 @@
 * Что такое оптимизация хвостового вызова, и поддерживается ли она в JS?
 
 ### Ресурсы
-* [Mostly Adequate Guide (rus)](https://github.com/MostlyAdequate/mostly-adequate-guide-ru)
+* [Mostly adequate guide to FP (rus)](https://github.com/MostlyAdequate/mostly-adequate-guide-ru)
 * [Functional-Light JavaScript от Kyle Simpson (rus)](https://github.com/fxzhukov/Functional-Light-JS-RU)
+* [Coding Tip: Have A Single Exit Point](https://www.tomdalling.com/blog/coding-tips/coding-tip-have-a-single-exit-point/)
+* [Rethinking JavaScript: Replace break by going functional](https://hackernoon.com/rethinking-javascript-break-is-the-goto-of-loops-51b27b1c85f8)
