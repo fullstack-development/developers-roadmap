@@ -1,17 +1,18 @@
 # Functional programming
 
 ## Closures
-  * Are immutable closures still can be useful? Give several examples.
-  * What is dynamic scoping, why is it inconvinient, what are currently widely used analogues?
-  * Does JS have dynamic or lexical scoping? Is there some exceptions (consider `this` for example)?it
-  * What is the funarg problem?
-    * Why is it divided to upward and downward problems?
-    * Is funarg problem possible in languages without support of free variables?
-    * Is funarg problem possible in languages where function cannot escape its scope?
-    * Is funarg problem possible in languages with dynamic scoping?
-  * How closures can be emulated? What are problems will arise with those approaches?
-  * Why mutable closure is a sufficient tool to add concurrency to the language (give examples with JS)?
-  * Compare closures and objects? What are advantages of each stuff?
+* What are free variables?
+* Are immutable closures still can be useful? Give several examples.
+* What is dynamic scoping, why is it inconvinient, what are currently widely used analogues?
+* Does JS have dynamic or lexical scoping? Is there some exceptions (consider `this` for example)?it
+* What is the funarg problem?
+  * Why is it divided to upward and downward problems?
+  * Is funarg problem possible in languages without support of free variables?
+  * Is funarg problem possible in languages where function cannot escape its scope?
+  * Is funarg problem possible in languages with dynamic scoping?
+* How closures can be emulated? What are problems will arise with those approaches?
+* Why mutable closure is a sufficient tool to add concurrency to the language (give examples with JS)?
+* Compare closures and objects? What are advantages of each stuff?
 
 ### Resources
 * [JS scope: static, dynamic, and runtime-augmented](https://codeburst.io/js-scope-static-dynamic-and-runtime-augmented-5abfee6223fe)
@@ -51,6 +52,13 @@ TODO — fill the recursion questions
 ## Point free style
   * What are advantages and disadvantages of point-free style?
   * Why do carried functions fit better for point-free style?
+  * How can you compose functions like `createArray` and `length` if you have known number of elements to produce an array?
+    ```typescript
+    type CreateArray = <T>(amount: number, element: T) => Array<T>;
+    type Concat = (all: Array<string>) => string;
+    const repeatHello: (amount: number) => string = // ?
+    // How can you compose functions of types CreateArray and Concat?
+    ```
   * Is there a way to use point-free in languages without support of HOF and partial application?
   * Why is point-free style similar to OOP nested calls?
     ```
