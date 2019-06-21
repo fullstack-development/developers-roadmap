@@ -22,6 +22,7 @@
   * Какие есть примеры копирования кода бизнес-логики, которые также не нарушают DRY?
   * Как следование принципу DRY может привести к нарушению KISS?
   * Как следование принципу DRY может привести к Premature Generalization?
+  * Почему при попытке убрать дублирование, когда повторов этого кода ещё мало (до 4-5), мы можем легко ошибиться и выбрать неверный способ рефакторинга? Какая здесь аналогия со статистикой?
   * Как вы объясните фразу "Duplication is far cheaper than the wrong abstraction."?
 * Что такое Separation of concerns?
 * Что такое Cross-cutting concerns? Что значит coarse-grained и fine-grained ответственность?
@@ -30,7 +31,8 @@
 * [Abstraction, Encapsulation, and Information Hiding](http://www.tonymarston.co.uk/php-mysql/abstraction.txt)
 * [Difference between Abstraction and Encapsulation](https://www.guru99.com/difference-between-abstraction-and-encapsulation.html#2)
 * [The DRY Principle Explained: Its Benefit and Cost with Examples](https://thevaluable.dev/dry-principle-explained/) [[RUS](https://habr.com/ru/company/mailru/blog/349978/)]
-* [ The Wrong Abstraction 0](https://www.sandimetz.com/blog/2016/1/20/the-wrong-abstraction)
+* [Why DRY? by Mark Seemann](https://blog.ploeh.dk/2014/08/07/why-dry/)
+* [The Wrong Abstraction](https://www.sandimetz.com/blog/2016/1/20/the-wrong-abstraction)
 * [A Detailed Explanation of The KISS Principle in Software](https://thevaluable.dev/kiss-principle-explained/)
 * [Simple Made Easy — talk of Rich Hickey](https://www.infoq.com/presentations/Simple-Made-Easy/)
 * [The Art of Separation of Concerns](http://aspiringcraftsman.com/2008/01/03/art-of-separation-of-concerns/)
