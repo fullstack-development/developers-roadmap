@@ -10,6 +10,7 @@
   * What are the alternatives to DI? What are the advantages and disadvantages of each alternative?
   * Can we implement DI without IoC?
   * How does DI help us to achieve the Separation of Concerns?
+  * How are DI and Dependency Inversion Principle from SOLID related to each other?
 * What is the Impedance Mismatch? What are examples of Impedance Mismatch among different technologies? What are most popular patterns of solutions?
 * Why premature optimization can be easily turn into big problems? How to avoid infecting the system by problems of premature optimization?
 * What are benefits to expose the API with different level of abstraction: from high level to lower ones?
@@ -38,6 +39,7 @@
 * [How To Design Better JavaScript APIs](https://www.smashingmagazine.com/2012/10/designing-javascript-apis-usability/) (little bit opinionated post, don't consider as perfect guide)
 * [Library patterns Multiple levels of abstraction](http://tomasp.net/blog/2015/library-layers/)
 * [Library patterns Why frameworks are evil](http://tomasp.net/blog/2015/library-frameworks/)
+* [A quick intro to Dependency Injection: what it is, and when to use it](https://www.freecodecamp.org/news/a-quick-intro-to-dependency-injection-what-it-is-and-when-to-use-it-7578c84fa88f/) [[Rus](https://medium.com/@xufocoder/a-quick-intro-to-dependency-injection-what-it-is-and-when-to-use-it-de1367295ba8)]
 * [Inversion of Control Containers and the Dependency Injection pattern](https://martinfowler.com/articles/injection.html)
 * [Dependency injection (from Wikipedia)](https://en.wikipedia.org/wiki/Dependency_injection)
 * [The Little Manual of API Design](https://people.mpi-inf.mpg.de/~jblanche/api-design.pdf)
