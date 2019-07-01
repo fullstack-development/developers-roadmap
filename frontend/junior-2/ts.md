@@ -27,21 +27,14 @@
 * Можно ли объявить в интерфейсе тип метода таким образом, чтобы он возвращал контекст своего вызова?
   ```
   interface ISomething {
-    field: number;
-    getThis(): // указать тип;
+    getThis(): // указать тип
   }
 
   class Something implements ISomething {
-    public field: number;
-    constructor(field: number) { this.field = field; }
-    public getThis(): /* указать тип */ {
-      ...
+    public getThis() {
       return this;
     }
   }
-
-  const instance: ISomething = new Something(0);
-  const result: ISomething = instance.getThis();
   ```
 * Для чего используются Hybrid Types?  
 * Для чего используются Index types?  
