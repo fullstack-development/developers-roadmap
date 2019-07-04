@@ -2,8 +2,11 @@
 
 ## Closures
 * What are free variables?
-* Are immutable closures still can be useful? Give several examples.
-* What is dynamic scoping, why is it inconvinient, what are currently widely used analogues?
+* How can immutable closures be useful? Give several examples.
+* Dynamic scoping
+  * What is dynamic scoping?
+  * Why is it inconvenient?
+  * What are currently widely used analogues?
 * Does JS have dynamic or lexical scoping? Is there some exceptions (consider `this` for example)?it
 * What is the funarg problem?
   * Why is it divided to upward and downward problems?
@@ -11,8 +14,8 @@
   * Is funarg problem possible in languages where function cannot escape its scope?
   * Is funarg problem possible in languages with dynamic scoping?
 * How closures can be emulated? What are problems will arise with those approaches?
-* Why mutable closure is a sufficient tool to add concurrency to the language (give examples with JS)?
-* Compare closures and objects? What are advantages of each stuff?
+* Why does mutable closure is a sufficient tool to add concurrency to the language (give examples with JS)?
+* Compare closures and objects? What are advantages of each one?
 
 ### Resources
 * [JS scope: static, dynamic, and runtime-augmented](https://codeburst.io/js-scope-static-dynamic-and-runtime-augmented-5abfee6223fe)
@@ -86,7 +89,7 @@ TODO — fill the recursion questions
 
 ## Immutability
   * What is immutability? Can program with immutable data only be stateful? Is stateless programs are all from immutable data?
-  * Why is using mutable data structures as keys for hash maps dangerous?
+  * Why is it dangerous to use mutable data structures as keys for hash maps?
   * Why does mutability make caching hard?
   * Why does mutability make concurrency hard?
   * Why does mutability make inheritance hard? What is Liskov Substitution Principle and how mutability is related to this principle?
@@ -103,7 +106,7 @@ TODO — fill the recursion questions
   * How does Immutable.js work internally?
   * Why does mutability tightly couple data with computations?
   * What is the tradeoff between scalability and performance?
-  * Why does stateful applications scale worse?
+  * Why do stateful applications scale worse than stateless?
 
 ### Resources:
 * [On stateless software design](https://leonmergen.com/on-stateless-software-design-what-is-state-72b45b023ba2)
@@ -115,17 +118,16 @@ TODO — fill the recursion questions
 ## Algebraic Data Types
 * What are Algebraic Data Types (AlgDT)?
 * What is the difference between Sum Types and Unions?
-* Why Sums and Products are called so?
-* Can two elements of the same AlgDT be same if they are build with different constructors?
+* Why are Sums and Products called so?
 * Why AlgDT are called also inductive data types?
 * Why Sum Types are called also tagged union? What is a tag there?
 * How algebraic properties respected in AlgDT (like Symmetry, Identity, Associativity and Distributivity)?
 * What is a difference in tracking nullable values with Unions and with Sum Types?
-* Why is AlgDT well appropriate for the abstract syntax representation?
+* Why does AlgDT fit well for the abstract syntax tree representation?
 * Why AlgDT with pattern-matching is more type safe approach than Unions?
 * Why is exhaustiveness checking possible for AlgDT but impossible for objects with class hierarchy?
 * What are drawbacks of the AlgDT comparing with Unions?
-* What are advantages and drawbacks of the AlgDT comparing with Abstract Data Types? Can be one converted to another and how?
+* What are advantages and drawbacks of the hiding structure of some particular AlgDT?
 * Which invariants can be modeled with AlgDT and which cannot?
 
 ### Resources:
@@ -150,7 +152,7 @@ TODO — fill the recursion questions
   * If it is too narrow it will not a flexible, so it is simpler to consider just a straightforward contract.
   * If too wide, you can meet the case where you cannot compose the combinator results. so it is still possible to combine data and not get conflicts
 * Is it possible to save performance for combinators application results comparing to using simple primitives?
-* Why HOF allow to easier designing the combinator libraries?
+* How does HOF help with easier designing of the combinator libraries?
 * Learn the API of the following libraries and answer the questions:
   * jQuery
   * Ramda (you can consider different categories separately)
