@@ -17,14 +17,11 @@
   * `IO`
 * Что такое ассоциативность?
 * Что такое аппликативный функтор? Какова область его применения?
-* Что делают, приведенные ниже, утилиты?
+* Что делают приведенные ниже утилиты?
   * `identity`
-  * `not`
   * `partial`/`partialRight`
   * `prop`
   * `curry`/`uncurry`
-  * `compose`
-  * `pipe`
   * `cond`
   * `flatMap`/`chain`
 * Immutability and state.
@@ -32,16 +29,16 @@
   * В чём проблема хранения состояния программы?
   * Почему мутабельное состояние затрудняет соблюдение гарантии инвариантов на протяжении жизненного цикла программы?
   * Почему мутабельность накладывает дополнительные требования к порядку выполнения функций, и как этого можно избегать?
-  * Какие способы ограничения использования состояния существуют? Как их градировать по степени опасности?
-    * Encapsulated for client mutable state (like externally pure function that use unescaped local counter)
-    * Simple encapsulated mutable state
-    * Encapsulated for programmer mutable state (like registers in binary code of the immutable language)
-    * Two-phase lifecycle of the mutable state
-    * Concurrent mutable state
-    * Immutable state
-    * Unmanaged and not encapsulated mutable state
-    * Managed encapsulated mutable state (has special control structures to like transactions)
-    * Monotonic mutable state
+  * Опишите следующие модели состояния. Как их можно градировать по степени опасности?
+    * Невидимое клиенту изменяемое состояние
+    * Инкапсулированное изменяемое состояние
+    * Невидимое программисту изменяемое состояние
+    * Двухфазный цикл жизни
+    * Разделяемое между несколькими процессами изменяемое состояние
+    * Отсутствие изменяемого состояния
+    * Неинкапсулированное изменяемое состояние
+    * Управляемое изменяемое состояние
+    * Монотонное изменяемое состояние
 
 ### Ресурсы
 * [Embracing Immutable Architecture](https://medium.com/react-weekly/embracing-immutable-architecture-dc04e3f08543)
