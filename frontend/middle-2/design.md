@@ -4,7 +4,7 @@
   * What is IoC?
   * What are the advantages of frameworks providing IoC over libraries?
   * What are the advantages of libraries without IoC over frameworks?
-  * Can we combine approach of using IoC and avoiding its within interface of the same module?
+  * Can we expose such module's interface that support both approaches: with IoC and without IoC?
 * Dependency Injection
   * What is DI?
   * What are the alternatives to DI? What are the advantages and disadvantages of each alternative?
