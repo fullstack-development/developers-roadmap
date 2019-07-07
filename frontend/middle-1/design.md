@@ -1,8 +1,7 @@
 #Базовые принципы проектирования
 
-* Что такое инкапсуляция? Какова мотивация для улучшения уровня инкапсуляции?
 * Что такое абстрагирование? Какие есть отличия между абстракцией, инкапсуляцией и скрытием информации?
-* Что такое Coupling? Как инкапсуляция влияет на это?
+* Что такое Coupling? Как абстрагирование влияет на это?
 * Что такое Cohesion? Является ли эта величина обратной величине Coupling?
 * Simplicity
   * Что такое принцип KISS?
@@ -30,7 +29,7 @@
 # Ресурсы
 * [Abstraction, Encapsulation, and Information Hiding](http://www.tonymarston.co.uk/php-mysql/abstraction.txt)
 * [Difference between Abstraction and Encapsulation](https://www.guru99.com/difference-between-abstraction-and-encapsulation.html#2)
-* [The DRY Principle Explained: Its Benefit and Cost with Examples](https://thevaluable.dev/dry-principle-explained/) [[RUS](https://habr.com/ru/company/mailru/blog/349978/)]
+* [The DRY Principle Explained: Its Benefit and Cost with Examples](https://thevaluable.dev/dry-principle-explained/) [[Перевод](https://habr.com/ru/company/mailru/blog/349978/)]
 * [Why DRY? by Mark Seemann](https://blog.ploeh.dk/2014/08/07/why-dry/)
 * [The Wrong Abstraction](https://www.sandimetz.com/blog/2016/1/20/the-wrong-abstraction)
 * [A Detailed Explanation of The KISS Principle in Software](https://thevaluable.dev/kiss-principle-explained/)
