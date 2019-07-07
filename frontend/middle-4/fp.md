@@ -9,7 +9,7 @@
 * How to implement coroutines with CPS?
 * How to implement backtracking with CPS?
 * What is `call/cc`?
-* Why isn't `call/cc` supported out-of-the-box in standard JavaScript?
+* Why is `call/cc` not supported out-of-the-box in standard JavaScript?
 * Why is it dangerous to use `call/cc`? Give as many examples, as possible
 * Why does `call/cc` "reify" the current continuation?
 * How to implement "short-circuit" (early exit) from fold (a.k.a. reduce) using `call/cc`?
