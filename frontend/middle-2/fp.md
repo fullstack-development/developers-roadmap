@@ -1,6 +1,7 @@
 # Функциональное программирование
 
 * Изучить книгу [Professor Frisby's Mostly Adequate Guide to Functional Programming](https://github.com/MostlyAdequate/mostly-adequate-guide) от Franklin Frisby (8-12 главы включительно).
+  * [Перевод](https://github.com/MostlyAdequate/mostly-adequate-guide-ru)
 * Изучить книгу [Functional-Light JavaScript](https://github.com/getify/Functional-Light-JS) от Kyle Simpson (9-11 главы, плюс дополнения).
 * Как реализовать функционал объектов через замыкания и наоборот? В чем преимущества каждого способа?
 * Как можно создать приватные значения в функции? Как можно сделать их иммутабельными?
@@ -8,7 +9,7 @@
 * Что такое изоморфизм?
 * Что такое функтор?
 * Как можно избежать лишних проходов по массиву?
-* Что означает ленивость? В чем ее преимущества и недостатки?
+* Что такое ленивые вычисления? В чем преимущества и недостатки ленивых вычислений?
 * Что такое трансдукция? Какие проблемы можно решить с помощью данного инструмента?
 * Что такое pointed функтор?
 * Что такое монады? Для чего они используются? Что делают приведенные ниже монады?
@@ -24,11 +25,11 @@
   * `curry`/`uncurry`
   * `cond`
   * `flatMap`/`chain`
-* Immutability and state.
+* Immutability and state
   * Может ли состояние программы быть иммутабельным?
   * В чём проблема хранения состояния программы?
   * Почему мутабельное состояние затрудняет соблюдение гарантии инвариантов на протяжении жизненного цикла программы?
-  * Почему мутабельность накладывает дополнительные требования к порядку выполнения функций, и как этого можно избегать?
+  * Почему мутабельность накладывает дополнительные требования к порядку выполнения функций, и как этого можно избежать?
   * Опишите следующие модели состояния. Как их можно градировать по степени опасности?
     * Невидимое клиенту изменяемое состояние
     * Инкапсулированное изменяемое состояние
@@ -46,4 +47,3 @@
 * [Immutable Data Structures and JavaScript](https://jlongster.com/Using-Immutable-Data-Structures-in-JavaScript#Immutable.js)
 * [Mutability Leads to Suffering](https://hackernoon.com/mutability-leads-to-suffering-23671a0def6a)
 * [The discussion thread about mutability](http://lambda-the-ultimate.org/node/724#comment-6580)
-* [Mostly Adequate Guide (rus)](https://github.com/MostlyAdequate/mostly-adequate-guide-ru)
