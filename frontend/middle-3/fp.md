@@ -28,7 +28,7 @@ TODO — fill the recursion questions
 
 ## Tail call
 * What is the tail call optimization? Why is it called "tail"? What is the problem with recursions without TCO?
-* Is call stack still needed for the languages with TCO? What's a problem with existence of call stacks in language?
+* Is call stack still needed for the languages with TCO? What's a problem with existence of call stacks in such languages?
 * What is the difference between tail recursion elimination and tail call optimization?
 * Are tail calls only about looping? Can tail calls provide us with something more powerfull?
 * Does Javascript support TCO?
@@ -97,7 +97,7 @@ TODO — fill the recursion questions
   * How can we avoid state? When is state inevitable?
   * What are best practices for localization of the state?
   * What is an atomicity? How it can help to localize a state?
-  * How two-phase lifecycle can help to localize a state? What a difference between static and dynamic two-phase lifecycle?
+  * How two-phase lifecycle can help to localize a state? What's the difference between static and dynamic two-phase lifecycle?
   * What are clients of the state? Why its number should be as few as possible? Do clients have state itself?
   * What are inconsistency of the state? How can we guarantee consistency of the state for outer client?
   * How can dependency break help us to avoid mutable interface with a state?
@@ -127,7 +127,7 @@ TODO — fill the recursion questions
 * Why AlgDT with pattern-matching is more type safe approach than Unions?
 * Why is exhaustiveness checking possible for AlgDT but impossible for objects with class hierarchy?
 * What are drawbacks of the AlgDT comparing with Unions?
-* What are advantages and drawbacks of the hiding structure of some particular AlgDT?
+* What are smart constructors for AlgDT? What are destructors?
 * Which invariants can be modeled with AlgDT and which cannot?
 
 ### Resources:
