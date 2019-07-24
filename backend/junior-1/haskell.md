@@ -164,8 +164,9 @@ This level requires basic skills to solve local tasks in a project.
 * Sections:
   * [Section of an infix operator](https://wiki.haskell.org/Section_of_an_infix_operator)
   * [Sections in haskell report](http://www.haskell.org/onlinereport/exps.html#sections)
-* Function application:
+* Function application and composition:
   * [Why composition is right associative - Stackoverflow](https://stackoverflow.com/questions/20342860/why-is-function-composition-in-haskell-right-associative)
+  * [A curious associativity of the `<$>` operator](https://ro-che.info/articles/2019-07-22-associativity-of-fmap)
 * Folds:
   * [Свертки списков - IBM](https://www.ibm.com/developerworks/ru/library/l-haskell4/)
   * [foldr, foldl - haskell wiki](https://wiki.haskell.org/Foldr_Foldl_Foldl%27)
