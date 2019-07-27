@@ -3,6 +3,25 @@
 * Как реализовать перегрузку функции?
   * Возможно ли использовать перегрузку по строковым литералам? 
 * Для чего предназначены условные типы? Как ими пользоваться?
+* Для чего предназначена конструкция `as const`? 
+  * Какие имеются ограничения? 
+  * Почему этот код не вызовет ошибок:
+    ``` 
+    let names = ['Mary', 'David'];
+    let group = {
+      participant: names,
+      ageRestrictions: 18,
+    } as const;
+    group.participant.push('Henry');
+    ```  
+    а этот выдаст ошибку
+    ```
+    group.ageRestrictions = 12; 
+    ```  
+    что произойдет, если вызвать этот код и почему?
+    ```
+    group.participant.concat('Henry');
+    ```
 * Как задать автоматический вывод типов props внутри компоненты, исходя из типов передаваемых props?
 * Для чего предназначен infer?
 * Как создать новый тип на основе имеющегося, с добавлением новых свойств? 
@@ -21,7 +40,11 @@
         name: string, 
         superpower: any
       };
-      ```
+
+      Example:
+      const PersonalInformation: PersonalInformation = { age: 25; name: 'NameOfAvenger', superpower: 'SuperpowerOfAvenger'  };
+      const SurvivedAvengers: SurvivedAvengers<'Thor' | 'Hawkeye' | 'Iron Man'> = {'Thor': PersonalInformation, 'Hawkeye': PersonalInformation,  'Nick Fury': PersonalInformation }
+        ```
 * Каково назначение нижеперечисленных типов?
   * `Readonly<T>`
   * `Required<T>`
