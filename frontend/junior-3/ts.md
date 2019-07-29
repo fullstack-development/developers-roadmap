@@ -12,8 +12,8 @@
       participants: names,
       ageRestriction: 18,
     } as const;
-    group.participant.push('Henry');
-    group.ageRestrictions = 12; 
+    group.participants.push('Henry');
+    group.ageRestriction = 12; 
     ```
   * Какая из последних двух строчек вызовет ошибку, а какая нет, и почему?
 * Как задать автоматический вывод типов props внутри компоненты, исходя из типов передаваемых props?
