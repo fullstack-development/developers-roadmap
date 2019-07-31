@@ -9,7 +9,7 @@
   * What is DI?
   * What are the alternatives to DI? What are the advantages and disadvantages of each alternative?
   * Can DI be implemented without IoC?
-  * How does DI help us to achieve the Separation of Concerns?
+  * How does DI help to achieve the Separation of Concerns?
   * How are DI and Dependency Inversion Principle from SOLID related to each other?
 * What is Impedance Mismatch? What are the examples of Impedance Mismatch in different technologies? What are the most popular patterns of solutions?
 * What problems can be caused by premature optimization? How to solve troubles with performance while avoiding premature optimization?
@@ -23,16 +23,16 @@
   * How can modules depend on each other?
 * API of modules
   * What are the characteristics of a good module API?
-  * How can our API become hard to misuse? What are the benefits of this characteristic?
+  * How can we make an API hard to misuse? What are the benefits of this characteristic?
   * What are consistency and conceptual integrity properties of API? Why are the properties valuable?
   * How writing use cases before writing code can help to achieve cleaner API?
   * What is the difference between extensibility by the module authors and module clients?
   * How can you explain the phrase "asymmetry of function should be reflected by asymmetry of form"?
   * What are examples of the naming where close ideas looks similar and different concepts differ greatly?
-  * What are edge cases in the context of designing an API? How we had better treat it?
+  * What are edge cases in the context of designing an API? Why implicit edge case handling is more preferred than explicit?
   * What are examples of breaking the rule "The best API is no API"?
 * How does modular programming help us to achieve better local reasoning while developing the module?
-* What are benefits to declare explicit contract between a client and an implementer of a module?
+* What are the benefits of declaring an explicit contract between a client and a person who implements a module?
 * What is the difference between abstraction by parameterization and abstraction by specification?
 
 # Ресурсы
