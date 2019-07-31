@@ -5,6 +5,7 @@
 - [Базовые принципы проектирования](./design.md)
 - [Объектно-ориентированное программирование](./oop.md)
 - [Функциональное программированиеП](./fp.md)
+- [Сеть](./network.md)
 > TODO fill areas
 - Basic knowledge of how networks works
 - Basic DDD knowledge
