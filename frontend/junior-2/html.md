@@ -32,3 +32,6 @@
   * Как избежать вертикальной прокрутки для большого текста?
   * Какие есть html-pure альтернативы?
   * В чем разница задания размеров через `cols` & `rows` и `height` & `width`?
+  
+  ### Ресурсы
+* [HTML5 Video Events and API](https://www.w3.org/2010/05/video/mediaevents.html)
