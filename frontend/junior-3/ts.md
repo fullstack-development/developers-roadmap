@@ -1,7 +1,6 @@
 # TypeScript
 
 * Что такое перегрузка функции? Какие есть способы её реализовать?
-  * Возможно ли использовать перегрузку по строковым литералам? 
 * Для чего предназначены условные типы? Как ими пользоваться?
 * Для чего предназначена конструкция `as const`? 
   * Какие имеются ограничения? 
@@ -16,7 +15,6 @@
     group.ageRestriction = 12; 
     ```
     какая из последних двух строчек вызовет ошибку, а какая нет, и почему?
-* Как задать автоматический вывод типов props внутри компоненты, исходя из типов передаваемых props?
 * Для чего предназначен `infer`?
 * Как создать новый тип на основе имеющегося, с добавлением новых свойств? 
   * Практическое задание: На основе имеющеющихся типов `Avenger`, `Head`, `Dead` и интерфейса `IPersonalInformation` создать новый тип объекта `SurvivedAvengers<T>`, который должен удовлетворять следующим условиям:
@@ -39,6 +37,7 @@
       const personalInformation: PersonalInformation = { age: 25; name: 'NameOfAvenger', superpower: 'SuperpowerOfAvenger' };
       const survivedAvengers: SurvivedAvengers<'Thor' | 'Hawkeye' | 'Iron Man'> = { 'Thor': PersonalInformation, 'Hawkeye': PersonalInformation,  'Nick Fury': PersonalInformation };
       ```
+* Что такое Mapped types и как их создавать?
 * Каково назначение нижеперечисленных типов?
   * `Readonly<T>`
   * `Required<T>`
@@ -50,6 +49,9 @@
   * `NonNullable<T>`
   * `ReturnType<T>`
   * `InstanceType<T>`
+* Как добиться Exhaustiveness checking для Discriminated Unions?
+
+
 
 ### Ресурсы
 * [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/advanced-types.html)
