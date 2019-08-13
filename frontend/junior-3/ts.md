@@ -1,7 +1,6 @@
 # TypeScript
 
 * Что такое перегрузка функции? Какие есть способы её реализовать?
-* Для чего предназначены условные типы? Как ими пользоваться?
 * Для чего предназначена конструкция `as const`? 
   * Какие имеются ограничения? 
   * Имеется следующий код:
@@ -15,7 +14,6 @@
     group.ageRestriction = 12; 
     ```
     какая из последних двух строчек вызовет ошибку, а какая нет, и почему?
-* Для чего предназначен `infer`?
 * Как создать новый тип на основе имеющегося, с добавлением новых свойств? 
   * Практическое задание: На основе имеющеющихся типов `Avenger`, `Head`, `Dead` и интерфейса `IPersonalInformation` создать новый тип объекта `SurvivedAvengers<T>`, который должен удовлетворять следующим условиям:
     * _T должен быть совместим с типом Avenger;_
@@ -37,7 +35,7 @@
       const personalInformation: PersonalInformation = { age: 25; name: 'NameOfAvenger', superpower: 'SuperpowerOfAvenger' };
       const survivedAvengers: SurvivedAvengers<'Thor' | 'Hawkeye' | 'Iron Man'> = { 'Thor': PersonalInformation, 'Hawkeye': PersonalInformation,  'Nick Fury': PersonalInformation };
       ```
-* Что такое Mapped types и как их создавать?
+* Для чего предназначены Mapped types? Как создать собственный Mapped type?
 * Каково назначение нижеперечисленных типов?
   * `Readonly<T>`
   * `Required<T>`
@@ -49,10 +47,15 @@
   * `NonNullable<T>`
   * `ReturnType<T>`
   * `InstanceType<T>`
-* Как добиться Exhaustiveness checking для Discriminated Unions?
 
-
+* Для чего предназначены Conditional Types? 
+  * Для чего предназначены Distributive Conditional Types? Как удалить составной тип из union type?
+  * Допускается ли использовать Conditional Types совместно с Mapped Types?
+  * Для чего нужен `infer`? Допускается ли использовать `infer` для типов не являющихся Conditional Types? 
+* Допускается ли в type Aliases рекурсивно ссылаться на свой тип?
+* Как получить Exhaustiveness checking для Discriminated Unions?
 
 ### Ресурсы
 * [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/advanced-types.html)
 * [How 2 TypeScript: Serious business with TypeScript's infer keyword](https://dev.to/miracleblue/how-2-typescript-serious-business-with-typescripts-infer-keyword-40i5)
+* [Conditional Types in TypeScript](https://mariusschulz.com/blog/conditional-types-in-typescript)
