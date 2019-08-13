@@ -52,8 +52,9 @@
   * Для чего предназначены Distributive Conditional Types? Как удалить составной тип из union type?
   * Допускается ли использовать Conditional Types совместно с Mapped Types?
   * Для чего нужен `infer`? Допускается ли использовать `infer` для типов не являющихся Conditional Types? 
-* Допускается ли в type Aliases рекурсивно ссылаться на свой тип?
 * Как получить Exhaustiveness checking для Discriminated Unions?
+* Допускается ли в type Aliases рекурсивно ссылаться на свой тип?
+* Как затипизровать конструктор для класса?
 
 ### Ресурсы
 * [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/advanced-types.html)
