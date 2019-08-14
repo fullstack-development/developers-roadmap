@@ -49,12 +49,13 @@
   * `InstanceType<T>`
 
 * Для чего предназначены Conditional Types? 
-  * Для чего предназначены Distributive Conditional Types? Как удалить составной тип из union type?
+  * Как проявляется дистрибутивность в Conditional Types?
   * Допускается ли использовать Conditional Types совместно с Mapped Types?
   * Для чего нужен `infer`? Допускается ли использовать `infer` для типов не являющихся Conditional Types? 
 * Как получить Exhaustiveness checking для Discriminated Unions?
-* Допускается ли в type Aliases рекурсивно ссылаться на свой тип?
-* Как затипизровать конструктор для класса?
+* Возможно ли в TypeScript объявление рекурсивных type Aliases?
+* Как затипизровать конструктор класса?
+  * Можно ли затипизировать перегрузку конструктора для класса?
 
 ### Ресурсы
 * [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/advanced-types.html)
