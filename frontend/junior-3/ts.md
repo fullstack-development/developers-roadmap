@@ -50,6 +50,7 @@
 
 * Для чего предназначены Conditional Types? 
   * Как проявляется дистрибутивность в Conditional Types?
+  * Как удалить составной тип из union type, с помощью Conditional Types?
   * Допускается ли использовать Conditional Types совместно с Mapped Types?
   * Для чего нужен `infer`? Допускается ли использовать `infer` для типов не являющихся Conditional Types? 
 * Как получить Exhaustiveness checking для Discriminated Unions?
