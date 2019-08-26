@@ -23,10 +23,37 @@
 * Какие есть свойства гридов для выравнивания?
 * Как работает наложение элементов в гридах?
 
+## Графика
+
+* Что такое progressive jpeg?
+* Когда стоит использовать тег `img`, а когда `background-image`?
+* Различие экранов:
+  * Что такое DPI и PPI?
+  * Что значит фраза: "экран с высокой плотностью пикселей"?
+  * Что такое `device-pixel-ratio`?
+  * Как масштабировать графику на экранах с повышенной плотностью пикселей (например, на retina дисплеях)?
+
+## Общие вопросы
+
+* Как работает `calc()`? Какие параметры принимает? Какие операции допустимы? В каких единицах измерения можно задавать значения параметров?
+* Как реализовать треугольник на чистом CSS?
+* Как работает `@import`? Почему не стоит использовать `@import` для загрузки стилей в документ?
+
+   ```html
+    <!-- Почему не стоит так делать? -->
+    <style>
+      @import url('a.css');
+    </style>
+   ```
+
 ### Ресурсы:
 
-* [Официальная документация](https://www.w3.org/TR/2017/CR-css-grid-1-20171214/);
+* [CSS Grid Layout Module Level 1 (W3C)](https://www.w3.org/TR/css-grid-1/);
 * [Руководство по изучению CSS Grid](https://learncssgrid.com/);
 * [Основные понятия Grid Layout (MDN)](https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout);
 * [Вёрстка на Grid в CSS. Полное руководство и справочник (Medium)](https://medium.com/@stasonmars/%D0%B2%D0%B5%CC%88%D1%80%D1%81%D1%82%D0%BA%D0%B0-%D0%BD%D0%B0-grid-%D0%B2-css-%D0%BF%D0%BE%D0%BB%D0%BD%D0%BE%D0%B5-%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-%D0%B8-%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%87%D0%BD%D0%B8%D0%BA-220508316f8b);
-* [Что такое единица гибкости fr в CSS, доступным и простым языком (Medium)](https://medium.com/@stasonmars/%D1%87%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D0%B0-%D0%B3%D0%B8%D0%B1%D0%BA%D0%BE%D1%81%D1%82%D0%B8-fr-%D0%B2-css-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BD%D1%8B%D0%BC-%D0%B8-%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%8B%D0%BC-%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%BC-2a3794c4444).
+* [Что такое единица гибкости fr в CSS, доступным и простым языком (Medium)](https://medium.com/@stasonmars/%D1%87%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D0%B0-%D0%B3%D0%B8%D0%B1%D0%BA%D0%BE%D1%81%D1%82%D0%B8-fr-%D0%B2-css-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BD%D1%8B%D0%BC-%D0%B8-%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%8B%D0%BC-%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%BC-2a3794c4444);
+* [Что такое progressive JPEG?](https://walnut.team/blog/pogovorim-o-tehnologiyah/progressive-jpeg-chto-za-zver/);
+* [Оптимизация графики для Retina-экранов](https://habr.com/ru/post/150071/);
+* [Треугольники через CSS](http://htmlbook.ru/blog/treugolniki-cherez-css);
+* [Не используйте @import](https://habr.com/ru/post/57012/).
