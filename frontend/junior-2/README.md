@@ -5,7 +5,10 @@
 - [DOM](./dom.md)
 - [Тестирование](./testing.md)
 - [Git](./git.md)
+- [TypeScript](./ts.md)
 - [Мобильные браузеры](./mobile.md)
 - [Литература](./books.md)
+
+## Специфично для нашего стека
 - [React](./react.md)
 - [Работа с датой](./time.md)

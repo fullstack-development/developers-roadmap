@@ -23,11 +23,11 @@
     ```
 * CSS стили в DOM
   * Зачем нужно свойство `style` у HTML-элемента? Как им пользоваться?
-  * Какими способами можно задать стили элементу через js?
+  * Какими способами можно задать стили элементу через JS?
   * Для чего используется свойство `currentStyle`?
 * Что такое `DocumentFragment`?
 
 ### Ресурсы
-* [Хороший курс на learn js](https://learn.javascript.ru/document)
+* [Хороший курс на Learn Javascript](https://learn.javascript.ru/document)
 * [W3C spec, first level DOM](https://www.w3.org/TR/REC-DOM-Level-1/expanded-toc.html)
 * [WHATWG spec, DOM living standard](https://dom.spec.whatwg.org)

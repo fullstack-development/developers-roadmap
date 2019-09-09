@@ -4,11 +4,10 @@
 - [Паттерны проектирования](./patterns.md)
 - [Базовые принципы проектирования](./design.md)
 - [Объектно-ориентированное программирование](./oop.md)
+- [Функциональное программирование](./fp.md)
+- [Сеть](./network.md)
 > TODO fill areas
 - Basic knowledge of how networks works
-- Confident knowledge FP
-    - basic FP patterns
-    - how to write programs in declarative style
 - Basic DDD knowledge
 - Basic type systems theory
 - Team collaboration principles

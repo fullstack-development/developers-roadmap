@@ -26,3 +26,5 @@
 * [Наследование vs Композиция vs Агрегация](http://sergeyteplyakov.blogspot.com/2012/12/vs-vs.html)
 * [Uses and Abuses of Inheritance, Part 1](http://www.gotw.ca/publications/mill06.htm)
 * [Uses and Abuses of Inheritance, Part 2](http://www.gotw.ca/publications/mill07.htm)
+* [Принципы проектирования классов (S.O.L.I.D.)](https://blog.byndyu.ru/2009/10/solid.html)
+* [OTA SOLID (интерактивный ресурс)](https://ota-solid.now.sh)
