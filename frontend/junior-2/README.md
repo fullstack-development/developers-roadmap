@@ -7,7 +7,9 @@
 - [Git](./git.md)
 - [TypeScript](./ts.md)
 - [Мобильные браузеры](./mobile.md)
+- [Работа с датой](./time.md)
 - [Литература](./books.md)
 
 ## Специфично для нашего стека
 - [React](./react.md)
+
