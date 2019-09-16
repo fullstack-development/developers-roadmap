@@ -101,3 +101,14 @@
     // хорошо
     You Don't Know JS: Async & Performance
     ```
+
+# Требования к оформлению pull request (PR)
+
+* Заголовки PR должны именоваться по следующему шаблону:
+  ```
+  уровень/топик: содержание PR
+  ```
+  например:
+  ```
+  mid2/network: add transport protocols
+  ```
