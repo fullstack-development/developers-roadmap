@@ -42,22 +42,41 @@
 * Для чего нужны generics?
   * Как ограничить возможные значения переменной типа?
   * Как ограничить возможные значения переменной типа значениями другой переменной типа?
-  * Задание на generics: Напишите функцию `getByPropertyAndValue`, которая бы фильтровала исходный массив объектов по имени свойства и его значению. Например, дан массив сотрудников:
-  ```js
-    const employees = [
-      { name: 'Василий', age: 20, position: 'Программист' },
-      { name: 'Степан', age: 25, position: 'Программист' },
-      { name: 'Светлана', age: 34, position: 'Бухгалтер' },
-      { name: 'Василий', age: 19, position: 'Программист'},
-      { name: 'Максим', age: 43, position: 'Тестировщик'},
-      { name: 'Максим', age: 19, position: 'Тестировщик'},
-      { name: 'Максим', age: 27, position: 'Дизайнер'},
-    ]
-  ```
-  нужно получить список всех сотрудников на должнасти программист, на выходе должно получится:
-  ```js
-  getByPropertyAndValue(employees, 'position', 'Программист')
-  ```
+  * Исправьте типизацию функции filterByPropertyAndValue, таким образом, чтобы она:
+      1. первым аргументом принимала массив любых объектов;
+      1. вторым имя поля, по которому производится фильтрация;
+      1. третьим значение, которое должно содержать поле;
+      1. возвращала тип первого аргумента - исходного массива.
+
+    ```typescript
+      // исходная функция
+      function filterByPropertyAndValue(input: Object[], propName: string, propValue: any): Object[] {
+        return input.filter(item => item[property] === value);
+      }
+    ```
+
+    ```typescript
+      // Что должно получиться
+      interface IEmploye {
+        name: string;
+        age: number;
+        position: 'Программист' | 'Бухгалтер' | 'Дизайнер';
+      }
+
+      const employees: IEmploye[] = [
+        { name: 'Василий', age: 20, position: 'Программист' },
+        { name: 'Степан', age: 25, position: 'Дизайнер' },
+        { name: 'Светлана', age: 34, position: 'Бухгалтер' },
+        { name: 'Василий', age: 19, position: 'Программист'},
+        { name: 'Максим', age: 43, position: 'Программист'},
+        { name: 'Максим', age: 19, position: 'Программист'},
+        { name: 'Максим', age: 27, position: 'Дизайнер'},
+      ];
+
+    filterByPropertyAndValue(employees, 'position', 'Программист'); // вернёт IEmploye[]
+    filterByPropertyAndValue(employees, 'surname', 'Пупкин'); // ошибка, тип IEmploye не содержит поле 'surname'
+    filterByPropertyAndValue(employees, 'position', 'Тестировщик'); // ошибка, поле 'position' не может содержать значение 'Тестировщик',
+    ```
 * Что такое Type Guards? Когда они применяются?
 
 * Union и intersection типы
