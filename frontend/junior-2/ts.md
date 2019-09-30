@@ -77,7 +77,6 @@
     filterByPropertyAndValue(employees, 'surname', 'Пупкин'); // ошибка, тип IEmploye не содержит поле 'surname'
     filterByPropertyAndValue(employees, 'position', 'Тестировщик'); // ошибка, поле 'position' не может содержать значение 'Тестировщик',
     ```
-* Что такое Type Guards? Когда они применяются?
 
 * Union и intersection типы
   * Для чего нужны?
@@ -91,6 +90,10 @@
     const fc1: FuncC = (m: /* указать тип аргумента */) => { };
     const fc2: FuncD = (m: /* указать тип аргумента */) => { };
     ```
+
+* Что такое Type Guards? Когда они применяются?
+  * Зачем нужен оператор `in`?
+  * Как работает уточнение типа с помощью `typeof` и `instanceof`?
 * Discriminated unions типы
   * Для чего нужны?
   * Как использовать?
