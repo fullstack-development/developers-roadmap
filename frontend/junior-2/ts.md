@@ -96,7 +96,7 @@
   * Для чего используются type predicates?
   * Зачем нужен оператор `in`?
   * Как работает уточнение типа с помощью `typeof` и `instanceof`?
-  * Что такое Discriminated unions и для чего они нужны?
+  * Что такое Discriminated unions и как их использовать?
   * Что такое exchaustiveness checking? Зачем это нужно? Как этого добиться?
 * Что такое Branding и Flavoring?
   * Для чего используются?
