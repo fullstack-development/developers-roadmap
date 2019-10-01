@@ -56,7 +56,7 @@
     ```
 
     ```typescript
-      // Что должно получиться
+      // что должно получиться
       interface IEmploye {
         name: string;
         age: number;
