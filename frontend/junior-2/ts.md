@@ -60,22 +60,22 @@
       interface IEmploye {
         name: string;
         age: number;
-        position: 'Программист' | 'Бухгалтер' | 'Дизайнер';
+        position: 'Programmer' | 'Accountant' | 'Designer';
       }
 
       const employees: IEmploye[] = [
-        { name: 'Василий', age: 20, position: 'Программист' },
-        { name: 'Степан', age: 25, position: 'Дизайнер' },
-        { name: 'Светлана', age: 34, position: 'Бухгалтер' },
-        { name: 'Василий', age: 19, position: 'Программист'},
-        { name: 'Максим', age: 43, position: 'Программист'},
-        { name: 'Максим', age: 19, position: 'Программист'},
-        { name: 'Максим', age: 27, position: 'Дизайнер'},
+        { name: 'Mikle', age: 20, position: 'Programmer' },
+        { name: 'Jordan', age: 25, position: 'Designer' },
+        { name: 'Stive', age: 34, position: 'Accountant' },
+        { name: 'Tom', age: 19, position: 'Programmer'},
+        { name: 'Bob', age: 43, position: 'Programmer'},
+        { name: 'Mikle', age: 19, position: 'Programmer'},
+        { name: 'Bob', age: 27, position: 'Designer'},
       ];
 
-    filterByPropertyAndValue(employees, 'position', 'Программист'); // вернёт IEmploye[]
+    filterByPropertyAndValue(employees, 'position', 'Programmer'); // вернёт IEmploye[]
     filterByPropertyAndValue(employees, 'surname', 'Пупкин'); // ошибка, тип IEmploye не содержит поле 'surname'
-    filterByPropertyAndValue(employees, 'position', 'Тестировщик'); // ошибка, поле 'position' не может содержать значение 'Тестировщик',
+    filterByPropertyAndValue(employees, 'position', 'Tester'); // ошибка, поле 'position' не может содержать значение 'Тестировщик',
     ```
 
 * Union и intersection типы
