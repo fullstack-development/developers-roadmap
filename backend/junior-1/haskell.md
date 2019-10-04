@@ -147,16 +147,17 @@ This level requires basic skills to solve local tasks in a project.
     * Matching problem.
     * Infinite type problem.
 * Lazy evaluation
+  * What is the difference between laziness and non-strictness? 
+    What is the difference between eager and strict evaluation?
+  * What is outside in and inside out evaluation?
   * What is lazy evaluation?
   * How it differs from eager evaluation? What are the pros and cons of lazy evaluation?
-  * What is thunk? 
+  * What is thunk?
     * Describe the concept of its inner structure.
-    * When in-memory representation of thunk occupies less space than storing the actual value of an object and vice versa?
+    * Could you think of cases when thunk occupies less space than the evaluated value and visa versa?
     * Can you nest thunks?
-  * What are outside in and inside out evaluation?
   * What is the difference between call by value, call by name and call by need?
   * What is WHNF? Why strict functions in haskell evaluate values to WHNF and not NF?
-
 
 ### Resources:
 * Types:
