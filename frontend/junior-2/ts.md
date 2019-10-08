@@ -73,7 +73,7 @@
 
     filterByPropertyAndValue(employees, 'position', 'Programmer'); // вернёт IEmploye[]
     filterByPropertyAndValue(employees, 'surname', 'Cook'); // ошибка, тип IEmploye не содержит поле 'surname'
-    filterByPropertyAndValue(employees, 'position', 'Tester'); // ошибка, поле 'position' не может содержать значение 'Тестировщик',
+    filterByPropertyAndValue(employees, 'position', 'Tester'); // ошибка, поле 'position' не может содержать значение 'Tester',
     ```
 * Union и intersection типы
   * Для чего нужны?
