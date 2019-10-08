@@ -25,7 +25,7 @@
 * Каковы назначения модификаторов свойств классов?
 * В чем отличие абстрактных классов от обычных классов и интерфейсов?
 * Можно ли объявить в интерфейсе тип метода таким образом, чтобы он возвращал контекст своего вызова?
-  ```
+  ```ts
   interface ISomething {
     getThis(): // указать тип
   }
@@ -47,14 +47,12 @@
       1. вторым – имя поля, по которому производится фильтрация;
       1. третьим – значение, которое должно содержать поле;
       1. возвращала тип первого аргумента - исходного массива.
-
     ```typescript
       // исходная функция
       function filterByPropertyAndValue(input: Object[], propName: string, propValue: any): Object[] {
         return input.filter(item => item[property] === value);
       }
     ```
-
     ```typescript
       // что должно получиться
       interface IEmploye {
@@ -74,23 +72,21 @@
       ];
 
     filterByPropertyAndValue(employees, 'position', 'Programmer'); // вернёт IEmploye[]
-    filterByPropertyAndValue(employees, 'surname', 'Пупкин'); // ошибка, тип IEmploye не содержит поле 'surname'
+    filterByPropertyAndValue(employees, 'surname', 'Cook'); // ошибка, тип IEmploye не содержит поле 'surname'
     filterByPropertyAndValue(employees, 'position', 'Tester'); // ошибка, поле 'position' не может содержать значение 'Тестировщик',
     ```
-
 * Union и intersection типы
   * Для чего нужны?
   * Как использовать?
   * Как работают с функциями? Какой тип будет у аргумента результирующей функции в обоих случаях:
-    ```
+  ```ts
     type FuncA = (a: { a: number }) => void;
     type FuncB = (b: { b: string }) => void;
     type FuncC = FuncA | FuncB;
     type FuncD = FuncA & FuncB;
     const fc1: FuncC = (m: /* указать тип аргумента */) => { };
     const fc2: FuncD = (m: /* указать тип аргумента */) => { };
-    ```
-
+  ```
 * Уточнение типов:
   * Что такое Type Guards? Когда они применяются?
   * Для чего используются type predicates?
