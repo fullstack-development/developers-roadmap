@@ -1,20 +1,20 @@
 # TypeScript
 
 * Что такое перегрузка функции? Какие есть способы её реализовать?
-* Для чего предназначена конструкция `as const`? 
-  * Какие имеются ограничения? 
+* Для чего предназначена конструкция `as const`?
+  * Какие имеются ограничения?
   * Имеется следующий код:
-    ``` 
+    ```
     let names = ['Mary', 'David'];
     let group = {
       participants: names,
       ageRestriction: 18,
     } as const;
     group.participants.push('Henry');
-    group.ageRestriction = 12; 
+    group.ageRestriction = 12;
     ```
     какая из последних двух строчек вызовет ошибку, а какая нет, и почему?
-* Как создать новый тип на основе имеющегося, с добавлением новых свойств? 
+* Как создать новый тип на основе имеющегося, с добавлением новых свойств?
   * Практическое задание: На основе имеющеющихся типов `Avenger`, `Head`, `Dead` и интерфейса `IPersonalInformation` создать новый тип объекта `SurvivedAvengers<T>`, который должен удовлетворять следующим условиям:
     * _T должен быть совместим с типом Avenger;_
     * _SurvivedAvengers\<T> должен содержать ключи типа T за исключением ключей типа Dead;_
@@ -25,9 +25,9 @@
       type Avenger = "Thor" | "Hawkeye" | "Captain America" | "Iron Man" | "Dr. Strange";
       type Head = "Nick Fury";
       type Dead = "Iron Man";
-      interface PersonalInformation { 
-        age: number, 
-        name: string, 
+      interface PersonalInformation {
+        age: number,
+        name: string,
         superpower: any
       };
 
@@ -48,12 +48,11 @@
   * `ReturnType<T>`
   * `InstanceType<T>`
 
-* Для чего предназначены Conditional Types? 
+* Для чего предназначены Conditional Types?
   * Как проявляется дистрибутивность в Conditional Types?
   * Как удалить составной тип из union type с помощью Conditional Types?
   * Допускается ли использовать Conditional Types совместно с Mapped Types?
-  * Для чего нужен `infer`? Допускается ли использовать `infer` для типов не являющихся Conditional Types? 
-* Как получить Exhaustiveness checking для Discriminated Unions?
+  * Для чего нужен `infer`? Допускается ли использовать `infer` для типов не являющихся Conditional Types?
 * Возможно ли в TypeScript объявление рекурсивных type Aliases?
 * Как затипизровать конструктор класса?
   * Можно ли затипизировать перегрузку конструктора для класса?
