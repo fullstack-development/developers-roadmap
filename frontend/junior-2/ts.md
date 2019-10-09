@@ -99,6 +99,10 @@
   * Каким может быть тип дискриминанта?
   * Можно ли использовать проверку по дискриминанту в качестве Type Guard?
   * Что такое exchaustiveness checking? Зачем это нужно? Как этого добиться?
+* Что такое Branding и Flavoring?
+  * Для чего используются?
+  * В чем различие между ними?
+  * Когда следует применять каждый из них?
 
 ### Ресурсы
 * [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/basic-types.html)
