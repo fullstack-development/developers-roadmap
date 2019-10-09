@@ -50,7 +50,7 @@
     ```typescript
       // исходная функция
       function filterByPropertyAndValue(input: Object[], propName: string, propValue: any): Object[] {
-        return input.filter(item => item[property] === value);
+        return input.filter(item => item[propName] === propValue);
       }
     ```
     ```typescript
