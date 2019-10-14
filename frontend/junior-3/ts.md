@@ -1,7 +1,9 @@
 # TypeScript
 
 * Что такое перегрузка функции? Какие есть способы её реализовать?
-* Для чего предназначена конструкция `as const`?
+* Как затипизровать конструктор класса?
+  * Можно ли затипизировать перегрузку конструктора для класса?
+* Что такое `const assertions` и для чего это нужно?
   * Какие имеются ограничения?
   * Имеется следующий код:
     ```
@@ -33,29 +35,30 @@
 
       Example:
       const personalInformation: PersonalInformation = { age: 25; name: 'NameOfAvenger', superpower: 'SuperpowerOfAvenger' };
-      const survivedAvengers: SurvivedAvengers<'Thor' | 'Hawkeye' | 'Iron Man'> = { 'Thor': PersonalInformation, 'Hawkeye': PersonalInformation,  'Nick Fury': PersonalInformation };
+      const survivedAvengers: SurvivedAvengers<'Thor' | 'Hawkeye' | 'Iron Man'> = { 'Thor': personalInformation, 'Hawkeye': personalInformation,  'Nick Fury': personalInformation };
       ```
+      * Теперь сделайте так, что бы в объекте `survivedAvengers` поля из `Head` были необязательными;
+      * Теперь сделайте поля из `Head` обязательными в объекте `survivedAvengers` если они были переданы в джинерик.
 * Для чего предназначены Mapped types? Как создать собственный Mapped type?
 * Каково назначение нижеперечисленных типов?
-  * `Readonly<T>`
-  * `Required<T>`
   * `Partial<T>`
-  * `Pick<T, U>`
+  * `Readonly<T>`
   * `Record<T, U>`
+  * `Pick<T, U>`
+  * `Omit<T,K>`
   * `Exclude<T, U>`
   * `Extract<T, U>`
   * `NonNullable<T>`
   * `ReturnType<T>`
   * `InstanceType<T>`
-
+  * `Required<T>`
+  * `ThisType<T>`
 * Для чего предназначены Conditional Types?
   * Как проявляется дистрибутивность в Conditional Types?
   * Как удалить составной тип из union type с помощью Conditional Types?
   * Допускается ли использовать Conditional Types совместно с Mapped Types?
   * Для чего нужен `infer`? Допускается ли использовать `infer` для типов не являющихся Conditional Types?
 * Возможно ли в TypeScript объявление рекурсивных type Aliases?
-* Как затипизровать конструктор класса?
-  * Можно ли затипизировать перегрузку конструктора для класса?
 
 ### Ресурсы
 * [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/advanced-types.html)
