@@ -51,9 +51,9 @@
   * `Extract<T, U>`
   * `NonNullable<T>`
   * `ReturnType<T>`
+  * `Parameters<T>`
   * `InstanceType<T>`
   * `ThisType<T>`
-  * `Parameters<T>`
 * Для чего предназначены Conditional Types?
   * Как проявляется дистрибутивность в Conditional Types?
   * Как удалить составной тип из union type с помощью Conditional Types?
