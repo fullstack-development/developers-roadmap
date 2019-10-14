@@ -20,11 +20,11 @@
   * Практическое задание: На основе имеющеющихся типов `Avenger`, `Head`, `Dead` и интерфейса `IPersonalInformation` создать новый тип объекта `SurvivedAvengers<T>`, который должен удовлетворять следующим условиям:
     * _T должен быть совместим с типом Avenger;_
     * _SurvivedAvengers\<T> должен содержать ключи типа T за исключением ключей типа Dead;_
-    * _SurvivedAvengers\<T> должен содержать ключ типа Head;_
+    * _SurvivedAvengers\<T> должен содержать ключи типа Head;_
     * _SurvivedAvengers\<T> не должен содержать каких-либо других ключей;_
     * _в SurvivedAvengers\<T> каждому ключу должно соотвествовать значение интерфейса IPersonalInformation;_
-      ```
-      type Avenger = "Thor" | "Hawkeye" | "Captain America" | "Iron Man" | "Dr. Strange";
+      ```typescript
+      type Avenger = "Thor" | "Hawkeye" | "Captain America" | "Iron Man" | "Dr. Strange" | "Nick Fury";
       type Head = "Nick Fury";
       type Dead = "Iron Man";
       interface PersonalInformation {
@@ -37,12 +37,13 @@
       const personalInformation: PersonalInformation = { age: 25; name: 'NameOfAvenger', superpower: 'SuperpowerOfAvenger' };
       const survivedAvengers: SurvivedAvengers<'Thor' | 'Hawkeye' | 'Iron Man'> = { 'Thor': personalInformation, 'Hawkeye': personalInformation,  'Nick Fury': personalInformation };
       ```
-      * Теперь сделайте так, что бы в объекте `survivedAvengers` поля из `Head` были необязательными;
-      * Теперь сделайте поля из `Head` обязательными в объекте `survivedAvengers` если они были переданы в джинерик.
+      * Теперь сделайте так, что бы в объекте `survivedAvengers` ключи типа `Head` были необязательными;
+      * Теперь сделайте так, что бы в объекте `survivedAvengers` ключи типа `Head` были необязательными, за исключением ключей переданных в дженерик, т.е. общие ключи из `Head` и `T` должны быть обязательными, все остальные ключи из `Head` должны быть опциональными.
 * Для чего предназначены Mapped types? Как создать собственный Mapped type?
 * Каково назначение нижеперечисленных типов?
   * `Partial<T>`
   * `Readonly<T>`
+  * `Required<T>`
   * `Record<T, U>`
   * `Pick<T, U>`
   * `Omit<T,K>`
@@ -51,8 +52,8 @@
   * `NonNullable<T>`
   * `ReturnType<T>`
   * `InstanceType<T>`
-  * `Required<T>`
   * `ThisType<T>`
+  * `Parameters<T>`
 * Для чего предназначены Conditional Types?
   * Как проявляется дистрибутивность в Conditional Types?
   * Как удалить составной тип из union type с помощью Conditional Types?
