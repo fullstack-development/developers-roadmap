@@ -55,13 +55,13 @@
     ```
     ```typescript
       // что должно получиться
-      interface IEmploye {
+      interface IEmployee {
         name: string;
         age: number;
         position: 'Programmer' | 'Accountant' | 'Designer';
       }
 
-      const employees: IEmploye[] = [
+      const employees: IEmployee[] = [
         { name: 'Mikle', age: 20, position: 'Programmer' },
         { name: 'Jordan', age: 25, position: 'Designer' },
         { name: 'Stive', age: 34, position: 'Accountant' },
@@ -71,8 +71,8 @@
         { name: 'Bob', age: 27, position: 'Designer'},
       ];
 
-    filterBy(employees, 'position', 'Programmer'); // вернёт IEmploye[]
-    filterBy(employees, 'surname', 'Cook'); // ошибка, тип IEmploye не содержит поле 'surname'
+    filterBy(employees, 'position', 'Programmer'); // вернёт IEmployee[]
+    filterBy(employees, 'surname', 'Cook'); // ошибка, тип IEmployee не содержит поле 'surname'
     filterBy(employees, 'position', 'Tester'); // ошибка, поле 'position' не может содержать значение 'Tester',
     ```
 * Union и intersection типы
