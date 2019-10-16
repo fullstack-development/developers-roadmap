@@ -17,7 +17,7 @@
     ```
 
 #### Ресурсы
-+ [Object to primitive conversion (javascript.info)](https://javascript.info/object-toprimitive)
++ [Object to primitive conversion](https://javascript.info/object-toprimitive)
 + [ToPrimitive алгоритм в спецификации](https://www.ecma-international.org/ecma-262/9.0/index.html#sec-toprimitive)
 
 ## Массивы

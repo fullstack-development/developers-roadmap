@@ -34,4 +34,4 @@
   * В чем разница задания размеров через `cols` & `rows` и `height` & `width`?
   
 ### Ресурсы
-* [HTML5 Video Events and API](https://www.w3.org/2010/05/video/mediaevents.html)
+* [HTML5 Video Events and API demo](https://www.w3.org/2010/05/video/mediaevents.html)
