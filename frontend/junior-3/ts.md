@@ -38,7 +38,7 @@
       const personalInformation: PersonalInformation = { age: 25; name: 'NameOfAvenger', superpower: 'SuperpowerOfAvenger' };
       const survivedAvengers: SurvivedAvengers<'Thor' | 'Hawkeye' | 'Iron Man'> = { 'Thor': personalInformation, 'Hawkeye': personalInformation,  'Nick Fury': personalInformation };
       ```
-      * Теперь сделайте так, чтобы в объекте `survivedAvengers` ключи типа `Head` были опциональными;
+      * Теперь сделайте так, чтобы в объекте `survivedAvengers` ключи типа `Head` были опциональными.
       * Теперь сделайте так, чтобы в объекте `survivedAvengers` ключи типа `Head` были опциональными, за исключением ключей, переданных в дженерик, т.е. общие ключи из `Head` и `T` должны быть обязательными, а все остальные ключи из `Head` должны быть опциональными.
 * Для чего предназначены Mapped types? Как создать собственный Mapped type?
 * Каково назначение нижеперечисленных типов?
