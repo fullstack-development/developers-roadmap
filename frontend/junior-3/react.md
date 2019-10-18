@@ -123,6 +123,7 @@
 * Как работают `Provider` и `connect` из `react-redux` (включая назначение `mapStateToProps` и работу механизма подписок)?
 
 ### Ресурсы
+
 * [React Documentation](https://reactjs.org/docs/getting-started.html)
 * [React as a UI Runtime](https://overreacted.io/react-as-a-ui-runtime/)
 * [Index as a key is an anti-pattern](https://medium.com/@robinpokorny/index-as-a-key-is-an-anti-pattern-e0349aece318)

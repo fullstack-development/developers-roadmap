@@ -12,6 +12,7 @@
 * Что такое JSONP? Зачем он нужен?
 
 ### Ресурсы
+
 * [SOP](https://developer.mozilla.org/en/docs/Web/Security/Same-origin_policy)
 * [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 * [Preflight request](https://developer.mozilla.org/en-US/docs/Glossary/Preflight_request)

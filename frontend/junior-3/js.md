@@ -23,6 +23,7 @@
   * Написать регулярное выражение для поиска всех команд Телеграма в сообщении (примеры: `/help`, `/start`, `/active_orders`, `/order123`). Учесть, что команд в подстроке может быть несколько.
 
 ## Promises
+
 * Что такое Promise? Для чего он нужен?
 * Как создать Promise?
   * В чем разница при создании промисов с помощью конструктора и с помощью фабрики?
@@ -46,6 +47,7 @@
       resolve(2);
     });
   ```
+
 #### Ресурсы
 
 * [JavaScript — from callbacks to async/await](https://medium.freecodecamp.org/javascript-from-callbacks-to-async-await-1cc090ddad99)

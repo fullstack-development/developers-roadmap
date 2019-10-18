@@ -14,6 +14,7 @@
 * Можно ли использовать DOM API языками программирования отличными от JS?
 
 ### Ресурсы
+
 * [Хороший курс на learn js](https://learn.javascript.ru/document)
 * [W3C spec, first level DOM](https://www.w3.org/TR/REC-DOM-Level-1/expanded-toc.html)
 * [WHATWG spec, dom living standard](https://dom.spec.whatwg.org)

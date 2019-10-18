@@ -46,7 +46,7 @@
     </style>
    ```
 
-### Ресурсы:
+### Ресурсы
 
 * [CSS Grid Layout Module Level 1 (W3C)](https://www.w3.org/TR/css-grid-1/)
 * [Руководство по изучению CSS Grid](https://learncssgrid.com/)
