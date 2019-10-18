@@ -51,7 +51,7 @@
         }
 
         private makeClickHandler(dataForClick) {
-          return () => ... ; // Алексей Ч., ты придумал пример?;)
+          return () => this.props.onComponentClick(dataForClick);
         }
 
         private enhanceOptions() {
