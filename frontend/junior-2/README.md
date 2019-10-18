@@ -1,4 +1,5 @@
 # Front-end Junior 2 level
+
 - [HTML](./html.md)
 - [CSS](./css.md)
 - [JavaScript](./js.md)
@@ -11,5 +12,5 @@
 - [Литература](./books.md)
 
 ## Специфично для нашего стека
-- [React](./react.md)
 
+- [React](./react.md)
