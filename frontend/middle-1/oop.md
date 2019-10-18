@@ -17,8 +17,8 @@
 * Почему ООП подход является считается "императивным"?
 * Что такое принципы SOLID? Что означает каждая буква из акронима?
 
-
 ### Ресурсы
+
 * [Сайд эффекты](http://blog.csssr.ru/2017/10/07/side-effects)
 * [Composition vs inheritance](https://javarevisited.blogspot.com/2013/06/why-favor-composition-over-inheritance-java-oops-design.html)
 * [Наследование vs Композиция vs Агрегация](http://sergeyteplyakov.blogspot.com/2012/12/vs-vs.html)

@@ -26,12 +26,13 @@
 * Что, если функция, которая была вызвана с `await`, сама по себе не асинхронная? Как это сэмулировать?
 * Как запустить выполнение нескольких асинхронных функций (созданных через `async`) и дождаться их общего выполнения?
 * Какие есть способы выполнить функцию асинхронно?
-* Особенности JavaScript:
+* Особенности JavaScript
   * Почему язык считается событийным и неблокирующим?
   * Как осуществляется отлов событий?
   * Возможно ли создание потоков в JS?
 
 ### Ресурсы
+
 * [Talk(eng), Robert Philips, What the heck is event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
 * [Talk(rus), Robert Philips, Что за чертовщина такая event loop?](https://www.youtube.com/watch?v=8cV4ZvHXQL4)
 * [How in general handle 10000 requests (Stackoverflow).](https://stackoverflow.com/questions/34855352/how-in-general-does-node-js-handle-10-000-concurrent-requests)
