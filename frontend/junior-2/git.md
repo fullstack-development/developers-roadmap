@@ -30,4 +30,5 @@
 
 
 ### Ресурсы
-* [Хорошие материалы по Git от Atlassian](https://www.atlassian.com/git)
+* [Материалы по Git от Atlassian](https://www.atlassian.com/git)
+* [Скринкаст по Git от Ильи Кантора](https://www.youtube.com/watch?v=QkY8lXZuiqQ&list=PLDyvV36pndZHkDRik6kKF6gSb0N0W995h)
