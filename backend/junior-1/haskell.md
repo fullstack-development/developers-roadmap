@@ -242,6 +242,7 @@ This level requires basic skills to solve local tasks in a project.
   * [Как работают ленивые вычисления - habr](https://habr.com/ru/post/247213/)
   * [Lazy vs. non-strict - haskell wiki](https://wiki.haskell.org/Lazy_vs._non-strict)
   * [WHNF - haskell wiki](https://wiki.haskell.org/Weak_head_normal_form)
+  * [GHC illustrated (about thunk inner structure)](https://takenobu-hs.github.io/downloads/haskell_ghc_illustrated.pdf)
 * Monads:
   * [All about monad - haskell wiki](https://wiki.haskell.org/All_About_Monads)
 * Exceptions:
