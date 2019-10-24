@@ -35,6 +35,7 @@ This level requires basic skills to solve local tasks in a project.
   * What is a type in haskell? What is a type signature, what could it specify about a type and how it does that?
   * What is a type synonym (alias)? When it could be useful? How do you use it?
   * Algebraic Data Type:
+    * Why ADT is called Algebraic?
     * What are the declaration parts?
     * How and why do you use ADTs?
     * How and why the record syntax is used? 
@@ -74,6 +75,15 @@ This level requires basic skills to solve local tasks in a project.
     * Import hiding some names.
   * Export:
     * Is it possible to export only a part of declared names in a module?
+    * How to export functions, operators?
+    * How to export ADT without constuctor; with several constructors; with all constructors?
+    * How to export type synonim?
+    * How to export imported module?
+    * How to export contructors Just, Nothing and function fromMaybe in the following example?
+    ```haskell
+    module A(?) where  
+      import qualified Data.Maybe as Mb 
+    ```
     * What will be exported in this case:
       ```haskell
       module External (
@@ -132,36 +142,55 @@ This level requires basic skills to solve local tasks in a project.
   * Error management strategies:
     * How do Maybe and Either help with error management?
     * How to use try, catch and throw functions?
+    * Can `throw` and `catch` be called in pure functions?
+    * What is the difference between `throw` and `throwIO` functions?
   * Useful functions (filterM, foldM, forM, mapM, liftM and others)
 * Monad transformers:
   * What is lift function?
   * What is liftIO function?
+  * What are MonadTrans laws?
   * What transformer is used with Either?
   * How to use IO monad in a transformer stack?
   * Is there a difference between using `MaybeT (StateT IO) ()` and `StateT (MaybeT IO) ()`?
 * Type inference
   * What does type inference mean?
   * Basic concepts of Hindley-Milner type inference.
+  * How we can get following problems while types inferring? How to solve them?
     * Ambiguity.
     * Deducing problem.
     * Matching problem.
-    * Infinite type problem.
+    * Infinite type problem:
+      * What’s result of computation `let t = [t] in t `? How to explain this behaviour?
 * Lazy evaluation
   * What is the difference between laziness and non-strictness? 
     What is the difference between eager and strict evaluation?
+  * What is a redex?
   * What is outside in and inside out evaluation?
   * What is lazy evaluation?
   * How it differs from eager evaluation? What are the pros and cons of lazy evaluation?
+  * Is Haskell a lazy language?
   * What is thunk?
     * Describe the concept of its inner structure.
     * Could you think of cases when thunk occupies less space than the evaluated value and visa versa?
     * Can you nest thunks?
   * What is the difference between call by value, call by name and call by need?
-  * What is WHNF? Why strict functions in haskell evaluate values to WHNF and not NF?
+  * What is WHNF? 
+  * Are next expressions in WHNF or NF?
+    `* (2 + 2)`
+    `thunk`
+    `1:(thunk)`
+    `1:2:(thunk)`
+    `1:2:3:[]`
+    `15`
+    `\x -> x * 2`
+    `(\x -> x + 1) 3`
+  * Why strict functions in haskell evaluate values to WHNF and not NF?
 
 ### Resources:
 * Types:
   * [Haskell Data Types Review! (5th chapter can be skipped)](https://mmhaskell.com/blog/2019/2/11/haskell-data-types-review)
+  * [Why does anyone use newtypes?](https://wiki.haskell.org/Newtype)
+  * [Магия newtype в Haskell](https://habr.com/ru/post/323526/) 
 * Sections:
   * [Section of an infix operator](https://wiki.haskell.org/Section_of_an_infix_operator)
   * [Sections in haskell report](http://www.haskell.org/onlinereport/exps.html#sections)
@@ -177,10 +206,12 @@ This level requires basic skills to solve local tasks in a project.
 * Modules:
   * [Haskell module system](https://ro-che.info/articles/2012-12-25-haskell-module-system-p1)
   * [Haskell export current module with additional imported module - Stackoverflow](https://stackoverflow.com/questions/18035458/haskell-export-current-module-with-additional-imported-module)
+  * [Modules declaration, import and export rules](https://www.haskell.org/onlinereport/haskell2010/haskellch5.html)
 * Lazy evaluation:
   * [Как работают ленивые вычисления - habr](https://habr.com/ru/post/247213/)
   * [Lazy vs. non-strict - haskell wiki](https://wiki.haskell.org/Lazy_vs._non-strict)
   * [WHNF - haskell wiki](https://wiki.haskell.org/Weak_head_normal_form)
 * Monads:
   * [All about monad - haskell wiki](https://wiki.haskell.org/All_About_Monads)
-  
+* Exceptions:
+  * [Скандальная правда об обработке исключений в Haskell](https://eax.me/haskell-exceptions/)
