@@ -30,7 +30,7 @@ This level requires basic skills to solve local tasks in a project.
   * How function composition operator is declared? What are its precedence and associativity?
   * Is function composition associative?
   * What is the associativity of function composition?
-    Is there some other function in Prelude which operates the same (has the same semantics) as function composition operator (.),
+    Is there some other function in Prelude which operates the same (has the same semantics) as function composition operator `(.)`,
     but has the opposite associativity?
 
 ## Types
@@ -38,7 +38,7 @@ This level requires basic skills to solve local tasks in a project.
 * What is a type in haskell? What is a type signature, what could it specify about a type and how it does that?
 * What is a type synonym (alias)? When it could be useful? How do you use it?
 * Algebraic Data Type:
-  * Why ADT is called Algebraic?
+  * Why ADT is called Algebraic? What is a cardinality?
   * What are the declaration parts?
   * How and why do you use ADTs?
   * How and why the record syntax is used?
@@ -83,10 +83,10 @@ This level requires basic skills to solve local tasks in a project.
 * Export:
   * Is it possible to export only a part of declared names in a module?
   * How to export functions, operators?
-  * How to export ADT without constuctor; with several constructors; with all constructors?
-  * How to export type synonim?
+  * How to export ADT without constructor; with several constructors; with all constructors?
+  * How to export type synonym?
   * How to export imported module?
-  * How to export contructors `Just`, `Nothing` and function `fromMaybe` in the following example?
+  * How to export constructors `Just`, `Nothing` and function `fromMaybe` in the following example?
 
     ```haskell
     module A(?) where  
@@ -156,7 +156,7 @@ This level requires basic skills to solve local tasks in a project.
   * `Writer`.
   * `State`.
   * `IO`.
-* do-notation.
+* `do`-notation.
 * How does Monad differ from Functor and Applicative?
 * Error management strategies:
   * How do `Maybe` and `Either` help with error management?
@@ -176,7 +176,7 @@ This level requires basic skills to solve local tasks in a project.
 * What is `liftIO` function?
 * What are `MonadTrans` laws?
 * What transformer is used with `Either`?
-* How to use IO monad in a transformer stack?
+* How to use `IO` monad in a transformer stack?
 * Is there a difference between using `MaybeT (StateT IO) ()` and `StateT (MaybeT IO) ()`?
 
 ## Type inference
@@ -188,7 +188,7 @@ This level requires basic skills to solve local tasks in a project.
   * Deducing problem.
   * Matching problem.
   * Infinite type problem:
-    * What’s result of computation `let t = [t] in t`? How to explain this behaviour?
+    * What’s result of computation `let t = [t] in t`? How to explain this behavior?
 
 ## Lazy evaluation
 
