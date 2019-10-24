@@ -30,4 +30,5 @@
 
 
 ### Ресурсы
-* [Хорошие материалы по Git от Atlassian](https://www.atlassian.com/git)
+* [Atlassian Git Tutorial](https://www.atlassian.com/git)
+* [Скринкаст по Git](https://learn.javascript.ru/screencast/git#intro-starting-video)
