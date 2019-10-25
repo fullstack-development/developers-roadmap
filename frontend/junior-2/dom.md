@@ -28,6 +28,7 @@
 * Что такое `DocumentFragment`?
 
 ### Ресурсы
+
 * [Курс на Learn Javascript](https://learn.javascript.ru/document)
 * [Спецификация (W3C)](https://www.w3.org/TR/REC-DOM-Level-1/expanded-toc.html)
 * [Спецификация (WHATWG)](https://dom.spec.whatwg.org)

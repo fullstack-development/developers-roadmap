@@ -28,6 +28,6 @@
 * Что такое Pull Request (или Merge Request)?
 * Как посмотреть историю коммитов?
 
-
 ### Ресурсы
+
 * [Хорошие материалы по Git от Atlassian](https://www.atlassian.com/git)
