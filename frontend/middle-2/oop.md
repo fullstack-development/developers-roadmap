@@ -1,6 +1,7 @@
 # Объектно-ориентированное программирование
 
- > TODO extend OOP section with detailed questions about the topic
+> TODO extend OOP section with detailed questions about the topic
+
 * Что такое identity? В чём отличие от экземпляра?
 * Как реализованы identity через ссылки на значения в памяти?
 * Что такое динамический и статический полиморфизмы в контексте ООП?
