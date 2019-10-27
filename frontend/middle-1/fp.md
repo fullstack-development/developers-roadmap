@@ -40,6 +40,7 @@
 * Что такое оптимизация хвостового вызова, и поддерживается ли она в JS?
 
 ### Ресурсы
+
 * [Mostly adequate guide to FP (rus)](https://github.com/MostlyAdequate/mostly-adequate-guide-ru)
 * [Functional-Light JavaScript от Kyle Simpson (rus)](https://github.com/fxzhukov/Functional-Light-JS-RU)
 * [Coding Tip: Have A Single Exit Point](https://www.tomdalling.com/blog/coding-tips/coding-tip-have-a-single-exit-point/)
