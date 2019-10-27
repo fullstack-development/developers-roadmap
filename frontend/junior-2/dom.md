@@ -10,7 +10,7 @@
   * Рассказать про навигацию внутри `HTMLTable​Element` и `HTMLFormElement`.
 * Добавление/удаление/клонирование/вставка элементов и узлов. Какими способами это можно сделать?
 * Атрибуты и свойства
-  * Рассказать как взаимодействовать с атрибутами HTML элемента через JS.
+  * Как взаимодействовать с атрибутами HTML элемента через JS?
   * Что от чего зависит: свойство от атрибута или атрибут от свойства?
   * Могут ли не совпадать значения в свойстве объекта и в атрибуте одного и того же HTML элемента?
   * Что выведет данный код:
@@ -28,6 +28,7 @@
 * Что такое `DocumentFragment`?
 
 ### Ресурсы
-* [Хороший курс на Learn Javascript](https://learn.javascript.ru/document)
-* [W3C spec, first level DOM](https://www.w3.org/TR/REC-DOM-Level-1/expanded-toc.html)
-* [WHATWG spec, DOM living standard](https://dom.spec.whatwg.org)
+
+* [Курс на Learn Javascript](https://learn.javascript.ru/document)
+* [Спецификация (W3C)](https://www.w3.org/TR/REC-DOM-Level-1/expanded-toc.html)
+* [Спецификация (WHATWG)](https://dom.spec.whatwg.org)

@@ -98,13 +98,14 @@
 * Что такое Discriminated union?
   * Каким может быть тип дискриминанта?
   * Можно ли использовать проверку по дискриминанту в качестве Type Guard?
-  * Что такое exchaustiveness checking? Зачем это нужно? Как этого добиться?
+  * Что такое exhaustiveness checking? Зачем это нужно? Как этого добиться?
 * Что такое Branding и Flavoring?
   * Для чего используются?
   * В чем различие между ними?
   * Когда следует применять каждый из них?
 
 ### Ресурсы
+
 * [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/basic-types.html)
 * [Flavoring: Flexible Nominal Typing for TypeScript](https://spin.atomicobject.com/2018/01/15/typescript-flexible-nominal-typing/)
 * [Номинативная типизация в TypeScript или как защитить свой интерфейс от чужих идентификаторов](https://habr.com/ru/post/446768/)

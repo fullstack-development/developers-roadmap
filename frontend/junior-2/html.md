@@ -26,12 +26,13 @@
   * `tabindex`
   * `value`
   * `type`
-* Рассказать про `<textarea>`:
+* Тег `<textarea>`
   * Как запретить изменение размера?
   * Как задать значение по умолчанию?
   * Как избежать вертикальной прокрутки для большого текста?
   * Какие есть html-pure альтернативы?
   * В чем разница задания размеров через `cols` & `rows` и `height` & `width`?
-  
-  ### Ресурсы
-* [HTML5 Video Events and API](https://www.w3.org/2010/05/video/mediaevents.html)
+
+### Ресурсы
+
+* [HTML5 Video Events and API demo](https://www.w3.org/2010/05/video/mediaevents.html)
