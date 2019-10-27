@@ -8,9 +8,10 @@
 - [DOM](./dom.md)
 - [Git](./git.md)
 - [API](./api.md)
-- [TypeScript](./ts.md)
 - [Тестирование](./testing.md)
 - [Литература](./books.md)
 
 ## Специфично для нашего стека
+
+- [TypeScript](./ts.md)
 - [React](./react.md)
