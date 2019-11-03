@@ -2,14 +2,14 @@
 
 ## Гриды
 
-* Что такое гриды, и когда они могут быть полезны?
+* Что такое гриды? Когда они могут быть полезны?
 * Что такое грид-контейнер и грид-элемент?
 * Как задать количество и размеры строк (колонок)?
   * Какие можно использовать единицы для того, чтобы задать размеры строк (колонок)?
   * Как задать несколько строк (колонок) одинакового размера?
   * Как задать минимальный и максимальный размер строки (колонки)?
 * Как задать отступы между строками и колонками?
-* Размещение элементов внутри сетки:
+* Размещение элементов внутри сетки
   * Что такое grid line (далее: линия)?
   * Что такое grid area (далее: область)?
   * Как можно неявно задать имена для областей при именовании линий (и наоборот, имена линий при именовании областей)?
@@ -27,7 +27,7 @@
 
 * Что такое progressive jpeg?
 * Когда стоит использовать тег `img`, а когда `background-image`?
-* Различие экранов:
+* Различие экранов
   * Что такое DPI и PPI?
   * Что значит фраза: "экран с высокой плотностью пикселей"?
   * Что такое `device-pixel-ratio`?
@@ -46,14 +46,14 @@
     </style>
    ```
 
-### Ресурсы:
+### Ресурсы
 
-* [CSS Grid Layout Module Level 1 (W3C)](https://www.w3.org/TR/css-grid-1/);
-* [Руководство по изучению CSS Grid](https://learncssgrid.com/);
-* [Основные понятия Grid Layout (MDN)](https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout);
-* [Вёрстка на Grid в CSS. Полное руководство и справочник (Medium)](https://medium.com/@stasonmars/%D0%B2%D0%B5%CC%88%D1%80%D1%81%D1%82%D0%BA%D0%B0-%D0%BD%D0%B0-grid-%D0%B2-css-%D0%BF%D0%BE%D0%BB%D0%BD%D0%BE%D0%B5-%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-%D0%B8-%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%87%D0%BD%D0%B8%D0%BA-220508316f8b);
-* [Что такое единица гибкости fr в CSS, доступным и простым языком (Medium)](https://medium.com/@stasonmars/%D1%87%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D0%B0-%D0%B3%D0%B8%D0%B1%D0%BA%D0%BE%D1%81%D1%82%D0%B8-fr-%D0%B2-css-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BD%D1%8B%D0%BC-%D0%B8-%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%8B%D0%BC-%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%BC-2a3794c4444);
-* [Что такое progressive JPEG?](https://walnut.team/blog/pogovorim-o-tehnologiyah/progressive-jpeg-chto-za-zver/);
-* [Оптимизация графики для Retina-экранов](https://habr.com/ru/post/150071/);
-* [Треугольники через CSS](http://htmlbook.ru/blog/treugolniki-cherez-css);
-* [Не используйте @import](https://habr.com/ru/post/57012/).
+* [CSS Grid Layout Module Level 1 (W3C)](https://www.w3.org/TR/css-grid-1/)
+* [Руководство по изучению CSS Grid](https://learncssgrid.com/)
+* [Основные понятия Grid Layout (MDN)](https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout)
+* [Вёрстка на Grid в CSS. Полное руководство и справочник (Medium)](https://medium.com/@stasonmars/%D0%B2%D0%B5%CC%88%D1%80%D1%81%D1%82%D0%BA%D0%B0-%D0%BD%D0%B0-grid-%D0%B2-css-%D0%BF%D0%BE%D0%BB%D0%BD%D0%BE%D0%B5-%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-%D0%B8-%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%87%D0%BD%D0%B8%D0%BA-220508316f8b)
+* [Что такое единица гибкости fr в CSS, доступным и простым языком (Medium)](https://medium.com/@stasonmars/%D1%87%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D0%B0-%D0%B3%D0%B8%D0%B1%D0%BA%D0%BE%D1%81%D1%82%D0%B8-fr-%D0%B2-css-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BD%D1%8B%D0%BC-%D0%B8-%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%8B%D0%BC-%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%BC-2a3794c4444)
+* [Что такое progressive JPEG?](https://walnut.team/blog/pogovorim-o-tehnologiyah/progressive-jpeg-chto-za-zver/)
+* [Оптимизация графики для Retina-экранов](https://habr.com/ru/post/150071/)
+* [Треугольники через CSS](http://htmlbook.ru/blog/treugolniki-cherez-css)
+* [Не используйте @import](https://habr.com/ru/post/57012/)
