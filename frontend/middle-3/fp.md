@@ -9,13 +9,13 @@
   * What are currently widely used analogues?
 * Does JS have dynamic or lexical scoping? Is there some exceptions (consider `this` for example)?it
 * What is the funarg problem?
-  * Why is it divided to upward and downward problems?
-  * Is funarg problem possible in languages without support of free variables?
+  * Why is it divided into upward and downward problems?
+  * Is funarg problem possible in languages without the support of free variables?
   * Is funarg problem possible in languages where function cannot escape its scope?
   * Is funarg problem possible in languages with dynamic scoping?
-* How closures can be emulated? What are problems will arise with those approaches?
-* Why does mutable closure is a sufficient tool to add concurrency to the language (give examples with JS)?
-* Compare closures and objects? What are advantages of each one?
+* How can closures be emulated? What problems will arise in those approaches?
+* Why is mutable closure the sufficient tool to add concurrency to the language (give examples with JS)?
+* Compare closures and objects. What are the advantages of each one?
 
 ### Resources
 * [JS scope: static, dynamic, and runtime-augmented](https://codeburst.io/js-scope-static-dynamic-and-runtime-augmented-5abfee6223fe)
@@ -27,13 +27,13 @@ TODO — fill the recursion questions
 * What are "structural" and "generative" types of recursion?
 
 ## Tail call
-* What is the tail call optimization? Why is it called "tail"? What is the problem with recursions without TCO?
-* Is call stack still needed for the languages with TCO? What's a problem with existence of call stacks in such languages?
+* What is the tail call optimization? What does the "tail" signify? What is the problem with recursions without TCO?
+* Is call stack still needed for the languages with TCO? What's the problem with the existence of call stacks in such languages?
 * What is the difference between tail recursion elimination and tail call optimization?
-* Are tail calls only about looping? Can tail calls provide us with something more powerfull?
+* Can tail calls be only used for loops? Can they provide us with something more powerful?
 * Does Javascript support TCO?
-* How traversing the tree with Visitor pattern in languages without TCO can make stack be overflown? How it can be avoided?
-* How to optimize tail call in algorithms like searching in the tree, where we have to search in two or more branches of the tree?canhere we
+* How does the tree traversal using Visitor pattern in languages without TCO can cause a stack overflow? How can it be avoided?
+* How to optimize a tail call in algorithms like tree search, where we have to traverse multiple branches?
 * Is it possible to do tail recursion elimination when a subroutine calls itself twice?
 
 ### Resources
@@ -45,16 +45,15 @@ TODO — fill the recursion questions
 * [Tail-recursive stack disciplines for an interpreter](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.53.2510&rep=rep1&type=pdf)
 
 ## Currying
-  * What can be additional advantage of currying if it is supported on the language level?
+  * What can be an additional advantage of currying if it is supported on the language level?
   * What are various definitions of currying?
-  * What are best practices of argument definitions in language with currying support?
-  * What languages cannot support currying? Is it "fixible" problem, if so propose the solution?
-  * How currying can be emulated in OOP languages?
-  * Why do carried functions fit better for point-free style?
+  * What are the best practices of argument definitions in language with currying support?
+  * What languages cannot support currying? Is it a "fixable" problem? If so, what is a solution?
+  * How can currying be emulated in OOP languages?
 
 ## Point free style
-  * What are advantages and disadvantages of point-free style?
-  * Why do carried functions fit better for point-free style?
+  * What are the advantages and disadvantages of point-free style?
+  * Why do curried functions fit better for point-free style?
   * How can you compose functions like `createArray` and `length` if you have known number of elements to produce an array?
     ```typescript
     type CreateArray = <T>(amount: number, element: T) => Array<T>;
@@ -62,7 +61,7 @@ TODO — fill the recursion questions
     const repeatHello: (amount: number) => string = // ?
     // How can you compose functions of types CreateArray and Concat?
     ```
-  * Is there a way to use point-free in languages without support of HOF and partial application?
+  * Is there a way to use point-free in languages without the support of HOF and partial application?
   * Why is point-free style similar to OOP nested calls?
     ```
     // OOP
@@ -88,18 +87,18 @@ TODO — fill the recursion questions
 
 
 ## Immutability
-  * What is immutability? Can program with immutable data only be stateful? Is stateless programs are all from immutable data?
+  * What is immutability? Can program with immutable data only be stateful? Do all stateless programs contain only immutable data?
   * Why is it dangerous to use mutable data structures as keys for hash maps?
   * Why does mutability make caching hard?
   * Why does mutability make concurrency hard?
-  * Why does mutability make inheritance hard? What is Liskov Substitution Principle and how mutability is related to this principle?
+  * Why does mutability make inheritance hard? What is Liskov Substitution Principle and how is mutability related to this principle?
   * Can mutability break encapsulation (if it is true, give examples)?
-  * How can we avoid state? When is state inevitable?
-  * What are best practices for localization of the state?
-  * What is an atomicity? How it can help to localize a state?
+  * How can we avoid state? When are we forced to use it?
+  * What are the best practices for localization of the state?
+  * What is an atomicity? How can it help to localize a state?
   * How two-phase lifecycle can help to localize a state? What's the difference between static and dynamic two-phase lifecycle?
-  * What are clients of the state? Why its number should be as few as possible? Do clients have state itself?
-  * What are inconsistency of the state? How can we guarantee consistency of the state for outer client?
+  * What are the clients of the state? Why is their number should be as small as possible? Do clients have state themselves?
+  * What is inconsistency of the state? How can we guarantee consistency of the state for outer client?
   * How can dependency break help us to avoid mutable interface with a state?
   * What is curried object? How can it help to deal with a problem of state?
   * What are idempotency and commutativity? Why are they useful?
@@ -109,6 +108,9 @@ TODO — fill the recursion questions
   * Why do stateful applications scale worse than stateless?
 
 ### Resources:
+* [Embracing Immutable Architecture](https://medium.com/react-weekly/embracing-immutable-architecture-dc04e3f08543)
+* [[Rus] Изменяемое состояние: опасности и борьба с ними](http://fprog.ru/2009/issue1/eugene-kirpichov-fighting-mutable-state/)
+* [Immutable Data Structures and JavaScript](https://jlongster.com/Using-Immutable-Data-Structures-in-JavaScript#Immutable.js)
 * [On stateless software design](https://leonmergen.com/on-stateless-software-design-what-is-state-72b45b023ba2)
 * [Why We Need Explicit State](http://michaelrbernste.in/2013/12/10/why-we-need-explicit-state.html)
 * [Mutability Leads to Suffering](https://hackernoon.com/mutability-leads-to-suffering-23671a0def6a)
@@ -120,13 +122,13 @@ TODO — fill the recursion questions
 * What is the difference between Sum Types and Unions?
 * Why are Sums and Products called so?
 * Why AlgDT are called also inductive data types?
-* Why Sum Types are called also tagged union? What is a tag there?
-* How algebraic properties respected in AlgDT (like Symmetry, Identity, Associativity and Distributivity)?
-* What is a difference in tracking nullable values with Unions and with Sum Types?
+* Why are Sum Types also called tagged union? What is a tag (in this context)?
+* How are algebraic properties respected in AlgDT (like Symmetry, Identity, Associativity and Distributivity)?
+* What is the difference between tracking nullable values with Unions and Sum Types?
 * Why does AlgDT fit well for the abstract syntax tree representation?
-* Why AlgDT with pattern-matching is more type safe approach than Unions?
+* Why is AlgDT with pattern-matching more type safe approach than Unions?
 * Why is exhaustiveness checking possible for AlgDT but impossible for objects with class hierarchy?
-* What are drawbacks of the AlgDT comparing with Unions?
+* What are the drawbacks of the AlgDT comparing with Unions?
 * What are smart constructors for AlgDT? What are destructors?
 * Which invariants can be modeled with AlgDT and which cannot?
 
@@ -149,9 +151,9 @@ TODO — fill the recursion questions
 * What is a closure property and why is it useful in combinator libraries?
 * Why is parsing a greatly appropriate domain for modeling with combinators?
 * How to determine that domain is a good for combinators?
-  * If it is too narrow it will not a flexible, so it is simpler to consider just a straightforward contract.
-  * If too wide, you can meet the case where you cannot compose the combinator results. so it is still possible to combine data and not get conflicts
-* Is it possible to save performance for combinators application results comparing to using simple primitives?
+  * If it is too narrow, it will not be flexible, so it is simpler to consider a straightforward contract.
+  * If it is too wide, you can meet the case where you cannot compose the combinator results, so it is still possible to combine data and not get conflicts.
+* Is it possible to achieve better performance for application using combinators instead of simple primitives?
 * How does HOF help with easier designing of the combinator libraries?
 * Learn the API of the following libraries and answer the questions:
   * jQuery
@@ -160,9 +162,9 @@ TODO — fill the recursion questions
   * async.js
   * point-free
   * _Questions for each library_:
-    * Is this library fits for definition of combinatory?
-    * Is some part of the library can be considered as combinatory?
-    * Is some part of the library cannot be considered as combinators — why?
+    * Does this library fit the definition of combinatory?
+    * Can any part of the library considered combinatory?
+    * Is there a part in the library that can't be considered combinatory? Why?
     * What are primitives and combinators in the interface of the library?
 
 ### Resources:
