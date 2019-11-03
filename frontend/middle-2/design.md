@@ -21,17 +21,17 @@
   * What is the role of events in this approach? Can the similar approach be implemented only with synchronous function invocations?
   * How does it help to achieve fault tolerance?
   * How can modules depend on each other?
-* API of modules
+* Module API
   * What are the characteristics of a good module API?
   * How can we make an API hard to misuse? What are the benefits of this characteristic?
   * What are consistency and conceptual integrity properties of API? Why are the properties valuable?
-  * How writing use cases before writing code can help to achieve cleaner API?
+  * How does writing use cases before writing code can help to achieve cleaner API?
   * What is the difference between extensibility by the module authors and module clients?
   * How can you explain the phrase "asymmetry of function should be reflected by asymmetry of form"?
   * What are examples of the naming where close ideas looks similar and different concepts differ greatly?
-  * What are edge cases in the context of designing an API? Why implicit edge case handling is more preferred than explicit?
-  * What are examples of breaking the rule "The best API is no API"?
-* How does modular programming help us to achieve better local reasoning while developing the module?
+  * What are edge cases in the context of designing an API? Why is the implicit edge case handling preferred to explicit?
+  * What is the rule "The best API is no API" about? What are examples of breaking the rule?
+* How does modular programming help us to achieve better local reasoning while developing a module?
 * What are the benefits of declaring an explicit contract between a client and a person who implements a module?
 * What is the difference between abstraction by parameterization and abstraction by specification?
 
