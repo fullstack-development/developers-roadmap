@@ -10,16 +10,16 @@
 * How to implement backtracking with CPS?
 * What is `call/cc`?
 * Why is `call/cc` not supported out-of-the-box in standard JavaScript?
-* Why is it dangerous to use `call/cc`? Give as many examples, as possible
+* Why is it dangerous to use `call/cc`? Give as many examples as possible
 * Why does `call/cc` "reify" the current continuation?
 * How to implement "short-circuit" (early exit) from fold (a.k.a. reduce) using `call/cc`?
-* How to implement cycles (like for/while) with `call/cc`?
-* Why the next proposition is important "the continuation passed to `call/cc` argument is in tail position in the `call/cc` call"?
+* How to implement loops (like for/while) with `call/cc`?
+* Why is the next proposition important "the continuation passed to `call/cc` argument is in tail position in the `call/cc` call"?
   * Example:
   * `(let f (call/cc (lambda (k) (k 42))))`
   * Here we have `k` in the tail position of the whole `f`.
 * How can continuations reify call-stack? Is that possible in every language?
-* How could continuations be implemented for JavaScript using exceptions? Is it possible to support `call/cc` with a such approach?
+* How could continuations be implemented for JavaScript using exceptions? Is it possible to support `call/cc` with such an approach?
 * What are delimited continuations? Why are they called so?
 
 ### Resources:
