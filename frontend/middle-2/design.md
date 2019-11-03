@@ -1,4 +1,4 @@
-#Базовые принципы проектирования
+# Базовые принципы проектирования
 
 * Inversion of Control
   * What is IoC?
@@ -36,6 +36,7 @@
 * What is the difference between abstraction by parameterization and abstraction by specification?
 
 # Ресурсы
+
 * [How To Design Better JavaScript APIs](https://www.smashingmagazine.com/2012/10/designing-javascript-apis-usability/) (little bit opinionated post, don't consider as perfect guide)
 * [Library patterns Multiple levels of abstraction](http://tomasp.net/blog/2015/library-layers/)
 * [Library patterns Why frameworks are evil](http://tomasp.net/blog/2015/library-frameworks/)
