@@ -7,7 +7,7 @@
   * What is dynamic scoping?
   * Why is it inconvenient?
   * What are currently widely used analogues?
-* Does JS have dynamic or lexical scoping? Is there some exceptions (consider `this` for example)?it
+* Does JS have dynamic or lexical scoping? Is there some exceptions (consider `this` for example)?
 * What is the funarg problem?
   * Why is it divided into upward and downward problems?
   * Is funarg problem possible in languages without the support of free variables?
@@ -54,7 +54,7 @@ TODO — fill the recursion questions
 ## Point free style
   * What are the advantages and disadvantages of point-free style?
   * Why do curried functions fit better for point-free style?
-  * How can you compose functions like `createArray` and `length` if you have known number of elements to produce an array?
+  * How can you compose functions like `createArray` and `concat` if you have known number of elements to produce an array?
     ```typescript
     type CreateArray = <T>(amount: number, element: T) => Array<T>;
     type Concat = (all: Array<string>) => string;
@@ -102,7 +102,8 @@ TODO — fill the recursion questions
   * How can dependency break help us to avoid mutable interface with a state?
   * What is curried object? How can it help to deal with a problem of state?
   * What are idempotency and commutativity? Why are they useful?
-  * How does Immutable.js work internally?
+  * What are structural sharing data structures?
+  * Does Immutable.js use structural sharing internally?
   * Why does mutability tightly couple data with computations?
   * What is the tradeoff between scalability and performance?
   * Why do stateful applications scale worse than stateless?
@@ -121,13 +122,12 @@ TODO — fill the recursion questions
 * What are Algebraic Data Types (AlgDT)?
 * What is the difference between Sum Types and Unions?
 * Why are Sums and Products called so?
-* Why AlgDT are called also inductive data types?
+* Why AlgDT are also called inductive data types?
 * Why are Sum Types also called tagged union? What is a tag (in this context)?
 * How are algebraic properties respected in AlgDT (like Symmetry, Identity, Associativity and Distributivity)?
 * What is the difference between tracking nullable values with Unions and Sum Types?
 * Why does AlgDT fit well for the abstract syntax tree representation?
 * Why is AlgDT with pattern-matching more type safe approach than Unions?
-* Why is exhaustiveness checking possible for AlgDT but impossible for objects with class hierarchy?
 * What are the drawbacks of the AlgDT comparing with Unions?
 * What are smart constructors for AlgDT? What are destructors?
 * Which invariants can be modeled with AlgDT and which cannot?
