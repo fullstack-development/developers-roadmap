@@ -7,7 +7,7 @@
   * What is dynamic scoping?
   * Why is it inconvenient?
   * What are currently widely used analogues?
-* Does JS have dynamic or lexical scoping? Is there some exceptions (consider `this` for example)?
+* Does JS have dynamic or lexical scoping? Are there any exceptions (consider `this` for example)?
 * What is the funarg problem?
   * Why is it divided into upward and downward problems?
   * Is funarg problem possible in languages without the support of free variables?
