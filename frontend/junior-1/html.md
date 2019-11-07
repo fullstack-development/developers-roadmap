@@ -57,6 +57,7 @@
 
 ### Ресурсы
 
+* [Людоедский интерфейс, Вадим Макеев](https://www.youtube.com/watch?v=ssJsjGZE2sc)
 * [HTML Academy](https://htmlacademy.ru/)
 * [HTML (MDN)](https://developer.mozilla.org/ru/docs/Web/HTML)
 * [HTML и HTML5. Описание тегов по основным разделам](https://html5book.ru/html-html5/)
