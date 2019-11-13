@@ -160,6 +160,43 @@
     How can we bundle Pattern Synonyms with datatypes in export and import lists?
     * Pattern Synonyms and type constraints. What are `CReq` and `CProv`?
 
+* Laziness
+  * What are the advantages of lazy evaluation?
+  * What is the difference between Non-strictness and Lazy evaluation?
+  * What is the function `seq` (and operator `$!`)?
+  * What is the function `deepseq` (and operator `$!!`)?
+  * Could using `seq` change the returned value of the function?
+  * How is value from evaluated thunk stored (are we allowed to avoid redundant reevaluations)?
+  * Enumerate cases where thunk with ADT will be evaluated.
+  * What is the irrefutable pattern and how does it work?
+  * What does the `sprint` function do?
+  * What is the GHC extension `BangPatterns`:
+    * Make examples when bang pattern is useless.
+    * Make examples when bang pattern has less power, than it could be supposed.
+    * Show the difference between this two definitions:
+      * `f1`:
+
+      ```haskell
+      f1 x True = True
+      f1 !x False = False
+      ```
+
+      * `f2`:
+
+      ```haskell
+      f2 !x True = True
+      f2 x False = False
+      ```
+
+    * Does bang patterns force execution, when they are nested in constructors inside of `let` or `where` expressions?
+      * There is a `!` inside a `Maybe`, which is inside a `let` expression, and `let` expressions are lazy:
+
+      ```haskell
+      let (Just !a) = x in 1 + 1
+      ```
+
+    * What are the GHC extensions `Strict` and `StrictData`?
+
 ### Resources
 
 * Monoids:
@@ -233,6 +270,25 @@
   * [The Constraint kind](https://jeltsch.wordpress.com/2013/02/14/the-constraint-kind/)
 * Pattern synonyms:
   * [GHC docs](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#extension-PatternSynonyms)
+* Haskell Performance in Wikibooks:
+  * [Introduction](https://en.wikibooks.org/wiki/Haskell/Performance_introduction)
+  * [Graph reduction](https://en.wikibooks.org/wiki/Haskell/Graph_reduction)
+  * [Laziness](https://en.wikibooks.org/wiki/Haskell/Laziness)
+  * [Time and space profiling](https://en.wikibooks.org/wiki/Haskell/Time_and_space_profiling)
+  * [Strictness](https://en.wikibooks.org/wiki/Haskell/Strictness)
+  * [Algorithm complexity](https://en.wikibooks.org/wiki/Haskell/Algorithm_complexity)
+* Laziness
+  * [Laziness from What I Wish I Knew When Learning Haskell](http://dev.stephendiehl.com/hask/#laziness)
+  * [Lazy evaluation](https://www.ksp.kit.edu/9783731505464)  
+  Optional resource. Read the contents, abstract and conclusions to understand the scope of work. You may want to read chapters from 1.1 to 1.6 and chapter 2.1.
+  * [10.28 of GHC docs](https://downloads.haskell.org/~ghc/master/users-guide//glasgow_exts.html#bang-patterns-and-strict-haskell)
+  * [Wiki-page Haskell Prime about Bang Patterns](https://prime.haskell.org/wiki/BangPatterns)
+  * [The Incomplete Guide to Lazy Evaluation](https://hackhands.com/guide-lazy-evaluation-haskell/)  
+  The guide is in three parts, the third about denotational semantics is optional.
+  * [Oh my laziness!](https://alpmestan.com/posts/2013-10-02-oh-my-laziness.html)
+  * [Articles of Edward Yang](http://blog.ezyang.com/2011/04/the-haskell-heap/)  
+  It is a set of articles.
+  * [Gentle Introduction to Haskell (Lazy Pattern-Matching)](https://www.haskell.org/tutorial/patterns.html)
 
 ### Kata
 
