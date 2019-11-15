@@ -244,6 +244,11 @@
     * What is the `Rep (Example b c)` type?
     * What would be the result of `to (C 2 "fsd")`?
 
+* Testing
+  * What are three most popular approaches to make code testable in Haskell?
+  * How MTL-style monad allow you to mock real implementation?
+  * How can you pass dictionaries to switch the behavior of the program in various contexts?
+
 ### Resources
 
 * Monoids:
@@ -348,6 +353,10 @@
   * [GHC.Generics on Wiki Haskell](https://wiki.haskell.org/GHC.Generics)
   * [GHC Generics Explained](https://www.stackbuilders.com/tutorials/haskell/generics/)
   * [Haddock (functions for getting information about datatypes)](https://hackage.haskell.org/package/base-4.8.2.0/docs/GHC-Generics.html#t:Datatype)
+* Testing
+  * [Mocking in Haskell](https://www.reddit.com/r/haskell/comments/5bnr6b/mocking_in_haskell/)
+  * [Unit testing effectful Haskell with monad-mock](https://lexi-lambda.github.io/blog/2017/06/29/unit-testing-effectful-haskell-with-monad-mock/)
+  * [Invert Your Mocks!](https://www.parsonsmatt.org/2017/07/27/inverted_mocking.html)
 
 ### Kata
 
