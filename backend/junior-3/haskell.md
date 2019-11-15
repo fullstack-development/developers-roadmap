@@ -197,39 +197,52 @@
 
     * What are the GHC extensions `Strict` and `StrictData`?
 
-  * Exceptions
-    * What is the exception free pattern?
-    * How do we abstract the possibility of failure in Haskell?
-      * `ExceptT`.
-      * Custom sum types.
-      * `Exception` type.
-      * String-like types.
-    * Why `ExceptT MyException IO` is considered an anti-pattern?  
-    How do we mislead the user of our transformer stack if we use this pattern?  
-    Should we ban using this pattern?
-    * What basic type classes do help us to distinguish the functions with an effect of failure?
-      * `Control.Monad.Except.MonadError`
-      * `Control.Monad.Catch.MonadThrow`,  
-      `Control.Monad.Catch.MonadCatch`
-    * `Control.Exception` hierarchy:
-      * What is the `SomeException` type?
-      * What is the `Exception` type class?
-      * Why do we need the exception hierarchy and what are the desired properties of such a hierarchy?
-      * Write an example of a custom exception inclusion into the hierarchy.
-    * Async exceptions:
-      * What is a synchronous exception?
-      * What is an asynchronous exception?
-      * What are the problems with catching and handling them?
-      * What are the strategies of handling the async exceptions?
-      * What is masking? How does the `mask` function work?
-      Why do we need it?
-      * What is an uninterruptible mask? How does the `uninterruptibleMask` function work?
-      Why do we need it?
-    * Describe a problem which arises when handling exceptions and using functions like `bracket` with stateful monadic stacks.
-      * How is it solved in `monad-control` library?
-      * How is it solved in `unliftio` library?
-    * What is the purpose of `safe-exceptions` library? Which exception handling problems does it address?  
-    Why is `unliftio` considered safer by the author of `safe-exceptions`?
+* Exceptions
+  * What is the exception free pattern?
+  * How do we abstract the possibility of failure in Haskell?
+    * `ExceptT`.
+    * Custom sum types.
+    * `Exception` type.
+    * String-like types.
+  * Why `ExceptT MyException IO` is considered an anti-pattern?  
+  How do we mislead the user of our transformer stack if we use this pattern?  
+  Should we ban using this pattern?
+  * What basic type classes do help us to distinguish the functions with an effect of failure?
+    * `Control.Monad.Except.MonadError`
+    * `Control.Monad.Catch.MonadThrow`,  
+    `Control.Monad.Catch.MonadCatch`
+  * `Control.Exception` hierarchy:
+    * What is the `SomeException` type?
+    * What is the `Exception` type class?
+    * Why do we need the exception hierarchy and what are the desired properties of such a hierarchy?
+    * Write an example of a custom exception inclusion into the hierarchy.
+  * Async exceptions:
+    * What is a synchronous exception?
+    * What is an asynchronous exception?
+    * What are the problems with catching and handling them?
+    * What are the strategies of handling the async exceptions?
+    * What is masking? How does the `mask` function work?
+    Why do we need it?
+    * What is an uninterruptible mask? How does the `uninterruptibleMask` function work?
+    Why do we need it?
+  * Describe a problem which arises when handling exceptions and using functions like `bracket` with stateful monadic stacks.
+    * How is it solved in `monad-control` library?
+    * How is it solved in `unliftio` library?
+  * What is the purpose of `safe-exceptions` library? Which exception handling problems does it address?  
+  Why is `unliftio` considered safer by the author of `safe-exceptions`?
+
+* Generics
+  * What is generic programming?
+  * What is `Generic` type class and what is its main goal?
+  * What is the difference between `Generic` and `Generic1` typeclasses?
+  * What are the primitive types that can describe all other Haskell algebraic data types (`K1`, `:+:`, etc)?
+  * How to create default methods of typeclasses for data types that has `Generic` instance?
+  * What is type family `Rep` and what is its main goal?
+  * How to get data type name, constructor name, field names (for record fields)?
+  * Is there a possibility to check if the data type is a `newtype` wrapper?
+  * Suppose we have `data Example b c = A | B b | C Int c`:
+    * What is the `Rep (Example b c)` type?
+    * What would be the result of `to (C 2 "fsd")`?
 
 ### Resources
 
@@ -330,6 +343,11 @@
   * [Docs for safe-exceptions](https://github.com/fpco/safe-exceptions)
   * [Exceptions tutorial from IH book](https://markkarpov.com/tutorial/exceptions.html)  
   Quite hard to read for this level, you would better reread it later.
+* Generics
+  * [What is datatype-generic programming](https://maxhallinan.com/posts/2019/09/17/what-is-datatype-generic-programming/)
+  * [GHC.Generics on Wiki Haskell](https://wiki.haskell.org/GHC.Generics)
+  * [GHC Generics Explained](https://www.stackbuilders.com/tutorials/haskell/generics/)
+  * [Haddock (functions for getting information about datatypes)](https://hackage.haskell.org/package/base-4.8.2.0/docs/GHC-Generics.html#t:Datatype)
 
 ### Kata
 
