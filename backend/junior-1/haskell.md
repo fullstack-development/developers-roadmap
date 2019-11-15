@@ -32,6 +32,10 @@ This level requires basic skills to solve local tasks in a project.
   * What is the associativity of function composition?
     Is there some other function in Prelude which operates the same (has the same semantics) as function composition operator `(.)`,
     but has the opposite associativity?
+* Recursion
+  * What is the difference between iterative and recursive algorithms?
+  * What is a tail recursion?
+  * What is a tail call optimization? Can you give examples of functions with and without tail call optimization?
 
 ## Types
 
@@ -218,6 +222,8 @@ This level requires basic skills to solve local tasks in a project.
 
 ### Resources
 
+* Functions:
+  * [Tail Call Optimization](https://medium.com/@lex.sheehan/tail-call-optimization-303ca8d12de7)
 * Types:
   * [Haskell Data Types Review! (5th chapter can be skipped)](https://mmhaskell.com/blog/2019/2/11/haskell-data-types-review)
   * [Why does anyone use newtypes?](https://wiki.haskell.org/Newtype)
