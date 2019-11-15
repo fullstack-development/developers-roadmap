@@ -197,6 +197,40 @@
 
     * What are the GHC extensions `Strict` and `StrictData`?
 
+  * Exceptions
+    * What is the exception free pattern?
+    * How do we abstract the possibility of failure in Haskell?
+      * `ExceptT`.
+      * Custom sum types.
+      * `Exception` type.
+      * String-like types.
+    * Why `ExceptT MyException IO` is considered an anti-pattern?  
+    How do we mislead the user of our transformer stack if we use this pattern?  
+    Should we ban using this pattern?
+    * What basic type classes do help us to distinguish the functions with an effect of failure?
+      * `Control.Monad.Except.MonadError`
+      * `Control.Monad.Catch.MonadThrow`,  
+      `Control.Monad.Catch.MonadCatch`
+    * `Control.Exception` hierarchy:
+      * What is the `SomeException` type?
+      * What is the `Exception` type class?
+      * Why do we need the exception hierarchy and what are the desired properties of such a hierarchy?
+      * Write an example of a custom exception inclusion into the hierarchy.
+    * Async exceptions:
+      * What is a synchronous exception?
+      * What is an asynchronous exception?
+      * What are the problems with catching and handling them?
+      * What are the strategies of handling the async exceptions?
+      * What is masking? How does the `mask` function work?
+      Why do we need it?
+      * What is an uninterruptible mask? How does the `uninterruptibleMask` function work?
+      Why do we need it?
+    * Describe a problem which arises when handling exceptions and using functions like `bracket` with stateful monadic stacks.
+      * How is it solved in `monad-control` library?
+      * How is it solved in `unliftio` library?
+    * What is the purpose of `safe-exceptions` library? Which exception handling problems does it address?  
+    Why is `unliftio` considered safer by the author of `safe-exceptions`?
+
 ### Resources
 
 * Monoids:
@@ -289,6 +323,13 @@
   * [Articles of Edward Yang](http://blog.ezyang.com/2011/04/the-haskell-heap/)  
   It is a set of articles.
   * [Gentle Introduction to Haskell (Lazy Pattern-Matching)](https://www.haskell.org/tutorial/patterns.html)
+* Exceptions
+  * [Defining exceptions in Haskell](https://www.fpcomplete.com/blog/defining-exceptions-in-haskell)
+  * [Exceptions Best Practices in Haskell.](https://www.fpcomplete.com/blog/2016/11/exceptions-best-practices-haskell)
+  * [Catching all exceptions](https://www.schoolofhaskell.com/user/snoyberg/general-haskell/exceptions/catching-all-exceptions#transformers)
+  * [Docs for safe-exceptions](https://github.com/fpco/safe-exceptions)
+  * [Exceptions tutorial from IH book](https://markkarpov.com/tutorial/exceptions.html)  
+  Quite hard to read for this level, you would better reread it later.
 
 ### Kata
 
