@@ -2,7 +2,6 @@
 
 ## Closures
 * What are free variables?
-* How can immutable closures be useful? Give several examples.
 * Dynamic scoping
   * What is dynamic scoping?
   * Why is it inconvenient?
@@ -14,8 +13,9 @@
   * Is funarg problem possible in languages where function cannot escape its scope?
   * Is funarg problem possible in languages with dynamic scoping?
 * How can closures be emulated? What problems will arise in those approaches?
-* Why is mutable closure the sufficient tool to add concurrency to the language (give examples with JS)?
 * Compare closures and objects. What are the advantages of each one?
+* How can immutable closures be useful? Give several examples.
+* Why is mutable closure the sufficient tool to add concurrency to the language (give examples with JS)?
 
 ### Resources
 * [JS scope: static, dynamic, and runtime-augmented](https://codeburst.io/js-scope-static-dynamic-and-runtime-augmented-5abfee6223fe)
