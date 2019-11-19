@@ -249,6 +249,21 @@
   * How MTL-style monad allow you to mock real implementation?
   * How can you pass dictionaries to switch the behavior of the program in various contexts?
 
+* Debugging
+  * Debug.Trace
+    * How is it useful?
+    * How does it work?
+  * GHCi
+  * How to set command line arguments for main function if it loads arguments with `getArgs`?
+  * How to set a breakpoint?
+  * How to evaluate in single step mode?  
+  What are the commands which help with that?
+  * How to show the source code around some breakpoint?
+  * How to show currently used variables?
+  * What are the ways to print currently used variables?
+  * How to show the execution history ("how did we get here")?
+  * How to break in a case of an exception to analyse its cause?
+
 ### Resources
 
 * Monoids:
@@ -357,6 +372,9 @@
   * [Mocking in Haskell](https://www.reddit.com/r/haskell/comments/5bnr6b/mocking_in_haskell/)
   * [Unit testing effectful Haskell with monad-mock](https://lexi-lambda.github.io/blog/2017/06/29/unit-testing-effectful-haskell-with-monad-mock/)
   * [Invert Your Mocks!](https://www.parsonsmatt.org/2017/07/27/inverted_mocking.html)
+* Debugging
+  * [Hackage (Debug.Trace)](http://hackage.haskell.org/package/base-4.11.1.0/docs/Debug-Trace.html#g:1)
+  * [GHC Docs (GHCi Debugger)](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/ghci.html#the-ghci-debugger)
 
 ### Kata
 
