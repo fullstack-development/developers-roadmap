@@ -264,6 +264,22 @@
   * How to show the execution history ("how did we get here")?
   * How to break in a case of an exception to analyse its cause?
 
+* Lenses
+  * What is the main goal of lenses?
+  * What is the type `Lens`, what does it mean?
+  * What are the methods `view`, `over`, `set`?
+  * What is a `Prism`?
+  * What is a `Traversal`?
+  * What is an `Iso`?
+  * Why is `Monoid` constraint required in `view` for traversals?
+  * What are the lens laws?
+  * Why do lenses fit well for composing?
+  * How operators are grouped by name (which ones are started with `^`, which ones contain `~`, `.` (dot), `%`, `=`)?
+  * What combinators are purposed for working in `State` monad?  
+  Why is it convenient?
+  * What is the goal of the microlens library?  
+  When to use it and when do not?
+
 ### Resources
 
 * Monoids:
@@ -375,6 +391,19 @@
 * Debugging
   * [Hackage (Debug.Trace)](http://hackage.haskell.org/package/base-4.11.1.0/docs/Debug-Trace.html#g:1)
   * [GHC Docs (GHCi Debugger)](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/ghci.html#the-ghci-debugger)
+* Lenses
+  * [Program imperatively using Haskell lenses](http://www.haskellforall.com/2013/05/program-imperatively-using-haskell.html) Most classic introduction
+  * [A Little Lens Starter Tutorial](https://www.schoolofhaskell.com/school/to-infinity-and-beyond/pick-of-the-week/a-little-lens-starter-tutorial)
+  * [Control.Lens.Tutorial on Hackage](http://hackage.haskell.org/package/lens-tutorial-1.0.3/docs/Control-Lens-Tutorial.html)
+  * [Haskell/Lenses and functional references](https://en.wikibooks.org/wiki/Haskell/Lenses_and_functional_references) on Wikibook (with basic explanation how lenses work)
+  * [Welcome to the lens wiki!](https://github.com/ekmett/lens/wiki) ([Overview](https://github.com/ekmett/lens/wiki/Overview), [Examples](https://github.com/ekmett/lens/wiki/Examples), [How can ...?](https://github.com/ekmett/lens/wiki/How-can-I-write-lenses-without-depending-on-lens%3F), [FAQ](https://github.com/ekmett/lens/wiki/FAQ))
+  * [What are Prisms?](https://stackoverflow.com/questions/50915526/what-are-prisms)
+  * Learn microlens (on [Hackage](http://hackage.haskell.org/package/microlens), on [Github](https://github.com/aelve/microlens))
+  * [Exercises for understanding lenses](https://williamyaoh.com/posts/2019-04-25-lens-exercises.html)
+  * [Write yourself a lens](https://vrom911.github.io/blog/write-yourself-a-lens)
+  * [Writing Traversals](https://lens-by-example.chrispenner.ca/articles/traversals/writing-traversals)
+  * [Prisms: Preview, Review, and how to write your own!](https://www.patreon.com/posts/23394721)
+  * [Finding correct (lens) laws](http://oleg.fi/gists/posts/2018-12-12-find-correct-laws.html)
 
 ### Kata
 
