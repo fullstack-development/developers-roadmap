@@ -21,10 +21,10 @@ This level requires basic skills to solve local tasks in a project.
     * Could you use several functions in sections?
     * Could you use other than binary functions in sections?
   * Function application precedence:
-    * What are the possible values for precedence in haskell?
+    * What are the possible values for precedence in Haskell?
     * What is associativity of operators?
     * What is associative property? Does function application has that property?
-    * What are the possible values for associativity in haskell?
+    * What are the possible values for associativity in Haskell?
     * Why does `$` operator exist?
 * Function composition:
   * How function composition operator is declared? What are its precedence and associativity?
@@ -39,7 +39,7 @@ This level requires basic skills to solve local tasks in a project.
 
 ## Types
 
-* What is a type in haskell? What is a type signature, what could it specify about a type and how it does that?
+* What is a type in Haskell? What is a type signature, what could it specify about a type and how it does that?
 * What is a type synonym (alias)? When it could be useful? How do you use it?
 * Algebraic Data Type:
   * Why ADT is called Algebraic? What is a cardinality?
@@ -59,7 +59,7 @@ This level requires basic skills to solve local tasks in a project.
 
 ## Lists
 
-* What are lists in haskell?
+* What are lists in Haskell?
   What are the distinguishing features of lists from the similar data structures in other languages?
 * Name three main functions that work with lists.
 * List comprehensions.
@@ -218,7 +218,7 @@ This level requires basic skills to solve local tasks in a project.
   * `15`
   * `\x -> x * 2`
   * `(\x -> x + 1) 3`
-* Why strict functions in haskell evaluate values to WHNF and not NF?
+* Why strict functions in Haskell evaluate values to WHNF and not NF?
 
 ### Resources
 
@@ -230,26 +230,26 @@ This level requires basic skills to solve local tasks in a project.
   * [Магия newtype в Haskell](https://habr.com/ru/post/323526/)
 * Sections:
   * [Section of an infix operator](https://wiki.haskell.org/Section_of_an_infix_operator)
-  * [Sections in haskell report](http://www.haskell.org/onlinereport/exps.html#sections)
+  * [Sections in Haskell report](http://www.haskell.org/onlinereport/exps.html#sections)
 * Function application and composition:
   * [Why composition is right associative - Stackoverflow](https://stackoverflow.com/questions/20342860/why-is-function-composition-in-haskell-right-associative)
   * [A curious associativity of the `<$>` operator](https://ro-che.info/articles/2019-07-22-associativity-of-fmap)
 * Folds:
   * [Свертки списков - IBM](https://www.ibm.com/developerworks/ru/library/l-haskell4/)
-  * [foldr, foldl - haskell wiki](https://wiki.haskell.org/Foldr_Foldl_Foldl%27)
-  * [foldl as foldr - haskell wiki](https://wiki.haskell.org/Foldl_as_foldr)
-  * [Fixing foldl](http://www.well-typed.com/blog/90/)
-  * [Why foldr works for infinite lists and foldl doesn’t](http://lambda.jstolarek.com/2012/09/why-foldr-works-for-infinite-lists-and-foldl-doesnt/)
+  * [`foldr`, `foldl` - Haskell wiki](https://wiki.haskell.org/Foldr_Foldl_Foldl%27)
+  * [`foldl` as `foldr` - Haskell wiki](https://wiki.haskell.org/Foldl_as_foldr)
+  * [Fixing `foldl`](http://www.well-typed.com/blog/90/)
+  * [Why `foldr` works for infinite lists and `foldl` doesn’t](http://lambda.jstolarek.com/2012/09/why-foldr-works-for-infinite-lists-and-foldl-doesnt/)
 * Modules:
   * [Haskell module system](https://ro-che.info/articles/2012-12-25-haskell-module-system-p1)
   * [Haskell export current module with additional imported module - Stackoverflow](https://stackoverflow.com/questions/18035458/haskell-export-current-module-with-additional-imported-module)
   * [Modules declaration, import and export rules](https://www.haskell.org/onlinereport/haskell2010/haskellch5.html)
 * Lazy evaluation:
   * [Как работают ленивые вычисления - habr](https://habr.com/ru/post/247213/)
-  * [Lazy vs. non-strict - haskell wiki](https://wiki.haskell.org/Lazy_vs._non-strict)
-  * [WHNF - haskell wiki](https://wiki.haskell.org/Weak_head_normal_form)
+  * [Lazy vs. non-strict - Haskell wiki](https://wiki.haskell.org/Lazy_vs._non-strict)
+  * [WHNF - Haskell wiki](https://wiki.haskell.org/Weak_head_normal_form)
   * [GHC illustrated (about thunk inner structure)](https://takenobu-hs.github.io/downloads/haskell_ghc_illustrated.pdf)
 * Monads:
-  * [All about monad - haskell wiki](https://wiki.haskell.org/All_About_Monads)
+  * [All about monad - Haskell wiki](https://wiki.haskell.org/All_About_Monads)
 * Exceptions:
   * [Скандальная правда об обработке исключений в Haskell](https://eax.me/haskell-exceptions/)
