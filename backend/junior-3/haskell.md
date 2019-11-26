@@ -3,14 +3,14 @@
 ## Themes
 
 * Basic type classes
-  * Monoids:
+  * Monoids
     * What is the purpose of `Semigroup` type class in contrast to `Monoid`?
     * Why does `Monoid` have `Semigroup` constraint?
     * What are the data declarations for `Dual`, `Endo`, `Sum`, `Product`, `Any`, `All`?  
       How and why theese monoids are used?
-    * Why are there instances of `Monoid` for `(IO a)` and `(a -> b)`  
-    and how they are used?
-  * Foldable:
+    * Why are there instances of `Monoid` for `(IO a)` and `(a -> b)`?  
+    How are they used?
+  * Foldable
     * What are the nature and semantics of `Foldable`?
     * What was `Foldable` created for?
     * What are the minimal and complete definitions for correct and working `Foldable` instance?
@@ -18,54 +18,54 @@
     * Does `Foldable` have any laws?
       * Which of them do use the `Monoid` instance?
       * Which of them do use the `Functor` instance?
-  * Traversable:
+  * Traversable
     * What is semantics of `Traversable`? Why is it called traversable?
     * Why do we have `Foldable` and `Functor` constraints on `Traversable` type class?
     * What are the data declarations for `Compose` and `Identity` and  
     what are they used for?
     * What are the laws of `Traversable`?
-  * Functors:
+  * Functors
     * What is covariance and contravariance in the context of functors and category theory?
     * What are the negative and positive positions?
-    * Contrafunctor (Contravariant functor):
+    * Contrafunctor (Contravariant functor)
       * What is the signature of `contramap` function?
       * Make an example of instance definition for some ADT.
       * What is the semantic meaning of applying `contramap`?
-    * Bifunctor:
+    * Bifunctor
       * What is the signature of `bimap` function?
       * What ADT's do have the `Bifunctor` instance?
       * Is a bifunctor covariant or contravariant on type variables applied to it?
-    * Profunctor:
+    * Profunctor
       * What is the signature of `dimap` function?
       * Write an instance implementation for `(->)`.
       * Name a few practical use cases (at least one).
       * Which of type variables applied to a profunctor appear in negative and which in positive position?
-  * Applicative:
+  * Applicative
     * What is the purpose of `Data.Either.Validation` and what is the difference between it and `Data.Either`?
     * Why does `Data.Either.Validation` have no `Monad` instance?
-  * Monads:
+  * Monads
     * Make an overview description of Update monad.
 
 * Type classes
-  * What are the mechanisms of implementing type classes (overloading):
+  * What are the mechanisms of implementing type classes (overloading)?
     * Passing Dictionaries
     * Monomorphization
       * What is the Resolution Environment? When is it created?
     * Intentional Type Analysis
-  * How are typeclasses implemented in Haskell:
+  * How are typeclasses implemented in Haskell?
     * What are the GHC specific implementation details?
     * What optimization is conducted by the compiler?
-  * Overlapping:
+  * Overlapping
     * How does the instance selection process happen?
     * Is it possible to have overlapping instances? Does having overlapping instances violate coherence?
     * Is it possible to have a compiled and working program with coherence violations?
     * How would you solve a problem of overlapping instances in various situations?
     * How the problem of overlapping is solved in other languages or by different overloading implementation techniques?
-  * Orphans:
+  * Orphans
     * What are orphans instances? Why are they undesirable?
     * Does having overlapping instances violate coherence?
     * How the problem of orphans is solved in other languages or by different overloading implementation techniques?
-  * What are the problems of current typeclasses implementation:
+  * What are the problems of current typeclasses implementation?
     * Is there a way force the laws of typeclasses?
     * What are the pros and cons of isolating orphans in special modules?
     * Is there a problem of structuring the hierarchy of standard typeclasses?
@@ -84,7 +84,7 @@
   * `TypeOperators`
   * `FlexibleContexts` & `FlexibleInstances`
   * `MultiParamTypeClasses` & `FunctionalDependencies`
-  * Type and Data Families:
+  * Type and Data Families
     * What are the three variations of type families: closed, open, associated?  
     What are their difference and purpose?
     * What is injectivity?
@@ -96,7 +96,7 @@
     * How closed type families can help to create overlapping type classes instances?
     * What are the differences between Functional Dependencies and associated Type Families?  
     What are the situations when the best choice would be to use associated type families, and when it would be fundeps?
-  * GADTs:
+  * GADTs
     * What is the difference between GADT and ADT?
     * What is the main goal of GADT?
     * What is the difference between `GADTs` and phantom types?
@@ -104,7 +104,7 @@
     * Are record fields available for GADT?
     * Is it considered a good practice to put constraints in consructors inside GADT  declaration?
     * How does deriving instances work for GADT? Are there some problems?
-  * Data Kinds:
+  * Data Kinds
     * What is the kind `*`? What is the kind `Type`?
     * What is the data type promotion?
     * What is the main goal for `DataKinds`?
@@ -114,19 +114,19 @@
     * Could existential type be promoted?
     * How can heterogenous lists be implemented with `DataKinds` and `GADTs`?
     * What are the dependant types and how `DataKinds` allow us to get closer to them?
-  * Polymorphic Kinds:
+  * Polymorphic Kinds
     * What is the main goal of `PolyKinds`?
     * When it could be useful?
     * What declarations would have the inferred kind `*` and not polykinded `forall k. k`?
     * What is `Proxy` datatype? What is it used for? Why do we need `PolyKinds` to implement it?
   * `ScopedTypeVariables`
-  * Higher ranked types:
+  * Higher ranked types
     * What is a "rank" of a function?
     * Give examples of rank-1, rank-2, rank-3 functions.
     * In which cases do we need `ExistentialQuantification` and in which we need `RankNTypes`?
     * Can we create datatypes and newtypes with `RankNTypes`?
     * Can we use constraints with `RankNTypes`?
-  * Existential Quantification:
+  * Existential Quantification
     * What is the main goal of the `ExistentialQuantification` extension?
     * Can we use constraints for types of quantified constructor parameters?
     * Can we use different constraints for different constructor?
@@ -139,14 +139,14 @@
     * Why is there no `exist` keyword in Haskell?
     * What are the situations which require using `ScopedTypeVariables`, `ExistentialQuantification`, `RankNTypes`?  
     Compare the use cases of theese extensions.
-  * `ConstraintKinds`:
+  * `ConstraintKinds`
     * What is the main goal of the extension?
     * What types and type variables would have a kind `Constraint` with this extension enabled?
     * What is the pattern of Indexed constraints? What is its goal?
     * How pattern Reified dictionaries can be implemented with this extension enabled?
     * How Generic programming can be improved with this extension enabled?
     * Could classes be partially applied?
-  * Pattern Synonyms:
+  * Pattern Synonyms
     * What are Pattern Synonyms and what are they used for?
     * Can we pattern match on concrete values (constants) in the right-hand side?
     * Where can Pattern Synonyms occur? Can we declare them locally, inside of functions?
@@ -170,18 +170,18 @@
   * Enumerate cases where thunk with ADT will be evaluated.
   * What is the irrefutable pattern and how does it work?
   * What does the `sprint` function do?
-  * What is the GHC extension `BangPatterns`:
+  * What is the GHC extension `BangPatterns`?
     * Make examples when bang pattern is useless.
     * Make examples when bang pattern has less power, than it could be supposed.
     * Show the difference between this two definitions:
-      * `f1`:
+      * `f1`
 
       ```haskell
       f1 x True = True
       f1 !x False = False
       ```
 
-      * `f2`:
+      * `f2`
 
       ```haskell
       f2 !x True = True
@@ -211,12 +211,12 @@
     * `Control.Monad.Except.MonadError`
     * `Control.Monad.Catch.MonadThrow`,  
     `Control.Monad.Catch.MonadCatch`
-  * `Control.Exception` hierarchy:
+  * `Control.Exception` hierarchy
     * What is the `SomeException` type?
     * What is the `Exception` type class?
     * Why do we need the exception hierarchy and what are the desired properties of such a hierarchy?
     * Write an example of a custom exception inclusion into the hierarchy.
-  * Async exceptions:
+  * Async exceptions
     * What is a synchronous exception?
     * What is an asynchronous exception?
     * What are the problems with catching and handling them?
