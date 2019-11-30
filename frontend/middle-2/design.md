@@ -28,14 +28,14 @@
   * How does writing use cases before writing code can help to achieve cleaner API?
   * What is the difference between extensibility by the module authors and module clients?
   * How can you explain the phrase "asymmetry of function should be reflected by asymmetry of form"?
-  * What are examples of the naming where close ideas looks similar and different concepts differ greatly?
-  * What are edge cases in the context of designing an API? Why is the implicit edge case handling preferred to explicit?
-  * What is the rule "The best API is no API" about? What are examples of breaking the rule?
+  * How names used in your module API can reflect structure of your module and increase cohesion inside various parts of your contract?
+  * What are the edge cases in the context of designing an API? Why is the implicit edge case handling preferred to explicit?
+  * What is the rule "The best API is no API" about? What are the examples of breaking the rule?
 * How does modular programming help us to achieve better local reasoning while developing a module?
 * What are the benefits of declaring an explicit contract between a client and a person who implements a module?
 * What is the difference between abstraction by parameterization and abstraction by specification?
 
-# Ресурсы
+### Ресурсы
 
 * [How To Design Better JavaScript APIs](https://www.smashingmagazine.com/2012/10/designing-javascript-apis-usability/) (little bit opinionated post, don't consider as perfect guide)
 * [Library patterns Multiple levels of abstraction](http://tomasp.net/blog/2015/library-layers/)
