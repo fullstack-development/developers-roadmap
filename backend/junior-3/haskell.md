@@ -7,9 +7,9 @@
 * Monoids
   * What is the purpose of `Semigroup` type class in contrast to `Monoid`?
   * Why does `Monoid` have `Semigroup` constraint?
-  * What are the data declarations for `Dual`, `Endo`, `Sum`, `Product`, `Any`, `All`?  
+  * What are the data declarations for `Dual`, `Endo`, `Sum`, `Product`, `Any`, `All`?
     How and why theese monoids are used?
-  * Why are there instances of `Monoid` for `(IO a)` and `(a -> b)`?  
+  * Why are there instances of `Monoid` for `(IO a)` and `(a -> b)`?
   How are they used?
 * Foldable
   * What are the nature and semantics of `Foldable`?
@@ -22,7 +22,7 @@
 * Traversable
   * What is semantics of `Traversable`? Why is it called traversable?
   * Why do we have `Foldable` and `Functor` constraints on `Traversable` type class?
-  * What are the data declarations for `Compose` and `Identity` and  
+  * What are the data declarations for `Compose` and `Identity` and
   what are they used for?
   * What are the laws of `Traversable`?
 * Functors
@@ -45,7 +45,7 @@
   * What is the purpose of `Data.Either.Validation` and what is the difference between it and `Data.Either`?
   * Why does `Data.Either.Validation` have no `Monad` instance?
 * Monads
-  * Make an overview description of Update monad.
+  * Make an overview description of `Update` monad.
 
 ##### Resources
 
@@ -128,16 +128,16 @@
 * `FlexibleContexts` & `FlexibleInstances`
 * `MultiParamTypeClasses` & `FunctionalDependencies`
 * Type and Data Families
-  * What are the three variations of type families: closed, open, associated?  
+  * What are the three variations of type families: closed, open, associated?
   What are their difference and purpose?
   * What is injectivity?
-  * Is open data family injective? Is open type family injective?  
-  Would type/data family be injective if it was associated with a type class?  
+  * Is open data family injective? Is open type family injective?
+  Would type/data family be injective if it was associated with a type class?
   Would type/data family be injective if it would be closed or open?
   * Why there are no closed data families?
   * Can open type family instances overlap with parameters? Can closed typed families do it?
   * How closed type families can help to create overlapping type classes instances?
-  * What are the differences between Functional Dependencies and associated Type Families?  
+  * What are the differences between Functional Dependencies and associated Type Families?
   What are the situations when the best choice would be to use associated type families, and when it would be fundeps?
 * GADTs
   * What is the difference between GADT and ADT?
@@ -145,7 +145,7 @@
   * What is the difference between `GADTs` and phantom types?
   * How GADT helps us to go from type level to term level in pattern matching?
   * Are record fields available for GADT?
-  * Is it considered a good practice to put constraints in consructors inside GADT  declaration?
+  * Is it considered a good practice to put constraints in consructors inside GADT declaration?
   * How does deriving instances work for GADT? Are there some problems?
 * Data Kinds
   * What is the kind `*`? What is the kind `Type`?
@@ -180,7 +180,7 @@
   * Can we pattern-match on an existentially quantified constructor in `case` block?
   * Can we use `deriving` with existentially quantified data types?
   * Why is there no `exist` keyword in Haskell?
-  * What are the situations which require using `ScopedTypeVariables`, `ExistentialQuantification`, `RankNTypes`?  
+  * What are the situations which require using `ScopedTypeVariables`, `ExistentialQuantification`, `RankNTypes`?
   Compare the use cases of theese extensions.
 * `ConstraintKinds`
   * What is the main goal of the extension?
@@ -194,12 +194,12 @@
   * Can we pattern match on concrete values (constants) in the right-hand side?
   * Where can Pattern Synonyms occur? Can we declare them locally, inside of functions?
   * What is the restriction on type variables with Bidirectional Pattern Synonyms?
-  * What are Unidirectional Pattern Synonyms?  
+  * What are Unidirectional Pattern Synonyms?
   What are their constraints comparing with Bidirectional Pattern Synonyms?
-  * What are Explicitly Bidirectional Pattern Synonyms?  
+  * What are Explicitly Bidirectional Pattern Synonyms?
   Which new opportunities they provide comparing with Unidirectional and Bidirectional Pattern Synonyms?
   * Can we use record syntax with Pattern Synonyms?
-  * How to import and export Pattern Synonyms?  
+  * How to import and export Pattern Synonyms?
   How can we bundle Pattern Synonyms with datatypes in export and import lists?
   * Pattern Synonyms and type constraints. What are `CReq` and `CProv`?
 
@@ -292,14 +292,14 @@
   * [Algorithm complexity](https://en.wikibooks.org/wiki/Haskell/Algorithm_complexity)
 * Laziness
   * [Laziness from What I Wish I Knew When Learning Haskell](http://dev.stephendiehl.com/hask/#laziness)
-  * [Lazy evaluation](https://www.ksp.kit.edu/9783731505464)  
+  * [Lazy evaluation](https://www.ksp.kit.edu/9783731505464)
   Optional resource. Read the contents, abstract and conclusions to understand the scope of work. You may want to read chapters from 1.1 to 1.6 and chapter 2.1.
   * [10.28 of GHC docs](https://downloads.haskell.org/~ghc/master/users-guide//glasgow_exts.html#bang-patterns-and-strict-haskell)
   * [Wiki-page Haskell Prime about Bang Patterns](https://prime.haskell.org/wiki/BangPatterns)
-  * [The Incomplete Guide to Lazy Evaluation](https://hackhands.com/guide-lazy-evaluation-haskell/)  
+  * [The Incomplete Guide to Lazy Evaluation](https://hackhands.com/guide-lazy-evaluation-haskell/)
   The guide is in three parts, the third about denotational semantics is optional.
   * [Oh my laziness!](https://alpmestan.com/posts/2013-10-02-oh-my-laziness.html)
-  * [Articles of Edward Yang](http://blog.ezyang.com/2011/04/the-haskell-heap/)  
+  * [Articles of Edward Yang](http://blog.ezyang.com/2011/04/the-haskell-heap/)
   It is a set of articles.
   * [Gentle Introduction to Haskell (Lazy Pattern-Matching)](https://www.haskell.org/tutorial/patterns.html)
 
@@ -311,12 +311,12 @@
   * Custom sum types.
   * `Exception` type.
   * String-like types.
-* Why `ExceptT MyException IO` is considered an anti-pattern?  
-How do we mislead the user of our transformer stack if we use this pattern?  
+* Why `ExceptT MyException IO` is considered an anti-pattern?
+How do we mislead the user of our transformer stack if we use this pattern?
 Should we ban using this pattern?
 * What basic type classes do help us to distinguish the functions with an effect of failure?
   * `Control.Monad.Except.MonadError`
-  * `Control.Monad.Catch.MonadThrow`,  
+  * `Control.Monad.Catch.MonadThrow`,
   `Control.Monad.Catch.MonadCatch`
 * `Control.Exception` hierarchy
   * What is the `SomeException` type?
@@ -335,7 +335,7 @@ Should we ban using this pattern?
 * Describe a problem which arises when handling exceptions and using functions like `bracket` with stateful monadic stacks.
   * How is it solved in `monad-control` library?
   * How is it solved in `unliftio` library?
-* What is the purpose of `safe-exceptions` library? Which exception handling problems does it address?  
+* What is the purpose of `safe-exceptions` library? Which exception handling problems does it address?
 Why is `unliftio` considered safer by the author of `safe-exceptions`?
 
 ##### Resources
@@ -344,7 +344,7 @@ Why is `unliftio` considered safer by the author of `safe-exceptions`?
 * [Exceptions Best Practices in Haskell.](https://www.fpcomplete.com/blog/2016/11/exceptions-best-practices-haskell)
 * [Catching all exceptions](https://www.schoolofhaskell.com/user/snoyberg/general-haskell/exceptions/catching-all-exceptions#transformers)
 * [Docs for safe-exceptions](https://github.com/fpco/safe-exceptions)
-* [Exceptions tutorial from IH book](https://markkarpov.com/tutorial/exceptions.html)  
+* [Exceptions tutorial from IH book](https://markkarpov.com/tutorial/exceptions.html)
 Quite hard to read for this level, you would better reread it later.
 
 ### Generics
@@ -388,7 +388,7 @@ Quite hard to read for this level, you would better reread it later.
 * GHCi
   * How to set command line arguments for main function if it loads arguments with `getArgs`?
   * How to set a breakpoint?
-  * How to evaluate in single step mode?  
+  * How to evaluate in single step mode?
   What are the commands which help with that?
   * How to show the source code around some breakpoint?
   * How to show currently used variables?
@@ -413,9 +413,9 @@ Quite hard to read for this level, you would better reread it later.
 * What are the lens laws?
 * Why do lenses fit well for composing?
 * How operators are grouped by name (which ones are started with `^`, which ones contain `~`, `.` (dot), `%`, `=`)?
-* What combinators are purposed for working in `State` monad?  
+* What combinators are purposed for working in `State` monad?
 Why is it convenient?
-* What is the goal of the microlens library?  
+* What is the goal of the microlens library?
 When to use it and when do not?
 
 ##### Resources
