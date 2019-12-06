@@ -84,13 +84,17 @@
   * How the problem of overlapping is solved in other languages or by different overloading implementation techniques?
 * Orphans
   * What are orphans instances? Why are they undesirable?
-  * Does having overlapping instances violate coherence?
+  * Does having orphan instances violate coherence?
   * How the problem of orphans is solved in other languages or by different overloading implementation techniques?
 * What are the problems of current typeclasses implementation?
   * Is there a way force the laws of typeclasses?
   * What are the pros and cons of isolating orphans in special modules?
   * Is there a problem of structuring the hierarchy of standard typeclasses?
-* What is Tagless Final style? How is it used as a programming pattern?
+* What is Tagless Final style?
+  * Why does it exist?
+  * How is it used as a programming pattern?
+  * How do typeclasses help this abstraction style?
+  * What are the pros and cons of using typeclasses while building the abstraction?
 
 ##### Resources
 
@@ -245,8 +249,6 @@
 
 ### Laziness
 
-* What are the advantages of lazy evaluation?
-* What is the difference between Non-strictness and Lazy evaluation?
 * What is the function `seq` (and operator `$!`)?
 * What is the function `deepseq` (and operator `$!!`)?
 * Could using `seq` change the returned value of the function?
@@ -349,17 +351,17 @@ Quite hard to read for this level, you would better reread it later.
 
 ### Generics
 
-  * What is generic programming?
-  * What is `Generic` type class and what is its main goal?
-  * What is the difference between `Generic` and `Generic1` typeclasses?
-  * What are the primitive types that can describe all other Haskell algebraic data types (`K1`, `:+:`, etc)?
-  * How to create default methods of typeclasses for data types that has `Generic` instance?
-  * What is type family `Rep` and what is its main goal?
-  * How to get data type name, constructor name, field names (for record fields)?
-  * Is there a possibility to check if the data type is a `newtype` wrapper?
-  * Suppose we have `data Example b c = A | B b | C Int c`:
-    * What is the `Rep (Example b c)` type?
-    * What would be the result of `to (C 2 "fsd")`?
+* What is generic programming?
+* What is `Generic` type class and what is its main goal?
+* What is the difference between `Generic` and `Generic1` typeclasses?
+* What are the primitive types that can describe all other Haskell algebraic data types (`K1`, `:+:`, etc)?
+* How to create default methods of typeclasses for data types that has `Generic` instance?
+* What is type family `Rep` and what is its main goal?
+* How to get data type name, constructor name, field names (for record fields)?
+* Is there a possibility to check if the data type is a `newtype` wrapper?
+* Suppose we have `data Example b c = A | B b | C Int c`:
+  * What is the `Rep (Example b c)` type?
+  * What would be the result of `to (C 2 "fsd")`?
 
 ##### Resources
 
@@ -371,7 +373,10 @@ Quite hard to read for this level, you would better reread it later.
 ### Testing
 
 * What are three most popular approaches to make code testable in Haskell?
-* How MTL-style monad allow you to mock real implementation?
+  * Final tagless
+  * `Handle`/`Service` pattern
+  * Free Monads
+* How MTL-style monad allows you to mock real implementation?
 * How can you pass dictionaries to switch the behavior of the program in various contexts?
 
 ##### Resources
