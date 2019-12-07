@@ -2,11 +2,19 @@
 
 ## Questions
 
-* What are the advantages of using AWS?  
-Could you compare AWS to three most close alternatives?
+* What are the advantages of using AWS?
+  * Could you compare AWS to three most close alternatives (Microsoft Azure, Google Cloud Platform, and OpenStack)?
+  * Compare these alternatives by:
+    * Number of services
+    * SDK languages
+    * Integration into development
+    * Relational/NoSQL database support
+    * DNS service
+    * Virtual network service
+    * Deployment tools
 * What are regions? What are availability zones?
 * What are stateless and stateful servers?
-* What is fault tolerance?  
+* What is fault tolerance?
 What techniques could ensure this property?
 * Basic understanding of services:
   * EC2
