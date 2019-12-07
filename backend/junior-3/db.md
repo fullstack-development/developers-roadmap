@@ -2,10 +2,12 @@
 
 ## Questions
 
-* What is CAP theorem?  
-Does it work in real world?
-* What are indexes?  
-How do indexes impact the effectiveness of queries?  
+* What is CAP theorem?
+  * Does it work in real world?
+  * What combination of CAP guarantees is not encountered in practice?
+* What are indexes?
+  * How do indexes impact the effectiveness of queries?
+  * What are the pros and cons of adding an index?
 * What are Views in Postgresql?
 * What are Sequences in Postgresql?
 * What is `VACUUM` operation in Postgresql?
@@ -14,12 +16,13 @@ How do indexes impact the effectiveness of queries?
   * Why expected cost and actual results can differ?
   * Why do `EXPLAIN` results have tree structure and what are the nodes?
   * Why `cost` and `time` parts of nodes have range structure? What is a start and what is an end?
-  * What are `Seq`, `Index`, `Index Only` and `Bitmap` Scans?  
-  How do planner choices impact the computer resources consumption?
+  * What are `Seq`, `Index`, `Index Only` and `Bitmap` Scans?
+    * How do planner choices impact the computer resources consumption?
+    * When `Seq Scan` would be the best choice?
   * How are `Sort`, `Limit` and `HashAggregate` described in `EXPLAIN` output?
-  * What are `Nested Loop`, `Merge Join` and `Hash Join`?  
-  What is the most effective operation?  
-  Should you trust planner choices 100 percent of the times?
+  * What are `Nested Loop`, `Merge Join` and `Hash Join`?
+    * What is the most effective operation?
+    * Should you trust planner choices 100 percent of the times?
   * What do `Result` and `Materialize` in `EXPLAIN` mean?
 * Why `count(*)` is usually faster than `count(specific_row)` and `SELECT reltuples FROM pg_class` is even faster?
 
