@@ -22,18 +22,18 @@ Why does the feedback matter?
 * What time do you think you should spend on a one programming cycle: `writing tests -> coding changes -> refactoring`?
 * Why does the speed of running all tests matter?
 * How to make the reason of test failure obvious?
-* What are integration tests?  
-How do unit-tests differ from integration tests?  
-Why it is more difficult to write and support integration tests?
+* What are integration tests?
+  * How do unit-tests differ from integration tests?
+  * Why it is more difficult to write and support integration tests?
 * What is test covering?
-  * How to find a balance between a number of tests and test covering?  
+  * How to find a balance between a number of tests and test covering?
   What problems does the pursuit of 100% covering bring?
-* How do tests help in application construction?  
+* How do tests help in application construction?
 Why testability of a module is a good indicator of clear code?
 
 #### Resources
 
-* [A quick guide to Manual Testing Vs Automated Testing](https://reqtest.com/testing-blog/manual-testing-vs-automated-testing/) 
+* [A quick guide to Manual Testing Vs Automated Testing](https://reqtest.com/testing-blog/manual-testing-vs-automated-testing/)
 * [Зачем нужны юнит-тесты](https://tproger.ru/translations/unit-tests-purposes/)
 * [Как, используя TDD, сократить время разработки](https://www.simbirsoft.com/blog/razrabotka-cherez-testirovanie-polza-i-vred/)
 * [Об использовании модульных тестов и TDD](https://eax.me/unit-testing/)
