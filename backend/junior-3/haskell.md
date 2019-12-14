@@ -135,9 +135,9 @@
   * What are the three variations of type families: closed, open, associated?
   What are their difference and purpose?
   * What is injectivity?
-  * Is open data family injective? Is open type family injective?
+  * Is open type/data family injective?
   Would type/data family be injective if it was associated with a type class?
-  Would type/data family be injective if it would be closed or open?
+  Would type/data family be injective if it would be closed?
   * Why there are no closed data families?
   * Can open type family instances overlap with parameters? Can closed typed families do it?
   * How closed type families can help to create overlapping type classes instances?
@@ -150,7 +150,7 @@
   * How GADT helps us to go from type level to term level in pattern matching?
   * Are record fields available for GADT?
   * Is it considered a good practice to put constraints in consructors inside GADT declaration?
-  * How does deriving instances work for GADT? Are there some problems?
+  * How does deriving instances work for GADT? What problems may occur?
 * Data Kinds
   * What is the kind `*`? What is the kind `Type`?
   * What is the data type promotion?
@@ -163,23 +163,23 @@
   * What are the dependant types and how `DataKinds` allow us to get closer to them?
 * Polymorphic Kinds
   * What is the main goal of `PolyKinds`?
-  * When it could be useful?
+  * How it can be used?
   * What declarations would have the inferred kind `*` and not polykinded `forall k. k`?
   * What is `Proxy` datatype? What is it used for? Why do we need `PolyKinds` to implement it?
 * `ScopedTypeVariables`
 * Higher ranked types
   * What is a "rank" of a function?
   * Give examples of rank-1, rank-2, rank-3 functions.
-  * In which cases do we need `ExistentialQuantification` and in which we need `RankNTypes`?
+  * Provide example cases on when we can use `ExistentialQuantification` and when we can use `RankNTypes`.
   * Can we create datatypes and newtypes with `RankNTypes`?
   * Can we use constraints with `RankNTypes`?
-* Existential Quantification
+* `ExistentialQuantification`
   * What is the main goal of the `ExistentialQuantification` extension?
   * Can we use constraints for types of quantified constructor parameters?
   * Can we use different constraints for different constructor?
   * Could we use existentially quantified types in record constructors?
   * What is the scope of existential type variables?
-  * Can we use Existential Quantification when declaring `newtype`?
+  * Can we use `ExistentialQuantification` when declaring `newtype`?
   * Can we pattern-match on an existentially quantified constructor in `let` or `where` block?
   * Can we pattern-match on an existentially quantified constructor in `case` block?
   * Can we use `deriving` with existentially quantified data types?
