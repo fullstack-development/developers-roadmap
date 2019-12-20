@@ -167,9 +167,11 @@
   * What declarations would have the inferred kind `*` and not polykinded `forall k. k`?
   * What is `Proxy` datatype? What is it used for? Why do we need `PolyKinds` to implement it?
 * `ScopedTypeVariables`
+  * What is the main goal of this extension?
 * Higher ranked types
   * What is a "rank" of a function?
   * Give examples of rank-1, rank-2, rank-3 functions.
+  * What is the main goal of `RankNTypes` extension?
   * Provide example cases on when we can use `ExistentialQuantification` and when we can use `RankNTypes`.
   * Can we create datatypes and newtypes with `RankNTypes`?
   * Can we use constraints with `RankNTypes`?
