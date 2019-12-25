@@ -37,7 +37,7 @@ Why does the feedback matter?
 * What is test covering?
   * How to find a balance between a number of tests and test covering?
   What problems does the pursuit of 100% covering bring?
-* How do tests help in application construction?
+* How do tests help while designing software architecture?
 Why testability of a module is a good indicator of clear code?
 * How do side-effects impact code testability?
 * How to test functions which are not exported from a module?
