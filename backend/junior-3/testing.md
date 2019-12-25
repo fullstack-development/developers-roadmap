@@ -11,8 +11,11 @@ This section is a translation of the following questions lists:
 * What is automated testing, and how does it differ from manual?
   * What is the regression bug problem and how automated testing helps solving it?
   * What stages of manual testing are omitted by using automated testing instead?
+  * Is automated testing automatic tests an essential requirement?
 * What is a unit-test?
   * Why is it useful to write unit-tests in groups?
+  * What are the pros and cons of testing one smallest conception for a one unit-test?
+  * What are the pros and cons of making tests isolated and self-contained?
 * How do tests help novice programmers?
 * How do tests help in writing project documentation?
 * How do tests help with receiving feedback from the coding process?
@@ -36,6 +39,11 @@ Why does the feedback matter?
   What problems does the pursuit of 100% covering bring?
 * How do tests help in application construction?
 Why testability of a module is a good indicator of clear code?
+* How do side-effects impact code testability?
+* How to test functions which are not exported from a module?
+Are these tests required?
+* What is a heisenbug?
+What are the methods of debugging it?
 
 #### Resources
 
