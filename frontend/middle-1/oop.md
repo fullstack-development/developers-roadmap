@@ -26,3 +26,4 @@
 * [Uses and Abuses of Inheritance, Part 2](http://www.gotw.ca/publications/mill07.htm)
 * [Принципы проектирования классов (S.O.L.I.D.)](https://blog.byndyu.ru/2009/10/solid.html)
 * [OTA SOLID (интерактивный ресурс)](https://ota-solid.now.sh)
+* [SOLID Principles with Uncle Bob - Robert C. Martin](https://www.hanselminutes.com/145/solid-principles-with-uncle-bob-robert-c-martin)
