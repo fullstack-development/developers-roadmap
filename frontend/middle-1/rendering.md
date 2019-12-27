@@ -1,4 +1,4 @@
-# Изоморфный рендеринг
+# Pендеринг
 
 * Процесс отрисовки веб-страницы браузером.
 
@@ -9,5 +9,5 @@
 
 # Доп. материалы
 
-* [report sources - From code to pixels in a blink](https://www.one-tab.com/page/QyyIbcdcQgCkNemuQsOzLw)
+* [материалы доклада - From code to pixels in a blink](https://www.one-tab.com/page/QyyIbcdcQgCkNemuQsOzLw)
 * [CSS Triggers](https://csstriggers.com/)
