@@ -11,7 +11,7 @@ This section is a translation of the following questions lists:
 * What is automated testing, and how does it differ from manual?
   * What is the regression bug problem and how automated testing helps solving it?
   * What stages of manual testing are omitted by using automated testing instead?
-  * Is automated testing automatic tests an essential requirement?
+  * Do you need to automatically test the automatic tests?
 * What is a unit-test?
   * Why is it useful to write unit-tests in groups?
   * What are the pros and cons of testing one smallest conception for a one unit-test?
