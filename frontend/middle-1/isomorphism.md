@@ -1,5 +1,5 @@
 # Изоморфный рендеринг
-* Процесс отрисовки веб-страницы браузером.
+
 * Что такое серверный/клиентский/изоморфный рендеринг? Каковы их отличия?
 * Как из обычного приложения сделать изоморфное? (подробно рассказать про изоморфность, посмотреть примеры реализации)
 * Рассказать общую архитектуру серверного/клиентского/изоморфного рендера:
@@ -14,11 +14,7 @@
 * Когда вы бы посоветовали заказчику использовать клиентский рендер, а когда изоморфный?
 
 # Ресурсы
-* [Производительность визуализации](https://developers.google.com/web/fundamentals/performance/rendering/)
-* [From code to pixels in a Blink](https://www.youtube.com/watch?v=p6pjZ-qzkuE)
+
 * [Talk, Универсальный JavaScript, Сергей Черепанов](https://www.youtube.com/watch?v=Y5RV5Ys0-00)
 * [Talk, Server Rendering with React and React Router v4](https://www.youtube.com/watch?v=mZEv4mHsU5E)
 * [Why Isomorphic JavaScript?](https://www.oreilly.com/library/view/building-isomorphic-javascript/9781491932926/ch01.html)
-# Доп. материалы по рендерингу
-* [report sources - From code to pixels in a blink](https://www.one-tab.com/page/QyyIbcdcQgCkNemuQsOzLw)
-* [CSS Triggers](https://csstriggers.com/)
