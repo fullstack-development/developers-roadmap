@@ -85,13 +85,11 @@
         return <button onClick={this.handleButtonClick}>Click me</button>;
       }
 
-      @bind
       handleButtonClick(e) {
         e.stopPropagation();
         alert('click button');
       }
 
-      @bind
       handleDocumentClick() {
         alert('click document');
       }
