@@ -46,4 +46,7 @@
 
 ### Ресурсы
 
+* [Data Type](https://en.wikipedia.org/wiki/Data_type)
+* [Abstract data Type](https://en.wikipedia.org/wiki/Abstract_data_type)
+* [Data structure](https://en.wikipedia.org/wiki/Data_structure)
 * [Abstract Data Types](https://www.geeksforgeeks.org/abstract-data-types/)
