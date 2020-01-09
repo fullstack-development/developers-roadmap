@@ -10,5 +10,5 @@
 
 * [Производительность визуализации](https://developers.google.com/web/fundamentals/performance/rendering/)
 * [From code to pixels in a Blink](https://www.youtube.com/watch?v=p6pjZ-qzkuE)
-  * [материалы доклада](https://www.one-tab.com/page/QyyIbcdcQgCkNemuQsOzLw)
+  * [Материалы доклада](https://www.one-tab.com/page/QyyIbcdcQgCkNemuQsOzLw)
 * [CSS Triggers](https://csstriggers.com/)
