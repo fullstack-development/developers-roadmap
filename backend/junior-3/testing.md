@@ -1,12 +1,10 @@
 # Testing for Junior-3
 
-This section is a translation of the following questions lists:
+__This section is a translation of the following questions _lists_:__
 
-* [front/jun-1](/frontend/junior-1/testing.md)
-* [front/jun-2](/frontend/junior-2/testing.md)
-* [front/jun-3](/frontend/junior-3/testing.md)
-
-## Questions
+> * [front/jun-1](/frontend/junior-1/testing.md)
+> * [front/jun-2](/frontend/junior-2/testing.md)
+> * [front/jun-3](/frontend/junior-3/testing.md)
 
 * What is automated testing, and how does it differ from manual?
   * What is the regression bug problem and how automated testing helps solving it?
