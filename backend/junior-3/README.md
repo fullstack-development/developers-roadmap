@@ -5,3 +5,4 @@ Junior back-end developer 3 level.
 ## Areas of expertise
 
 - [Haskell](./haskell.md)
+- [Testing](./testing.md)
