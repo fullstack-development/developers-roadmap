@@ -27,3 +27,4 @@
 * [Types and Tests](https://blog.cleancoder.com/uncle-bob/2017/01/13/TypesAndTests.html)
 * [Mocks Aren't Stubs](https://www.martinfowler.com/articles/mocksArentStubs.html)
 * [We don't write tests. There just isn't time for luxuries.](https://www.jamesgolick.com/2007/8/22/we-dont-write-tests-there-just-isnt-time-for-luxuries.html)
+* [Юнит-тестирование для чайников](https://habr.com/en/post/169381/)
