@@ -160,8 +160,10 @@ This level requires basic skills to solve local tasks in a project.
   * `Writer`.
   * `State`.
   * `IO`.
+* How can you define `Reader` or `Writer` with `State`? Is it possible to do otherwise?
 * `do`-notation.
 * How does Monad differ from Functor and Applicative?
+  * What will happen after evaluating the function `putStrLn <$> getLine`? Explain why.
 * Error management strategies:
   * How do `Maybe` and `Either` help with error management?
   * How to use `try`, `catch` and `throw` functions?
