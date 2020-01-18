@@ -13,3 +13,5 @@
 ### Ресурсы
 
 * [JS testing tools overview](https://medium.com/welldone-software/an-overview-of-javascript-testing-in-2019-264e19514d0a)
+* Чистый код. Создание, анализ, рефакторинг (Роберт Мартин, глава 9 "Модульные тесты")
+* [Гид по ручному тестированию приложений: преимущества, этапы и методологии](https://habr.com/ru/company/skillbox/blog/418889/)
