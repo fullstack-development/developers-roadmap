@@ -38,7 +38,8 @@
 * Что такое React Fragment? Для чего он нужен? Как его использовать?
 * Performance
   * Когда передача инлайн-коллбека ухудшает производительность и почему? Пример: `<LoginButton onClick={(e) => this.handleClick(e, user)}>`
-* Что такое refs? Зачем они нужны? Как их использвать?
+* refs
+  * Что это такое? Зачем нужны? Как их использовать?
   * Что делает и зачем нужен метод `React.forwardRef`?
   * Почему refs стоит использовать умеренно?
 * Controlled и uncontrolled компоненты
@@ -61,5 +62,6 @@
   ```
 
 ### Ресурсы
+
 * [React Documentation](https://reactJS.org/docs/getting-started.html)
 * [Why Do We Write super(props)?](https://overreacted.io/why-do-we-write-super-props/)

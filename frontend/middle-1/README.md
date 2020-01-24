@@ -2,7 +2,8 @@
 
 - [ООП](./oop.md)
 - [ФП](./fp.md)
-- [Структуры данных](./dataStructures.md)
+- [Структуры и типы данных](./dataTypesAndStructures.md)
+- [Базовые принципы проектирования](./design.md)
 - [Асинхронность](./async.md)
 - [Генераторы](./generators.md)
 - [Изоморфность](./isomorphism.md)

@@ -1,6 +1,7 @@
 # Linux administration for Junior-1
 
-## Themes:
+## Themes
+
 * Bash scripts:
   * Functions.
   * Variables.
@@ -15,6 +16,7 @@
   * Removing.
   * Renaming.
   * Writing in a file without using text editors.
+  * What is the purpose of `Pipe` operator?
 * Processes:
   * How to send a signal to a process? Which signals could be sent?
   * How to list all processes?
@@ -29,7 +31,7 @@
   * Concept of users and user groups in Linux.
   * Access rights of users and groups. Access permissions of file system objects.
   * How to change access rights to a file?
-  * How to access a file as another user? 
+  * How to access a file as another user?
   * Who is the root user in Linux? How to access a file as a root user?
 * What is the purpose of `man` command?
 * How to use `curl` program?
@@ -65,7 +67,8 @@
     * `reset`
     * `stash`
 
-### Resources:
+### Resources
+
 * [Введение в Linux - stepik](https://stepik.org/course/73/)
 * Processes:
   * [How To Use Systemctl to Manage Systemd Services and Units](https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units)

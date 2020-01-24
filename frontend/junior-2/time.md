@@ -11,6 +11,7 @@
 * Можно ли сконвертировать дату в JSON?
 
 ### Ресурсы
+
 * [раздел Дата (developer.mozilla.org)](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Date)
 * [Разница между GMT и UTC](http://qaru.site/questions/15211213/difference-between-utc-and-gmt)
 * [Unix-время](https://dic.academic.ru/dic.nsf/ruwiki/752713)
