@@ -44,6 +44,11 @@
 
 * [Functional-Light JavaScript (Kyle Simpson)](https://github.com/getify/Functional-Light-JS)
   * [Перевод](https://github.com/fxzhukov/Functional-Light-JS-RU)
+* [Robert C Martin - Functional Programming; What? Why? When?](https://www.youtube.com/watch?v=7Zlp9rKHGD4)
+* [Functional architecture: a definition](https://blog.ploeh.dk/2018/11/19/functional-architecture-a-definition/)
 * [Functional architecture - The pits of success - Mark Seemann](https://www.youtube.com/watch?v=US8QG9I1XW0)
 * [Functional architecture is Ports and Adapters](https://blog.ploeh.dk/2016/03/18/functional-architecture-is-ports-and-adapters/)
+* [Functional Programming Design Patterns](https://fsharpforfunandprofit.com/fppatterns/)
+  * [Перевод](https://habr.com/en/post/337880/)
 * [What is idempotence?](https://szymonkrajewski.pl/what-is-idempotence/)
+* [Thirteen ways of looking at a turtle](https://fsharpforfunandprofit.com/posts/13-ways-of-looking-at-a-turtle/)
