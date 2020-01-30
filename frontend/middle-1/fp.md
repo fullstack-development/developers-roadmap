@@ -51,5 +51,6 @@
 * [Functional Programming Design Patterns](https://fsharpforfunandprofit.com/fppatterns/)
   * [Перевод](https://habr.com/en/post/337880/)
 * [What is idempotence?](https://szymonkrajewski.pl/what-is-idempotence/)
+* [Why Functional Programming? The Benefits of Referential Transparency](https://sookocheff.com/post/fp/why-functional-programming/)
 * [Осторожно! Возможны побочные эффекты](https://blog.csssr.ru/2017/10/07/side-effects)
 * [Thirteen ways of looking at a turtle](https://fsharpforfunandprofit.com/posts/13-ways-of-looking-at-a-turtle/)
