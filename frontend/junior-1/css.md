@@ -5,6 +5,7 @@
 * Что делает свойство `vertical-align`? Какие у него есть значения?
 * Что такое `padding`?
 * Что такое `box-sizing`?
+* Как рассчитываются width и height заданные в процентах?
 * Шрифты
   * Как и в каких единицах можно задавать размер шрифта?
   * В каких форматах можно задавать цвет шрифта?
@@ -99,6 +100,7 @@
 ### Ресурсы:
 
 * [Разбираемся с vertical-align](https://web-standards.ru/articles/vertical-align/)
+* [Особенности свойства height в %](https://learn.javascript.ru/height-percent/)
 * [What You May Not Know About the Z-Index Property](https://webdesign.tutsplus.com/articles/what-you-may-not-know-about-the-z-index-property--webdesign-16892)
 * [Контекст наложения](https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context)
 * [Приоритеты (специфичность) селекторов](https://habr.com/ru/post/137588/)
