@@ -85,8 +85,12 @@
     * Что делает свойство `transform`? Какие значения ему можно задавать?
     * Можно ли задать несколько трансформаций для элемента?
     * Изменяется ли положение координатной плоскости при трансформациях?
+* Единицы измерения
+  * Как рассчитываются width и height заданные в процентах?
+  * Как рассчитываются padding и margin заданные в процентах?
+  * Как рассчитывается line-height заданный в процентах?
+  * Как пользоваться `vh`, `vw`, `vmin`, `vmax`?
 * Как стилизовать чекбокс?
-* Как пользоваться единицами измерений `vh`, `vw`, `vmin`, `vmax`.
 * Как прижать футер к низу страницы (назвать хотя бы два способа)?
 * Как отцентровать элемент по горизонтали (назвать хотя бы три способа)?
 * Как отцентровать элемент по вертикали (назвать хотя бы три способа)?
@@ -99,6 +103,8 @@
 ### Ресурсы:
 
 * [Разбираемся с vertical-align](https://web-standards.ru/articles/vertical-align/)
+* [Особенности свойства height в %](https://learn.javascript.ru/height-percent/)
+* [Единицы измерения. Проценты](https://learn.javascript.ru/css-units#protsenty/)
 * [What You May Not Know About the Z-Index Property](https://webdesign.tutsplus.com/articles/what-you-may-not-know-about-the-z-index-property--webdesign-16892)
 * [Контекст наложения](https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context)
 * [Приоритеты (специфичность) селекторов](https://habr.com/ru/post/137588/)
