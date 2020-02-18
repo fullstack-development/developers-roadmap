@@ -118,7 +118,7 @@ This level requires basic skills to solve local tasks in a project.
 
 ## Typeclasses (one parameter)
 
-* What are typeclasses?
+* What is typeclass?
 * Why do we use them?
 * What is a superclass? How to define a superclass relation?
 * Standard typeclasses:
@@ -152,7 +152,7 @@ This level requires basic skills to solve local tasks in a project.
   * Implement `bind` from `join` and backwards.
   * What is Kleisli arrow (category)?
   * Monad laws.
-* Basic monads list:
+* Basic monads:
   * `Maybe`.
   * `Either`.
   * `List`.
@@ -179,16 +179,24 @@ This level requires basic skills to solve local tasks in a project.
 ## Monad transformers
 
 * What is `lift` function?
-* What is `liftIO` function?
+  * Explain the type signature for `lift` function.
+  * Why resulted type of `lift` application can't be `t (m a)`?
 * What are `MonadTrans` laws?
 * What transformer is used with `Either`?
 * How to use `IO` monad in a transformer stack?
-* Is there a difference between using `MaybeT (StateT IO) ()` and `StateT (MaybeT IO) ()`?
+  * How many `lift` functions requires to access the bottom monad in transformer stack?
+  * What is `liftIO` function?
+  * Why `IO` monad must be at the bottom?
+* Is there a difference between using `MaybeT (StateT IO s) ()` and `StateT (MaybeT IO) s ()`?
+* How to run a Monad Transformer?
 
 ## Type inference
 
 * What does type inference mean?
 * Basic concepts of Hindley-Milner type inference.
+  * What steps does the algorithm takes to infer a type?
+  * Up to what degree does the algorithm infer a type: the most polymorphic or the most concrete? Explain why.
+  * Explain the limitation of monomorphism.
 * How we can get following problems while types inferring? How to solve them?
   * Ambiguity.
   * Deducing problem.
@@ -198,18 +206,18 @@ This level requires basic skills to solve local tasks in a project.
 
 ## Lazy evaluation
 
-* What is the difference between laziness and non-strictness?
-  What is the difference between eager and strict evaluation?
-* What is a redex?
+* What is *strict* and *non-strict* evaluation strategy? Explain the difference between them.
+* What is lazy evaluation? How it differs from eager evaluation?
 * What is outside in and inside out evaluation?
-* What is lazy evaluation?
-* How it differs from eager evaluation? What are the pros and cons of lazy evaluation?
+* What is a redex?
+* What are the pros and cons of lazy evaluation? Provide some examples.
 * Is Haskell a lazy language?
 * What is thunk?
   * Describe the concept of its inner structure.
   * Could you think of cases when thunk occupies less space than the evaluated value and visa versa?
   * Can you nest thunks?
-* What is the difference between call by value, call by name and call by need?
+  * Can thunks be recursive?
+* What is the difference between *call by value*, *call by name* and *call by need*?
 * What is WHNF?
 * Are next expressions in WHNF or NF?
   * `(*) (2 + 2)`
@@ -220,6 +228,7 @@ This level requires basic skills to solve local tasks in a project.
   * `15`
   * `\x -> x * 2`
   * `(\x -> x + 1) 3`
+* Can haskell evaluate in strict mode?
 * Why strict functions in Haskell evaluate values to WHNF and not NF?
 
 ### Resources
@@ -246,12 +255,25 @@ This level requires basic skills to solve local tasks in a project.
   * [Haskell module system](https://ro-che.info/articles/2012-12-25-haskell-module-system-p1)
   * [Haskell export current module with additional imported module - Stackoverflow](https://stackoverflow.com/questions/18035458/haskell-export-current-module-with-additional-imported-module)
   * [Modules declaration, import and export rules](https://www.haskell.org/onlinereport/haskell2010/haskellch5.html)
+* Type inference:
+  * [Лекция 1 | Вывод типов от Хиндли-Милнера до GHC 8.8 | Виталий Брагилевский | Лекториум - youtube](https://youtu.be/_HYI7zjkrEs)
+  * [Types and Type Inference - presentation](http://www.cs.tau.ac.il/~msagiv/courses/apl12/types.pdf)
 * Lazy evaluation:
   * [Как работают ленивые вычисления - habr](https://habr.com/ru/post/247213/)
   * [Lazy vs. non-strict - Haskell wiki](https://wiki.haskell.org/Lazy_vs._non-strict)
   * [WHNF - Haskell wiki](https://wiki.haskell.org/Weak_head_normal_form)
-  * [GHC illustrated (about thunk inner structure)](https://takenobu-hs.github.io/downloads/haskell_ghc_illustrated.pdf)
+  * [GHC illustrated (about thunk inner structure) - presentation](https://takenobu-hs.github.io/downloads/haskell_ghc_illustrated.pdf)
+  * [What is Weak Head Normal Form? - Stackoverflow](https://stackoverflow.com/questions/6872898/what-is-weak-head-normal-form/6889335#6889335)
+  * [Evaluation strategy - wiki](https://en.wikipedia.org/wiki/Evaluation_strategy)
+  * [Brief normal forms explanation with Haskell - Medium article](https://medium.com/@aleksandrasays/brief-normal-forms-explanation-with-haskell-cd5dfa94a157)
+  * [All About Strictness. - FP Complete](https://www.fpcomplete.com/blog/2017/09/all-about-strictness)
+  * [Does a function in Haskell always evaluate its return value? - Stackoverflow](https://stackoverflow.com/questions/27685224/does-a-function-in-haskell-always-evaluate-its-return-value)
 * Monads:
   * [All about monad - Haskell wiki](https://wiki.haskell.org/All_About_Monads)
 * Exceptions:
   * [Скандальная правда об обработке исключений в Haskell](https://eax.me/haskell-exceptions/)
+
+* Books
+  - _Учебник по Haskell_ by Антон Холомьёв (RUS)
+    - Chapters 1-9 at least
+  - _Real World Haskell_ by Bryan O'Sullivan, Don Stewart, and John Goerzen (ENG)
