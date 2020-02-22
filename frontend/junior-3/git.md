@@ -33,3 +33,4 @@
 * [Useful tricks you might not know about Git stash](https://medium.freecodecamp.org/useful-tricks-you-might-not-know-about-git-stash-e8a9490f0a1a)
 * [Introduction to GitLab Flow](https://docs.gitlab.com/ee/workflow/gitlab_flow.html)
 * [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
+* [Git from the Bottom Up](https://jwiegley.github.io/git-from-the-bottom-up/)
