@@ -209,7 +209,6 @@ This level requires basic skills to solve local tasks in a project.
   * [Свертки списков - IBM](https://www.ibm.com/developerworks/ru/library/l-haskell4/)
   * [`foldr`, `foldl` - Haskell wiki](https://wiki.haskell.org/Foldr_Foldl_Foldl%27)
   * [`foldl` as `foldr` - Haskell wiki](https://wiki.haskell.org/Foldl_as_foldr)
-  * [Why `foldr` works for infinite lists and `foldl` doesn’t](http://lambda.jstolarek.com/2012/09/why-foldr-works-for-infinite-lists-and-foldl-doesnt/)
 * Modules:
   * [Haskell module system](https://ro-che.info/articles/2012-12-25-haskell-module-system-p1)
   * [Haskell export current module with additional imported module - Stackoverflow](https://stackoverflow.com/questions/18035458/haskell-export-current-module-with-additional-imported-module)
