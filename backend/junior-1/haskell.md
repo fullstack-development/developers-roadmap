@@ -91,22 +91,10 @@ This level requires basic skills to solve local tasks in a project.
   * How to export type synonym?
   * How to export imported module?
   * How to export constructors `Just`, `Nothing` and function `fromMaybe` in the following example?
-
     ```haskell
     module A(?) where  
       import qualified Data.Maybe as Mb
     ```
-
-  * What will be exported in this case:
-
-    ```haskell
-    module External (
-      module Internal
-      ) where
-    import qualified Internal
-    ```
-
-  * What are cyclic dependencies and what are the methods of resolving them?
 
 ## Language control expressions
 
@@ -129,18 +117,14 @@ This level requires basic skills to solve local tasks in a project.
   * What are the numeric typeclasses in Haskell? What are their relations?
 * What is ad-hoc polymorphism and what are the alternatives?
 * How to specify a typeclass in a type signature?
-* How to make default function implementation?
-  Is it possible to specify the type of default implementation to be distinct from declared typeclass method?
 * What are orphan instances? What is coherence and why is it important to maintain it? What are the possible cases of coherence violation?
 * What is instance deriving? When is it possible to derive an instance?
 
 ## Basic functional programming patterns (and their laws)
 
+* Monoid.
 * Functor.
 * Applicative.
-* Alternative and MonadSum.
-* Monoid.
-* How Monoid and Alternative differ conceptually?
 
 ## Monad
 
@@ -164,11 +148,6 @@ This level requires basic skills to solve local tasks in a project.
 * `do`-notation.
 * How does Monad differ from Functor and Applicative?
   * What will happen after evaluating the function `putStrLn <$> getLine`? Explain why.
-* Error management strategies:
-  * How do `Maybe` and `Either` help with error management?
-  * How to use `try`, `catch` and `throw` functions?
-  * Can `throw` and `catch` be called in pure functions?
-  * What is the difference between `throw` and `throwIO` functions?
 * How to use the following functions?
   * `filterM`
   * `foldM`
@@ -188,13 +167,6 @@ This level requires basic skills to solve local tasks in a project.
 ## Type inference
 
 * What does type inference mean?
-* Basic concepts of Hindley-Milner type inference.
-* How we can get following problems while types inferring? How to solve them?
-  * Ambiguity.
-  * Deducing problem.
-  * Matching problem.
-  * Infinite type problem:
-    * What’s result of computation `let t = [t] in t`? How to explain this behavior?
 
 ## Lazy evaluation
 
@@ -243,8 +215,6 @@ This level requires basic skills to solve local tasks in a project.
   * [Fixing `foldl`](http://www.well-typed.com/blog/90/)
   * [Why `foldr` works for infinite lists and `foldl` doesn’t](http://lambda.jstolarek.com/2012/09/why-foldr-works-for-infinite-lists-and-foldl-doesnt/)
 * Modules:
-  * [Haskell module system](https://ro-che.info/articles/2012-12-25-haskell-module-system-p1)
-  * [Haskell export current module with additional imported module - Stackoverflow](https://stackoverflow.com/questions/18035458/haskell-export-current-module-with-additional-imported-module)
   * [Modules declaration, import and export rules](https://www.haskell.org/onlinereport/haskell2010/haskellch5.html)
 * Lazy evaluation:
   * [Как работают ленивые вычисления - habr](https://habr.com/ru/post/247213/)
@@ -253,5 +223,3 @@ This level requires basic skills to solve local tasks in a project.
   * [GHC illustrated (about thunk inner structure)](https://takenobu-hs.github.io/downloads/haskell_ghc_illustrated.pdf)
 * Monads:
   * [All about monad - Haskell wiki](https://wiki.haskell.org/All_About_Monads)
-* Exceptions:
-  * [Скандальная правда об обработке исключений в Haskell](https://eax.me/haskell-exceptions/)
