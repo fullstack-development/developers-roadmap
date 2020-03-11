@@ -2,21 +2,6 @@
 
 ## Themes
 
-* Bash scripts:
-  * Functions.
-  * Variables.
-  * Program arguments.
-  * Cycles.
-  * `If` conditions.
-  * `Case` expressions.
-* Working with files:
-  * Creation.
-  * Copying.
-  * Moving.
-  * Removing.
-  * Renaming.
-  * Writing in a file without using text editors.
-  * What is the purpose of `Pipe` operator?
 * Processes:
   * How to send a signal to a process? Which signals could be sent?
   * How to list all processes?
