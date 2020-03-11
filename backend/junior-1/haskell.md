@@ -91,21 +91,17 @@ This level requires basic skills to solve local tasks in a project.
   * How to export type synonym?
   * How to export imported module?
   * How to export constructors `Just`, `Nothing` and function `fromMaybe` in the following example?
-
     ```haskell
     module A(?) where  
       import qualified Data.Maybe as Mb
     ```
-
   * What will be exported in this case:
-
     ```haskell
     module External (
       module Internal
       ) where
     import qualified Internal
     ```
-
   * What are cyclic dependencies and what are the methods of resolving them?
 
 ## Language control expressions
@@ -152,7 +148,7 @@ This level requires basic skills to solve local tasks in a project.
   * Implement `bind` from `join` and backwards.
   * What is Kleisli arrow (category)?
   * Monad laws.
-* Basic monads:
+* Explain basic monad effects:
   * `Maybe`.
   * `Either`.
   * `List`.
@@ -163,7 +159,6 @@ This level requires basic skills to solve local tasks in a project.
 * How can you define `Reader` or `Writer` with `State`? Is it possible to do otherwise?
 * `do`-notation.
 * How does Monad differ from Functor and Applicative?
-  * What will happen after evaluating the function `putStrLn <$> getLine`? Explain why.
 * Error management strategies:
   * How do `Maybe` and `Either` help with error management?
   * How to use `try`, `catch` and `throw` functions?
@@ -184,10 +179,8 @@ This level requires basic skills to solve local tasks in a project.
 * What are `MonadTrans` laws?
 * What transformer is used with `Either`?
 * How to use `IO` monad in a transformer stack?
-  * How many `lift` functions requires to access the bottom monad in transformer stack?
   * What is `liftIO` function?
   * Why `IO` monad must be at the bottom?
-* Is there a difference between using `MaybeT (StateT IO s) ()` and `StateT (MaybeT IO) s ()`?
 * How to run a Monad Transformer?
 
 ## Type inference
@@ -196,7 +189,7 @@ This level requires basic skills to solve local tasks in a project.
 * Basic concepts of Hindley-Milner type inference.
   * What steps does the algorithm takes to infer a type?
   * Up to what degree does the algorithm infer a type: the most polymorphic or the most concrete? Explain why.
-  * Explain the limitation of monomorphism.
+  * Monomorphism restriction. What is it?
 * How we can get following problems while types inferring? How to solve them?
   * Ambiguity.
   * Deducing problem.
@@ -206,12 +199,12 @@ This level requires basic skills to solve local tasks in a project.
 
 ## Lazy evaluation
 
-* What is *strict* and *non-strict* evaluation strategy? Explain the difference between them.
-* What is lazy evaluation? How it differs from eager evaluation?
+* What is a reduction strategy? What is an evaluation strategy? How do they differ?
+* What is lazy evaluation? How it differs from eager evaluation? Is lazy evaluation the same as non-strictness?
 * What is outside in and inside out evaluation?
 * What is a redex?
 * What are the pros and cons of lazy evaluation? Provide some examples.
-* Is Haskell a lazy language?
+* What strategy used in Haskell?
 * What is thunk?
   * Describe the concept of its inner structure.
   * Could you think of cases when thunk occupies less space than the evaluated value and visa versa?
@@ -230,6 +223,16 @@ This level requires basic skills to solve local tasks in a project.
   * `(\x -> x + 1) 3`
 * Can haskell evaluate in strict mode?
 * Why strict functions in Haskell evaluate values to WHNF and not NF?
+
+# Advanced
+
+## Monad
+* What will happen after evaluating the function `putStrLn <$> getLine`? Explain why.
+
+## Monad Transformers
+* How many `lift` functions requires to access the bottom monad in transformer stack?
+* Is there a difference between using `MaybeT (StateT IO s) ()` and `StateT (MaybeT IO) s ()`?
+
 
 ### Resources
 
@@ -274,6 +277,5 @@ This level requires basic skills to solve local tasks in a project.
   * [Скандальная правда об обработке исключений в Haskell](https://eax.me/haskell-exceptions/)
 
 * Books
-  - _Учебник по Haskell_ by Антон Холомьёв (RUS)
-    - Chapters 1-9 at least
+  - _Учебник по Haskell_ by Антон Холомьёв (RUS) - Chapters 1-9
   - _Real World Haskell_ by Bryan O'Sullivan, Don Stewart, and John Goerzen (ENG)
