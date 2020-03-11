@@ -30,8 +30,6 @@ This level requires basic skills to solve local tasks in a project.
   * How function composition operator is declared? What are its precedence and associativity?
   * Is function composition associative?
   * What is the associativity of function composition?
-    Is there some other function in Prelude which operates the same (has the same semantics) as function composition operator `(.)`,
-    but has the opposite associativity?
 * Recursion
   * What is the difference between iterative and recursive algorithms?
   * What is a tail recursion?
@@ -126,7 +124,7 @@ This level requires basic skills to solve local tasks in a project.
   * `Show`, `Read`
   * `Enum`
   * `Bounded`
-  * What are the numeric typeclasses in Haskell? What are their relations?
+  * `Num`
 * What is ad-hoc polymorphism and what are the alternatives?
 * How to specify a typeclass in a type signature?
 * How to make default function implementation?
@@ -163,18 +161,11 @@ This level requires basic skills to solve local tasks in a project.
 * How can you define `Reader` or `Writer` with `State`? Is it possible to do otherwise?
 * `do`-notation.
 * How does Monad differ from Functor and Applicative?
-  * What will happen after evaluating the function `putStrLn <$> getLine`? Explain why.
 * Error management strategies:
   * How do `Maybe` and `Either` help with error management?
   * How to use `try`, `catch` and `throw` functions?
   * Can `throw` and `catch` be called in pure functions?
   * What is the difference between `throw` and `throwIO` functions?
-* How to use the following functions?
-  * `filterM`
-  * `foldM`
-  * `forM`
-  * `mapM`
-  * `liftM`
 
 ## Monad transformers
 
@@ -183,7 +174,6 @@ This level requires basic skills to solve local tasks in a project.
 * What are `MonadTrans` laws?
 * What transformer is used with `Either`?
 * How to use `IO` monad in a transformer stack?
-* Is there a difference between using `MaybeT (StateT IO) ()` and `StateT (MaybeT IO) ()`?
 
 ## Type inference
 
@@ -221,6 +211,11 @@ This level requires basic skills to solve local tasks in a project.
   * `\x -> x * 2`
   * `(\x -> x + 1) 3`
 * Why strict functions in Haskell evaluate values to WHNF and not NF?
+
+## Advanced questions
+  * Is there some other function in Prelude which operates the same (has the same semantics) as function composition operator `(.)`, but has the opposite associativity?
+  * What will happen after evaluating the function `putStrLn <$> getLine`? Explain why.
+  * Is there a difference between using `MaybeT (StateT s IO) ()` and `StateT s (MaybeT IO) ()`?
 
 ### Resources
 

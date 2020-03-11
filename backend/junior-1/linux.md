@@ -36,21 +36,6 @@
   * How to configure?
   * How to add a task (2 methods)?
   * How to show all tasks?
-* `git`:
-  * What is `git`? Why do you need Version Control Systems?
-  * What is the difference between git and svn?
-  * What is a commit, and what is a push?
-  * Git branching system:
-    * What is a branch?
-    * What is the difference between `checkout` and `branch` commands?
-  * Describe following commands:
-    * `commit`
-    * `pull`
-    * `merge`
-    * `rebase`
-    * `log`
-    * `reset`
-    * `stash`
 
 ### Resources
 
