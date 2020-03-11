@@ -18,7 +18,6 @@
   * How to change access rights to a file?
   * How to access a file as another user?
   * Who is the root user in Linux? How to access a file as a root user?
-* What is the purpose of `man` command?
 * How to use `curl` program?
   * Send request specifying a method.
   * Send request specifying a body.
