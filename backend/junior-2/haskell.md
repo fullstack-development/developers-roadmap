@@ -40,7 +40,7 @@ Advanced questions about Haskell for everyday usage.
   * What are the laws of `Traversable`?
 * Alternative and MonadSum:
   * What are their laws?
-  * How Monoid and Alternative differ conceptually?
+  * How `Monoid` and `Alternative` differ conceptually?
 
 ## Error management
 
