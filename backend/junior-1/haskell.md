@@ -53,9 +53,7 @@ This level requires basic skills to solve local tasks in a project.
   * What are polymorphic types and polymorphic functions?
   * Examples of polymorphic types and functions.
   * What does instantiation of a type variable mean? Does it happen at run time or at compile time?
-  * Can you put constraints on a type variable within a data declaration?
 * What is bottom (`_|_`)?
-* What is kind?
 
 ## Lists
 
@@ -68,14 +66,11 @@ This level requires basic skills to solve local tasks in a project.
   * `foldl`
   * `foldr`
   * `foldl1`, `foldr1`
-  * `foldl'`, `foldr'`
   * Scans: `scanl`, `scanr`, and others.
   * Examples of using associative and non-associative operators as a folding function.
     What are the differences between these use cases?
   * Does it matter if a folding function has left or right associativity?
-  * How `foldl`, `foldl'`, `foldr` and `foldr'` behave with infinite lists, and why do they have the particular behavior?
-  * When `foldl'` does not solve the problem of deferring too many calculations?
-  * Which fold functions support short-circuit (lazy) evaluation?
+
 
 ## Modules
 
@@ -93,7 +88,7 @@ This level requires basic skills to solve local tasks in a project.
   * How to export constructors `Just`, `Nothing` and function `fromMaybe` in the following example?
 
     ```haskell
-    module A(?) where  
+    module A(?) where
       import qualified Data.Maybe as Mb
     ```
 
@@ -131,7 +126,6 @@ This level requires basic skills to solve local tasks in a project.
 * How to specify a typeclass in a type signature?
 * How to make default function implementation?
   Is it possible to specify the type of default implementation to be distinct from declared typeclass method?
-* What are orphan instances? What is coherence and why is it important to maintain it? What are the possible cases of coherence violation?
 * What is instance deriving? When is it possible to derive an instance?
 
 ## Basic functional programming patterns (and their laws)
@@ -195,31 +189,6 @@ This level requires basic skills to solve local tasks in a project.
   * Infinite type problem:
     * What’s result of computation `let t = [t] in t`? How to explain this behavior?
 
-## Lazy evaluation
-
-* What is the difference between laziness and non-strictness?
-  What is the difference between eager and strict evaluation?
-* What is a redex?
-* What is outside in and inside out evaluation?
-* What is lazy evaluation?
-* How it differs from eager evaluation? What are the pros and cons of lazy evaluation?
-* Is Haskell a lazy language?
-* What is thunk?
-  * Describe the concept of its inner structure.
-  * Could you think of cases when thunk occupies less space than the evaluated value and visa versa?
-  * Can you nest thunks?
-* What is the difference between call by value, call by name and call by need?
-* What is WHNF?
-* Are next expressions in WHNF or NF?
-  * `(*) (2 + 2)`
-  * `thunk`
-  * `1:(thunk)`
-  * `1:2:(thunk)`
-  * `1:2:3:[]`
-  * `15`
-  * `\x -> x * 2`
-  * `(\x -> x + 1) 3`
-* Why strict functions in Haskell evaluate values to WHNF and not NF?
 
 ### Resources
 
@@ -239,17 +208,10 @@ This level requires basic skills to solve local tasks in a project.
   * [Свертки списков - IBM](https://www.ibm.com/developerworks/ru/library/l-haskell4/)
   * [`foldr`, `foldl` - Haskell wiki](https://wiki.haskell.org/Foldr_Foldl_Foldl%27)
   * [`foldl` as `foldr` - Haskell wiki](https://wiki.haskell.org/Foldl_as_foldr)
-  * [Fixing `foldl`](http://www.well-typed.com/blog/90/)
-  * [Why `foldr` works for infinite lists and `foldl` doesn’t](http://lambda.jstolarek.com/2012/09/why-foldr-works-for-infinite-lists-and-foldl-doesnt/)
 * Modules:
   * [Haskell module system](https://ro-che.info/articles/2012-12-25-haskell-module-system-p1)
   * [Haskell export current module with additional imported module - Stackoverflow](https://stackoverflow.com/questions/18035458/haskell-export-current-module-with-additional-imported-module)
   * [Modules declaration, import and export rules](https://www.haskell.org/onlinereport/haskell2010/haskellch5.html)
-* Lazy evaluation:
-  * [Как работают ленивые вычисления - habr](https://habr.com/ru/post/247213/)
-  * [Lazy vs. non-strict - Haskell wiki](https://wiki.haskell.org/Lazy_vs._non-strict)
-  * [WHNF - Haskell wiki](https://wiki.haskell.org/Weak_head_normal_form)
-  * [GHC illustrated (about thunk inner structure)](https://takenobu-hs.github.io/downloads/haskell_ghc_illustrated.pdf)
 * Monads:
   * [All about monad - Haskell wiki](https://wiki.haskell.org/All_About_Monads)
 * Exceptions:
