@@ -42,7 +42,7 @@ This level requires basic skills to solve local tasks in a project.
 * What is a type in Haskell? What is a type signature, what could it specify about a type and how it does that?
 * What is a type synonym (alias)? When it could be useful? How do you use it?
 * Algebraic Data Type:
-  * Why ADT is called Algebraic? What is a cardinality?
+  * Why ADT is called Algebraic?
   * What are the declaration parts?
   * How and why do you use ADTs?
   * How and why the record syntax is used?
@@ -188,7 +188,6 @@ This level requires basic skills to solve local tasks in a project.
 ## Type inference
 
 * What does type inference mean?
-* Basic concepts of Hindley-Milner type inference.
 * How we can get following problems while types inferring? How to solve them?
   * Ambiguity.
   * Deducing problem.
