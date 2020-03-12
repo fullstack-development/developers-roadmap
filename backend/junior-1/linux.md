@@ -2,21 +2,6 @@
 
 ## Themes
 
-* Bash scripts:
-  * Functions.
-  * Variables.
-  * Program arguments.
-  * Cycles.
-  * `If` conditions.
-  * `Case` expressions.
-* Working with files:
-  * Creation.
-  * Copying.
-  * Moving.
-  * Removing.
-  * Renaming.
-  * Writing in a file without using text editors.
-  * What is the purpose of `Pipe` operator?
 * Processes:
   * How to send a signal to a process? Which signals could be sent?
   * How to list all processes?
@@ -33,7 +18,6 @@
   * How to change access rights to a file?
   * How to access a file as another user?
   * Who is the root user in Linux? How to access a file as a root user?
-* What is the purpose of `man` command?
 * How to use `curl` program?
   * Send request specifying a method.
   * Send request specifying a body.
@@ -43,21 +27,6 @@
   * Connection.
   * Configuration.
   * Generating and using authentication keys.
-* `git`:
-  * What is `git`? Why do you need Version Control Systems?
-  * What is the difference between git and svn?
-  * What is a commit, and what is a push?
-  * Git branching system:
-    * What is a branch?
-    * What is the difference between `checkout` and `branch` commands?
-  * Describe following commands:
-    * `commit`
-    * `pull`
-    * `merge`
-    * `rebase`
-    * `log`
-    * `reset`
-    * `stash`
 
 ### Resources
 
