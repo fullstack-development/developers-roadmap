@@ -142,7 +142,7 @@ This level requires basic skills to solve local tasks in a project.
 
 ## Applicative
 
-* What is a Applicative?
+* What is an Applicative?
 * What are Applicative laws?
 
 ## Monad
