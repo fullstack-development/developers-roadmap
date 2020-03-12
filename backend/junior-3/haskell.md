@@ -47,7 +47,6 @@
 * Monads
   * Why is there no function `runIO`?
   * Why `IO` transformer doesn't exist?
-  * Make an overview description of `Update` monad.
 
 ##### Resources
 
@@ -267,17 +266,17 @@
 
 ### Laziness
 
-* What is the difference between laziness and non-strictness?
-  What is the difference between eager and strict evaluation?
-* What is a redex?
+* What is a reduction strategy? What is an evaluation strategy? How do they differ?
+* What is lazy evaluation? How it differs from eager evaluation? Is lazy evaluation the same as non-strictness?
 * What is outside in and inside out evaluation?
-* What is lazy evaluation?
-* How it differs from eager evaluation? What are the pros and cons of lazy evaluation?
-* Is Haskell a lazy language?
+* What is a redex?
+* What are the pros and cons of lazy evaluation? Provide some examples.
+* What strategy used in Haskell?
 * What is thunk?
   * Describe the concept of its inner structure.
   * Could you think of cases when thunk occupies less space than the evaluated value and visa versa?
   * Can you nest thunks?
+  * Can thunks be recursive?
 * What is the difference between call by value, call by name and call by need?
 * What is WHNF?
 * Are next expressions in WHNF or NF?
@@ -289,6 +288,7 @@
   * `15`
   * `\x -> x * 2`
   * `(\x -> x + 1) 3`
+* Can haskell evaluate in strict mode?
 * Why strict functions in Haskell evaluate values to WHNF and not NF?
 * What is the function `seq` (and operator `$!`)?
 * What is the function `deepseq` (and operator `$!!`)?
@@ -348,7 +348,12 @@
   * [Как работают ленивые вычисления - habr](https://habr.com/ru/post/247213/)
   * [Lazy vs. non-strict - Haskell wiki](https://wiki.haskell.org/Lazy_vs._non-strict)
   * [WHNF - Haskell wiki](https://wiki.haskell.org/Weak_head_normal_form)
-  * [GHC illustrated (about thunk inner structure)](https://takenobu-hs.github.io/downloads/haskell_ghc_illustrated.pdf)
+  * [GHC illustrated (about thunk inner structure) - presentation](https://takenobu-hs.github.io/downloads/haskell_ghc_illustrated.pdf)
+  * [What is Weak Head Normal Form? - Stackoverflow](https://stackoverflow.com/questions/6872898/what-is-weak-head-normal-form/6889335#6889335)
+  * [Evaluation strategy - wiki](https://en.wikipedia.org/wiki/Evaluation_strategy)
+  * [Brief normal forms explanation with Haskell - Medium article](https://medium.com/@aleksandrasays/brief-normal-forms-explanation-with-haskell-cd5dfa94a157)
+  * [All About Strictness. - FP Complete](https://www.fpcomplete.com/blog/2017/09/all-about-strictness)
+  * [Does a function in Haskell always evaluate its return value? - Stackoverflow](https://stackoverflow.com/questions/27685224/does-a-function-in-haskell-always-evaluate-its-return-value)
 
 ### Exceptions
 
