@@ -1,6 +1,7 @@
-# Networking for Junior-1
+# Networking for Middle-1
 
-## Themes:
+## Themes
+
 * What layers are represented in OSI and in TCP/IP models?
 * TCP/IP protocol stack:
   * DNS
@@ -12,8 +13,7 @@
   * TCP
     * How does TCP operate? How does it open and close a connection?
     * How does UDP operate?
-    * How do UDP and TCP differ? 
-      When is it better to choose using TCP over UDP and vice versa?
+    * How do UDP and TCP differ? When is it better to choose using TCP over UDP and vice versa?
     * What are the functions of TCP/IP transport layer?
     * What is IPv4 socket?
     * What protocols operate at a transport layer?
@@ -21,14 +21,14 @@
     * What are the types of IP addresses and how do they differ?
     * What are the parts of IP address?
     * What is a subnet mask?
-    * What is a network interface? 
-      Which parameters do define a network interface?
+    * What is a network interface? Which parameters do define a network interface?
     * How to show interfaces list in Linux?
     * What is the purpose of using `lo`, `eth` and `wlan` interfaces?
     * How does addressing an interface differ in a local and in a global networks?
 * What are REST basic principles?
 
-### Resources:
+### Resources
+
 * [Web-технологии - курс Stepik](https://stepik.org/course/154/)
 * DNS:
   * [An Introduction to DNS Terminology, Components, and Concepts](https://www.digitalocean.com/community/tutorials/an-introduction-to-dns-terminology-components-and-concepts)
