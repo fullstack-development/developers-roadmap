@@ -45,7 +45,8 @@
   * What is the purpose of `Data.Either.Validation` and what is the difference between it and `Data.Either`?
   * Why does `Data.Either.Validation` have no `Monad` instance?
 * Monads
-  * Make an overview description of `Update` monad.
+  * Why is there no function `runIO`?
+  * Why `IO` transformer doesn't exist?
 
 ##### Resources
 
@@ -66,8 +67,21 @@
   * [Update Monads: Cointerpreting Directed Containers](http://homepages.inf.ed.ac.uk/s1225336/papers/types13postproc.pdf)
   * [How to Replace Failure by a Heap of Successes](https://www.schoolofhaskell.com/user/edwardk/heap-of-successes)
 
-### Type classes
+### Types
+* What is kind?
 
+### Lists
+* What is the difference beetween `foldl'`, `foldr'` and `foldl`, `foldr`?
+* How `foldl`, `foldl'`, `foldr` and `foldr'` behave with infinite lists, and why do they have the particular behavior?
+* When `foldl'` does not solve the problem of deferring too many calculations?
+* Which fold functions support short-circuit (lazy) evaluation?
+
+##### Resources
+
+* [Fixing `foldl`](http://www.well-typed.com/blog/90/)
+
+### Type classes
+* Why using constraints on a type variable within a data declaration isn't a good idea?
 * What are the mechanisms of implementing type classes (overloading)?
   * Passing Dictionaries
   * Monomorphization
@@ -83,7 +97,8 @@
   * How would you solve a problem of overlapping instances in various situations?
   * How the problem of overlapping is solved in other languages or by different overloading implementation techniques?
 * Orphans
-  * What are orphans instances? Why are they undesirable?
+  * What are orphan instances? Why are they undesirable?
+  * What is coherence and why is it important to maintain it? What are the possible cases of coherence violation?
   * Does having orphan instances violate coherence?
   * How the problem of orphans is solved in other languages or by different overloading implementation techniques?
 * What are the problems of current typeclasses implementation?
@@ -251,6 +266,30 @@
 
 ### Laziness
 
+* What is a reduction strategy? What is an evaluation strategy? How do they differ?
+* What is lazy evaluation? How it differs from eager evaluation? Is lazy evaluation the same as non-strictness?
+* What is outside in and inside out evaluation?
+* What is a redex?
+* What are the pros and cons of lazy evaluation? Provide some examples.
+* What strategy used in Haskell?
+* What is thunk?
+  * Describe the concept of its inner structure.
+  * Could you think of cases when thunk occupies less space than the evaluated value and visa versa?
+  * Can you nest thunks?
+  * Can thunks be recursive?
+* What is the difference between call by value, call by name and call by need?
+* What is WHNF?
+* Are next expressions in WHNF or NF?
+  * `(*) (2 + 2)`
+  * `thunk`
+  * `1:(thunk)`
+  * `1:2:(thunk)`
+  * `1:2:3:[]`
+  * `15`
+  * `\x -> x * 2`
+  * `(\x -> x + 1) 3`
+* Can haskell evaluate in strict mode?
+* Why strict functions in Haskell evaluate values to WHNF and not NF?
 * What is the function `seq` (and operator `$!`)?
 * What is the function `deepseq` (and operator `$!!`)?
 * Could using `seq` change the returned value of the function?
@@ -306,6 +345,15 @@
   * [Articles of Edward Yang](http://blog.ezyang.com/2011/04/the-haskell-heap/)
   It is a set of articles.
   * [Gentle Introduction to Haskell (Lazy Pattern-Matching)](https://www.haskell.org/tutorial/patterns.html)
+  * [Как работают ленивые вычисления - habr](https://habr.com/ru/post/247213/)
+  * [Lazy vs. non-strict - Haskell wiki](https://wiki.haskell.org/Lazy_vs._non-strict)
+  * [WHNF - Haskell wiki](https://wiki.haskell.org/Weak_head_normal_form)
+  * [GHC illustrated (about thunk inner structure) - presentation](https://takenobu-hs.github.io/downloads/haskell_ghc_illustrated.pdf)
+  * [What is Weak Head Normal Form? - Stackoverflow](https://stackoverflow.com/questions/6872898/what-is-weak-head-normal-form/6889335#6889335)
+  * [Evaluation strategy - wiki](https://en.wikipedia.org/wiki/Evaluation_strategy)
+  * [Brief normal forms explanation with Haskell - Medium article](https://medium.com/@aleksandrasays/brief-normal-forms-explanation-with-haskell-cd5dfa94a157)
+  * [All About Strictness. - FP Complete](https://www.fpcomplete.com/blog/2017/09/all-about-strictness)
+  * [Does a function in Haskell always evaluate its return value? - Stackoverflow](https://stackoverflow.com/questions/27685224/does-a-function-in-haskell-always-evaluate-its-return-value)
 
 ### Exceptions
 
