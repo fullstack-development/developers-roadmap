@@ -27,13 +27,6 @@
 * Send request specifying a header.
 * How to get supplementary debug information on making a request?
 
-## cron
-
-* How to use `cron` program?
-* How to configure?
-* How to add a task (2 methods)?
-* How to show all tasks?
-
 ### Resources
 
 * Processes:
