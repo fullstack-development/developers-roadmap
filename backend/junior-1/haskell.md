@@ -59,7 +59,11 @@ This level requires basic skills to solve local tasks in a project.
 
 * What are lists in Haskell?
   What are the distinguishing features of lists from the similar data structures in other languages?
-* Name three main functions that work with lists.
+* Some functions that work with lists. How they change the number of  elements?
+  * `filter`
+  * `map`
+  * `fold`
+  * Which function can be used to express others?
 * List comprehensions.
 * What are infinite lists? What are the use cases of infinite lists?
 * Foldings lists:
@@ -70,7 +74,6 @@ This level requires basic skills to solve local tasks in a project.
   * Examples of using associative and non-associative operators as a folding function.
     What are the differences between these use cases?
   * Does it matter if a folding function has left or right associativity?
-
 
 ## Modules
 
@@ -122,19 +125,26 @@ This level requires basic skills to solve local tasks in a project.
   * `Enum`
   * `Bounded`
   * What are the numeric typeclasses in Haskell? What are their relations?
-* What is ad-hoc polymorphism and what are the alternatives?
+* What is ad-hoc polymorphism? What is different between ad-hoc and parametric polymorphism?
 * How to specify a typeclass in a type signature?
 * How to make default function implementation?
   Is it possible to specify the type of default implementation to be distinct from declared typeclass method?
 * What is instance deriving? When is it possible to derive an instance?
 
-## Basic functional programming patterns (and their laws)
+## Monoid
 
-* Functor.
-* Applicative.
-* Alternative and MonadSum.
-* Monoid.
-* How Monoid and Alternative differ conceptually?
+* What is a Monoid?
+* What are Monoid laws?
+
+## Functor
+
+* What is a Functor?
+* What are Functor laws?
+
+## Applicative
+
+* What is a Applicative?
+* What are Applicative laws?
 
 ## Monad
 
@@ -146,7 +156,7 @@ This level requires basic skills to solve local tasks in a project.
   * Implement `bind` from `join` and backwards.
   * What is Kleisli arrow (category)?
   * Monad laws.
-* Basic monads list:
+* Basic monads. Which effects do they have? (*You don't have to write instances*):
   * `Maybe`.
   * `Either`.
   * `List`.
@@ -154,7 +164,7 @@ This level requires basic skills to solve local tasks in a project.
   * `Writer`.
   * `State`.
   * `IO`.
-* How can you define `Reader` or `Writer` with `State`? Is it possible to do otherwise?
+* How can you emulate `Reader` or `Writer` behaviour with `State`?
 * `do`-notation.
 * How does Monad differ from Functor and Applicative?
   * What will happen after evaluating the function `putStrLn <$> getLine`? Explain why.
@@ -172,6 +182,7 @@ This level requires basic skills to solve local tasks in a project.
 
 ## Monad transformers
 
+* What is Monad transformer? What for do we need it?
 * What is `lift` function?
 * What is `liftIO` function?
 * What are `MonadTrans` laws?
@@ -188,7 +199,6 @@ This level requires basic skills to solve local tasks in a project.
   * Matching problem.
   * Infinite type problem:
     * What’s result of computation `let t = [t] in t`? How to explain this behavior?
-
 
 ### Resources
 
