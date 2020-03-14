@@ -15,8 +15,7 @@ Advanced questions about Haskell for everyday usage.
 
 ## Typeclasses
 
-* How to make default function implementation?
-  Is it possible to specify the type of default implementation to be distinct from declared typeclass method?
+* How to make default function implementation? Is it possible to specify the type of default implementation to be distinct from declared typeclass method?
 * Monoids:
   * What is the purpose of `Semigroup` type class in contrast to `Monoid`?
   * Why does `Monoid` have `Semigroup` constraint?
