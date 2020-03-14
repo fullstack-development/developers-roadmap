@@ -20,7 +20,7 @@ Advanced questions about Haskell for everyday usage.
   * What is the purpose of `Semigroup` type class in contrast to `Monoid`?
   * Why does `Monoid` have `Semigroup` constraint?
   * What are the data declarations for `Dual`, `Endo`, `Sum`, `Product`, `Any`, `All`?
-    How and why theese monoids are used?
+    How and why these monoids are used?
   * Why are there instances of `Monoid` for `(IO a)` and `(a -> b)`?
   How are they used?
 * Foldable
