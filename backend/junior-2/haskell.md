@@ -61,12 +61,11 @@ Advanced questions about Haskell for everyday usage.
 * Monoids:
   * [Basic libraries](http://hackage.haskell.org/package/base-4.12.0.0/docs/Data-Monoid.html)
   * [Some advanced stuff about Monoids, Semigroups, etc.](https://medium.com/@stackdoesnotwork/magical-monoids-50da92b069f4)
-* Foldable:
-  * [Basic libraries](http://hackage.haskell.org/package/base-4.12.0.0/docs/Data-Foldable.html)
+* Foldable/Traversable:
+  * [Foldable Basic libraries](http://hackage.haskell.org/package/base-4.12.0.0/docs/Data-Foldable.html)
+  * [Traversable Basic libraries](http://hackage.haskell.org/package/base-4.12.0.0/docs/Data-Traversable.html)
   * [Stepik - 2 часть](https://stepik.org/course/693/syllabus)
   * [Haskell Programming From First Principles - Chapters 20,21](https://haskellbook.com)
-* Traversable:
-  * [Basic libraries](http://hackage.haskell.org/package/base-4.12.0.0/docs/Data-Traversable.html)
 * Service Handle:
   * [Haskell Design Patterns: The Handle Pattern - by Jasper Van der Jeugt](https://jaspervdj.be/posts/2018-03-08-handle-pattern.html)
   * [The Service Pattern - by Simon Meier](https://www.schoolofhaskell.com/user/meiersi/the-service-pattern)
