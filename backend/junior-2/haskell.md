@@ -35,8 +35,7 @@ Advanced questions about Haskell for everyday usage.
 * Traversable
   * What is semantics of `Traversable`? Why is it called traversable?
   * Why do we have `Foldable` and `Functor` constraints on `Traversable` type class?
-  * What are the data declarations for `Compose` and `Identity` and
-  what are they used for?
+  * What are the data declarations for `Compose` and `Identity` and what are they used for?
   * What are the laws of `Traversable`?
 * Alternative and MonadSum:
   * What are their laws?
@@ -48,16 +47,6 @@ Advanced questions about Haskell for everyday usage.
 * How to use `try`, `catch` and `throw` functions?
 * Can `throw` and `catch` be called in pure functions?
 * What is the difference between `throw` and `throwIO` functions?
-
-## Type Inference
-
-* Basic concepts of Hindley-Milner type inference.
-* How we can get following problems while types inferring? How to solve them?
-  * Ambiguity.
-  * Deducing problem.
-  * Matching problem.
-  * Infinite type problem:
-    * What’s result of computation `let t = [t] in t`? How to explain this behavior?
 
 ## Functional patterns
 
@@ -74,6 +63,8 @@ Advanced questions about Haskell for everyday usage.
   * [Some advanced stuff about Monoids, Semigroups, etc.](https://medium.com/@stackdoesnotwork/magical-monoids-50da92b069f4)
 * Foldable:
   * [Basic libraries](http://hackage.haskell.org/package/base-4.12.0.0/docs/Data-Foldable.html)
+  * [Stepik - 2 часть](https://stepik.org/course/693/syllabus)
+  * [Haskell Programming From First Principles - Chapters 20,21](https://haskellbook.com)
 * Traversable:
   * [Basic libraries](http://hackage.haskell.org/package/base-4.12.0.0/docs/Data-Traversable.html)
 * Service Handle:
