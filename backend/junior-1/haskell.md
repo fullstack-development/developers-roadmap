@@ -123,7 +123,7 @@ This level requires basic skills to solve local tasks in a project.
   * `Enum`
   * `Bounded`
   * `Num`
-* What is ad-hoc polymorphism? What is different between ad-hoc and parametric polymorphism?
+* What is ad-hoc polymorphism? What is the difference between ad-hoc and parametric polymorphism?
 * What is ad-hoc polymorphism and what are the alternatives?
 * How to specify a typeclass in a type signature?
 * How to make default function implementation?
@@ -155,7 +155,7 @@ This level requires basic skills to solve local tasks in a project.
   * Implement `bind` from `join` and backwards.
   * What is Kleisli arrow (category)?
   * Monad laws.
-* Basic monads. Which effects do they have? (*You don't have to write instances*):
+* Basic monads. What effects do they implement? (*You don't have to write instances*):
   * `Maybe`.
   * `Either`.
   * `List`.
@@ -174,7 +174,7 @@ This level requires basic skills to solve local tasks in a project.
 
 ## Monad transformers
 
-* What is Monad transformer? What for do we need it?
+* What is Monad transformer? Why it's used?
 * What is `lift` function?
 * What is `liftIO` function?
 * What are `MonadTrans` laws?
