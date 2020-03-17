@@ -5,7 +5,7 @@ Advanced questions about Haskell for everyday usage.
 ## Modules
 
 * What are cyclic dependencies and what are the methods of resolving them?
-* What will be exported in this case? Will `Maybe`, `Just`, `Nothing`, `fromMaybe` be imported?:
+* What will be exported in this case? Will `Maybe`, `Just`, `Nothing`, `fromMaybe` be exported by `Module`?:
   ```haskell
   module Module (
     module Data.Maybe
