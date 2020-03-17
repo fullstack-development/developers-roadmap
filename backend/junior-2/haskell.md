@@ -5,12 +5,12 @@ Advanced questions about Haskell for everyday usage.
 ## Modules
 
 * What are cyclic dependencies and what are the methods of resolving them?
-* What will be exported in this case:
+* What will be exported in this case? Will `Maybe`, `Just`, `Nothing`, `fromMaybe` be imported?:
   ```haskell
-  module External (
-    module Internal
+  module Module (
+    module Data.Maybe
     ) where
-  import qualified Internal
+  import qualified Data.Maybe
   ```
 
 ## Typeclasses
