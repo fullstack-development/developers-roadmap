@@ -57,7 +57,7 @@ This level requires basic skills to solve local tasks in a project.
 
 * What are lists in Haskell?
   What are the distinguishing features of lists from the similar data structures in other languages?
-* Some functions that work with lists. How they change the number of  elements?
+* There are some functions that work with lists. How they change the number of  elements?
   * `filter`
   * `map`
   * `fold`
@@ -124,7 +124,6 @@ This level requires basic skills to solve local tasks in a project.
   * `Bounded`
   * `Num`
 * What is ad-hoc polymorphism? What is the difference between ad-hoc and parametric polymorphism?
-* What is ad-hoc polymorphism and what are the alternatives?
 * How to specify a typeclass in a type signature?
 * How to make default function implementation?
   Is it possible to specify the type of default implementation to be distinct from declared typeclass method?
