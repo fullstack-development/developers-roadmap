@@ -21,8 +21,7 @@ Advanced questions about Haskell for everyday usage.
   * Why does `Monoid` have `Semigroup` constraint?
   * What are the data declarations for `Dual`, `Endo`, `Sum`, `Product`, `Any`, `All`?
     How and why these monoids are used?
-  * Why are there instances of `Monoid` for `(IO a)` and `(a -> b)`?
-  How are they used?
+  * Why are there instances of `Monoid` for `(IO a)` and `(a -> b)`? How are they used?
 * Foldable
   * What are the nature and semantics of `Foldable`?
   * What was `Foldable` created for?
