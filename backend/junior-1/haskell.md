@@ -87,22 +87,10 @@ This level requires basic skills to solve local tasks in a project.
   * How to export type synonym?
   * How to export imported module?
   * How to export constructors `Just`, `Nothing` and function `fromMaybe` in the following example?
-
     ```haskell
     module A(?) where
       import qualified Data.Maybe as Mb
     ```
-
-  * What will be exported in this case:
-
-    ```haskell
-    module External (
-      module Internal
-      ) where
-    import qualified Internal
-    ```
-
-  * What are cyclic dependencies and what are the methods of resolving them?
 
 ## Language control expressions
 
@@ -165,11 +153,6 @@ This level requires basic skills to solve local tasks in a project.
 * How can you emulate `Reader` or `Writer` behaviour with `State`?
 * `do`-notation.
 * How does Monad differ from Functor and Applicative?
-* Error management strategies:
-  * How do `Maybe` and `Either` help with error management?
-  * How to use `try`, `catch` and `throw` functions?
-  * Can `throw` and `catch` be called in pure functions?
-  * What is the difference between `throw` and `throwIO` functions?
 
 ## Monad transformers
 
@@ -215,10 +198,6 @@ This level requires basic skills to solve local tasks in a project.
   * [`foldr`, `foldl` - Haskell wiki](https://wiki.haskell.org/Foldr_Foldl_Foldl%27)
   * [`foldl` as `foldr` - Haskell wiki](https://wiki.haskell.org/Foldl_as_foldr)
 * Modules:
-  * [Haskell module system](https://ro-che.info/articles/2012-12-25-haskell-module-system-p1)
-  * [Haskell export current module with additional imported module - Stackoverflow](https://stackoverflow.com/questions/18035458/haskell-export-current-module-with-additional-imported-module)
   * [Modules declaration, import and export rules](https://www.haskell.org/onlinereport/haskell2010/haskellch5.html)
 * Monads:
   * [All about monad - Haskell wiki](https://wiki.haskell.org/All_About_Monads)
-* Exceptions:
-  * [Скандальная правда об обработке исключений в Haskell](https://eax.me/haskell-exceptions/)

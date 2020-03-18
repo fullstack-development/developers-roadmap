@@ -4,27 +4,6 @@
 
 ### Basic type classes
 
-* Monoids
-  * What is the purpose of `Semigroup` type class in contrast to `Monoid`?
-  * Why does `Monoid` have `Semigroup` constraint?
-  * What are the data declarations for `Dual`, `Endo`, `Sum`, `Product`, `Any`, `All`?
-    How and why theese monoids are used?
-  * Why are there instances of `Monoid` for `(IO a)` and `(a -> b)`?
-  How are they used?
-* Foldable
-  * What are the nature and semantics of `Foldable`?
-  * What was `Foldable` created for?
-  * What are the minimal and complete definitions for correct and working `Foldable` instance?
-  * What is its relationship to monoids?
-  * Does `Foldable` have any laws?
-    * Which of them do use the `Monoid` instance?
-    * Which of them do use the `Functor` instance?
-* Traversable
-  * What is semantics of `Traversable`? Why is it called traversable?
-  * Why do we have `Foldable` and `Functor` constraints on `Traversable` type class?
-  * What are the data declarations for `Compose` and `Identity` and
-  what are they used for?
-  * What are the laws of `Traversable`?
 * Functors
   * What is covariance and contravariance in the context of functors and category theory?
   * What are the negative and positive positions?
@@ -50,13 +29,6 @@
 
 ##### Resources
 
-* Monoids
-  * [Basic libraries](http://hackage.haskell.org/package/base-4.12.0.0/docs/Data-Monoid.html)
-  * [Some advanced stuff about Monoids, Semigroups, etc.](https://medium.com/@stackdoesnotwork/magical-monoids-50da92b069f4)
-* Foldable
-  * [Basic libraries](http://hackage.haskell.org/package/base-4.12.0.0/docs/Data-Foldable.html)
-* Traversable
-  * [Basic libraries](http://hackage.haskell.org/package/base-4.12.0.0/docs/Data-Traversable.html)
 * Functors
   * [(Co-contra) variance](https://www.fpcomplete.com/blog/2016/11/covariance-contravariance)
   * [I love profunctors](https://www.schoolofhaskell.com/school/to-infinity-and-beyond/pick-of-the-week/profunctors)
