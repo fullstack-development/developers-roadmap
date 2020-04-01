@@ -1,7 +1,7 @@
 # Генераторы
 
 * Что такое итераторы? В чем отличие между итераторами и обычными циклами?
-* Зачем нужны итераторы, если у нас уже есть массивы?
+* Зачем нужны итераторы, если уже есть массивы?
 * Для каких задач по работе с коллекциями итераторы подходят лучше, чем массивы?
 * Что такое генераторы? Где они могут пригодиться?
 * Как вы думаете, почему в качестве ключевого слова используется именно `yield`?
@@ -9,6 +9,6 @@
 
 # Ресурсы
 
-* [Итераторы, learn.javascript.ru](https://learn.javascript.ru/iterator)
-* [Генераторы, learn.javascript.ru](https://learn.javascript.ru/generator)
-* [You Don't Know JS: Async & Performance. Part 4: generators(rus)](https://github.com/devSchacht/You-Dont-Know-JS/blob/master/async%20%26%20performance/ch4.md)
+* [Итераторы](https://learn.javascript.ru/iterable)
+* [Генераторы](https://learn.javascript.ru/generators)
+* [You Don't Know JS: Async & Performance. Chapter 4: Generators](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/async%20%26%20performance/ch4.md)
