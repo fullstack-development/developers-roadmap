@@ -54,6 +54,17 @@ Advanced questions about Haskell for everyday usage.
   * How it helps to organize the code?
   * What role does it have in testing?
 
+## Concurrency
+
+* What is a concurrent programming?
+* How can you write a concurrent code in Haskell?
+* Basic concurrent operations:
+  * How to launch a thread?
+  * How to synchronize results from multiple thread?
+* How threads can communicate with each other?
+* How to manage state in concurrent code? Is it possible to update a shared state between multiple threads?
+* What is _deadlock_? How can you avoid it?
+
 #### Resources
 
 * Monoids:
@@ -72,3 +83,7 @@ Advanced questions about Haskell for everyday usage.
 * Modules:
   * [Haskell module system](https://ro-che.info/articles/2012-12-25-haskell-module-system-p1)
   * [Haskell export current module with additional imported module - Stackoverflow](https://stackoverflow.com/questions/18035458/haskell-export-current-module-with-additional-imported-module)
+* Concurrency:
+  * [Chapter 24. Concurrent and multicore programming](http://book.realworldhaskell.org/read/concurrent-and-multicore-programming.html)
+  * [Async library](https://hackage.haskell.org/package/async-2.2.2/docs/Control-Concurrent-Async.html)
+  * [Haskell concurrency by example](https://github.com/crabmusket/haskell-simple-concurrency)
