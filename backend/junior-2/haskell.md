@@ -61,7 +61,7 @@ Advanced questions about Haskell for everyday usage.
 * Basic concurrent operations:
   * How to launch a thread?
   * How to kill a thread?
-  * How to synchronize results from multiple thread?
+  * How to synchronize results from multiple threads?
 * How threads can communicate with each other?
 * How to manage state in concurrent code? Is it possible to update a shared state between multiple threads?
 * What is _deadlock_? How can you avoid it?
