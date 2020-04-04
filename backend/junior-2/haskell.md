@@ -91,3 +91,4 @@ Advanced questions about Haskell for everyday usage.
   * [Concurrent - basic libraries](https://hackage.haskell.org/package/base-4.12.0.0/docs/Control-Concurrent.html)
   * [MVar - Basic libraries](http://hackage.haskell.org/package/base-4.12.0.0/docs/Control-Concurrent-MVar.html)
   * [Haskell concurrency by example](https://github.com/crabmusket/haskell-simple-concurrency)
+  * [Базовая работа с MVar](https://ruhaskell.org/posts/theory/2015/02/13/mvars.html)
