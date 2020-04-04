@@ -59,11 +59,13 @@ Advanced questions about Haskell for everyday usage.
 * What is a concurrent programming?
 * How can you write a concurrent code in Haskell?
 * Basic concurrent operations:
-  * How to launch a thread?
-  * How to kill a thread?
-  * How to synchronize results from multiple threads?
-* How threads can communicate with each other?
-* How to manage state in concurrent code? Is it possible to update a shared state between multiple threads?
+  * `forkIO`
+  * `killThread`
+  * `threadDelay`
+* How can _MVar_ library can help to achieve communication between multiple threads?
+  * `newMVar` and `newEmptyMVar`
+  * `takeMVar`
+  * `readMVar`
 * What is _deadlock_? How can you avoid it?
 
 #### Resources
@@ -86,5 +88,6 @@ Advanced questions about Haskell for everyday usage.
   * [Haskell export current module with additional imported module - Stackoverflow](https://stackoverflow.com/questions/18035458/haskell-export-current-module-with-additional-imported-module)
 * Concurrency:
   * [Chapter 24. Concurrent and multicore programming](http://book.realworldhaskell.org/read/concurrent-and-multicore-programming.html)
-  * [Async library](https://hackage.haskell.org/package/async-2.2.2/docs/Control-Concurrent-Async.html)
+  * [Concurrent - basic libraries](https://hackage.haskell.org/package/base-4.12.0.0/docs/Control-Concurrent.html)
+  * [MVar - Basic libraries](http://hackage.haskell.org/package/base-4.12.0.0/docs/Control-Concurrent-MVar.html)
   * [Haskell concurrency by example](https://github.com/crabmusket/haskell-simple-concurrency)
