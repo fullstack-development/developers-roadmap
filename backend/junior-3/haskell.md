@@ -4,22 +4,6 @@
 
 ### Basic type classes
 
-* Functors
-  * What is covariance and contravariance in the context of functors and category theory?
-  * What are the negative and positive positions?
-  * Contrafunctor (Contravariant functor)
-    * What is the signature of `contramap` function?
-    * Make an example of instance definition for some ADT.
-    * What is the semantic meaning of applying `contramap`?
-  * Bifunctor
-    * What is the signature of `bimap` function?
-    * What ADT's do have the `Bifunctor` instance?
-    * Is a bifunctor covariant or contravariant on type variables applied to it?
-  * Profunctor
-    * What is the signature of `dimap` function?
-    * Write an instance implementation for `(->)`.
-    * Name a few practical use cases (at least one).
-    * Which of type variables applied to a profunctor appear in negative and which in positive position?
 * Applicative
   * What is the purpose of `Data.Either.Validation` and what is the difference between it and `Data.Either`?
   * Why does `Data.Either.Validation` have no `Monad` instance?
@@ -27,41 +11,29 @@
   * Why is there no function `runIO`?
   * Why `IO` transformer doesn't exist?
 
-##### Resources
+#### Basic type classes resources
 
-* Functors
-  * [(Co-contra) variance](https://www.fpcomplete.com/blog/2016/11/covariance-contravariance)
-  * [I love profunctors](https://www.schoolofhaskell.com/school/to-infinity-and-beyond/pick-of-the-week/profunctors)
-  * [Functoriality (just not bad article about functors)](https://bartoszmilewski.com/2015/02/03/functoriality/)
 * Applicative
   * [Validating Form Data via Applicative Functors](https://k-bx.github.io/articles/Validating-Form-Data-via-Applicative-Functors.html)
-* Monads
-  * [Update Monads: Cointerpreting Directed Containers](http://homepages.inf.ed.ac.uk/s1225336/papers/types13postproc.pdf)
-  * [How to Replace Failure by a Heap of Successes](https://www.schoolofhaskell.com/user/edwardk/heap-of-successes)
 
 ### Types
+
 * What is kind?
 
 ### Lists
-* What is the difference beetween `foldl'`, `foldr'` and `foldl`, `foldr`?
+
+* What is the difference between `foldl'`, `foldr'` and `foldl`, `foldr`?
 * How `foldl`, `foldl'`, `foldr` and `foldr'` behave with infinite lists, and why do they have the particular behavior?
 * When `foldl'` does not solve the problem of deferring too many calculations?
 * Which fold functions support short-circuit (lazy) evaluation?
 
-##### Resources
+#### Lists Resources
 
 * [Fixing `foldl`](http://www.well-typed.com/blog/90/)
 
 ### Type classes
+
 * Why using constraints on a type variable within a data declaration isn't a good idea?
-* What are the mechanisms of implementing type classes (overloading)?
-  * Passing Dictionaries
-  * Monomorphization
-    * What is the Resolution Environment? When is it created?
-  * Intentional Type Analysis
-* How are typeclasses implemented in Haskell?
-  * What are the GHC specific implementation details?
-  * What optimization is conducted by the compiler?
 * Overlapping
   * How does the instance selection process happen?
   * Is it possible to have overlapping instances? Does having overlapping instances violate coherence?
@@ -83,7 +55,7 @@
   * How do typeclasses help this abstraction style?
   * What are the pros and cons of using typeclasses while building the abstraction?
 
-##### Resources
+#### Type classes resources
 
 * Type classes
   * [On Type Class Instance Selection](https://hackernoon.com/typeclass-instance-selection-fea1068920e6)
@@ -92,10 +64,6 @@
   * [Down with Show! Part 1: Rules of thumb for when to use a type class](https://harry.garrood.me/blog/down-with-show-part-1/)
   * [Down with Show! Part 2: What's wrong with the Show type class](https://harry.garrood.me/blog/down-with-show-part-2/)
   * [Down with Show! Part 3: A replacement for Show](https://harry.garrood.me/blog/down-with-show-part-3/)
-  * [Are typeclasses essential?](https://stackoverflow.com/questions/25855507/are-typeclasses-essential)
-  * [Implementation basics description](http://www.cs.tufts.edu/comp/150PLD/Notes/TypeClasses.pdf)
-  * [Theoretical work about type classes implementation](http://okmij.org/ftp/Computation/typeclass.html)
-  * [Edward Kmett - Type Classes vs. the World](https://www.youtube.com/watch?v=hIZxTQP1ifo)
   * [A Home for Orphan Instances](http://tech.freckle.com/2018/12/12/a-home-for-orphan-instances/)
   * [Haskell Antipattern: Existential Typeclass](https://lukepalmer.wordpress.com/2010/01/24/haskell-antipattern-existential-typeclass/)
   * [Scrap your type classes](http://www.haskellforall.com/2012/05/scrap-your-type-classes.html)
@@ -182,21 +150,8 @@
   * How pattern Reified dictionaries can be implemented with this extension enabled?
   * How Generic programming can be improved with this extension enabled?
   * Could classes be partially applied?
-* Pattern Synonyms
-  * What are Pattern Synonyms and what are they used for?
-  * Can we pattern match on concrete values (constants) in the right-hand side?
-  * Where can Pattern Synonyms occur? Can we declare them locally, inside of functions?
-  * What is the restriction on type variables with Bidirectional Pattern Synonyms?
-  * What are Unidirectional Pattern Synonyms?
-  What are their constraints comparing with Bidirectional Pattern Synonyms?
-  * What are Explicitly Bidirectional Pattern Synonyms?
-  Which new opportunities they provide comparing with Unidirectional and Bidirectional Pattern Synonyms?
-  * Can we use record syntax with Pattern Synonyms?
-  * How to import and export Pattern Synonyms?
-  How can we bundle Pattern Synonyms with datatypes in export and import lists?
-  * Pattern Synonyms and type constraints. What are `CReq` and `CProv`?
 
-##### Resources
+#### GHC extensions resources
 
 * RecordWildCards
   * [The Power of RecordWildCards](https://kodimensional.dev/recordwildcards)
@@ -233,8 +188,6 @@
   * [GHC docs](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#extension-ConstraintKinds)
   * [Constraint Kinds for GHC](http://blog.omega-prime.co.uk/2011/09/10/constraint-kinds-for-ghc/)
   * [The Constraint kind](https://jeltsch.wordpress.com/2013/02/14/the-constraint-kind/)
-* Pattern synonyms
-  * [GHC docs](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#extension-PatternSynonyms)
 
 ### Laziness
 
@@ -265,10 +218,6 @@
 * What is the function `seq` (and operator `$!`)?
 * What is the function `deepseq` (and operator `$!!`)?
 * Could using `seq` change the returned value of the function?
-* How is value from evaluated thunk stored (are we allowed to avoid redundant reevaluations)?
-* Enumerate cases where thunk with ADT will be evaluated.
-* What is the irrefutable pattern and how does it work?
-* What does the `sprint` function do?
 * What is the GHC extension `BangPatterns`?
   * Make examples when bang pattern is useless.
   * Make examples when bang pattern has less power, than it could be supposed.
@@ -296,7 +245,7 @@
 
 * What are the GHC extensions `Strict` and `StrictData`?
 
-##### Resources
+#### Laziness resources
 
 * Haskell Performance in Wikibooks:
   * [Introduction](https://en.wikibooks.org/wiki/Haskell/Performance_introduction)
@@ -306,10 +255,8 @@
   * [Strictness](https://en.wikibooks.org/wiki/Haskell/Strictness)
   * [Algorithm complexity](https://en.wikibooks.org/wiki/Haskell/Algorithm_complexity)
 * Laziness
-  * [Laziness from What I Wish I Knew When Learning Haskell](http://dev.stephendiehl.com/hask/#laziness)
   * [Lazy evaluation](https://www.ksp.kit.edu/9783731505464)
   Optional resource. Read the contents, abstract and conclusions to understand the scope of work. You may want to read chapters from 1.1 to 1.6 and chapter 2.1.
-  * [10.28 of GHC docs](https://downloads.haskell.org/~ghc/master/users-guide//glasgow_exts.html#bang-patterns-and-strict-haskell)
   * [Wiki-page Haskell Prime about Bang Patterns](https://prime.haskell.org/wiki/BangPatterns)
   * [The Incomplete Guide to Lazy Evaluation](https://hackhands.com/guide-lazy-evaluation-haskell/)
   The guide is in three parts, the third about denotational semantics is optional.
@@ -347,50 +294,17 @@ Should we ban using this pattern?
   * What is the `Exception` type class?
   * Why do we need the exception hierarchy and what are the desired properties of such a hierarchy?
   * Write an example of a custom exception inclusion into the hierarchy.
-* Async exceptions
-  * What is a synchronous exception?
-  * What is an asynchronous exception?
-  * What are the problems with catching and handling them?
-  * What are the strategies of handling the async exceptions?
-  * What is masking? How does the `mask` function work?
-  Why do we need it?
-  * What is an uninterruptible mask? How does the `uninterruptibleMask` function work?
-  Why do we need it?
 * Describe a problem which arises when handling exceptions and using functions like `bracket` with stateful monadic stacks.
   * How is it solved in `monad-control` library?
   * How is it solved in `unliftio` library?
-* What is the purpose of `safe-exceptions` library? Which exception handling problems does it address?
-Why is `unliftio` considered safer by the author of `safe-exceptions`?
 
-##### Resources
+#### Exceptions resources
 
 * [Defining exceptions in Haskell](https://www.fpcomplete.com/blog/defining-exceptions-in-haskell)
 * [Exceptions Best Practices in Haskell.](https://www.fpcomplete.com/blog/2016/11/exceptions-best-practices-haskell)
 * [Catching all exceptions](https://www.schoolofhaskell.com/user/snoyberg/general-haskell/exceptions/catching-all-exceptions#transformers)
-* [Docs for safe-exceptions](https://github.com/fpco/safe-exceptions)
 * [Exceptions tutorial from IH book](https://markkarpov.com/tutorial/exceptions.html)
 Quite hard to read for this level, you would better reread it later.
-
-### Generics
-
-* What is generic programming?
-* What is `Generic` type class and what is its main goal?
-* What is the difference between `Generic` and `Generic1` typeclasses?
-* What are the primitive types that can describe all other Haskell algebraic data types (`K1`, `:+:`, etc)?
-* How to create default methods of typeclasses for data types that has `Generic` instance?
-* What is type family `Rep` and what is its main goal?
-* How to get data type name, constructor name, field names (for record fields)?
-* Is there a possibility to check if the data type is a `newtype` wrapper?
-* Suppose we have `data Example b c = A | B b | C Int c`:
-  * What is the `Rep (Example b c)` type?
-  * What would be the result of `to (C 2 "fsd")`?
-
-##### Resources
-
-* [What is datatype-generic programming](https://maxhallinan.com/posts/2019/09/17/what-is-datatype-generic-programming/)
-* [GHC.Generics on Wiki Haskell](https://wiki.haskell.org/GHC.Generics)
-* [GHC Generics Explained](https://www.stackbuilders.com/tutorials/haskell/generics/)
-* [Haddock (functions for getting information about datatypes)](https://hackage.haskell.org/package/base-4.8.2.0/docs/GHC-Generics.html#t:Datatype)
 
 ### Testing
 
@@ -401,7 +315,7 @@ Quite hard to read for this level, you would better reread it later.
 * How MTL-style monad allows you to mock real implementation?
 * How can you pass dictionaries to switch the behavior of the program in various contexts?
 
-##### Resources
+#### Testing resources
 
 * [Mocking in Haskell](https://www.reddit.com/r/haskell/comments/5bnr6b/mocking_in_haskell/)
 * [Unit testing effectful Haskell with monad-mock](https://lexi-lambda.github.io/blog/2017/06/29/unit-testing-effectful-haskell-with-monad-mock/)
@@ -421,49 +335,15 @@ Quite hard to read for this level, you would better reread it later.
   * How to show currently used variables?
   * What are the ways to print currently used variables?
   * How to show the execution history ("how did we get here")?
-  * How to break in a case of an exception to analyse its cause?
+  * How to break in a case of an exception to analyze its cause?
 
-##### Resources
+#### Debugging resources
 
 * [Hackage (Debug.Trace)](http://hackage.haskell.org/package/base-4.11.1.0/docs/Debug-Trace.html#g:1)
 * [GHC Docs (GHCi Debugger)](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/ghci.html#the-ghci-debugger)
-
-### Lenses
-
-* What is the main goal of lenses?
-* What is the type `Lens`, what does it mean?
-* What are the methods `view`, `over`, `set`?
-* What is a `Prism`?
-* What is a `Traversal`?
-* What is an `Iso`?
-* Why is `Monoid` constraint required in `view` for traversals?
-* What are the lens laws?
-* Why do lenses fit well for composing?
-* How operators are grouped by name (which ones are started with `^`, which ones contain `~`, `.` (dot), `%`, `=`)?
-* What combinators are purposed for working in `State` monad?
-Why is it convenient?
-* What is the goal of the microlens library?
-When to use it and when do not?
-
-##### Resources
-
-* [Program imperatively using Haskell lenses](http://www.haskellforall.com/2013/05/program-imperatively-using-haskell.html) Most classic introduction
-* [A Little Lens Starter Tutorial](https://www.schoolofhaskell.com/school/to-infinity-and-beyond/pick-of-the-week/a-little-lens-starter-tutorial)
-* [Control.Lens.Tutorial on Hackage](http://hackage.haskell.org/package/lens-tutorial-1.0.3/docs/Control-Lens-Tutorial.html)
-* [Haskell/Lenses and functional references](https://en.wikibooks.org/wiki/Haskell/Lenses_and_functional_references) on Wikibook (with basic explanation how lenses work)
-* [Welcome to the lens wiki!](https://github.com/ekmett/lens/wiki) ([Overview](https://github.com/ekmett/lens/wiki/Overview), [Examples](https://github.com/ekmett/lens/wiki/Examples), [How can ...?](https://github.com/ekmett/lens/wiki/How-can-I-write-lenses-without-depending-on-lens%3F), [FAQ](https://github.com/ekmett/lens/wiki/FAQ))
-* [What are Prisms?](https://stackoverflow.com/questions/50915526/what-are-prisms)
-* Learn microlens (on [Hackage](http://hackage.haskell.org/package/microlens), on [Github](https://github.com/aelve/microlens))
-* [Exercises for understanding lenses](https://williamyaoh.com/posts/2019-04-25-lens-exercises.html)
-* [Write yourself a lens](https://vrom911.github.io/blog/write-yourself-a-lens)
-* [Writing Traversals](https://lens-by-example.chrispenner.ca/articles/traversals/writing-traversals)
-* [Prisms: Preview, Review, and how to write your own!](https://www.patreon.com/posts/23394721)
-* [Finding correct (lens) laws](http://oleg.fi/gists/posts/2018-12-12-find-correct-laws.html)
 
 ## Kata
 
 * GHC extensions
   * [Count them all!](https://www.codewars.com/kata/5b1bdc2bccef79e948000086)
   * [Singletons](https://www.codewars.com/kata/54750ed320c64c64e20002e2)
-* Lens
-  * [Lensmaker](https://www.codewars.com/kata/54258ffb430ca2e4b5000239)
