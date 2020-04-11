@@ -54,6 +54,20 @@ Advanced questions about Haskell for everyday usage.
   * How it helps to organize the code?
   * What role does it have in testing?
 
+## Concurrency
+
+* What is a concurrent programming?
+* How can you write a concurrent code in Haskell?
+* Basic concurrent operations:
+  * `forkIO`
+  * `killThread`
+  * `threadDelay`
+* How can _MVar_ library can help to achieve communication between multiple threads?
+  * `newMVar` and `newEmptyMVar`
+  * `takeMVar`
+  * `readMVar`
+* What is _deadlock_? How can you avoid it?
+
 #### Resources
 
 * Monoids:
@@ -72,3 +86,9 @@ Advanced questions about Haskell for everyday usage.
 * Modules:
   * [Haskell module system](https://ro-che.info/articles/2012-12-25-haskell-module-system-p1)
   * [Haskell export current module with additional imported module - Stackoverflow](https://stackoverflow.com/questions/18035458/haskell-export-current-module-with-additional-imported-module)
+* Concurrency:
+  * [Chapter 24. Concurrent and multicore programming](http://book.realworldhaskell.org/read/concurrent-and-multicore-programming.html)
+  * [Concurrent - basic libraries](https://hackage.haskell.org/package/base-4.12.0.0/docs/Control-Concurrent.html)
+  * [MVar - Basic libraries](http://hackage.haskell.org/package/base-4.12.0.0/docs/Control-Concurrent-MVar.html)
+  * [Haskell concurrency by example](https://github.com/crabmusket/haskell-simple-concurrency)
+  * [Базовая работа с MVar](https://ruhaskell.org/posts/theory/2015/02/13/mvars.html)
