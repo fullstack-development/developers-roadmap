@@ -1,9 +1,10 @@
 # Front-end Middle 1 level
 
-- [ООП](./oop.md)
-- [ФП](./fp.md)
 - [Структуры и типы данных](./dataTypesAndStructures.md)
 - [Базовые принципы проектирования](./design.md)
+- [ООП](./oop.md)
+- [SOLID](./solid.md)
+- [ФП](./fp.md)
 - [Асинхронность](./async.md)
 - [Генераторы](./generators.md)
 - [Изоморфность](./isomorphism.md)
