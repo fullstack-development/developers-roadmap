@@ -14,7 +14,7 @@ TODO
 * What is the Responsibility in the context of the SRP?
 * What does "reason to change" mean in the context of the SRP?
 * Can the same "reason to change" be used in different modules?
-* How Information Hiding as a criterion for system decomposition is related to the SRP?
+* How Information Hiding as a criterion for a system decomposition is related to the SRP?
 * What are the rules that balance the SRP in the opposite direction and help to avoid overdoing the decomposition?
 * Can we apply the SRP if we have no forecast how system can evolve (for example we are completely unfamiliar with the project)?
 * How is the SRP related to DRY principle?
@@ -41,12 +41,15 @@ TODO
 * Why abstractions are essential if you want to follow the OCP?
 * How to choose the kinds of changes against which to close a design of a module?
 * Why public class properties violates the OCP principle?
+* Why the following to the OCP is easier if the SRP is not violated?
+* How the OCP can lead to premature generalization?
 * Can the OCP be useful also for project written in FP style?
 
 #### Resources
 * [An Open and Closed Case](http://blog.cleancoder.com/uncle-bob/2013/03/08/AnOpenAndClosedCase.html)
 * [The Open Closed Principle](https://blog.cleancoder.com/uncle-bob/2014/05/12/TheOpenClosedPrinciple.html)
 * [The Open-Closed Principle and what hides behind it](https://hackernoon.com/the-open-closed-principle-c3dc45419784)
+* [Patterns in Practice. The Open Closed Principle](https://docs.microsoft.com/en-us/archive/msdn-magazine/2008/june/patterns-in-practice-the-open-closed-principle)
 
 
 ## The Liskov Substitution Principle (LSP)
@@ -81,6 +84,8 @@ TODO
 * Are Cross-cutting Concerns always "low-level"? Why?
 * What is the "inversion" of the dependencies in the context of the DIP?
 * How is the DIP related with the OCP?
+* Where should abstraction be declared that connect high-level and low-level modules? Can it be declared in low-level module and then be imported in high-level one?
+* Does library violate the DIP (for example React) if it is both concrete and widely used in your project?
 * What is The Stable Dependencies Principle (SDP) and how is it related with the DIP?
 * What is the stability metric and what does it measure?
 * Why modules with high stability tend to be less volatile?
@@ -89,7 +94,6 @@ TODO
 * What is The Stable Abstractions Principle and how is it related with the SDP?
 * Why Instability and Abstraction metrics should be balanced?
 * What is the Main Sequence where the sum of Instability and Abstraction is 1?
-* Why interfaces of low-level modules cannot be declared in the same module with implementation?
 * Can the DIP be useful also for project written in FP style?
 
 
@@ -107,12 +111,12 @@ TODO
 * How to prove or disapprove the following statement?
   > The SOLID principles work together as one coherent system.
   > Each of the principles make a code base more maintainable in some specific manner, restricting one of the sides of a codebase.
-  > If applied together the principles guide a developer to design a solution that thoughtful in various dimensions.
-  > * The SRP guide how to split a codebase, without loosing a cohesion of each part.
-  > * The OCP guide how to make system extendible if you can make a forecast about future changes.
-  > * The LSP guide how to not make popular but unobvious mistakes about subtype polymorphism.
-  > * The ISP guide how to plug subsystem each other. The modules that formed according to the SRP isn't always minimal enough for their client, sometimes a modules with single reason to change can have multiple clients with different contracts.
-  > * The DIP guide how to control interdependencies. Following the DIP makes each module be learnt separately and be reusable.
+  > If applied together the principles guide a developer to design a thoughtful in various dimensions solution.
+  > * The SRP guides how to split a codebase, without loosing a cohesion of each part.
+  > * The OCP guides how to make system extendible if you can make a forecast about future changes.
+  > * The LSP guides how to not make popular but unobvious mistakes about subtype polymorphism.
+  > * The ISP guides how to plug subsystem each other. The modules formed according to the SRP isn't always minimal enough for their client, sometimes a modules with single reason to change can have multiple clients with different contracts.
+  > * The DIP guides how to control interdependencies. Following the DIP makes each module be learnt separately and be reusable.
   > But even together the SOLID principles do not cover all of the dimensions of a good design.
 
 #### Resources

@@ -9,6 +9,7 @@
   * К какому виду относится данный паттерн и почему?
 * Singleton
 * Strategy
+  * Как этот паттерн может помочь в следовании The Open Closed Principle?
 * Template method
 * Factory, Factory Method, Abstract Factory
 * Observer/mediator
