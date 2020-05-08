@@ -1,88 +1,88 @@
 # JavaScript
 
-## Данные
+## Data
 
-* Какие типы данных есть в JS?
-* Какие типы в JS изменяемые, а какие нет?
-* Что значит ссылка на переменную?
-* Что такое `NaN`? Как проверить, что переменная - `NaN`?
-* Что значит создавать переменную через конструктор или через литерал?
-* Когда при обращении к свойству объекта стоит использовать точечную нотацию, а когда через строку в квадратных скобках?
-* Что произойдет, если попытаться получить несуществующее в объекте свойство?
-* Что делает `hasOwnProperty`?
-* Когда использовать `null`, а когда `undefined`?
-* Какие есть способы создания глобальных переменных?
-* Для чего нужна директива `use strict`?
+* Which data types are supported in JS?
+* Which JS data types are mutable and which are not?
+* What  is a reference to a variable?
+* What is `NaN`? How do you check whether a variable is `NaN`?
+* What does it mean to create an object using constructor? Using literal?
+* When is it best to call an object's property using dot notation as opposed to square brackets?
+* What will happen if you try to get a property that the object doesn't have?
+* What does `hasOwnProperty` accomplish?
+* When do you use `null` as opposed to `undefined`?
+* What methods of creating global variables are available in JS?
+* What the `use strict` directive is for?
 
-#### Ресурсы
+#### Resources
 
 * [Types (Airbnb JavaScript Style Guide)](https://github.com/airbnb/javascript#types)
 * [Объекты как ассоциативные массивы](https://learn.javascript.ru/object)
 
-## Выражения
+## Expressions
 
-* Что такое выражения и инструкции? В чем отличия между ними?
-* Чем отличаются `var`, `let`, `const`? Почему использование `const` может быть предпочтительнее?
-* Что такое тернарный оператор?
-* Что делает оператор `for..in`? Какие имеются особенности при использовании этого оператора с массивами?
-* Как безопасно проверить, что переменная существует (была объявлена), и не словить ReferenceError?
+* What are expressions and statements? What is the difference between them?
+* How `var`, `let`, and `const` are different from one another? Why using `const` may be a better idea?
+* What is a ternary operator?
+* What does the `for..in` operator do? What should be noted when using this operator with arrays?
+* What is the safe way to check whether a variable exists (has been declared) without triggering ReferenceError?
 
-#### Ресурсы
+#### Resources
 
 * [Выражения и инструкции](https://ru.hexlet.io/courses/introduction_to_programming/lessons/expressions/theory_unit)
 * [JavaScript: Выражения и инструкции](https://puzzleweb.ru/javascript/2_syntax3.php)
 * [Variable Declarations](https://www.typescriptlang.org/docs/handbook/variable-declarations.html)
 
-## Массивы
+## Arrays
 
-* Способы создания массивов (литерал, конструктор, фабричные методы `Array.from()` и `Array.of()`);
-* Удаление элемента из массива (какие есть способы и в чем особенности);
-* Свойство `length` у массива
-  * Какое значение будет у свойства `length` массива `a` и почему:
+* Methods of creating arrays (literal, constructor, factory, `Array.from()` and `Array.of()`);
+* Which methods can be used to remove an element from the array? What should be noted about these methods?
+* Array's `length` property
+   * What value does the `length` property of the array `a` have, and why, given that
       ```javascript
       const a = [1, 2, 3];
       a[10] = 4;
       ```
-    * Что будет, если переприсвоить новое значение?
-    * Влияет ли на `length` удаление элемента посередине массива? Какие способы удаления элементов влияют на длину, а какие нет?
-* Как проверить, что в переменной лежит массив?
-* Что делают, как и когда использовать следующие методы:
-  * `reduce`
-  * `sort`
-  * `filter`
-  * `map`
-  * `forEach`
-  * `some`
-  * `every`
+      * What will happen if you change this value to a new one?
+      * Would removing an element from the middle of the array affect `length`? Which methods of removing elements affect the array's length? Which don't?
+* How do you check if a variable is an array?
+* What do the following methods accomplish? How do you use them? Under what circumstances?
+   * `reduce`
+   * `sort`
+   * `filter`
+   * `map`
+   * `forEach`
+   * `some`
+   * `every`
 
-#### Ресурсы
+#### Resources
 
-* [Массивы. MDN](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array)
+* [fuzzy]Arrays MDN](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
-## Функции
+## Functions
 
-* Какие есть 4 шаблона вызова функции, которые задают контекст выполнения этой функции?
-  * Как директива `use strict` влияет на `this` внутри функции?
-* Какой наиболее простой паттерн, позволяющий облегчить читаемость функции, когда у нее огромное количество аргументов?
-* Как получить все аргументы функции (включая те, что не объявлены, но все-таки были переданы)?
-* Что такое рекурсия? Когда удобно её использовать?
-* Что такое замыкания, и в каких случаях они могут быть полезны? Как сохранить состояние с помощью замыкания, и для чего это состояние может быть использовано?
-* Как реализовать функцию `bind`?
-* Решить такую вот проблему: пускай у нас есть массив ссылок, и наша задача — сделать так, чтобы при клике на каждую выводился `alert`ом ее порядковый номер. Первое решение, что приходит в голову, выглядит так:
-  ```javascript
-  for (var i = 0; i < links.length; i++) {
-     links[i].onclick = function() {
-        alert(i);
-     }
-  }
-  ```
-  На деле же оказывается, что при клике на любую ссылку выводится одно и то же число — значение `links.length`. Почему так происходит и как эту гадость исправить?
-* Что такое callback (функция обратного вызова)? Когда они обычно применяются?
-* Что такое каррирование?
-* Что такое частичное применение?
-* Что такое мемоизация?
+* Which four function calling patterns specify execution context for that function?
+   * How the `use strict` directive affects `this` inside the function?
+* If a function has a large quantity of arguments, what is the simplest pattern for improving that function's readability?
+* How do you obtain all arguments of a given function, including undeclared but passed ones?
+* What is recursion? When using recursion is a good idea?
+* What are function closures, and in what cases can they be useful? How do you persist state using a closure, and what this state can be used for?
+* How do you use the `bind` method?
+* Solve the following problem. With a given array of links, clicking on each link must trigger an `alert` displaying the link's ordinal number. The code written to accomplish this looks as follows:
+   ```javascript
+   for (var i = 0; i < links.length; i++) {
+      links[i].onclick = function() {
+         alert(i);
+      }
+   }
+   ```
+   However, in reality clicking on any link in the array displays one and the same number - the value of `links.length`. What is the reason for this? How can it be fixed?
+* What is a callback? When are callbacks typically used?
+* What is currying?
+* What is partial application?
+* What is memoization?
 
-#### Ресурсы
+#### Resources
 
 * [Some Closure on Closures](https://dev.to/jckuhl/some-closure-on-closures-44ga)
 * [What's so useful about closures (in JS)?](https://softwareengineering.stackexchange.com/questions/203507/whats-so-useful-about-closures-in-js)
@@ -92,28 +92,28 @@
 * [Карринг и частичное применение](https://www.ibm.com/developerworks/ru/library/j-jn9/)
 * [Мемоизация в JS и ускорение функций](https://habr.com/ru/company/ruvds/blog/332384/)
 
-## Прототипы
+## Prototypes
 
-* Что такое функция-конструктор? Как их создавать и как ими пользоваться?
-* Что такое прототип? Какие возможности имеет/дает?
-* Почему методы объекта лучше хранить в прототипе, а не в самом объекте?
-* Можно ли создать инстанс функции через конструктор? И если да, то как, а если нет, то какой бы интерфейс вы реализовали бы для этой задачи?
-* Как создать объект, который ни от чего не наследуется?
-* Какие 3 (как минимум) способа есть отнаследоваться в JavaScript-е? В чем отличия и нюансы?
-* Как в переопределенном методе у наследующего класса вызвать переопределяемый метод родительского?
-  Пример псевдокода:
-  ```javascript
-  class Person
-      method getFullName()
-          return this.name + this.surname
+* What are constructor functions? How are they created and used?
+* What is a prototype? What can be done using a prototype?
+* Why is it best to declare an object's methods in a prototype, not the object itself?
+* Can an instance of a function be created using a constructor? If yes, how? If not, what interface would you implement for this task?
+* How do you create an object that does not inherit anything?
+* What methods of inheritance are available in Javascript? Name at least three. What are their differences and features?
+* How do you call a redefined method of a parent class within a redefined method of the subclass?
+   Pseudocode example:
+   ```javascript
+   class Person
+       method getFullName()
+           return this.name + this.surname
 
-  class Employee extends Person
-      method getFullName()
-          return super() + this.position
-  ```
-* Какие есть способы навсегда привязать метод класса к его инстансу (чтобы `this` всегда был текущим экземпляром класса)?
+   class Employee extends Person
+       method getFullName()
+           return super() + this.position
+   ```
+* What are the ways to forever associate the class method with the class instance, so that `this` always points to the current class?
 
-#### Ресурсы
+#### Resources
 
 * [ES6 классы](http://jsraccoon.ru/es6-classes)
 * [Классы в ECMAScript 6](https://frontender.info/es6-classes-final/)

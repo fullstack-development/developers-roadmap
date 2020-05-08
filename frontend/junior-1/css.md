@@ -1,106 +1,106 @@
 # CSS
 
-* Какие значения бывают у свойства `display`? В чём их особенность?
-* Что делает свойство `margin`? Какие есть особенности у отрицательных значений? Что такое margin collapsing?
-* Что делает свойство `vertical-align`? Какие у него есть значения?
-* Что такое `padding`?
-* Что такое `box-sizing`?
-* Шрифты
-  * Как и в каких единицах можно задавать размер шрифта?
-  * В каких форматах можно задавать цвет шрифта?
-  * Чем `rgb` отличается от `rgba`?
-  * В чём заключаются отличия у разных семейств шрифтов (с засечками, без них и моноширинные шрифты)? Как они называются на английском?
-  * Какие есть особенности подключения шрифтов через `font-face`?
-* Что такое поток документа?
-* Что делает свойство `float`? Почему родитель элемента с `float` может схлопываться?
-* Что делает свойство `position`?
-  * Какие элементы называют позиционированными?
-  * Относительно чего происходит позиционирование элементов при разных значениях свойства `position`?
-* Что делает свойство `z-index`?
-* Контекст наложения
-  * Что такое?
-  * Как влияет на расположение элементов с заданным значением `z-index`?
-  * Какие свойства создают новый контекст наложения?
+* What values does the `display` property have? What is special about them?
+* What does the `margin` property do? What is special about negative values? What is margin collapsing?
+* What does the `vertical-align` property do? What values does it have?
+* What is `padding`?
+* What is `box-sizing`?
+* Fonts
+   * How can font size be specified? What units can be used for that?
+   * Which color models can be used to specify font color?
+   * What is the difference between `rgb` and `rgba`?
+   * How font families such as serif, sans-serif, and monospace are different from one another?
+   * What should be noted about specifying fonts via `font-face`?
+* What is document flow?
+* What does the `float` property do? Why the parent of the element that has `float` may collapse?
+* What does the `position` property do?
+   * Which elements are called positioned?
+   * How the element's position is rendered depending on the value of the `position` property?
+* What does the `z-index` property do?
+* Stacking context
+   * What is stacking context?
+   * How does it affect the position of elements with specified `z-index` values?
+   * Which properties are used to create a new stacking context?
 * Flex
-  * Что такое flexbox?
-  * Существует ли инлайновый flexbox?
-  * Что такое flex-container и flex-items?
-  * Как выравнивать элементы с помощью flexbox?
-  * Принципы работы `flex-grow`, `flex-shrink`. Каким образом рассчитывается занимаемое и свободное пространство при использовании этих свойств?
-* Чуть более сложные вещи в верстке:
-  * Рамки
-    * Что делают и какие значения могут принимать свойства:
-      * `border-style`
-      * `border-color`
-      * `border-width`
-      * `border-radius`
-      * `border`
-    * Можно ли задать стили для каждой рамки отдельно (например, отдельно для левой и для правой рамок)?
-  * Внешние рамки (outline)
-    * В чем отличие от обычных рамок?
-    * Что делают и какие значения могут принимать свойства:
-      * `outline-style`
-      * `outline-color`
-      * `outline-width`
-      * `outline-offset`
-      * `outline`
-  * Тени
-    * Что делает свойство `text-shadow`? Как им пользоваться?
-    * Что делает свойство `box-shadow`? Как им пользоваться?
-    * Как сделать так, чтобы у одного элемента было несколько теней?
-    * Есть ли возможность задавать параметры теней отдельно (например, задать отдельно цвет или размер тени)?
-  * Фоны
-    * Что делают и какие значения могут принимать свойства:
-      * `background-image`
-      * `background-position`
-      * `background-size`
-      * `background-repeat`
-      * `background-origin`
-      * `background-clip`
-      * `background-attachment`
-      * `background-color`
-      * `background`
-  * Градиенты
-    * Что делает функция `linear-gradient`? Как ей пользоваться?
-    * Что делает функция `radial-gradient`? Как ей пользоваться?
-  * Анимации
-    * Что такое `@keyframes`? Зачем нужно? Как им пользоваться?
-    * Что делают и какие значения могут принимать свойства:
-      * `animation`
-      * `animation-delay`
-      * `animation-direction`
-      * `animation-duration`
-      * `animation-fill-mode`
-      * `animation-iteration-count`
-      * `animation-name`
-      * `animation-play-state`
-      * `animation-timing-function`
-      * `transition`
-      * `transition-delay`
-      * `transition-duration`
-      * `transition-property`
-      * `transition-timing-function`
-    * Можно ли задать несколько анимаций для элемента?
-  * Трансформации
-    * Что делает свойство `transform`? Какие значения ему можно задавать?
-    * Можно ли задать несколько трансформаций для элемента?
-    * Изменяется ли положение координатной плоскости при трансформациях?
-* Единицы измерения
-  * Как рассчитываются width и height заданные в процентах?
-  * Как рассчитываются padding и margin заданные в процентах?
-  * Как рассчитывается line-height заданный в процентах?
-  * Как пользоваться `vh`, `vw`, `vmin`, `vmax`?
-* Как стилизовать чекбокс?
-* Как прижать футер к низу страницы (назвать хотя бы два способа)?
-* Как отцентровать элемент по горизонтали (назвать хотя бы три способа)?
-* Как отцентровать элемент по вертикали (назвать хотя бы три способа)?
-* Что такое `media-queries`?
-* Чем отличаются responsive, adaptive, liquid?
-* Какие есть типы селекторов (по тегу, по классу и далее)?
-* Как работают приоритеты селекторов? Какие есть 4 вида возможных отношений?
-* Что делает CSS-правило `* { box-sizing: border-box; }`? Зачем оно нужно?
+   * What is flexbox?
+   * Is there an inline flexbox?
+   * What are flex container and flex items?
+   * How can elements be aligned using flexbox?
+   * Using `flex-grow` and `flex-shrink`. How do you calculate the space occupied by the element and the space left free when using these properties?
+* Slightly more in-depth stylesheet concepts:
+   * Box model
+      * What do the following properties do and what values they have:
+         * `border-style`
+         * `border-color`
+         * `border-width`
+         * `border-radius`
+         * `border`
+      * Is it possible to specify a separate style for an individual box property (e. g., left or right border)?
+   * Outlines
+      * What is the difference between outlines and other box model properties?
+      * What do the following properties do and what values they have:
+         * `outline-style`
+         * `outline-color`
+         * `outline-width`
+         * `outline-offset`
+         * `outline`
+   * Shadows
+      * What does the `text-shadow` property do? How is it set?
+      * What does the `box-shadow` property do? How is it set?
+      * How would you specify multiple shadows for one element?
+      * Is it possible to specify individual shadow attributes separately (e. g., color or size of the shadow)?
+   * Backgrounds
+      * What do the following properties do and what values they have:
+         * `background-image`
+         * `background-position`
+         * `background-size`
+         * `background-repeat`
+         * `background-origin`
+         * `background-clip`
+         * `background-attachment`
+         * `background-color`
+         * `background`
+   * Gradients
+      * What does the `linear-gradient` function do? How is it declared?
+      * What does the `radial-gradient` function do? How is it declared?
+   * Animation
+      * What is `@keyframes`? What is it for? How is it set?
+      * What do the following properties do and what values they have:
+         * `animation`
+         * `animation-delay`
+         * `animation-direction`
+         * `animation-duration`
+         * `animation-fill-mode`
+         * `animation-iteration-count`
+         * `animation-name`
+         * `animation-play-state`
+         * `animation-timing-function`
+         * `transition`
+         * `transition-delay`
+         * `transition-duration`
+         * `transition-property`
+         * `transition-timing-function`
+      * Can one element have multiple animations specified for it?
+   * Transformations
+      * What does the `transform` property do? What values does it have?
+      * Can one element have multiple transformations specified for it?
+      * Does a transformation change the position of the reference plane?
+* Units
+   * How do you calculate width and height in percents?
+   * How do you calculate padding and margin in percents?
+   * How do you calculate line-height in percents?
+   * How do you use `vh`, `vw`, `vmin`, `vmax`?
+* How do you apply styles to a checkbox?
+* How do you make sure the footer stays at the bottom of the page? Name at least two methods.
+* How do you center an element horizontally? Name at least three methods.
+* How do you center an element vertically? Name at least three methods.
+* What is `media-queries`?
+* What is the difference between responsive, adaptive, and liquid layout?
+* What types of selectors are there (by element, by class, etc.)?
+* How does selector precedence work? What are the four selector combinators?
+* What does the following rule do: `* { box-sizing: border-box; }`? What is it for?
 
-### Ресурсы:
+### Resources
 
 * [Разбираемся с vertical-align](https://web-standards.ru/articles/vertical-align/)
 * [Особенности свойства height в %](https://learn.javascript.ru/height-percent/)

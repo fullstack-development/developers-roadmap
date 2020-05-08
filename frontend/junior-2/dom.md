@@ -1,33 +1,33 @@
 # DOM
 
-* Что такое DOM, BOM и `window`?
-* Как происходит построение DOM дерева?
-* Что такое `document` и в чем его отличия от `window`? Когда лучше использовать `document`, а когда `window`?
-* Как происходит навигация по DOM-элементам?
-  * Для чего используются объекты node и element? В чем их сходства и различия?
-  * Что такое: `previousSibling`/`nextSibling`, `children`, `childNodes`, `firstChild`/`lastChild`, `firstElementChild`/`lastElementChild`?
-  * Рассказать про методы навигации по DOM: `getElementById`, `getElementsByClassName`, `getElementsByTagName`, `getElementsByName`, `querySelector`, `querySelectorAll`, `closest`.
-  * Рассказать про навигацию внутри `HTMLTable​Element` и `HTMLFormElement`.
-* Добавление/удаление/клонирование/вставка элементов и узлов. Какими способами это можно сделать?
-* Атрибуты и свойства
-  * Как взаимодействовать с атрибутами HTML элемента через JS?
-  * Что от чего зависит: свойство от атрибута или атрибут от свойства?
-  * Могут ли не совпадать значения в свойстве объекта и в атрибуте одного и того же HTML элемента?
-  * Что выведет данный код:
-    ```html
-    <div id="topId" href="http://fsd.com" foo="bar"></div>
+* What is DOM, BOM, and `window`?
+* How is DOM tree created?
+* What is `document` and how is it different from `window`? In which case is it best to use `document`? What about `window`?
+* How does DOM traversing work?
+   * What are node and element used for? What are their similarities and differences?
+   * What is: `previousSibling`/`nextSibling`, `children`, `childNodes`, `firstChild`/`lastChild`, `firstElementChild`/`lastElementChild`?
+   * How do the following DOM traversing methods work: `getElementById`, `getElementsByClassName`, `getElementsByTagName`, `getElementsByName`, `querySelector`, `querySelectorAll`, `closest`?
+   * How do you traverse the DOM within `HTMLTable​Element`? `HTMLFormElement`?
+* Adding/removing/cloning/copying elements and nodes. Which methods are used to accomplish that?
+* Attributes and properties
+   * How do you work with the attributes of an HTML element in JS?
+   * Do properties depend on attributes or vice versa?
+   * May the value of an object's property be different from the value of the respective HTML element?
+   * How the following code will be rendered:
+      ```html
+      <div id="topId" href="http://fsd.com" foo="bar"></div>
 
-    <script>
-      console.log(document.getElementById('topId').foo);
-    </script>
-    ```
-* CSS стили в DOM
-  * Зачем нужно свойство `style` у HTML-элемента? Как им пользоваться?
-  * Какими способами можно задать стили элементу через JS?
-  * Для чего используется `window.getComputedStyle`?
-* Что такое `DocumentFragment`?
+      <script>
+        console.log(document.getElementById('topId').foo);
+      </script>
+      ```
+* CSS styles in DOM
+   * What the `style` property of an HTML element is for? How is it set?
+   * Which methods are used for specifying an element's style via JS?
+   * What `window.getComputedStyle` is for?
+* What is `DocumentFragment`?
 
-### Ресурсы
+### Resources
 
 * [Курс на Learn Javascript](https://learn.javascript.ru/document)
 * [Спецификация (W3C)](https://www.w3.org/TR/REC-DOM-Level-1/expanded-toc.html)

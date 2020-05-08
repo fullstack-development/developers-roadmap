@@ -3,4 +3,4 @@
 - [HTML](./html.md)
 - [CSS](./css.md)
 - [JavaScript](./js.md)
-- [Тестирование](./testing.md)
+- [Testing](./testing.md)

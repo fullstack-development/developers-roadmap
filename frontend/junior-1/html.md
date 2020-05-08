@@ -1,61 +1,61 @@
 # HTML
 
-* HTML5 теги, как сделать верстку семантичной и зачем это нужно?
-* Что такое `doctype` и зачем он нужен?
-* Какие есть отличия у тегов `div`, `p`, `span`, `a`?
-* Что такое инлайновые элементы (например, `b`, `i`, `strong`, `em`)?
-* Как создавать таблицы в html?
-  * `border-spacing`, `border-collapse`
-  * `colspan`, `rowspan`
-  * `table-layout`
-  * `caption`
-  * `scope`
-  * `display: table`, `table-cell`, `table-row` и т.д.
-* В чем заключаются отличие чекбокса от радио кнопок? Как связать радиокнопки в группу?
-* Что такое тег `<label>` и как с ним работать?
-* Что такое БЭМ и в чем его польза?
-  * Блок
-    * Что такое, когда следует создавать?
-    * Может ли блок содержать другие блоки?
-    * Почему не стоит задавать внешнюю геометрию блокам?
-  * Элемент
-    * Что такое, когда следует создавать?
-    * Может ли элемент содержать другие элементы?
-    * Может ли элемент содержать блоки (блок, к которому он относится, или другие блоки)?
-    * Можно ли создавать элемент элемента?
-    * Может ли элемент использоваться вне блока?
-    * Может ли существовать блок без элементов?
-  * Модификатор
-    * Что такое, когда следует использовать?
-    * Когда следует использовать булевый модификатор, а когда модификатор ключ-значение?
-    * Является ли корректным следующий код:
-        ```html
-        <div class="button_red"> Click me </div>
-        ```
-  * Почему в CSS по БЭМ не рекомендуется использовать селекторы по id и по тегам?
-  * Как препроцессоры помогают избежать боли с дублированием названий в коде?
-  * Какие альтернативы есть БЭМ и в чем сила/слабость каждого? Знать хотя бы 2 альтернативы данному подходу, плюсы/минусы подходов.
-  * Что такое миксы в БЭМе и какие особенности работы с ними есть?
-  * Как бы отрефакторили данный код:
-    ```html
-    <header class="header">
-        <img class="logo">
-        <form class="search-form">
-            <input type="input">
-            <button type="button"></button>
-        </form>
-        <ul class="lang-switcher">
-            <li class="lang-item"><a class="lang-link" href="url">en</a> </li>
-            <li class="lang-item"> <a class="lang-link" href="url">ru</a> </li>
-        </ul>
-    </header>
-    ```
-* Зачем нужны метатеги?
-* Что такое data-атрибуты, и привести примеры, когда они полезны?
-* Как стилизовать `svg`? Какие основные атрибуты и CSS-свойства используются для этого?
-* Что такое специальные html-сущности (неразрывный пробел, тире, которое не дефис) и как с ними работать?
+* HTML5 tags: how do you keep your code semantic and why is this important?
+* What is `doctype`? What is it for?
+* What is the difference between the tags `div`, `p`, `span`, and `a`?
+* What are inline elements such as `b`, `i`, `strong`, or `em`?
+* How do you create tables in HTML?
+   * `border-spacing`, `border-collapse`
+   * `colspan`, `rowspan`
+   * `table-layout`
+   * `caption`
+   * `scope`
+   * `display: table`, `table-cell`, `table-row` etc.
+* What is the difference between a checkbox and a radio button? How do you group multiple radio buttons?
+* What is the `<label>` tag and how is it used?
+* What is BEM and why is it useful?
+   * Block
+      * What is it and under what circumstances should it be created?
+      * Can a block contain other blocks?
+      * Why setting outer geometry for a block is not a good idea?
+   * Element
+      * What is it and under what circumstances should it be created?
+      * Can an element contain other elements?
+      * Can an element contain the block it is associated with? Can it contain other blocks?
+      * Can you create an element of an element?
+      * Can an element be used outside a block?
+      * Can a block exist without elements?
+   * Modifier
+      * What is it and under what circumstances should it be created?
+      * When should you use a boolean modifier as opposed to a key-value modifier?
+      * Is the following code correct:
+         ```html
+         <div class="button_red"> Click me </div>
+         ```
+   * According to BEM methodology, why CSS selectors by id or by element are not recommended?
+   * How does preprocessing help avoid a lot of headache with naming in your codebase?
+   * What are alternatives to BEM? What are their advantages and weaknesses? Name at least two alternatives and their respective advantages and flaws.
+   * What are BEM mixes? What should be noted about working with them?
+   * How would you refactor the following code:
+      ```html
+      <header class="header">
+          <img class="logo">
+          <form class="search-form">
+              <input type="input">
+              <button type="button"></button>
+          </form>
+          <ul class="lang-switcher">
+              <li class="lang-item"><a class="lang-link" href="url">en</a> </li>
+              <li class="lang-item"> <a class="lang-link" href="url">ru</a> </li>
+          </ul>
+      </header>
+      ```
+* What are meta tags for?
+* What are data attributes? Can you give examples of their effective use?
+* How do you apply styles to `svg`? Which primary attributes and CSS properties are used in this task?
+* What are HTML entities such as non-breaking space, em dash, etc, and how do you work with them?
 
-### Ресурсы
+### Resources
 
 * [Людоедский интерфейс, Вадим Макеев](https://www.youtube.com/watch?v=ssJsjGZE2sc)
 * [HTML Academy](https://htmlacademy.ru/)

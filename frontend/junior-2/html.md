@@ -1,38 +1,38 @@
 # HTML
 
-* Как использовать теги `<audio>` и `<video>`?
-  * Как включить стандартные элементы управления?
-  * Как сделать кастомные элементы управления?
-* Как использовать тег `<iframe>`?
-  * Что такое и какую пользу приносит?
-  * Какие есть use cases общения родителя и iframe, какие есть способы реализации этого?
-  * Что такое кросс-доменные iframes и какие у них ограничения?
-* Что делают `async`, `defer` у скриптов и какая между ними разница?
-* Рассказать про атрибуты `<form>`:
-  * `action`
-  * `autocomplete`
-  * `enctype`
-  * `method`
-  * `name`
-* Рассказать про атрибуты `<input>`:
-  * `form`
-  * `list`
-  * `maxlength`
-  * `multiple`
-  * `name`
-  * `placeholder`
-  * `readonly`
-  * `required`
-  * `tabindex`
-  * `value`
-  * `type`
-* Тег `<textarea>`
-  * Как запретить изменение размера?
-  * Как задать значение по умолчанию?
-  * Как избежать вертикальной прокрутки для большого текста?
-  * Какие есть html-pure альтернативы?
-  * В чем разница задания размеров через `cols` & `rows` и `height` & `width`?
+* How do you use the tags `<audio>` and `<video>`?
+   * How do you activate standard controls?
+   * How do you create custom controls?
+* How do you use the `<iframe>` tag?
+   * What is it and what is it useful for?
+   * What use cases of the iframe relationship with its parent are possible? How are they accomplished?
+   * What are cross-domain iframes? What limitations do they have?
+* What do the `async` and `defer` attributes of the script tag do? What is the difference between them?
+* Discuss the following attributes of the `<form>` tag:
+   * `action`
+   * `autocomplete`
+   * `enctype`
+   * `method`
+   * `name`
+* Discuss the following attributes of the `<input>` tag:
+   * `form`
+   * `list`
+   * `maxlength`
+   * `multiple`
+   * `name`
+   * `placeholder`
+   * `readonly`
+   * `required`
+   * `tabindex`
+   * `value`
+   * `type`
+* The `<textarea>` tag:
+   * How do you prevent resizing?
+   * How do you set the default value?
+   * How do you disable vertical scrolling for long texts?
+   * What are the alternatives of pure HTML?
+   * What is the difference between specifying size through `cols` & `rows` and `height` & `width`?
 
-### Ресурсы
+### Resources
 
 * [HTML5 Video Events and API demo](https://www.w3.org/2010/05/video/mediaevents.html)

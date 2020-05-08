@@ -6,11 +6,11 @@
 - [DOM](./dom.md)
 - [Тестирование](./testing.md)
 - [Git](./git.md)
-- [Мобильные браузеры](./mobile.md)
+- [Mobile browsers](./mobile.md)
 - [Работа с датой](./time.md)
-- [Литература](./books.md)
+- [Literature](./books.md)
 
-## Специфично для нашего стека
+## Stack-specific
 
 - [TypeScript](./ts.md)
 - [React](./react.md)
