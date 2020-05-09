@@ -120,6 +120,7 @@ TODO
   > But even together the SOLID principles do not cover all of the dimensions of a good design.
 
 #### Resources
+* [Bob Martin SOLID Principles of Object Oriented and Agile Design](https://www.youtube.com/watch?v=TMuno5RZNeE)
 * [Принципы проектирования классов (S.O.L.I.D.)](https://blog.byndyu.ru/2009/10/solid.html)
 * [OTA SOLID (интерактивный ресурс)](https://ota-solid.now.sh)
 * [SOLID Principles with Uncle Bob - Robert C. Martin](https://www.hanselminutes.com/145/solid-principles-with-uncle-bob-robert-c-martin)
