@@ -1,6 +1,6 @@
-# Системы сборки
+# Build systems
 
-* Что такое webpack?
-* Для чего нужны лоадеры и плагины? В чем отличие между ними?
-* Чем бандлеры отличаются от таск-раннеров?
-* Как работает перевод препроцессоров CSS и HTML?
+* What is webpack?
+* What are loaders and plugins for? What is the difference between them?
+* How do bundles differ from task runners?
+* How do CSS and HTML preprocessors work?
