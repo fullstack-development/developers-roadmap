@@ -1,59 +1,58 @@
 # CSS
 
-## Гриды
+## Grids
 
-* Что такое гриды? Когда они могут быть полезны?
-* Что такое грид-контейнер и грид-элемент?
-* Как задать количество и размеры строк (колонок)?
-  * Какие можно использовать единицы для того, чтобы задать размеры строк (колонок)?
-  * Как задать несколько строк (колонок) одинакового размера?
-  * Как задать минимальный и максимальный размер строки (колонки)?
-* Как задать отступы между строками и колонками?
-* Размещение элементов внутри сетки
-  * Что такое grid line (далее: линия)?
-  * Что такое grid area (далее: область)?
-  * Как можно неявно задать имена для областей при именовании линий (и наоборот, имена линий при именовании областей)?
-  * Как размещать грид-элементы внутри сетки с помощью имен линий?
-  * Как размещать грид-элементы внутри сетки с помощью имен областей? Как при этом оставлять пустые клетки, не занимаемые ни какими элементами?
-* Как сделать grid адаптивным (свойства `auto-fill` и `auto-fit`)?
-* Что такое explicit и implicit grid?
-  * Как задавать размеры для "неявно созданных" строк и колонок?
-  * Что делает свойство `grid-auto-flow`?
-* Как работать с вложенными гридами?
-* Какие есть свойства гридов для выравнивания?
-* Как работает наложение элементов в гридах?
+* What are grids? When can they be useful?
+* What is grid container and grid item?
+* How to set the number and size of rows (columns)?
+  * What units can be used to set the sizes of rows (columns)?
+  * How to set several rows (columns) of the same size?
+  * How to set the minimum and maximum size of row (column)?
+* How to set spaces between rows and columns?
+* Elements placement inside the grid
+  * What is grid line (hereinafter: line)?
+  * What is grid area (hereinafter: area)?
+  * How to set names for areas implicitly when naming lines (and instead, line names when naming areas)?
+  * How to place grid items inside the grid using line names?
+  * How to place grid items inside the grid using area names? In this case, how  to leave empty cells that are not occupied by any elements?
+* How to make adaptive grid ('auto-fill' and 'auto-fit' properties)?
+* What is explicit and implicit grid?
+  * How to set sizes for "implicitly created" rows and columns?
+  * What does the 'grid-auto-flow' property do?
+* How to work with nested grids?
+* What are the grid properties for alignment?
+* How does the elements overlay work in grids?
 
-## Графика
+## Graphics
 
-* Что такое progressive jpeg?
-* Когда стоит использовать тег `img`, а когда `background-image`?
-* Различие экранов
-  * Что такое DPI и PPI?
-  * Что значит фраза: "экран с высокой плотностью пикселей"?
-  * Что такое `device-pixel-ratio`?
-  * Как масштабировать графику на экранах с повышенной плотностью пикселей (например, на retina дисплеях)?
+* What is progressive jpeg?
+* When to use the 'img' tag, and when 'background-image'?
+  * What is DPI and PPI
+  * What does the phrase "screen with high pixel density" mean?
+  * What is 'device-pixel-ratio'?
+  * How to scale graphics on screens with high pixel density (for example, on retina displays)?
 
-## Общие вопросы
+## General issues
 
-* Как работает `calc()`? Какие параметры принимает? Какие операции допустимы? В каких единицах измерения можно задавать значения параметров?
-* Как реализовать треугольник на чистом CSS?
-* Как работает `@import`? Почему не стоит использовать `@import` для загрузки стилей в документ?
+* How does 'calc()' work? What parameters does it take? What operations are allowed? What units can be used for setting parameter values?
+* How to make a triangle in pure CSS?
+* How does '@import' work? Why shouldn’t use '@import' to upload styles to a document?
 
    ```html
-    <!-- Почему не стоит так делать? -->
+    <!-- Why shouldn’t do this way? -->
     <style>
       @import url('a.css');
     </style>
    ```
 
-### Ресурсы
+### Resources
 
 * [CSS Grid Layout Module Level 1 (W3C)](https://www.w3.org/TR/css-grid-1/)
-* [Руководство по изучению CSS Grid](https://learncssgrid.com/)
-* [Основные понятия Grid Layout (MDN)](https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout)
-* [Вёрстка на Grid в CSS. Полное руководство и справочник (Medium)](https://medium.com/@stasonmars/%D0%B2%D0%B5%CC%88%D1%80%D1%81%D1%82%D0%BA%D0%B0-%D0%BD%D0%B0-grid-%D0%B2-css-%D0%BF%D0%BE%D0%BB%D0%BD%D0%BE%D0%B5-%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-%D0%B8-%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%87%D0%BD%D0%B8%D0%BA-220508316f8b)
-* [Что такое единица гибкости fr в CSS, доступным и простым языком (Medium)](https://medium.com/@stasonmars/%D1%87%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D0%B0-%D0%B3%D0%B8%D0%B1%D0%BA%D0%BE%D1%81%D1%82%D0%B8-fr-%D0%B2-css-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BD%D1%8B%D0%BC-%D0%B8-%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%8B%D0%BC-%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%BC-2a3794c4444)
-* [Что такое progressive JPEG?](https://walnut.team/blog/pogovorim-o-tehnologiyah/progressive-jpeg-chto-za-zver/)
-* [Оптимизация графики для Retina-экранов](https://habr.com/ru/post/150071/)
-* [Треугольники через CSS](http://htmlbook.ru/blog/treugolniki-cherez-css)
-* [Не используйте @import](https://habr.com/ru/post/57012/)
+* [Guide to learn CSS Grid](https://learncssgrid.com/)
+* [The basic terms of Grid Layout (MDN](https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout)
+* [Grid layout in CSS. Complete guide and reference (Medium)](https://medium.com/@stasonmars/%D0%B2%D0%B5%CC%88%D1%80%D1%81%D1%82%D0%BA%D0%B0-%D0%BD%D0%B0-grid-%D0%B2-css-%D0%BF%D0%BE%D0%BB%D0%BD%D0%BE%D0%B5-%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-%D0%B8-%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%BE%D1%87%D0%BD%D0%B8%D0%BA-220508316f8b)
+* [The CSS Fractional Unit (Fr) In Approachable, plain Language (Medium)](https://medium.com/@stasonmars/%D1%87%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-%D0%B5%D0%B4%D0%B8%D0%BD%D0%B8%D1%86%D0%B0-%D0%B3%D0%B8%D0%B1%D0%BA%D0%BE%D1%81%D1%82%D0%B8-fr-%D0%B2-css-%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%D0%BD%D1%8B%D0%BC-%D0%B8-%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%8B%D0%BC-%D1%8F%D0%B7%D1%8B%D0%BA%D0%BE%D0%BC-2a3794c4444)
+* [What is progressive JPEG?](https://walnut.team/blog/pogovorim-o-tehnologiyah/progressive-jpeg-chto-za-zver/)
+* [Optimizing graphics for Retina screens](https://habr.com/ru/post/150071/)
+* [CSS triangles](http://htmlbook.ru/blog/treugolniki-cherez-css)
+* [Don't use @import](https://habr.com/ru/post/57012/)
