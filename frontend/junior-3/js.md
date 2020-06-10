@@ -1,45 +1,45 @@
 # JavaScript
 
-## Регулярные выражения
+## Regular expressions
 
-* Зачем нужны регулярные выражения?
-* Какие методы есть у инстансов регулярных выражений в JS?
-* Какие методы есть у строк, которые позволяют работать с регулярными выражениями?
-* Что такое флаги в регулярных выражениях? Рассказать про флаги глобальности, регистронезависимости, многострочности.
-* Как работают методы указания количества (кванторы) `*`, `+`, `{3}`?
-* Что в регулярных выражениях означают символы `[]` и `[^]`, `.`, `?`, `^`, `$`, `|`?
-* Что такое жадные и ленивые квантификаторы?
-* Как использовать базовые плейсхолдеры `\W`, `\w`,`\D`, `\d`, `\S`, `\s`, `\B`, `\b`?
-* Как работает `\b` для начала строки и для конца строки? Почему регулярное выражение `\babc\b` сработает для строки `abc`, но регулярное выражение `\b\.\.\b` не сработает для строки `..`?
-* Когда использовать экранирующий символ `\`?
-* Зачем нужны группы? Как с ними работать?
-* Можно ли создавать вложенные группы?
-* Что означают `$1`, `$2` и т.д. в текстовых редакторах в поле замены, если поиск поддерживает регулярные выражения?
-* Как сделать незапоминающуюся группу (группу, вхождение которой не будет возвращено при матчинге строки на регулярное выражение)?
-* Как использовать значение группы в самом регулярном выражении?
-* Решить задачи:
-  * Написать регулярное выражение по переводу Function Expression в Function Declaration.
-  * Написать регулярное выражение по переводу Function Declaration в Function Expression.
-  * Написать регулярное выражение для поиска всех команд Телеграма в сообщении (примеры: `/help`, `/start`, `/active_orders`, `/order123`). Учесть, что команд в подстроке может быть несколько.
+* What are regular expressions for??
+* What methods do regular expression instances have in JS?
+* What methods do strings have that allow to work with regular expressions?
+* What are flags in regular expressions? To tell about global, case-insensitive, and multiline flags. 
+* How do the methods for specifying quantities (quantifiers) `*`, `+`, `{3}`?
+* What do the next symbols in regular expressions mean: `[]` и `[^]`, `.`, `?`, `^`, `$`, `|`?
+* What are greedy and lazy quantifiers?
+* How to use the base placeholders `\W`, `\w`,`\D`, `\d`, `\S`, `\s`, `\B`, `\b`?
+* How does `\b` work for the beginning and for the end of a line? Why does the regular expression `\babc\b` work for the string `abc`, but the regular expression `\b\.\.\b` does not work for the string `..`?
+* When to use the escape character `\`?
+* What are groups for? How to work with them?
+* Can nested groups be created?
+* What do `$1`, `$2`, and so on mean in text editors in the replace field if the search supports regular expressions?
+* How to make non-capturing group (a group whose entry will not be returned when matching a string to a regular expression)?
+* How to use the group value in the regular expression itself?
+* Tasks to do:
+  * Write regular expression to transfer Function Expression in Function Declaration.
+  * Write regular expression to transfer Function Declaration to Function Expression.
+  * Write regular expression to search for all Telegram commands in a message (examples: `/help`, `/start`, `/active_orders`, `/order123`). To note that there can be several commands in a substring.
 
 ## Promises
 
-* Что такое Promise? Для чего он нужен?
-* Как создать Promise?
-  * В чем разница при создании промисов с помощью конструктора и с помощью фабрики?
-* Методы `then` и `catch`
-  * Что делают?
-  * Что такое promise chaining?
-  * Что могут возвращать их коллбэки и как это повлияет на состояние промиса, возвращаемого данным `then` или `catch`?
-* В чем отличие `then(resolveHandler).catch(rejectHandler)` и `then(resolveHandler, rejectHandler)`?
-* Можно ли отменить выполнение промиса?
-* Рассказать про методы:
+* What is Promise? What is it for?
+* How to create Promise?
+  * What is the difference between creating promises using constructor and factory?
+* `Then` and `catch` methods.
+  * What do they do?
+  * What is promise chaining?
+  * What can their callbacks return and how will this influence on the state of promise returned to `then` or `catch` data?
+* What is the difference between `then(resolveHandler).catch(rejectHandler)` and `then(resolveHandler, rejectHandler)`?
+* Is it possible to cancel promise?
+* To tell about methods:
   * `Promise.resolve`
   * `Promise.reject`
   * `Promise.all`
   * `Promise.race`
-* В чем преимущества и недостатки коллбэков и промисов?
-* Какие значение и состояние будут у следующего промиса и почему:
+* What are the advantages and disadvantages of callbacks and promises?
+* What value and state will the next promise have and why:
   ```javascript
     const promise = new Promise((resolve, reject) => {
       resolve(0);
@@ -48,10 +48,10 @@
     });
   ```
 
-#### Ресурсы
+#### Resources
 
 * [JavaScript — from callbacks to async/await](https://medium.freecodecamp.org/javascript-from-callbacks-to-async-await-1cc090ddad99)
 * [Promise (learn.javascript.ru)](https://learn.javascript.ru/promise)
 * [We have a problem with promises](https://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html)
 * [You're Missing the Point of Promises](https://blog.domenic.me/youre-missing-the-point-of-promises/#toc_1)
-* [You Don't Know JS: Async & Performance](https://github.com/leonardomso/You-Dont-Know-JS/tree/master/async%20%26%20performance) [(рус.)](https://github.com/devSchacht/You-Dont-Know-JS/tree/master/async%20%26%20performance) - можно прочесть первые три главы
+* [You Don't Know JS: Async & Performance](https://github.com/leonardomso/You-Dont-Know-JS/tree/master/async%20%26%20performance) [(rus)](https://github.com/devSchacht/You-Dont-Know-JS/tree/master/async%20%26%20performance) - the first three chapters are the most necessary
