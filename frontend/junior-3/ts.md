@@ -1,12 +1,12 @@
 # TypeScript
 
-* Что такое перегрузка функции? Какие есть способы её реализовать?
-* Как затипизировать конструктор класса?
-  * Можно ли затипизировать перегрузку конструктора для класса?
-* Что такое const assertion?
-  * Для чего оно нужно?
-  * Какие имеются ограничения?
-  * Имеется следующий код:
+* What is function overloading? What are the ways to implement it?
+* How to declare a type of class constructor?
+  * Is it possible to declare a type of constructor overload for the class?
+* What is const assertion?
+  * What is it for?
+  * What are the restrictions?
+  * This code is given:
     ```typescript
     let names = ['Mary', 'David'];
     let group = {
@@ -16,14 +16,14 @@
     group.participants.push('Henry');
     group.ageRestriction = 12;
     ```
-    Какая из последних двух строчек вызовет ошибку, а какая нет? Почему?
-* Как создать новый тип на основе имеющегося, с добавлением новых свойств?
-  * Практическое задание: На основе имеющеющихся типов `Avenger`, `Head`, `Dead` и интерфейса `IPersonalInformation` создать новый тип объекта `SurvivedAvengers<T>`, который должен удовлетворять следующим условиям:
-    * _T должен быть совместим с типом Avenger;_
-    * _SurvivedAvengers\<T> должен содержать ключи типа T за исключением ключей типа Dead;_
-    * _SurvivedAvengers\<T> должен содержать ключи типа Head;_
-    * _SurvivedAvengers\<T> не должен содержать каких-либо других ключей;_
-    * _в SurvivedAvengers\<T> каждому ключу должно соотвествовать значение интерфейса IPersonalInformation;_
+    Which of the last two lines will cause an error, and which won't? Why?
+* How to create a new type based on an existing one and add new properties?
+  * Practical task: Based on the existing types `Avenger`, `Head`, `Dead`, and `IPersonalInformation` interface,  create a new object type `SurvivedAvengers<T>`, that must meet the following conditions:
+    * _T must be compatible with the Avenger type;_
+    * _SurvivedAvengers\<T> must contain T type keys except for the Dead type keys;_
+    * _SurvivedAvengers\<T> must contain Head type keys;_
+    * _SurvivedAvengers\<T> must not contain any other keys;_
+    * _value of IPersonalInformation interface must match to each key in Survived Avengers\<T>;_
       ```typescript
       type Avenger = "Thor" | "Hawkeye" | "Captain America" | "Iron Man" | "Dr. Strange" | "Nick Fury";
       type Head = "Nick Fury";
@@ -38,9 +38,9 @@
       const personalInformation: PersonalInformation = { age: 25; name: 'NameOfAvenger', superpower: 'SuperpowerOfAvenger' };
       const survivedAvengers: SurvivedAvengers<'Thor' | 'Hawkeye' | 'Iron Man'> = { 'Thor': personalInformation, 'Hawkeye': personalInformation, 'Nick Fury': personalInformation };
       ```
-      * Теперь сделайте так, чтобы в объекте `survivedAvengers` ключи типа `Head` были опциональными.
-      * Теперь сделайте так, чтобы в объекте `survivedAvengers` ключи типа `Head` были опциональными, за исключением ключей, переданных в дженерик, т.е. общие ключи из `Head` и `T` должны быть обязательными, а все остальные ключи из `Head` должны быть опциональными.
-* Каково назначение нижеперечисленных типов?
+      * Now make the `Head` type keys optional in `survivedAvengers` object.
+      * What is the purpose of the following types? Now make the `Head` type keys optional in `survivedAvengers` object, except for the keys passed to generic, i.e. the general keys from `Head` and `T` must be obligatory, and all other keys from `Head` must be optional.
+* What is the purpose of the following types?
   * `Partial<T>`
   * `Readonly<T>`
   * `Required<T>`
@@ -54,14 +54,14 @@
   * `Parameters<T>`
   * `InstanceType<T>`
   * `ThisType<T>`
-* Для чего предназначены Conditional Types?
-  * Как проявляется дистрибутивность в Conditional Types?
-  * Как удалить составной тип из union type с помощью Conditional Types?
-  * Допускается ли использовать Conditional Types совместно с Mapped Types?
-  * Для чего нужен `infer`? Допускается ли использовать `infer` для типов не являющихся Conditional Types?
-* Возможно ли в TypeScript объявление рекурсивных type Aliases?
+* What are Conditional Types for?
+  * How is distributivity displayed in Conditional Types?
+  * How to remove a composite type from union type using Conditional Types?
+  * Is it allowed to use Conditional Types together with Mapped Types?
+  * What is `infer` for? Is it allowed to use `infer` for types that are not Conditional Types?
+* Is it possible to declare recursive type Aliases in TypeScript?
 
-### Ресурсы
+### Resources
 
 * [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/advanced-types.html)
 * [How 2 TypeScript: Serious business with TypeScript's infer keyword](https://dev.to/miracleblue/how-2-typescript-serious-business-with-typescripts-infer-keyword-40i5)
