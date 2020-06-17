@@ -16,7 +16,7 @@ __This section is a translation of the following questions _lists_:__
   * What are the pros and cons of making tests isolated and self-contained?
 * How do tests help new people on the project?
 * How do tests help in writing project documentation?
-* How do tests help with receiving feedback from the coding process?
+* How do tests help to speed up receiving feedback from the work done?
 Why does the feedback matter?
 * How do tests help during refactoring process?
 * What is TDD?
