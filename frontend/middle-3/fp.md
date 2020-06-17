@@ -120,16 +120,16 @@ TODO — fill the recursion questions
 
 ## Algebraic Data Types
 * What are Algebraic Data Types (AlgDT)?
-* What is the difference between Sum Types and Unions?
 * Why are Sums and Products called so?
-* Why AlgDT are also called inductive data types?
-* Why are Sum Types also called tagged union? What is a tag (in this context)?
 * How are algebraic properties respected in AlgDT (like Symmetry, Identity, Associativity and Distributivity)?
-* What is the difference between tracking nullable values with Unions and Sum Types?
-* Why does AlgDT fit well for the abstract syntax tree representation?
+* Why AlgDT are also called inductive data types?
+* What is the difference between Sum Types and Unions?
+* Why are Sum Types also called tagged union? What is a tag (in this context)?
 * Why is AlgDT with pattern-matching more type safe approach than Unions?
 * What are the drawbacks of the AlgDT comparing with Unions?
+* What is the difference between tracking nullable values with Unions and Sum Types?
 * What are smart constructors for AlgDT? What are destructors?
+* Why does AlgDT fit well for the abstract syntax tree representation?
 * Which invariants can be modeled with AlgDT and which cannot?
 
 ### Resources:

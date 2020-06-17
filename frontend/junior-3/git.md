@@ -28,6 +28,7 @@
 ### Ресурсы
 
 * [Хорошие материалы по Git от Atlassian](https://www.atlassian.com/git)
+* [Git from the Bottom Up](https://jwiegley.github.io/git-from-the-bottom-up/)
 * [Demystifying Git internals](https://medium.com/@pawan_rawal/demystifying-git-internals-a004f0425a70)
 * [HEAD~ vs HEAD^ vs HEAD@{}](https://stackoverflow.com/questions/26785118/head-vs-head-vs-head-also-known-as-tilde-vs-caret-vs-at-sign/26785200)
 * [Useful tricks you might not know about Git stash](https://medium.freecodecamp.org/useful-tricks-you-might-not-know-about-git-stash-e8a9490f0a1a)

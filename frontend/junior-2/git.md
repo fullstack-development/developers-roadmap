@@ -29,7 +29,6 @@
 * Как посмотреть историю коммитов?
 
 ### Ресурсы
-
 * [Atlassian Git Tutorial](https://www.atlassian.com/git)
 * [Скринкаст по Git](https://learn.javascript.ru/screencast/git#intro-starting-video)
 * [Understanding Git — Data Model](https://hackernoon.com/https-medium-com-zspajich-understanding-git-data-model-95eb16cc99f5)

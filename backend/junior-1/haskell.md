@@ -30,8 +30,6 @@ This level requires basic skills to solve local tasks in a project.
   * How function composition operator is declared? What are its precedence and associativity?
   * Is function composition associative?
   * What is the associativity of function composition?
-    Is there some other function in Prelude which operates the same (has the same semantics) as function composition operator `(.)`,
-    but has the opposite associativity?
 * Recursion
   * What is the difference between iterative and recursive algorithms?
   * What is a tail recursion?
@@ -42,7 +40,7 @@ This level requires basic skills to solve local tasks in a project.
 * What is a type in Haskell? What is a type signature, what could it specify about a type and how it does that?
 * What is a type synonym (alias)? When it could be useful? How do you use it?
 * Algebraic Data Type:
-  * Why ADT is called Algebraic? What is a cardinality?
+  * Why ADT is called Algebraic?
   * What are the declaration parts?
   * How and why do you use ADTs?
   * How and why the record syntax is used?
@@ -53,29 +51,27 @@ This level requires basic skills to solve local tasks in a project.
   * What are polymorphic types and polymorphic functions?
   * Examples of polymorphic types and functions.
   * What does instantiation of a type variable mean? Does it happen at run time or at compile time?
-  * Can you put constraints on a type variable within a data declaration?
 * What is bottom (`_|_`)?
-* What is kind?
 
 ## Lists
 
 * What are lists in Haskell?
   What are the distinguishing features of lists from the similar data structures in other languages?
-* Name three main functions that work with lists.
+* There are some functions that work with lists. How they change the number of  elements?
+  * `filter`
+  * `map`
+  * `fold`
+  * Which function can be used to express others?
 * List comprehensions.
 * What are infinite lists? What are the use cases of infinite lists?
 * Foldings lists:
   * `foldl`
   * `foldr`
   * `foldl1`, `foldr1`
-  * `foldl'`, `foldr'`
   * Scans: `scanl`, `scanr`, and others.
   * Examples of using associative and non-associative operators as a folding function.
     What are the differences between these use cases?
   * Does it matter if a folding function has left or right associativity?
-  * How `foldl`, `foldl'`, `foldr` and `foldr'` behave with infinite lists, and why do they have the particular behavior?
-  * When `foldl'` does not solve the problem of deferring too many calculations?
-  * Which fold functions support short-circuit (lazy) evaluation?
 
 ## Modules
 
@@ -91,22 +87,10 @@ This level requires basic skills to solve local tasks in a project.
   * How to export type synonym?
   * How to export imported module?
   * How to export constructors `Just`, `Nothing` and function `fromMaybe` in the following example?
-
     ```haskell
-    module A(?) where  
+    module A(?) where
       import qualified Data.Maybe as Mb
     ```
-
-  * What will be exported in this case:
-
-    ```haskell
-    module External (
-      module Internal
-      ) where
-    import qualified Internal
-    ```
-
-  * What are cyclic dependencies and what are the methods of resolving them?
 
 ## Language control expressions
 
@@ -126,21 +110,25 @@ This level requires basic skills to solve local tasks in a project.
   * `Show`, `Read`
   * `Enum`
   * `Bounded`
-  * What are the numeric typeclasses in Haskell? What are their relations?
-* What is ad-hoc polymorphism and what are the alternatives?
+  * `Num`
+* What is ad-hoc polymorphism? What is the difference between ad-hoc and parametric polymorphism?
 * How to specify a typeclass in a type signature?
-* How to make default function implementation?
-  Is it possible to specify the type of default implementation to be distinct from declared typeclass method?
-* What are orphan instances? What is coherence and why is it important to maintain it? What are the possible cases of coherence violation?
 * What is instance deriving? When is it possible to derive an instance?
 
-## Basic functional programming patterns (and their laws)
+## Monoid
 
-* Functor.
-* Applicative.
-* Alternative and MonadSum.
-* Monoid.
-* How Monoid and Alternative differ conceptually?
+* What is a Monoid?
+* What are Monoid laws?
+
+## Functor
+
+* What is a Functor?
+* What are Functor laws?
+
+## Applicative
+
+* What is an Applicative?
+* What are Applicative laws?
 
 ## Monad
 
@@ -152,7 +140,7 @@ This level requires basic skills to solve local tasks in a project.
   * Implement `bind` from `join` and backwards.
   * What is Kleisli arrow (category)?
   * Monad laws.
-* Basic monads list:
+* Basic monads. What effects do they implement? (*You don't have to write instances*):
   * `Maybe`.
   * `Either`.
   * `List`.
@@ -160,33 +148,22 @@ This level requires basic skills to solve local tasks in a project.
   * `Writer`.
   * `State`.
   * `IO`.
+* How can you emulate `Reader` or `Writer` behaviour with `State`?
 * `do`-notation.
 * How does Monad differ from Functor and Applicative?
-* Error management strategies:
-  * How do `Maybe` and `Either` help with error management?
-  * How to use `try`, `catch` and `throw` functions?
-  * Can `throw` and `catch` be called in pure functions?
-  * What is the difference between `throw` and `throwIO` functions?
-* How to use the following functions?
-  * `filterM`
-  * `foldM`
-  * `forM`
-  * `mapM`
-  * `liftM`
 
 ## Monad transformers
 
+* What is Monad transformer? Why it's used?
 * What is `lift` function?
 * What is `liftIO` function?
 * What are `MonadTrans` laws?
 * What transformer is used with `Either`?
 * How to use `IO` monad in a transformer stack?
-* Is there a difference between using `MaybeT (StateT IO) ()` and `StateT (MaybeT IO) ()`?
 
 ## Type inference
 
 * What does type inference mean?
-* Basic concepts of Hindley-Milner type inference.
 * How we can get following problems while types inferring? How to solve them?
   * Ambiguity.
   * Deducing problem.
@@ -194,31 +171,11 @@ This level requires basic skills to solve local tasks in a project.
   * Infinite type problem:
     * What’s result of computation `let t = [t] in t`? How to explain this behavior?
 
-## Lazy evaluation
+## Advanced questions
 
-* What is the difference between laziness and non-strictness?
-  What is the difference between eager and strict evaluation?
-* What is a redex?
-* What is outside in and inside out evaluation?
-* What is lazy evaluation?
-* How it differs from eager evaluation? What are the pros and cons of lazy evaluation?
-* Is Haskell a lazy language?
-* What is thunk?
-  * Describe the concept of its inner structure.
-  * Could you think of cases when thunk occupies less space than the evaluated value and visa versa?
-  * Can you nest thunks?
-* What is the difference between call by value, call by name and call by need?
-* What is WHNF?
-* Are next expressions in WHNF or NF?
-  * `(*) (2 + 2)`
-  * `thunk`
-  * `1:(thunk)`
-  * `1:2:(thunk)`
-  * `1:2:3:[]`
-  * `15`
-  * `\x -> x * 2`
-  * `(\x -> x + 1) 3`
-* Why strict functions in Haskell evaluate values to WHNF and not NF?
+* Is there some other function in Prelude which operates the same (has the same semantics) as function composition operator `(.)`, but has the opposite associativity?
+* What will happen after evaluating the function `putStrLn <$> getLine`? Explain why.
+* Is there a difference between using `MaybeT (StateT s IO) ()` and `StateT s (MaybeT IO) ()`?
 
 ### Resources
 
@@ -238,18 +195,7 @@ This level requires basic skills to solve local tasks in a project.
   * [Свертки списков - IBM](https://www.ibm.com/developerworks/ru/library/l-haskell4/)
   * [`foldr`, `foldl` - Haskell wiki](https://wiki.haskell.org/Foldr_Foldl_Foldl%27)
   * [`foldl` as `foldr` - Haskell wiki](https://wiki.haskell.org/Foldl_as_foldr)
-  * [Fixing `foldl`](http://www.well-typed.com/blog/90/)
-  * [Why `foldr` works for infinite lists and `foldl` doesn’t](http://lambda.jstolarek.com/2012/09/why-foldr-works-for-infinite-lists-and-foldl-doesnt/)
 * Modules:
-  * [Haskell module system](https://ro-che.info/articles/2012-12-25-haskell-module-system-p1)
-  * [Haskell export current module with additional imported module - Stackoverflow](https://stackoverflow.com/questions/18035458/haskell-export-current-module-with-additional-imported-module)
   * [Modules declaration, import and export rules](https://www.haskell.org/onlinereport/haskell2010/haskellch5.html)
-* Lazy evaluation:
-  * [Как работают ленивые вычисления - habr](https://habr.com/ru/post/247213/)
-  * [Lazy vs. non-strict - Haskell wiki](https://wiki.haskell.org/Lazy_vs._non-strict)
-  * [WHNF - Haskell wiki](https://wiki.haskell.org/Weak_head_normal_form)
-  * [GHC illustrated (about thunk inner structure)](https://takenobu-hs.github.io/downloads/haskell_ghc_illustrated.pdf)
 * Monads:
   * [All about monad - Haskell wiki](https://wiki.haskell.org/All_About_Monads)
-* Exceptions:
-  * [Скандальная правда об обработке исключений в Haskell](https://eax.me/haskell-exceptions/)

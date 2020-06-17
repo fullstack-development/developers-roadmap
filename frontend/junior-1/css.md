@@ -85,8 +85,12 @@
     * Что делает свойство `transform`? Какие значения ему можно задавать?
     * Можно ли задать несколько трансформаций для элемента?
     * Изменяется ли положение координатной плоскости при трансформациях?
+* Единицы измерения
+  * Как рассчитываются width и height заданные в процентах?
+  * Как рассчитываются padding и margin заданные в процентах?
+  * Как рассчитывается line-height заданный в процентах?
+  * Как пользоваться `vh`, `vw`, `vmin`, `vmax`?
 * Как стилизовать чекбокс?
-* Как пользоваться единицами измерений `vh`, `vw`, `vmin`, `vmax`.
 * Как прижать футер к низу страницы (назвать хотя бы два способа)?
 * Как отцентровать элемент по горизонтали (назвать хотя бы три способа)?
 * Как отцентровать элемент по вертикали (назвать хотя бы три способа)?
@@ -99,6 +103,8 @@
 ### Ресурсы:
 
 * [Разбираемся с vertical-align](https://web-standards.ru/articles/vertical-align/)
+* [Особенности свойства height в %](https://learn.javascript.ru/height-percent/)
+* [Единицы измерения. Проценты](https://learn.javascript.ru/css-units#protsenty/)
 * [What You May Not Know About the Z-Index Property](https://webdesign.tutsplus.com/articles/what-you-may-not-know-about-the-z-index-property--webdesign-16892)
 * [Контекст наложения](https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context)
 * [Приоритеты (специфичность) селекторов](https://habr.com/ru/post/137588/)
@@ -106,4 +112,4 @@
 * [CSS и CSS3. Свойства для форматирования html-элементов](https://html5book.ru/css-css3/)
 * [flex-grow странный. Так ли это?](https://css-live.ru/articles/flex-grow-strannyj-tak-li-eto.html)
 * [Как работает flex-shrink в CSS. Подробное руководство](https://medium.com/@stasonmars/%D0%BA%D0%B0%D0%BA-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%D0%B5%D1%82-flex-shrink-%D0%B2-css-%D0%BF%D0%BE%D0%B4%D1%80%D0%BE%D0%B1%D0%BD%D0%BE%D0%B5-%D1%80%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-c41e40767194)
-* [Liquid/Adaptive/Responsive/Static demo](http://www.liquidapsive.com/)
+* [Liquid/Adaptive/Responsive/Static demo](http://g-mops.net/epica_saitama/epica_layout/index_adaptive.html)
