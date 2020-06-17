@@ -22,7 +22,6 @@ Why does the feedback matter?
 * What is TDD?
   * Why this approach exists?
   * What are the pros and cons of TDD?
-  * What are the limitations of TDD?
 * What are test doubles: dummies, fakes, stubs, spies, mocks?
 * What are test fixtures?
 * What are edge cases? Why do we test them?
