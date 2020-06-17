@@ -33,7 +33,7 @@ Why does the feedback matter?
   * Why is it more difficult to write and support integration tests compared with unit tests?
 * What is test coverage?
   * How to find a balance between a number of tests and test coverage?
-  What problems does the pursuit of 100% covering bring?
+  What problems can the pursuit of 100% covering cause?
 * How do tests help while designing software architecture?
 Why testability of a module is a good indicator of clean code?
 * How do side-effects impact code testability?
