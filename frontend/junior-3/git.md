@@ -22,7 +22,7 @@
     * `reflog`
     * `bisect`
 * How to cancel?
-* What are `HEAD` and `detached HEAD`? ЧWhat do `HEAD^`, `HEAD~`, `HEAD@{1}` mean?
+* What are `HEAD` and `detached HEAD`? What do `HEAD^`, `HEAD~`, `HEAD@{1}` mean?
 * What is Git flow, and what are its examples?
 
 ### Resources
