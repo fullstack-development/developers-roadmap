@@ -4,3 +4,4 @@
 - [CSS](./css.md)
 - [JavaScript](./js.md)
 - [Тестирование](./testing.md)
+- [Git](../../shared/junior-1/git.md)
