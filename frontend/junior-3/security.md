@@ -18,4 +18,4 @@
 * [Preflight request](https://developer.mozilla.org/en-US/docs/Glossary/Preflight_request)
 * [HTTP OPTIONS method](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/OPTIONS)
 * [Authoritative guide to CORS (Cross-Origin Resource Sharing) for REST APIs](https://www.moesif.com/blog/technical/cors/Authoritative-Guide-to-CORS-Cross-Origin-Resource-Sharing-for-REST-APIs/)
-* [XMLHttpRequest: кросс-доменные запросы](https://learn.javascript.ru/xhr-crossdomain)
+* [XMLHttpRequest: cross-origin requests](https://learn.javascript.ru/xhr-crossdomain)
