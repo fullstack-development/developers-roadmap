@@ -1,34 +1,34 @@
-# Базовые принципы проектирования
+# Basic design principles
 
-* Что такое абстрагирование? Какие есть отличия между абстракцией, инкапсуляцией и скрытием информации?
-* Что такое Coupling? Как абстрагирование влияет на coupling?
-* Что такое Cohesion? Является ли эта величина обратной величине Coupling?
+* What is the abstraction? What are the differences between abstraction, encapsulation, and information hiding?
+* What is Coupling? How does abstraction influence on coupling?
+* What is Cohesion? Is this value the reverse of the Coupling value?
 * Separation of concerns
-  * Что это такое?
-  * Какие преимущества даёт следование этому принципу?
-  * Что подразумевают под горизонтальным и вертикальным separation of concerns?
-  * Возможно ли вертикальное разделение без горизонтального и наоборот?
-  * Как связан с Single Responsibility Principle и с cohesion?
+  * What is it?
+  * What are the advantages of following this principle?
+  * What do horizontal and vertical separation of concerns mean?
+  * Is vertical separation without horizontal possible and backwards?
+  * How is it linked to the Single Responsibility Principle and with cohesion?
 * Simplicity
-  * Как Рич Хики в своём докладе "Simple Made Easy" описывает отличие Simple от Easy? Зачем в первую очередь стоит стремится к простоте, а не к лёгкости?
-  * В чём заключается принцип KISS?
-  * Как KISS помогает в формировании ментальных моделей? В чём ценность этих моделей?
-  * Как участие в разработке требований от бизнеса может помочь следованию KISS?
-  * Когда абстрагирование противоречит KISS?
-  * Почему наследование может приводить к нарушению KISS?
-  * В чём заключается принцип YAGNI? Как он соотносится с принципом KISS?
+  * How does Rich Hickey describe the difference between Simple and Easy in his report  "Simple Made Easy"? Why is it necessary to strive for simplicity first of all, and not for ease?
+  * What is the KISS principle?
+  * How does KISS help in the forming of mental models? What is the value of these models?
+  * How can participating in the developing business requirements help to follow KISS?
+  * КWhen abstraction is contrary to KISS?
+  * Why can inheritance lead to KISS violation?
+  * What is the YAGNI principle? How does it relate to the KISS principle?
 * DRY
-  * В чём основная идея принципа DRY?
-  * Как принцип связан с Cohesion?
-  * Как принцип связан с принципом SRP?
-  * Почему этот принцип неразрывно связан с SPOT (Single point of truth)?
-  * Какие есть примеры дублирования кода, которые не нарушают DRY?
-  * Какие есть примеры копирования кода бизнес-логики, которые также не нарушают DRY?
-  * Как следование принципу DRY может привести к нарушению KISS?
-  * Как следование принципу DRY может привести к Premature Generalization?
-  * Почему при попытке убрать дублирование, когда повторов этого кода ещё мало (до 4-5), мы можем легко ошибиться и выбрать неверный способ рефакторинга? Какая здесь аналогия со статистикой?
-  * Как вы объясните фразу "Duplication is far cheaper than the wrong abstraction."?
-* Что такое Cross-cutting concerns? Что значит coarse-grained и fine-grained ответственность?
+  * What is the main idea of the DRY principle?
+  * How does the principle link to Cohesion?
+  * How does the principle link to the SRP principle?
+  * Why is this principle inseparably linked to SPOT (Single point of truth)?
+  * What examples of code duplication that don't violate DRY are there?
+  * What examples of copying business logic code that also don't violate DRY are there?
+  * How can following the DRY principle lead to violation of KISS?
+  * How can following the DRY principle lead to Premature Generalization?
+  * Why is it easy to make a mistake and choose the wrong refactoring method when trying to remove duplication if there are not many repetitions of this code (up to 4-5)? What analogy with statistics is here?
+  * How to explain the phrase "Duplication is far cheaper than the wrong abstraction."?
+* What are Cross-cutting concerns? What do coarse-grained and fine-grained mean?
 
 # Ресурсы
 
