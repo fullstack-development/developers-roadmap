@@ -30,7 +30,7 @@
   * How to explain the phrase "Duplication is far cheaper than the wrong abstraction."?
 * What are Cross-cutting concerns? What do coarse-grained and fine-grained mean?
 
-# Ресурсы
+# Resources
 
 * [Abstraction, Encapsulation, and Information Hiding](http://www.tonymarston.co.uk/php-mysql/abstraction.txt)
 * [Difference between Abstraction and Encapsulation](https://www.guru99.com/difference-between-abstraction-and-encapsulation.html#2)
