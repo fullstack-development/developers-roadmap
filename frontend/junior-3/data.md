@@ -1,9 +1,9 @@
 # Working with data
 
-* What is 'Symbol'? What are its use cases?
+* What is `Symbol`? What are its use cases?
 * What are the differences between arrays and array-like objects? Give examples of array-like objects.
 * Destructurization
-  * Renaming properties (for example, how to set the value of object's property 'foo' { foo: 'foo', ... } to the variable 'bar'), default parameters, nested defaults.
+  * Renaming properties (for example, how to set the value of object's property `foo` { foo: `foo`, ... } to the variable `bar`), default parameters, nested defaults.
   * What values will the variables 'a' and 'b' take in each case?
     ```javascript
       function f({ a, b = 0 } = { a: '' }) {
