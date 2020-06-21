@@ -15,10 +15,10 @@
   * How to set names for areas implicitly when naming lines (and instead, line names when naming areas)?
   * How to place grid items inside the grid using line names?
   * How to place grid items inside the grid using area names? In this case, how  to leave empty cells that are not occupied by any elements?
-* How to make adaptive grid ('auto-fill' and 'auto-fit' properties)?
+* How to make adaptive grid (`auto-fill` and `auto-fit` properties)?
 * What is explicit and implicit grid?
   * How to set sizes for "implicitly created" rows and columns?
-  * What does the 'grid-auto-flow' property do?
+  * What does the `grid-auto-flow` property do?
 * How to work with nested grids?
 * What are the grid properties for alignment?
 * How does the elements overlay work in grids?
@@ -26,17 +26,17 @@
 ## Graphics
 
 * What is progressive jpeg?
-* When to use the 'img' tag, and when 'background-image'?
+* When to use the `img` tag, and when `background-image`?
   * What is DPI and PPI
   * What does the phrase "screen with high pixel density" mean?
-  * What is 'device-pixel-ratio'?
+  * What is `device-pixel-ratio`?
   * How to scale graphics on screens with high pixel density (for example, on retina displays)?
 
 ## General issues
 
-* How does 'calc()' work? What parameters does it take? What operations are allowed? What units can be used for setting parameter values?
+* How does `calc()` work? What parameters does it take? What operations are allowed? What units can be used for setting parameter values?
 * How to make a triangle in pure CSS?
-* How does '@import' work? Why shouldn’t use '@import' to upload styles to a document?
+* How does `@import` work? Why shouldn’t use `@import` to upload styles to a document?
 
    ```html
     <!-- Why shouldn’t do this way? -->
