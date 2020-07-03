@@ -5,7 +5,6 @@ Junior back-end developer 3 level.
 ## Areas of expertise
 
 - [Haskell](./haskell.md)
-- [Databases](./db.md)
 - [AWS](./aws.md)
 - [Git](../../shared/junior-3/git.md)
 
