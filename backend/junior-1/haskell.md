@@ -9,7 +9,7 @@ This level requires basic skills to solve local tasks in a project.
 * Is it possible to declare a function without specifying its type signature?
   Can it cause problems, and if so, which ones?
 * How and when the `let... in...`  expression is used?
-* How and when the `where...`  expression is used?
+* How and when the `where...` clause is used?
 * Function application:
   * What is function application operator? And what is its precedence value?
   * What is partial application?
