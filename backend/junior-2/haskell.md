@@ -86,6 +86,7 @@ Advanced questions about Haskell for everyday usage.
 * Modules:
   * [Haskell module system](https://ro-che.info/articles/2012-12-25-haskell-module-system-p1)
   * [Haskell export current module with additional imported module - Stackoverflow](https://stackoverflow.com/questions/18035458/haskell-export-current-module-with-additional-imported-module)
+  * [Haskell cyclic dependencies] (https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/separate_compilation.html#mutual-recursion)
 * Concurrency:
   * [Chapter 24. Concurrent and multicore programming](http://book.realworldhaskell.org/read/concurrent-and-multicore-programming.html)
   * [Concurrent - basic libraries](https://hackage.haskell.org/package/base-4.12.0.0/docs/Control-Concurrent.html)
