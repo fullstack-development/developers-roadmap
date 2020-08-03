@@ -27,8 +27,11 @@ Advanced questions about Haskell for everyday usage.
   * What was `Foldable` created for?
   * What are the minimal and complete definitions for correct and working `Foldable` instance?
   * What is its relationship to monoids?
-  * Does `Foldable` have any laws?
-    * Which of them do use the `Monoid` instance (2 laws that use Endo and Dual)?
+  * Basic laws for `Foldable`:
+    * A law showing the relationship between `foldr` and `foldmap`
+    * A law showing the relationship between `foldl` and `foldmap`
+    * A law showing the relationship between `fmap` and `foldmap`
+    * Which of them do use the `Monoid` instance?
     * Which of them do use the `Functor` instance?
 * Traversable
   * What is semantics of `Traversable`? Why is it called traversable?
