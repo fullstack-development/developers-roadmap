@@ -46,8 +46,10 @@ This level requires basic skills to solve local tasks in a project.
   * How and why the record syntax is used?
     How to extract a value from one of the fields of the corresponding ADT?
   * What is recursive data structure? Can you give some examples?
+* Immutable data:  
   * What is immutable data?
-    Which data in Haskell is immutable? Example of an immutable data structure.
+  * Which data in Haskell is immutable? Example of an immutable data structure.
+  * How can you work with immutable data structures? What can you do if you need to update this data structure?
 * What is `newtype` declaration? Why does it exist? What are its constraints and properties?
 * Polymorphic types:
   * What are polymorphic types and polymorphic functions?
