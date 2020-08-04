@@ -19,6 +19,7 @@
 
     <script>
       console.log(document.getElementById('topId').foo);
+      console.log(document.getElementById('topId').href);
     </script>
     ```
 * CSS стили в DOM
