@@ -1,6 +1,6 @@
 # CSS
 
-* What values does the `display` property have? What is special about them?
+* What values does the `display` property have? What is special about each of them?
 * What does the `margin` property do? What is special about negative values? What is margin collapsing?
 * What does the `vertical-align` property do? What values does it have?
 * What is `padding`?
