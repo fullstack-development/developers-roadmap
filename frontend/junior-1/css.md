@@ -9,7 +9,7 @@
    * How can font size be specified? What units can be used for that?
    * Which color models can be used to specify font color?
    * What is the difference between `rgb` and `rgba`?
-   * How font families such as serif, sans-serif, and monospace are different from one another?
+   * How  are font families such as serif, sans-serif, and monospace different from one another?
    * What should be noted about specifying fonts via `font-face`?
 * What is document flow?
 * What does the `float` property do? Why the parent of the element that has `float` may collapse?
