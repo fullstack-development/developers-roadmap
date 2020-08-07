@@ -7,10 +7,13 @@
 * Что такое `box-sizing`?
 * Шрифты
   * Как и в каких единицах можно задавать размер шрифта?
-  * В каких форматах можно задавать цвет шрифта?
-  * Чем `rgb` отличается от `rgba`?
   * В чём заключаются отличия у разных семейств шрифтов (с засечками, без них и моноширинные шрифты)? Как они называются на английском?
   * Какие есть особенности подключения шрифтов через `font-face`?
+* Цвета
+  * Какие есть способы задать цвет? Как задать прозрачный цвет?
+  * Как в другом css-свойстве получить текущий цвет?
+  * Какие цветовые модели допустимо использовать в CSS? Какова структура перечисленных вами моделей?
+  * Какую роль играет альфа-канал? Как им пользоваться?
 * Что такое поток документа?
 * Что делает свойство `float`? Почему родитель элемента с `float` может схлопываться?
 * Что делает свойство `position`?
@@ -105,6 +108,7 @@
 * [Разбираемся с vertical-align](https://web-standards.ru/articles/vertical-align/)
 * [Особенности свойства height в %](https://learn.javascript.ru/height-percent/)
 * [Единицы измерения. Проценты](https://learn.javascript.ru/css-units#protsenty/)
+* [CSS-цвета](https://html5book.ru/css-colors/)
 * [What You May Not Know About the Z-Index Property](https://webdesign.tutsplus.com/articles/what-you-may-not-know-about-the-z-index-property--webdesign-16892)
 * [Контекст наложения](https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context)
 * [Приоритеты (специфичность) селекторов](https://habr.com/ru/post/137588/)
