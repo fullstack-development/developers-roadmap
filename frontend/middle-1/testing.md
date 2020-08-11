@@ -16,7 +16,7 @@
 
 ### Ресурсы
 
-* [Test first by R. Marting](https://blog.cleancoder.com/uncle-bob/2013/09/23/Test-first.html)
+* [Test first by R. Martin](https://blog.cleancoder.com/uncle-bob/2013/09/23/Test-first.html)
 * [5 Questions Every Unit Test Must Answer by E. Elliott](https://medium.com/javascript-scene/what-every-unit-test-needs-f6cd34d9836d)
 * [Unit Tests, How to Write Testable Code and Why it Matters](https://www.toptal.com/qa/how-to-write-testable-code-and-why-it-matters)
 * [UnitTest by M. Fowler](https://martinfowler.com/bliki/UnitTest.html)
