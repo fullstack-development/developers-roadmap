@@ -26,7 +26,7 @@
    * Is there an inline flexbox?
    * What are flex container and flex items?
    * How can elements be aligned using flexbox?
-   * Using `flex-grow` and `flex-shrink`. How do you calculate the space occupied by the element and the space left free when using these properties?
+   * Using `flex-grow` and `flex-shrink`. How do you calculate the free and the occupied space when using these properties?
 * Slightly more in-depth stylesheet concepts:
    * Box model
       * What do the following properties do and what values they have:
