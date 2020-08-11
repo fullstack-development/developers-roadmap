@@ -15,7 +15,7 @@
 * What does the `float` property do? Why the parent of the element that has `float` may collapse?
 * What does the `position` property do?
    * Which elements are called positioned?
-   * How the element's position is rendered depending on the value of the `position` property?
+   * How is the element rendered depending on its position property?
 * What does the `z-index` property do?
 * Stacking context
    * What is stacking context?
