@@ -84,7 +84,7 @@
    * Transformations
       * What does the `transform` property do? What values does it have?
       * Can one element have multiple transformations specified for it?
-      * Does a transformation change the position of the reference plane?
+      * Does transformation affect the element's coordinate system?
 * Units
    * How do you calculate width and height in percents?
    * How do you calculate padding and margin in percents?
