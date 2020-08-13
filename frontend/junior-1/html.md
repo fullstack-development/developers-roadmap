@@ -33,7 +33,7 @@
          <div class="button_red"> Click me </div>
          ```
    * According to BEM methodology, why CSS selectors by id or by element are not recommended?
-   * How does preprocessing help avoid a lot of headache with naming in your codebase?
+   * How does preprocessing help to avoid a lot of headache with naming in your codebase?
    * What are alternatives to BEM? What are their advantages and weaknesses? Name at least two alternatives and their respective advantages and flaws.
    * What are BEM mixes? What should be noted about working with them?
    * How would you refactor the following code:
