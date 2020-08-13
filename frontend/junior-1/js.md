@@ -35,7 +35,7 @@
 
 ## Arrays
 
-* Methods of creating arrays (literal, constructor, factory, `Array.from()` and `Array.of()`);
+* Methods for creating arrays (literal, constructor, factory, `Array.from()` and `Array.of()`);
 * Which methods can be used to remove an element from the array? What should be noted about these methods?
 * Array's `length` property
    * What value does the `length` property of the array `a` have, and why, given that
