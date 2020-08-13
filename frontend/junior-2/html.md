@@ -30,7 +30,7 @@
    * How do you prevent resizing?
    * How do you set the default value?
    * How do you disable vertical scrolling for long texts?
-   * What are the alternatives of pure HTML?
+   * What are pure HTML alternatives?
    * What is the difference between specifying size through `cols` & `rows` and `height` & `width`?
 
 ### Resources
