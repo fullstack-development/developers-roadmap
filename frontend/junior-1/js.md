@@ -4,7 +4,7 @@
 
 * Which data types are supported in JS?
 * Which JS data types are mutable and which are not?
-* What  is a reference to a variable?
+* What is a reference to a variable?
 * What is `NaN`? How do you check whether a variable is `NaN`?
 * What does it mean to create an object using constructor? Using literal?
 * When is it best to call an object's property using dot notation as opposed to square brackets?
