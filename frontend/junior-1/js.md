@@ -63,7 +63,7 @@
 
 * Which four function calling patterns specify execution context for that function?
    * How the `use strict` directive affects `this` inside the function?
-* If a function has a large quantity of arguments, what is the simplest pattern for improving that function's readability?
+* If a function has many arguments, what is the simplest pattern for improving that function's readability?
 * How do you obtain all arguments of a given function, including undeclared but passed ones?
 * What is recursion? When using recursion is a good idea?
 * What are function closures, and in what cases can they be useful? How do you persist state using a closure, and what this state can be used for?
