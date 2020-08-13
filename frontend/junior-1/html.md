@@ -34,8 +34,7 @@
          ```
    * According to BEM methodology, why CSS selectors by id or by element are not recommended?
    * How does preprocessing help to avoid a lot of headache with naming in your codebase?
-   * What are alternatives to BEM? What are their advantages and weaknesses? Name at least two alternatives and their respective advantages and flaws.
-   * What are BEM mixes? What should be noted about working with them?
+   * What are the alternatives to BEM? What are their strengths and weaknesses? Describe at least two alternatives.
    * How would you refactor the following code:
       ```html
       <header class="header">
