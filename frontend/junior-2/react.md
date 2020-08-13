@@ -20,7 +20,7 @@
       ```
 * What is Virtual DOM? What is it for?
 * What is component `state`? Component `props`?
-   * How do you update `state`? Why doing this directly by writing in `this.state` is not good practice?
+   * How do you update `state`? Why doing this directly by writing to `this.state` is not good practice?
    * If you pass in `setState` only some of the properties that had been in the state prior to that, will the properties you left out be automatically deleted?
    * In what situation it is best to persist values in the component state? In the instance?
    * What is the correct way to update `state` based on the `state` previous value? What issues may arise in this case?
