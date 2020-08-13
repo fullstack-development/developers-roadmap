@@ -8,7 +8,7 @@
 * How do you set a date component value?
 * How do you calculate a date difference? What should be noted when calculating date difference in TypeScript?
 * What are different ways to format a date? What is a locale?
-* Is it possible to convert a data in JSON?
+* Is it possible to convert a date to JSON?
 
 ### Resources
 
