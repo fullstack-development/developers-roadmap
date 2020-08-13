@@ -94,7 +94,7 @@
 * How do you make sure the footer stays at the bottom of the page? Name at least two methods.
 * How do you center an element horizontally? Name at least three methods.
 * How do you center an element vertically? Name at least three methods.
-* What is `media-queries`?
+* What is `media-query`?
 * What is the difference between responsive, adaptive, and liquid layout?
 * What types of selectors are there (by element, by class, etc.)?
 * How does selector precedence work? What are the four selector combinators?
