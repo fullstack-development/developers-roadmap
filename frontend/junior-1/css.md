@@ -97,7 +97,7 @@
 * What is `media-query`?
 * What is the difference between responsive, adaptive, and liquid layout?
 * What types of selectors are there (by element, by class, etc.)?
-* How does selector precedence work? What are the four selector combinators?
+* How does selector precedence work? Name four possible selector combinations.
 * What does the following rule do: `* { box-sizing: border-box; }`? What is it for?
 
 ### Resources
