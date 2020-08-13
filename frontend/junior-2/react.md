@@ -4,7 +4,7 @@
 * What is a React element? How do you create it? What is it comprised of?
    * What happens if you pass a boolean, `null`, or `undefined` value to children?
 * What is a React component?
-   * What do constructors do in the parent class of the React component? In what situation do you have to call `super`? In what situation this is not necessary?
+   * What do constructors do in the React component's class? In what situation do you have to call `super`? In what situation this is not necessary?
 * What is JSX? What is it for?
    * Why JSX attributes are written in camelCase (e. g., `tabIndex`, not `tabindex`)? Why `className`, not `class`?
    * Why the name of a component used in JSX must start with a capital letter?
