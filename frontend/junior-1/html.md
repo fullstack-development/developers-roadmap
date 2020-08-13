@@ -11,7 +11,7 @@
    * `caption`
    * `scope`
    * `display: table`, `table-cell`, `table-row` etc.
-* What is the difference between a checkbox and a radio button? How do you group multiple radio buttons?
+* What is the difference between a checkbox and a radio button? How do you group radio buttons?
 * What is the `<label>` tag and how is it used?
 * What is BEM and why is it useful?
    * Block
