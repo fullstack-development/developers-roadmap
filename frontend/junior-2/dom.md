@@ -2,7 +2,7 @@
 
 * What is DOM, BOM, and `window`?
 * How DOM tree is created?
-* What is `document` and how is it different from `window`? In which case is it best to use `document`? What about `window`?
+* What is `document` and how is it different from `window`? In which case is it better to use `document`? What about `window`?
 * How does DOM traversing work?
    * What are node and element used for? What are their similarities and differences?
    * What is: `previousSibling`/`nextSibling`, `children`, `childNodes`, `firstChild`/`lastChild`, `firstElementChild`/`lastElementChild`?
