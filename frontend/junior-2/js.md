@@ -24,8 +24,8 @@
 
 ## Arrays
 
-+ Is it possible to break the `forEach` loop?
-+ Is ti possible to determine the position of a subarray within an array using `indexOf`?
++ Is it possible to break out of the `forEach` loop?
++ Is it possible to determine the position of a subarray within an array using `indexOf`?
 + How do you convert a string into an array? Is it possible to use array methods with strings?
 
 ## Functions
