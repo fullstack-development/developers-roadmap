@@ -26,7 +26,7 @@
    * What is the correct way to update `state` based on the `state` previous value? What issues may arise in this case?
    * What is top-down data flow? What is the main means of syncing multiple components?
 * `props.children`
-   * What are they?
+   * What is it?
    * In what situations may it be useful?
    * What is the `React.Children` API useful for?
 * Component Lifecycle
