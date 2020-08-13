@@ -1,7 +1,7 @@
 # DOM
 
 * What is DOM, BOM, and `window`?
-* How is DOM tree created?
+* How DOM tree is created?
 * What is `document` and how is it different from `window`? In which case is it best to use `document`? What about `window`?
 * How does DOM traversing work?
    * What are node and element used for? What are their similarities and differences?
