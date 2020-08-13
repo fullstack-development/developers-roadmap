@@ -50,7 +50,7 @@
       </header>
       ```
 * What are meta tags for?
-* What are data attributes? Can you give examples of their effective use?
+* What are data attributes? Can you give the examples of their effective use?
 * How do you apply styles to `svg`? Which primary attributes and CSS properties are used in this task?
 * What are HTML entities such as non-breaking space, em dash, etc, and how do you work with them?
 
