@@ -76,7 +76,7 @@
       }
    }
    ```
-   However, in reality clicking on any link in the array displays one and the same number - the value of `links.length`. What is the reason for this? How can it be fixed?
+   However, in reality clicking on any link in the array displays the same number - the value of `links.length`. What is the reason for this? How can it be fixed?
 * What is a callback? When are callbacks typically used?
 * What is currying?
 * What is partial application?
