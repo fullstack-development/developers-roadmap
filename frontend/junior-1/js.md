@@ -97,7 +97,7 @@
 * What are constructor functions? How are they created and used?
 * What is a prototype? What can be done using a prototype?
 * Why is it best to declare an object's methods in a prototype, not the object itself?
-* Can an instance of a function be created using a constructor? If yes, how? If not, what interface would you implement for this task?
+* Can an instance of a function be created using a constructor? If so, how? If not, what interface would you implement for this task?
 * How do you create an object that does not inherit anything?
 * What methods of inheritance are available in Javascript? Name at least three. What are their differences and features?
 * How do you call a redefined method of a parent class within a redefined method of the subclass?
