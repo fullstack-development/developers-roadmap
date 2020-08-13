@@ -44,7 +44,7 @@
    * Why is it best to use refs sparingly?
 * Controlled and uncontrolled components
    * What are they? How do the interact with input controls?
-   * How do you set an default value for an input in an uncontrolled component?
+   * How do you set a default value for an input in an uncontrolled component?
 * What is context? In what situations may it be useful?
 * Portals
    * What are they? What are they for? How do you use them?
