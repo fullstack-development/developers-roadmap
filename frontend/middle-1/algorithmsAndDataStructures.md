@@ -33,7 +33,7 @@
 2. [The Algorithm Design Manual Second Edition, Skiena](https://www.google.com/search?q=the+algorithm+design+manual+2nd+edition+steven+skiena)  Chapter 2
 3. [Horowitz and Sahani Fundamentals Of Computer Algorithms 2nd edition](https://www.academia.edu/39717003/Horowitz_and_sahani_fundamentals_of_computer_algorithms_2nd_edition) Chapters 1, 3, 4, 5
 4. [Essential Algorithms: A Practical Approach to Computer Algorithms](https://www.google.com/search?source=hp&ei=MZCJXu-dLZeDk74P6ciQuAo&q=essential+algorithms+a+practical+approach+&oq=essential+algorithms+a+practical+approach+&gs_lcp=CgZwc3ktYWIQAzICCAAyAggAMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjoFCAAQgwE6BAgAEAo6CQgAEAoQRhD_AToECAAQDToFCAAQzQJKMggXEi4wZzkwZzEwN2cxMTBnMTA2ZzEwNmcxMDlnMTE3ZzExNmcxMTNnMTQ5ZzBnMTExSh0IGBIZMGcxZzFnMWcxZzFnMWcxZzFnMWczZzBnMlBHWN0hYI0saABwAHgAgAGtAYgBzAuSAQM4LjaYAQCgAQGqAQdnd3Mtd2l6&sclient=psy-ab&ved=0ahUKEwiv-uvj6NDoAhWXwcQBHWkkBKcQ4dUDCAc&uact=5)  Chapter 1
-5. [Introduction to Asymptotic Analysis](http://www.cs.cornell.edu/courses/cs312/2004fa/lectures/lecture16.HM)
+5. [Introduction to Asymptotic Analysis](http://www.cs.cornell.edu/courses/cs312/2004fa/lectures/lecture16)
 
 ## Данные
 
