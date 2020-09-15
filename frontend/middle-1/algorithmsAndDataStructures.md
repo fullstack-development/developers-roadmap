@@ -20,7 +20,7 @@
 
 * Что такое Space complexity?
 * Что такое Time complexity?
-* Что такое RAM? (Random access machine) [[2]](https://www.google.com/search?q=the+algorithm+design+manual+2nd+edition+steven+skiena)
+* Что такое RAM? (Random access machine, [определение смотреть здесь](https://www.google.com/search?q=the+algorithm+design+manual+2nd+edition+steven+skiena))
 * Что значит сложность худшего случая? Лучшего? Среднего?
 * Дайте опредление для каждого из обозначений:
   * О (Big Oh)
