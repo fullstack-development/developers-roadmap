@@ -6,8 +6,9 @@
 - [Базовые принципы проектирования](./design.md)
 - [Объектно-ориентированное программирование](./oop.md)
 - [Функциональное программирование](./fp.md)
-- [Сервис воркеры](./serviceWorkers.md)
+- [Алгоритмы и структуры данных](./algorithmsAndDataStructures.md)
 - [Сеть](./network.md)
+- [Сервис воркеры](./serviceWorkers.md)
 
 > TODO fill areas
 
