@@ -18,14 +18,14 @@ TODO
 * What are the rules that balance the SRP in the opposite direction and help to avoid overdoing the decomposition?
 * Can we apply the SRP if we have no forecast how system can evolve (for example we are completely unfamiliar with the project)?
 * How is the SRP related to DRY principle?
-* What is the difference between the SRP and Cohesion?
-* What is the difference between the SRP and Separation of concerns?
-* Can the SRP be useful also for project written in FP style?
+* What is the difference between the SRP and cohesion?
+* What is the difference between the SRP and separation of concerns principle?
+* Can the SRP be useful also for project written in FP paradigm?
 
 #### Resources
 * [The Single Responsibility Principle](https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html)
 * [Think you understand the Single Responsibility Principle?](https://hackernoon.com/you-dont-understand-the-single-responsibility-principle-abfdd005b137)
-* [On the Criteria To Be Used in Decomposing Systems into Modules](https://www.cs.umd.edu/class/spring2003/cmsc838p/Design/criteria.pdf) (closely related to SRP)
+* [On the Criteria To Be Used in Decomposing Systems into Modules](https://www.win.tue.nl/~wstomv/edu/2ip30/references/criteria_for_modularization.pdf) (closely related to SRP)
 * [Review of "On the criteria to be used in decomposing systems into modules"](https://blog.acolyer.org/2016/09/05/on-the-criteria-to-be-used-in-decomposing-systems-into-modules/)
 * [The Modular Structure of Complex Systems](https://www.researchgate.net/publication/2814490_The_Modular_Structure_of_Complex_Systems)
 
@@ -35,7 +35,7 @@ TODO
 * What does mean "open for extension" and "closed for modification"?
 * What is the goal of the OCP?
 * Why extensively used modules had better be closed for modification?
-* How to make part of the application open for extension?
+* How to make a module open for extension?
 * Should all modules of your project follow the OCP? If no, which one should?
 * How plugin-based architecture related to the OCP?
 * Why abstractions are essential if you want to follow the OCP?
