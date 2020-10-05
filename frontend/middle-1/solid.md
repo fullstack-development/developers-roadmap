@@ -125,3 +125,4 @@ TODO
 * [OTA SOLID (интерактивный ресурс)](https://ota-solid.now.sh)
 * [SOLID Principles with Uncle Bob - Robert C. Martin](https://www.hanselminutes.com/145/solid-principles-with-uncle-bob-robert-c-martin)
 * [The Principles of OOD](http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod) (contains links to original papers about SOLID, those papers are definitely recommended to be read)
+* Adaptive Code: Agile coding with design patterns and SOLID principles. Second Edition (Gary McLean Hall, Part III, Chapters 7-11)
