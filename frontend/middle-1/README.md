@@ -2,7 +2,7 @@
 
 - [ООП](./oop.md)
 - [ФП](./fp.md)
-- [Структуры и типы данных](./dataTypesAndStructures.md)
+- [Алгоритмы и структуры данных](./algorithmsAndDataStructures.md)
 - [Базовые принципы проектирования](./design.md)
 - [Асинхронность](./async.md)
 - [Генераторы](./generators.md)

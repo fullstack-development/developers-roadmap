@@ -48,6 +48,23 @@
     });
   ```
 
+## Set, Map
+
+* Set
+  * Что такое множество? Как объявить в JS?
+  * Какие примеры использования существуют?
+  * Может ли множество содержать одинаковые элементы?
+  * Какие существуют операции над множествами?
+* Map
+  * Что такое словарь? Как объявить в JS?
+  * Какие примеры использования существуют?
+  * Является ли объект словарем?
+  * Можно ли итерировать словарь?
+* WeakMap, WeakSet
+  * Что такое WeakMap и WeakSet?
+  * В чем отличия от Map и Set?
+  * Какие примеры использования существуют?
+
 #### Ресурсы
 
 * [JavaScript — from callbacks to async/await](https://medium.freecodecamp.org/javascript-from-callbacks-to-async-await-1cc090ddad99)
@@ -55,3 +72,6 @@
 * [We have a problem with promises](https://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html)
 * [You're Missing the Point of Promises](https://blog.domenic.me/youre-missing-the-point-of-promises/#toc_1)
 * [You Don't Know JS: Async & Performance](https://github.com/leonardomso/You-Dont-Know-JS/tree/master/async%20%26%20performance) [(рус.)](https://github.com/devSchacht/You-Dont-Know-JS/tree/master/async%20%26%20performance) - можно прочесть первые три главы
+* [Map и Set](https://learn.javascript.ru/map-set)
+* [Map (MDN)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)
+* [WeakMap и WeakSet (learn.javascript.ru)](https://learn.javascript.ru/weakmap-weakset)
