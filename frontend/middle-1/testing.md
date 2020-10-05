@@ -12,12 +12,11 @@
 * Что такое Solitary и Sociable тесты? В чём преимущества Solitary тестов? Есть ли преимущества у Sociable тестов?
 * Почему применение Mocks упрощает проектирование методом "outside-in"?
 * Зачем стремиться к тому, чтобы тесты можно было запускать максимально удобно и всего одной командой?
-* Зачем запуск тестов надо делать одним из шагов CI? Можно ли end-to-end тесты оставить только частью CI и не запускать локально?
 * Стоит ли писать "учебные" интеграционные тесты, которые запускаются только вручную и только для тестирования внешнего API (например, Web API Github)?
 
 ### Ресурсы
 
-* [Test first by R. Marting](https://blog.cleancoder.com/uncle-bob/2013/09/23/Test-first.html)
+* [Test first by R. Martin](https://blog.cleancoder.com/uncle-bob/2013/09/23/Test-first.html)
 * [5 Questions Every Unit Test Must Answer by E. Elliott](https://medium.com/javascript-scene/what-every-unit-test-needs-f6cd34d9836d)
 * [Unit Tests, How to Write Testable Code and Why it Matters](https://www.toptal.com/qa/how-to-write-testable-code-and-why-it-matters)
 * [UnitTest by M. Fowler](https://martinfowler.com/bliki/UnitTest.html)

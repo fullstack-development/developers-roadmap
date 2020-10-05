@@ -9,7 +9,7 @@ This level requires basic skills to solve local tasks in a project.
 * Is it possible to declare a function without specifying its type signature?
   Can it cause problems, and if so, which ones?
 * How and when the `let... in...`  expression is used?
-* How and when the `where...`  expression is used?
+* How and when the `where...` clause is used?
 * Function application:
   * What is function application operator? And what is its precedence value?
   * What is partial application?
@@ -113,8 +113,6 @@ This level requires basic skills to solve local tasks in a project.
   * `Num`
 * What is ad-hoc polymorphism? What is the difference between ad-hoc and parametric polymorphism?
 * How to specify a typeclass in a type signature?
-* How to make default function implementation?
-  Is it possible to specify the type of default implementation to be distinct from declared typeclass method?
 * What is instance deriving? When is it possible to derive an instance?
 
 ## Monoid

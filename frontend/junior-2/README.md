@@ -5,7 +5,6 @@
 - [JavaScript](./js.md)
 - [DOM](./dom.md)
 - [Тестирование](./testing.md)
-- [Git](./git.md)
 - [Мобильные браузеры](./mobile.md)
 - [Работа с датой](./time.md)
 - [Литература](./books.md)

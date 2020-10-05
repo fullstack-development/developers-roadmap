@@ -1,6 +1,8 @@
 # Front-end Middle 1 level
 
-- [Структуры и типы данных](./dataTypesAndStructures.md)
+- [ООП](./oop.md)
+- [ФП](./fp.md)
+- [Алгоритмы и структуры данных](./algorithmsAndDataStructures.md)
 - [Базовые принципы проектирования](./design.md)
 - [ООП](./oop.md)
 - [SOLID](./solid.md)
