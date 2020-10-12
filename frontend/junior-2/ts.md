@@ -72,13 +72,13 @@
       }
 
       const employees: IEmployee[] = [
-        { name: 'Mikle', age: 20, position: 'Programmer' },
+        { name: 'Michael', age: 20, position: 'Programmer' },
         { name: 'Jordan', age: 25, position: 'Designer' },
-        { name: 'Stive', age: 34, position: 'Accountant' },
-        { name: 'Tom', age: 19, position: 'Programmer'},
-        { name: 'Bob', age: 43, position: 'Programmer'},
-        { name: 'Mikle', age: 19, position: 'Programmer'},
-        { name: 'Bob', age: 27, position: 'Designer'},
+        { name: 'Steve', age: 34, position: 'Accountant' },
+        { name: 'Tom', age: 19, position: 'Programmer' },
+        { name: 'Bob', age: 43, position: 'Programmer' },
+        { name: 'Michael', age: 19, position: 'Programmer' },
+        { name: 'Bob', age: 27, position: 'Designer' },
       ];
 
     filterBy(employees, 'position', 'Programmer'); // вернёт IEmployee[]
