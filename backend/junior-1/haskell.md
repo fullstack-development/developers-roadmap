@@ -48,8 +48,8 @@ This level requires basic skills to solve local tasks in a project.
   * What is recursive data structure? Can you give some examples?
 * Immutable data:  
   * What is immutable data?
-  * Which data in Haskell is immutable? Example of an immutable data structure.
-  * How can you work with immutable data structures? What can you do if you need to update this data structure?
+  * What to do, if you need to update the data structure? 
+    How to do it, if all the data in Haskell is immutable. Give examples for the record and the list.
 * What is `newtype` declaration? Why does it exist? What are its constraints and properties?
 * Polymorphic types:
   * What are polymorphic types and polymorphic functions?
