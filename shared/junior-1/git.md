@@ -22,8 +22,6 @@
   * `push`
   * `fetch`
   * `merge`
-    * Что такое fast-forward merge?
-    * Что делают флаги `--squash` и `--no-ff`?
   * `pull`
 * Что такое Pull Request (или Merge Request)?
 * Как посмотреть историю коммитов?
