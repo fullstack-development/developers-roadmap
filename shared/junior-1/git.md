@@ -27,6 +27,7 @@
 * Как посмотреть историю коммитов?
 
 ### Ресурсы
+* [Первые три раздела Pro Git от Scott Chacon и Ben Straub](https://git-scm.com/book/ru/v2)
 * [Atlassian Git Tutorial](https://www.atlassian.com/git)
 * [Скринкаст по Git](https://learn.javascript.ru/screencast/git#intro-starting-video)
 * [Understanding Git — Data Model](https://medium.com/hackernoon/https-medium-com-zspajich-understanding-git-data-model-95eb16cc99f5)
