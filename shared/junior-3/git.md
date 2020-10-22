@@ -21,7 +21,10 @@
     * `stash`
     * `reflog`
     * `bisect`
-* Как отменить merge commit?
+* `merge`
+  * Как отменить merge commit?
+  * Что такое fast-forward merge?
+  * Что делают флаги `--squash` и `--no-ff`?
 * Что такое `HEAD` и `detached HEAD`? Что значат `HEAD^`, `HEAD~`, `HEAD@{1}`?
 * Что такое Git flow, какие знаете примеры?
 
