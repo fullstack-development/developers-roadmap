@@ -12,4 +12,12 @@ Middle back-end developer 1 level.
 
 ## Required resources
 
-  TODO
+- SICP
+
+  1.  Building Abstractions with Procedures
+
+  2.  Building Abstractions with Data
+
+  3.  Modularity, Objects, and State
+
+  TODO: add questions
