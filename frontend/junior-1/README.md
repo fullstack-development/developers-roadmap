@@ -4,3 +4,4 @@
 - [CSS](./css.md)
 - [JavaScript](./js.md)
 - [Testing](./testing.md)
+- [Git](../../shared/junior-1/git.md)

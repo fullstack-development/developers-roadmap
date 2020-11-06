@@ -4,10 +4,9 @@
 - [CSS](./css.md)
 - [JavaScript](./js.md)
 - [DOM](./dom.md)
-- [Тестирование](./testing.md)
-- [Git](./git.md)
+- [Testing](./testing.md)
 - [Mobile browsers](./mobile.md)
-- [Работа с датой](./time.md)
+- [Date](./time.md)
 - [Literature](./books.md)
 
 ## Stack-specific

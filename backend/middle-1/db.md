@@ -2,15 +2,19 @@
 
 ## Questions
 
+* What are base operations for relations?
+* What are integrity and consistency?
+* What is ACID?
+* What is projection?
 * What is CAP theorem?
   * Does it work in real world?
   * What combination of CAP guarantees is not encountered in practice?
 * What are indexes?
   * How do indexes impact the effectiveness of queries?
   * What are the pros and cons of adding an index?
-* What are Views in Postgresql?
-* What are Sequences in Postgresql?
-* What is `VACUUM` operation in Postgresql?
+* What are Views in PostgreSQL?
+* What are Sequences in PostgreSQL?
+* What is `VACUUM` operation in PostgreSQL?
 * What is the `EXPLAIN` command?
   * What do `ANALYZE` and `BUFFERS` add to command?
   * Why expected cost and actual results can differ?
@@ -26,7 +30,7 @@
   * What do `Result` and `Materialize` in `EXPLAIN` mean?
 * Why `count(*)` is usually faster than `count(specific_row)` and `SELECT reltuples FROM pg_class` is even faster?
 
-#### Resources
+### Resources
 
 * CAP theorem
   * [CAP теорема доступным языком](https://habr.com/ru/post/130577/)

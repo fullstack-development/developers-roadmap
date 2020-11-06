@@ -6,6 +6,7 @@ Middle back-end developer 1 level.
 
 - [Haskell](./haskell.md)
 - [Linux](./linux.md)
+- [Databases](./db.md)
 - [Networking](./networking.md)
 
 ## Required resources
