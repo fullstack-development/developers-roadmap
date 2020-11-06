@@ -1,15 +1,15 @@
 # Testing
 
-* Что такое автоматизированное тестирование, и в чём отличие от ручного тестирования?
-* Что такое unit-test?
-* Что такое TDD?
-* В чем преимущество TDD? Зачем писать сначала тесты, а потом код?
-* Что такое регрессионные баги и как автоматические тесты помогают их решать?
-* Почему сайд-эффекты ухудшают тестируемость кода?
-* Что такое mock и когда их стоит применять?
-* Что такое шпион и когда их стоит применять?
-* Стоит ли тестировать приватные методы класса? Почему?
-* Зачем группировать отдельные тесты внутри unit-тестов?
+* What is automated testing? What is the difference between automated testing and manual testing?
+* What is a unit-test?
+* What is TDD?
+* What is the advantage of TDD? Why write tests before code?
+* What are regression bugs? How can automated testing help in fixing such bugs?
+* Why do side-effects make code less testable?
+* What is a mock and when is it worth using it?
+* What is a spy and when is it worth using it?
+* Should private class methods be tested? Why?
+* Why group separate test cases inside of unit-tests?
 
 ### Ресурсы
 
