@@ -1,17 +1,17 @@
 # Front-end Junior 3 level
 
-- [Системы сборки](./build.md)
-- [Работа с данными](./data.md)
+- [Build systems](./build.md)
+- [Work with data](./data.md)
 - [CSS](./css.md)
 - [JavaScript](./js.md)
-- [Безопасность](./security.md)
+- [Security](./security.md)
 - [DOM](./dom.md)
 - [Git](./git.md)
 - [API](./api.md)
-- [Тестирование](./testing.md)
-- [Литература](./books.md)
+- [Testing](./testing.md)
+- [Literature](./books.md)
 
-## Специфично для нашего стека
+## Stack-specific
 
 - [TypeScript](./ts.md)
 - [React](./react.md)

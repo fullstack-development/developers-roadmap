@@ -16,7 +16,7 @@
   * Are mutations a side effect?
 * What are the SOLID principles? What does each letter from the acronym mean?
 
-### Ресурсы
+### Resources
 
 * [Side effects](http://blog.csssr.ru/2017/10/07/side-effects)
 * [Composition vs inheritance](https://javarevisited.blogspot.com/2013/06/why-favor-composition-over-inheritance-java-oops-design.html)

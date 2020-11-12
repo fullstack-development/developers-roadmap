@@ -1,19 +1,19 @@
-# Изоморфный рендеринг
+# Isomorphic rendering
 
-* Что такое серверный/клиентский/изоморфный рендеринг?
-* Какие есть преимущества и недостатки у каждого из видов рендеринга?
-* Рассказать общую архитектуру серверного/клиентского/изоморфного рендера:
-  * Какие есть составляющие структуры для каждой архитектуры?
-  * Что обычно делает клиентский сервер при изоморфной архитектуре?
-  * Как в каждом случае осуществляется раутинг?
-  * Какие зоны ответственности у front-server, API-server и непосредственно самого клиента? Какие вычислительные нагрузки ложатся на каждую из этих частей?
-* Как из обычного приложения сделать изоморфное? (подробно рассказать про изоморфность, посмотреть примеры реализации)
-* Можем ли мы добиться изоморфного SPA, не поднимая SSR-сервер?
-* Как можно осущестить pre-fetching данных в изоморфном приложении?
-* Когда вы бы посоветовали заказчику использовать клиентский рендер, а когда изоморфный?
+* What is server/client/isomorphic rendering?
+* What are the advantaged and drawbacks of each of rendering types?
+* Describe the general architecture of server/client/isomorphic rendering:
+  * What are the components of each architecture?
+  * What does a client server usually perform provided that the architecture is isomorphic?
+  * How is routing handled in each case?
+  * Which areas of responsibility do a front-server, API-server and client himself cover? What computations does each of those parts handle?
+* How to turn a usual application into a isomorphic one? (describe isomorphic nature in detail, check out some implementations) 
+* How can we implement an isomorphic SPA without setting up any SSR-server?
+* How to implement data pre-fetching in an isomorphic application?
+* What would your advice for a customer be on when to use a client server and an isomorphic one?
 
-# Ресурсы
+### Resources
 
-* [Talk, Универсальный JavaScript, Сергей Черепанов](https://www.youtube.com/watch?v=Y5RV5Ys0-00)
+* [Talk, Universal JavaScript, S. Cherepanov](https://www.youtube.com/watch?v=Y5RV5Ys0-00)
 * [Talk, Server Rendering with React and React Router v4](https://www.youtube.com/watch?v=mZEv4mHsU5E)
 * [Why Isomorphic JavaScript?](https://www.oreilly.com/library/view/building-isomorphic-javascript/9781491932926/ch01.html)

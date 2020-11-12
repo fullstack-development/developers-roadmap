@@ -40,7 +40,7 @@
   * What are the advantages and disadvantages of using it?
   * -What is tail call optimization? Is it supported in JS?
 
-### Ресурсы
+### Resources
 
 * [Functional-Light JavaScript (Kyle Simpson)](https://github.com/getify/Functional-Light-JS)
   * [Russian translation](https://github.com/fxzhukov/Functional-Light-JS-RU)

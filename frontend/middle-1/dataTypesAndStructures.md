@@ -44,7 +44,7 @@
   * What examples of its usage are there?
 * What data type, abstract data type, and data structure is the DOM tree?
 
-### Ресурсы
+### Resources
 
 * [Data Type](https://en.wikipedia.org/wiki/Data_type)
 * [Abstract data Type](https://en.wikipedia.org/wiki/Abstract_data_type)
