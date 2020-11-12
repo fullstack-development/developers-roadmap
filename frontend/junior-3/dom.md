@@ -13,7 +13,7 @@
 * What are the differences between `innerHTML` and `innerText`?
 * Can the DOM API programming languages different from JS be used?
 
-### Ресурсы
+### Resources
 
 * [Good training course on learn js](https://learn.javascript.ru/document)
 * [W3C spec, first level DOM](https://www.w3.org/TR/REC-DOM-Level-1/expanded-toc.html)

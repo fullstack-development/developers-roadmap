@@ -120,7 +120,7 @@
 * How do `Provider` and `connect` from `react-redux` work (including `mapStateToProps` assignment and the subscription mechanism work)?
 
 
-### Ресурсы
+### Resources
 
 * [React Documentation](https://reactjs.org/docs/getting-started.html)
 * [React as a UI Runtime](https://overreacted.io/react-as-a-ui-runtime/)
