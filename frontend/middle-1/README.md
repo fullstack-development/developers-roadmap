@@ -1,15 +1,15 @@
 # Front-end Middle 1 level
 
-- [ООП](./oop.md)
-- [ФП](./fp.md)
-- [Структуры и типы данных](./dataTypesAndStructures.md)
-- [Базовые принципы проектирования](./design.md)
-- [Асинхронность](./async.md)
-- [Генераторы](./generators.md)
-- [Изоморфность](./isomorphism.md)
-- [Тестирование](./testing.md)
+- [OOP](./oop.md)
+- [FP](./fp.md)
+- [Data types and structures](./dataTypesAndStructures.md)
+- [Basic design principles](./design.md)
+- [Asynchrony](./async.md)
+- [Generators](./generators.md)
+- [Isomorphism](./isomorphism.md)
+- [Testing](./testing.md)
 
-## Специфично для нашего стека
+## Stack-specific
 - [Typescript](./typescript.md)
 
 > TODO fill areas

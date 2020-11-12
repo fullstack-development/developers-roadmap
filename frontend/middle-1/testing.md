@@ -1,20 +1,20 @@
 # Testing
 
-* Что такое пирамида тестирования? Какую роль там играют тесты? Какую роль там играет статический анализ кода?
-* Являются ли типы полной заменой unit-тестам? Почему?
-* Что такое end-to-end тесты? В чём отличие от интеграционных?
-* Когда тесты действительно замедляют разработку, а когда ускоряют?
-* Являются ли тесты полноправной частью системы и кодовой базы?
-* Почему тестирование становится менее удобным, если тестировать не только публичные, но и приватные методы?
-* Что такое Test Double и Fake? В чём отличие от Mock и Stub?
-* Какая разница между тестированием с behavior verification и со state verification?
-* Почему применение Mocks провоцирует behavior verification?
-* Что такое Solitary и Sociable тесты? В чём преимущества Solitary тестов? Есть ли преимущества у Sociable тестов?
-* Почему применение Mocks упрощает проектирование методом "outside-in"?
-* Зачем стремиться к тому, чтобы тесты можно было запускать максимально удобно и всего одной командой?
-* Стоит ли писать "учебные" интеграционные тесты, которые запускаются только вручную и только для тестирования внешнего API (например, Web API Github)?
+* What is the Testing pyramid? What role do tests play in it? What about a static analyzer?
+* Can types be considered as a complete replacement of unit-tests? Why?
+* What is end-to-end tests? How do they differ from integration ones?
+* When do tests actually slow down development and when do they speed it up?
+* Can tests be considered as a full part of a system and code base?
+* Why is testing less convenient if both private and public methods are tested? 
+* What is a Test Double and a Fake? How do they differ from a Mock and a Stub?
+* What's the difference between behavior verification testing and state verification testing?
+* Why does Mocks usage lead to behavior verification?
+* What is solitary testing and sociable testing? What are the advantages of solitary tests? Is there any advantage in sociable testing approach?
+* Why does Mocks usage make "outside-in" design approach easier?
+* Why should the aim be to run tests as convenient as possible and with a single command?
+* Is it worth creating "training" integration tests that can only be run manually and for testing of a public API (e.g. Web API Github) only?
 
-### Ресурсы
+### Resources
 
 * [Test first by R. Marting](https://blog.cleancoder.com/uncle-bob/2013/09/23/Test-first.html)
 * [5 Questions Every Unit Test Must Answer by E. Elliott](https://medium.com/javascript-scene/what-every-unit-test-needs-f6cd34d9836d)
@@ -25,4 +25,4 @@
 * [Types and Tests](https://blog.cleancoder.com/uncle-bob/2017/01/13/TypesAndTests.html)
 * [Mocks Aren't Stubs](https://www.martinfowler.com/articles/mocksArentStubs.html)
 * [We don't write tests. There just isn't time for luxuries.](https://www.jamesgolick.com/2007/8/22/we-dont-write-tests-there-just-isnt-time-for-luxuries.html)
-* [Юнит-тестирование для чайников](https://habr.com/en/post/169381/)
+* [Unit-testing for dummies](https://habr.com/en/post/169381/)
