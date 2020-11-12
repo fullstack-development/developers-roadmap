@@ -9,5 +9,5 @@
 
 ### Resources
 
-* [Язык жестов — WSD в Минске, 2018](https://www.youtube.com/watch?v=bjxjAESwejE&t=640s)
+* [Sign language — WSD, Minsk, 2018](https://www.youtube.com/watch?v=bjxjAESwejE&t=640s)
 * [Touch/Pointer events and demos](https://patrickhlauke.github.io/touch/)
