@@ -26,7 +26,7 @@
 * Что такое вывод типов? Какие типичные проблемы вывода типов есть? Какие типы может выводить TS?
 * Какие виды полиморфизма поддерживает TS и как с этим работать?
 
-### Ресурсы
+### Resources
 
 * [What is Type Soundness?](http://jschuster.org/blog/2017/03/21/what-is-type-soundness/)
 * [Is there a difference between type safety and type soundness?](https://cs.stackexchange.com/questions/82155/is-there-a-difference-between-type-safety-and-type-soundness)
