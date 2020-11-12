@@ -102,7 +102,7 @@
   * What happens if the value in Context changes, and there is a Pure Component between Provider and subscriber?
 * Higher-Order Components
   * Can HOC wrap several components at once?
-  * Why to make a function that returns a higher-order function that creates HOC? How does this help make HOC composable?
+  * Why make a function that returns a higher-order function that creates HOC? How does this help make HOC composable?
   * What problems can occur if HOC does not throw incoming props further into the child?
   * How to handle `displayName` when creating HOC?
   * What problems can occur if build HOC in the render itself every time?
