@@ -4,4 +4,4 @@ Middle back-end developer 1 level.
 
 ## Areas of expertise
 
-- [Базовые принципы проектирования](../../shared/middle-1/design.md)
+- [Basic design principles](../../shared/middle-1/design.md)
