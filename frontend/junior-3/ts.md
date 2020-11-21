@@ -36,8 +36,8 @@
         superpower: any;
       }
 
-      Example:
-      const personalInformation: PersonalInformation = { age: 25; name: 'NameOfAvenger', superpower: 'SuperpowerOfAvenger' };
+      // Example:
+      const personalInformation: PersonalInformation = { age: 25, name: 'NameOfAvenger', superpower: 'SuperpowerOfAvenger' };
       const survivedAvengers: SurvivedAvengers<'Thor' | 'Hawkeye' | 'Iron Man'> = { 
         Thor: personalInformation, 
         Hawkeye: personalInformation, 
