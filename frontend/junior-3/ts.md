@@ -72,3 +72,4 @@
 * [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/advanced-types.html)
 * [How 2 TypeScript: Serious business with TypeScript's infer keyword](https://dev.to/miracleblue/how-2-typescript-serious-business-with-typescripts-infer-keyword-40i5)
 * [Conditional Types in TypeScript](https://mariusschulz.com/blog/conditional-types-in-typescript)
+* [Recursive Type Aliases](https://dev.to/busypeoples/notes-on-typescript-recursive-types-and-immutability-5ck1)
