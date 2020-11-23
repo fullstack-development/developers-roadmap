@@ -8,11 +8,12 @@
   * Какие имеются ограничения?
   * Имеется следующий код:
     ```typescript
-    let names = ['Mary', 'David'];
-    let group = {
+    const names = ['Mary', 'David'];
+    const group = {
       participants: names,
       ageRestriction: 18,
     } as const;
+
     group.participants.push('Henry');
     group.ageRestriction = 12;
     ```
@@ -25,18 +26,23 @@
     * _SurvivedAvengers\<T> не должен содержать каких-либо других ключей;_
     * _в SurvivedAvengers\<T> каждому ключу должно соотвествовать значение интерфейса IPersonalInformation;_
       ```typescript
-      type Avenger = "Thor" | "Hawkeye" | "Captain America" | "Iron Man" | "Dr. Strange" | "Nick Fury";
-      type Head = "Nick Fury";
-      type Dead = "Iron Man";
+      type Avenger = 'Thor' | 'Hawkeye' | 'Captain America' | 'Iron Man' | 'Dr. Strange' | 'Nick Fury';
+      type Head = 'Nick Fury';
+      type Dead = 'Iron Man';
+
       interface PersonalInformation {
         age: number;
         name: string;
         superpower: any;
-      };
+      }
 
-      Example:
-      const personalInformation: PersonalInformation = { age: 25; name: 'NameOfAvenger', superpower: 'SuperpowerOfAvenger' };
-      const survivedAvengers: SurvivedAvengers<'Thor' | 'Hawkeye' | 'Iron Man'> = { 'Thor': personalInformation, 'Hawkeye': personalInformation, 'Nick Fury': personalInformation };
+      // Example:
+      const personalInformation: PersonalInformation = { age: 25, name: 'NameOfAvenger', superpower: 'SuperpowerOfAvenger' };
+      const survivedAvengers: SurvivedAvengers<'Thor' | 'Hawkeye' | 'Iron Man'> = { 
+        Thor: personalInformation, 
+        Hawkeye: personalInformation, 
+        'Nick Fury': personalInformation,
+      };
       ```
       * Теперь сделайте так, чтобы в объекте `survivedAvengers` ключи типа `Head` были опциональными.
       * Теперь сделайте так, чтобы в объекте `survivedAvengers` ключи типа `Head` были опциональными, за исключением ключей, переданных в дженерик, т.е. общие ключи из `Head` и `T` должны быть обязательными, а все остальные ключи из `Head` должны быть опциональными.
