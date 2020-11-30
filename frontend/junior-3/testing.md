@@ -11,3 +11,8 @@
 * В чём преимущества правила одной концепции на один unit-тест?
 * В чём преимущества изолированных друг от друга тестов?
 * Как найти баланс между количеством тестов и покрытием кода? Какие проблемы могут быть из-за излишнего количества юнит-тестов?
+
+### Ресурсы
+
+* [Boundary value analysis](https://www.guru99.com/equivalence-partitioning-boundary-value-analysis.html)
+* [Unit testing with fixtures](https://goodguydaniel.com/blog/unit-testing-with-fixtures-unleashed)
