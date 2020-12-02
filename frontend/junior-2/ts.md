@@ -12,7 +12,7 @@
   * Number
   * String
   * Null and Undefined
-  * Object
+  * Object and object
   * Array
   * Tuple
   * Enum
