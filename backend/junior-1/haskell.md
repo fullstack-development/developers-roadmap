@@ -47,9 +47,12 @@ This level requires basic skills to solve local tasks in a project.
     How to extract a value from one of the fields of the corresponding ADT?
   * What is recursive data structure? Can you give some examples?
 * Immutable data:  
-  * What is immutable data?
-  * What to do, if you need to update the data structure? 
-    How to do it, if all the data in Haskell is immutable. Give examples for the record and the list.
+  * What is an immutability concept?
+  * How does it differ from mutability?
+  * Can you list the pros and cons of both concepts?
+  * What concept is using in Haskell?
+  * What to do, if you need to update the data structure? How to do it, if all the data in Haskell is immutable. -> Is there any way to update the data structure in Haskell?
+  * Can you give some examples for the record and the list?
 * What is `newtype` declaration? Why does it exist? What are its constraints and properties?
 * Polymorphic types:
   * What are polymorphic types and polymorphic functions?
@@ -203,3 +206,6 @@ This level requires basic skills to solve local tasks in a project.
   * [Modules declaration, import and export rules](https://www.haskell.org/onlinereport/haskell2010/haskellch5.html)
 * Monads:
   * [All about monad - Haskell wiki](https://wiki.haskell.org/All_About_Monads)
+* Immutability
+  * [Immutability is Awesome](https://mmhaskell.com/blog/2017/1/9/immutability-is-awesome)
+  * [What does immutable variable in Haskell mean? - Stackoverflow](https://stackoverflow.com/questions/38040812/what-does-immutable-variable-in-haskell-mean)
