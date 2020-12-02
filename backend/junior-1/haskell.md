@@ -51,7 +51,7 @@ This level requires basic skills to solve local tasks in a project.
   * How does it differ from mutability?
   * Can you list the pros and cons of both concepts?
   * What concept is using in Haskell?
-  * What to do, if you need to update the data structure? How to do it, if all the data in Haskell is immutable. -> Is there any way to update the data structure in Haskell?
+  * How can you update values in immutable data structure?
   * Can you give some examples for the record and the list?
 * What is `newtype` declaration? Why does it exist? What are its constraints and properties?
 * Polymorphic types:
