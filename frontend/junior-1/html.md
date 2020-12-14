@@ -52,6 +52,7 @@
     ```
 * Зачем нужны метатеги?
 * Что такое data-атрибуты, и привести примеры, когда они полезны?
+* Когда стоит использовать тег `img`, а когда `background-image`?
 * Как стилизовать `svg`? Какие основные атрибуты и CSS-свойства используются для этого?
 * Что такое специальные html-сущности (неразрывный пробел, тире, которое не дефис) и как с ними работать?
 
@@ -62,6 +63,5 @@
 * [HTML (MDN)](https://developer.mozilla.org/ru/docs/Web/HTML)
 * [HTML и HTML5. Описание тегов по основным разделам](https://html5book.ru/html-html5/)
 * [Основы методологии БЭМ](https://ru.bem.info/methodology/quick-start/)
-* [Альтернативы БЭМ](https://habr.com/ru/post/256109/);
-* [SVG: заливка и обводка](http://css.yoksel.ru/svg-fill-and-stroke/)
 * [Способы организации CSS-кода](https://habr.com/ru/post/256109/)
+* [SVG: заливка и обводка](http://css.yoksel.ru/svg-fill-and-stroke/)

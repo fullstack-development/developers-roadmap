@@ -8,7 +8,14 @@ Middle back-end developer 1 level.
 - [Linux](./linux.md)
 - [Databases](./db.md)
 - [Networking](./networking.md)
+- [Basic design principles](../../shared/middle-1/design.md)
 
 ## Required resources
 
-  TODO
+- SICP
+
+  - Chapter 1.  Building Abstractions with Procedures
+  - Chapter 2.  Building Abstractions with Data
+  - Chapter 3.  Modularity, Objects, and State
+
+  TODO: add questions

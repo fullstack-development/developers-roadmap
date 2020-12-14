@@ -18,7 +18,7 @@
 
 ### Ресурсы
 
-* [4 вида утечек памяти в JavaScript и как с ними бороться](https://habr.com/post/309318/&amp/)
+* [4 вида утечек памяти в JavaScript и как с ними бороться](https://habr.com/post/309318)
 * [Как находить и устранять утечки памяти на примере Яндекс.Почты](https://habr.com/company/yandex/blog/195198/)
 * [Обзор средств хранения данных на клиентской стороне](http://prgssr.ru/development/obzor-sredstv-hraneniya-dannyh-na-klientskoj-storone.html)
 * [HTTP cookies explained](https://humanwhocodes.com/blog/2009/05/05/http-cookies-explained/)

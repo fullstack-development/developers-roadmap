@@ -12,7 +12,7 @@
   * Number
   * String
   * Null and Undefined
-  * Object
+  * Object and object
   * Array
   * Tuple
   * Enum
@@ -26,10 +26,18 @@
 * Что делает `?` после имени свойства интерфейса или аргумента функции?
   *  В чем различие между `x?: number` и `x: number | undefined`?
 * Зачем нужен постфикс `!`? Почему его стоит избегать?
+  * Для чего используется с полями классов? Например:
+  ```ts
+  class C {
+    foo!: number;
+    ...
+  ```
 * От чего могут наследоваться интерфейсы? Какие накладывает ограничения наследование от класса?
 * Какие есть способы типизации static-side класса и instance-side класса?
 * Может ли класс одновременно реализовывать набор интерфейсов и наследоваться от другого класса?
 * Каковы назначения модификаторов свойств классов?
+  * В чем отличие `private` от `#`?
+  
 * В чем отличие абстрактных классов от обычных классов и интерфейсов?
 * Можно ли объявить в интерфейсе тип метода таким образом, чтобы он возвращал контекст своего вызова?
   ```ts
@@ -72,13 +80,13 @@
       }
 
       const employees: IEmployee[] = [
-        { name: 'Mikle', age: 20, position: 'Programmer' },
+        { name: 'Michael', age: 20, position: 'Programmer' },
         { name: 'Jordan', age: 25, position: 'Designer' },
-        { name: 'Stive', age: 34, position: 'Accountant' },
-        { name: 'Tom', age: 19, position: 'Programmer'},
-        { name: 'Bob', age: 43, position: 'Programmer'},
-        { name: 'Mikle', age: 19, position: 'Programmer'},
-        { name: 'Bob', age: 27, position: 'Designer'},
+        { name: 'Steve', age: 34, position: 'Accountant' },
+        { name: 'Tom', age: 19, position: 'Programmer' },
+        { name: 'Bob', age: 43, position: 'Programmer' },
+        { name: 'Michael', age: 19, position: 'Programmer' },
+        { name: 'Bob', age: 27, position: 'Designer' },
       ];
 
     filterBy(employees, 'position', 'Programmer'); // вернёт IEmployee[]
@@ -190,7 +198,6 @@
   * оператор `in`
   * `typeof`
   * `instanceof`
-    * В каких случаях при наследовании от `Error` `instanceof` может вернуть некорректный результат? Как можно решить эту проблему?
   * сравнение `==/===`
   * отрицание `!` и двойное отрицание `!!`
 * Как объявить свой Type Guard?
