@@ -1,7 +1,7 @@
 # SOLID principles
 
 ## The Goal
-TODO
+Learn how to design complex systems according to engineering heuristics gathered by R. Martin. The principles are mostly useful for programs written both in OOP and FP paradigms. SOLID is a bright example of not just isolated principles, but the system of checks and balances. In the future you can also learn how to apply the principles for designing high-level architecture too (see Clean Architecture).
 
 ## Prerequisites
 * [Basic design principles](./design.md)
