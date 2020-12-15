@@ -1,7 +1,7 @@
 # Isomorphic rendering
 
 * What is server/client/isomorphic rendering?
-* What are the advantaged and drawbacks of each of rendering types?
+* What are the advantages and drawbacks of each of rendering types?
 * Describe the general architecture of server/client/isomorphic rendering:
   * What are the components of each architecture?
   * What does a client server usually perform provided that the architecture is isomorphic?

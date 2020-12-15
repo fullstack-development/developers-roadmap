@@ -1,28 +1,38 @@
-# Testing
+# Typescript
 
-* What is the Testing pyramid? What role do tests play in it? What about a static analyzer?
-* Can types be considered as a complete replacement of unit-tests? Why?
-* What is end-to-end tests? How do they differ from integration ones?
-* When do tests actually slow down development and when do they speed it up?
-* Can tests be considered as a full part of a system and code base?
-* Why is testing less convenient if both private and public methods are tested? 
-* What is a Test Double and a Fake? How do they differ from a Mock and a Stub?
-* What's the difference between behavior verification testing and state verification testing?
-* Why does Mocks usage lead to behavior verification?
-* What is solitary testing and sociable testing? What are the advantages of solitary tests? Is there any advantage in sociable testing approach?
-* Why does Mocks usage make "outside-in" design approach easier?
-* Why should the aim be to run tests as convenient as possible and with a single command?
-* Is it worth creating "training" integration tests that can only be run manually and for testing of a public API (e.g. Web API Github) only?
-
+* What is Type soundness and Type safety? Is there any difference between these concepts?
+* What is structural typing? What are the alternative options? What are the advantages and drawbacks of this approach?
+* In what cases does TS switch from structural typing to nominative one for type compatibility resolving?
+* What is declarations merging? How does it work in TS? What are pros and cons? How are method types merged?
+* Compatibility
+  * Why does TS treats a type with less number of arguments as compatible?
+   ```typescript
+   ((a: number) => 0; assignable to (b: number, s: string) => 0;)
+   ```
+  * How does it work with function return values?
+  * Are there any type soundness issues caused by it? 
+* What is Type Variance? What do Invariance, Covariance, Contravariance и Bivariance mean?
+  * When can Covariance occur in TS? What about Bivariance? Contravariance?
+  * If we passed a callback which takes another callback as an argument into a function, would the parameters represent Covariance or Contravariance? (answer should be proven by an example)
+  * Would it make any impact on type safety and developer experience if objects and classes were invariant? 
+* What is Type Widening? How does it affect type safety in TS?
+* Fresh object literal type
+  * What is it?
+  * Why does excess property checking work for it in a special way?
+  * Why does passing of an object literal into a function via assignment to some variable instead of direct way increase error probability in the program?
+* What is Refinement? How does it work in the context of Discriminated Unions?
+* Why may usage of generic variables for Discriminated Unions tags lead to a buggy program? When does it really cause bugs and when not?
+* What is Companion Object Pattern? How is Declaration Merging used for its implementation?
+* What is type inference? What are the common issues of it? What types can TS infer?
+* What types of polymorphism are supported by TS and how to work with it?
 ### Resources
 
-* [Test first by R. Marting](https://blog.cleancoder.com/uncle-bob/2013/09/23/Test-first.html)
-* [5 Questions Every Unit Test Must Answer by E. Elliott](https://medium.com/javascript-scene/what-every-unit-test-needs-f6cd34d9836d)
-* [Unit Tests, How to Write Testable Code and Why it Matters](https://www.toptal.com/qa/how-to-write-testable-code-and-why-it-matters)
-* [UnitTest by M. Fowler](https://martinfowler.com/bliki/UnitTest.html)
-* [Unit Tests from XP](http://www.extremeprogramming.org/rules/unittests.html)
-* [Test Reviews Vs. Code Reviews - Some Helpful Tips](https://osherove.com/blog/2007/3/13/test-reviews-vs-code-reviews-some-helpful-tips.html)
-* [Types and Tests](https://blog.cleancoder.com/uncle-bob/2017/01/13/TypesAndTests.html)
-* [Mocks Aren't Stubs](https://www.martinfowler.com/articles/mocksArentStubs.html)
-* [We don't write tests. There just isn't time for luxuries.](https://www.jamesgolick.com/2007/8/22/we-dont-write-tests-there-just-isnt-time-for-luxuries.html)
-* [Unit-testing for dummies](https://habr.com/en/post/169381/)
+* [What is Type Soundness?](http://jschuster.org/blog/2017/03/21/what-is-type-soundness/)
+* [Is there a difference between type safety and type soundness?](https://cs.stackexchange.com/questions/82155/is-there-a-difference-between-type-safety-and-type-soundness)
+* [How can a statically typed language support duck typing?](https://softwareengineering.stackexchange.com/questions/252984/how-can-a-statically-typed-language-support-duck-typing)
+* [Programming TypeScript by Boris Cherny. Chapter 6.](https://learning.oreilly.com/library/view/programming-typescript/9781492037644/ch06.html)
+* [What are covariance and contravariance?](https://www.stephanboyer.com/post/132/what-are-covariance-and-contravariance)
+* [TS FAQ. Why are function parameters bivariant?](https://github.com/Microsoft/TypeScript/wiki/FAQ#why-are-function-parameters-bivariant)
+* [TS Handbook. Function Parameter Bivariance](https://www.typescriptlang.org/docs/handbook/type-compatibility.html#function-parameter-bivariance)
+* [What the heck is polymorphism? (только главы до Row polymorphism  включительно)](https://dev.to/jvanbruegge/what-the-heck-is-polymorphism-nmh)
+* [Discussion: Typed, modular macros for OCaml, thread about row polymorphism](https://news.ycombinator.com/item?id=13046210)
