@@ -5,3 +5,4 @@
     * [junior-3](./junior-3/README.md)
 2. **Middle:**
     * [middle-1](./middle-1/README.md)
+    * [middle-3](./middle-3/README.md)
