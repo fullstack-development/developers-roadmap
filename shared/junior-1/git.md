@@ -1,34 +1,34 @@
 # Git
 
-* Что такое Git?
-* В чём разница между Git, GitHub и GitLab?
-* Что представляют из себя 3 области: Working directory, Staging area, Repository?
-* Ветки
-  * Что такое ветка?
-  * Зачем нужны ветки?
-  * Что значит "создать ветку" и "удалить ветку" (что при этом происходит)?
-  * Как посмотреть список веток?
-  * Как сменить ветку?
-  * Как создать ветку?
-  * Как переименовать ветку?
-  * Как удалить ветку?
-* Для чего нужен файл `.gitignore`?
-* `git config`: что позволяет делать и какие три уровня конфигурации есть?
-* Что делают, как и зачем использовать команды:
-  * `add`
-  * `commit`
-    * Как и при каких условиях можно сделать коммит, не написав перед этим явно `git add`?
-    * Как написать сообщение для коммита не открывая редактора?
-  * `push`
-  * `fetch`
-  * `merge`
-    * Что такое fast-forward merge?
-    * Что делают флаги `--squash` и `--no-ff`?
-  * `pull`
-* Что такое Pull Request (или Merge Request)?
-* Как посмотреть историю коммитов?
+* What is Git?
+* What is the difference between Git, GitHub, and GitLab?
+* What are the following areas: Working directory, Staging area, Repository?
+* Branching
+   * What is a branch?
+   * What are branches for?
+   * What is happening when a branch is created? Deleted?
+   * How do you view a list of branches?
+   * How do you switch between branches?
+   * How do you create a branch?
+   * How do you rename a branch?
+   * How do you delete a branch?
+* What the `.gitignore` file is for?
+* What `git config` is for? Which three configuration levels does it have?
+* What do the following commands accomplish, what are they used for, and how do you work with them:
+   * `add`
+   * `commit`
+      * How and in what situation can you do a commit without explicitly writing `git add`?
+      * How do you write a message for a commit without opening the editor?
+   * `push`
+   * `fetch`
+   * `merge`
+      * What is fast-forward merge?
+      * What do the `--squash` and `--no-ff` flags do?
+   * `pull`
+* What is a Pull Request (or Merge Request)?
+* How do you view commit history?
 
-### Ресурсы
+### Resources
 * [Atlassian Git Tutorial](https://www.atlassian.com/git)
 * [Скринкаст по Git](https://learn.javascript.ru/screencast/git#intro-starting-video)
 * [Understanding Git — Data Model](https://medium.com/hackernoon/https-medium-com-zspajich-understanding-git-data-model-95eb16cc99f5)

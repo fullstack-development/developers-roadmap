@@ -1,42 +1,42 @@
 # JavaScript
 
-## Объекты
+## Objects
 
-+ Что такое геттеры и сеттеры? Как ими пользоваться в JS нативным способом?
-+ Дескрипторы свойств объектов: что такое и что позволяют делать?
-+ Приведение объектов к примитивам: когда происходит и как работает?
-  + Как сделать так, чтобы было возможно сложение двух объектов?
-    ```javascript
-    const a = { x: 3 };
-    const b = { x: 5 };
-    ...
-    console.log(a + b); // 8
-    ```
-  + Как сделать так, чтобы следующее выражение вернуло `true`?
-    ```javascript
-    (c==1 && c==2 && c==3)
-    ```
++ What are getters and setters? How do you use them in JS natively?
++ Object property descriptors: what are they? What are they used for?
++ Object-to-primitive conversion: where does it occur? How does it work?
+   + How do you make the addition of the following objects possible:
+      ```javascript
+      const a = { x: 3 };
+      const b = { x: 5 };
+      ...
+      console.log(a + b); // 8
+      ```
+   + How do you make the following expression return `true`?
+      ```javascript
+      (c==1 && c==2 && c==3)
+      ```
 
-#### Ресурсы
+#### Resources
 
 + [Object to primitive conversion](https://javascript.info/object-toprimitive)
 + [ToPrimitive алгоритм в спецификации](https://www.ecma-international.org/ecma-262/9.0/index.html#sec-toprimitive)
 
-## Массивы
+## Arrays
 
-+ Можно ли прервать обход элементов в методе `forEach`?
-+ Можно ли с помощью метода `indexOf` определить позицию подмассива в массиве?
-+ Как строку преобразовать в массив? Можно ли для строк применить методы массивов?
++ Is it possible to break out of the `forEach` loop?
++ Is it possible to determine the position of a subarray within an array using `indexOf`?
++ How do you convert a string into an array? Is it possible to use array methods with strings?
 
-## Функции
+## Functions
 
-+ Что такое "всплытие" объявления переменных, и в каком случае у функций тут появляются особенности?
-+ Влияет ли директива `use strict` на "всплытие"? Как избежать "всплытия" переменных?
-+ Что такое IIFE (immediately invoked function expression)? Какие есть способы написать IIFE и почему это так работает?
-+ Как сделать так, чтобы при вызове immediately invoked function expression сохранялся родительский контекст?
-+ Как использовать стандартные методы массива для ненастоящих массивов (например, вызвать `map` для `arguments`) и почему это работает?
++ What is variable hoisting? Under what circumstances hoisting works somewhat differently with functions?
++ Does the `use strict` directive affect hoisting? How do you avoid variable hoisting?
++ What is IIFE (immediately invoked function expression)? What are the different ways to write IIFE? How do they work?
++ How do you keep the parent scope when calling an immediately invoked function expression?
++ How do you use standard array methods with array-like objects (e. g., call `map` for `arguments`)? Why do they work?
 
-#### Ресурсы
+#### Resources
 
 + [Immediately-Invoked Function Expression (IIFE)](http://benalman.com/news/2010/11/immediately-invoked-function-expression/)
 + [How does Array.prototype.slice.call() work?](https://stackoverflow.com/questions/7056925/how-does-array-prototype-slice-call-work)

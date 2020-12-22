@@ -4,12 +4,12 @@
 - [CSS](./css.md)
 - [JavaScript](./js.md)
 - [DOM](./dom.md)
-- [Тестирование](./testing.md)
-- [Мобильные браузеры](./mobile.md)
-- [Работа с датой](./time.md)
-- [Литература](./books.md)
+- [Testing](./testing.md)
+- [Mobile browsers](./mobile.md)
+- [Date](./time.md)
+- [Literature](./books.md)
 
-## Специфично для нашего стека
+## Stack-specific
 
 - [TypeScript](./ts.md)
 - [React](./react.md)

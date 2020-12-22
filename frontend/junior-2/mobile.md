@@ -1,13 +1,13 @@
-# Мобильные браузеры
+# Mobile browsers
 
-* Как работает hover в мобильных браузерах?
-* События touch и pointer
-  * Что такое?
-  * Зачем нужны?
-  * Какие бывают?
-* Как работают события мыши в мобильных браузерах? Зачем нужна задержка при клике и как ее избежать?
+* How does hover work in mobile browsers?
+* The touch and pointer events
+   * What are they?
+   * What are they for?
+   * Which types of them are out there?
+* How do mouse events work in mobile browsers? What is click delay for? How do you prevent it?
 
-### Ресурсы
+### Resources
 
-* [Язык жестов — WSD в Минске, 2018 ](https://www.youtube.com/watch?v=bjxjAESwejE&t=640s)
+* [Sign language — WSD, Minsk, 2018](https://www.youtube.com/watch?v=bjxjAESwejE&t=640s)
 * [Touch/Pointer events and demos](https://patrickhlauke.github.io/touch/)

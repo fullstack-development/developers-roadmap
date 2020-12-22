@@ -1,67 +1,67 @@
 # React
 
-* Что такое React?
-* Что такое React Element? Как его можно создать? Из чего он состоит?
-  * Что будет, если передать булевые, `null` или `undefined` значения в children?
-* Что такое React Component?
-  * Что делают конструкторы в родительских классах реакт компонент? Когда надо вызывать `super`, а когда нет?
-* Что такое JSX и зачем он нужен?
-  * Почему атрибуты в JSX пишутся, используя camelCase (например, `tabIndex`, а не `tabindex`)? Почему `className`, а не `class`?
-  * Почему название компоненты, которая используется в JSX, нужно писать с большой буквы?
-  * В чём проблема следующего кода `<p>{items.length && <El items={items} />}</p>`?
-  * Написать аналог с `React.createElement`:
-    ```javascript
-    <OuterComponent color="black" disabled>
-      <InnerComponent hidden={false} />
-      <div>
-        Div text content
-      </div>
-    </OuterComponent>
-    ```
-* Что такое Virtual DOM и зачем он нужен?
-* Что такое `state` и `props` у компонента?
-  * Как обновить `state`? Почему не стоит это делать через прямую запись в `this.state`?
-  * Если передать в `setState` не все свойства, которые до этого уже были в стейте, то будут ли удалены те, что не переданы?
-  * В каких случаях стоит хранить значения в стейте компоненты, а в каких случаях в инстансе?
-  * Как правильно обновлять `state` на основе предыдущего значения `state`? Какие могут при этом возникнуть проблемы?
-  * Что такое top-down data flow? Что является основным механизмом синхронизации нескольких компонент?
+* What is React?
+* What is a React element? How do you create it? What is it comprised of?
+   * What happens if you pass a boolean, `null`, or `undefined` value to `children`?
+* What is a React component?
+   * What do constructors do in the React component's class? In what situation do you have to call `super`? In what situation this is not necessary?
+* What is JSX? What is it for?
+   * Why JSX attributes are written in camelCase (e. g., `tabIndex`, not `tabindex`)? Why `className`, not `class`?
+   * Why the name of a component used in JSX must start with a capital letter?
+   * What is the issue with the following code: `<p>{items.length && <El items={items} />}</p>`?
+   * Write an equivalent using `React.createElement`:
+      ```javascript
+      <OuterComponent color="black" disabled>
+        <InnerComponent hidden={false} />
+        <div>
+          Div text content
+        </div>
+      </OuterComponent>
+      ```
+* What is Virtual DOM? What is it for?
+* What is component `state`? Component `props`?
+   * How do you update `state`? Why doing this directly by writing to `this.state` is not good practice?
+   * If you pass in `setState` only some of the properties that had been in the state prior to that, will the properties you left out be automatically deleted?
+   * In what situation it is best to persist values in the component state? In the instance?
+   * What is the correct way to update `state` based on the `state` previous value? What issues may arise in this case?
+   * What is top-down data flow? What is the main means of syncing multiple components?
 * `props.children`
-  * Что это такое?
-  * Когда может быть полезным?
-  * Что позволяет делать `React.Children` API?
+   * What is it?
+   * In what situations may it be useful?
+   * What is the `React.Children` API useful for?
 * Component Lifecycle
-  * Что это такое?
-  * Когда какие методы вызываются? В каком порядке?
-  * Как и в каких случаях использовать те или иные методы жизненного цикла?
-* Что должен делать метод `render`? Почему необходимо держать этот метод чистым?
-* Что такое HOC? Когда хоки могут быть полезны?
-* Что такое React Fragment? Для чего он нужен? Как его использовать?
+   * What is it?
+   * What methods does it have? In what situations are they called? In what order?
+   * How do you use various lifecycle methods? Under what circumstances?
+* What is the `render` method supposed to do? Why do you need to keep this method pure?
+* What are HOCs? In what situations may HOCs be useful?
+* What is `React.Fragment`? What is it for? How do you use it?
 * Performance
-  * Когда передача инлайн-коллбека ухудшает производительность и почему? Пример: `<LoginButton onClick={(e) => this.handleClick(e, user)}>`
-* refs
-  * Что это такое? Зачем нужны? Как их использовать?
-  * Что делает и зачем нужен метод `React.forwardRef`?
-  * Почему refs стоит использовать умеренно?
-* Controlled и uncontrolled компоненты
-  * Что это такое? Как происходит работа с инпутами?
-  * Как задать дефолтное значение для инпута в uncontrolled компоненте?
-* Что такое Context и когда может быть полезен?
+   * In what situations passing an inline callback hinders performance? Why? Example: `<LoginButton onClick={(e) => this.handleClick(e, user)}>`
+* Refs
+   * What are they? What are they for? How do you use them?
+   * What does the `React.forwardRef` method do? What is it for?
+   * Why is it best to use refs sparingly?
+* Controlled and uncontrolled components
+   * What are they? How to work with input controls in these components?
+   * How do you set a default value for an input in an uncontrolled component?
+* What is `context`? In what situations may it be useful?
 * Portals
-  * Что это такое? Зачем нужны? Как использовать?
-  * Как будет работать контекст и event bubbling в случае с порталами?
-* Что такое Error Boundaries? Зачем они нужны? Как ими пользоваться?
-  * Будут ли "пойманы" в `catch` блоке ошибки, возникающие при рендере `InnerComponent`? Почему?
-  ```
-  function OuterComponent() {
-    try {
-      return <InnerComponent />;
-    } catch (error) {
-      handleError(error);
-    }
-  }
-  ```
+   * What are they? What are they for? How do you use them?
+   * How do context and event bubbling work with portals?
+* What are error boundaries? What are they for? How do you use them?
+   * Will the `catch` block trap errors that occur when rendering `InnerComponent`? Why?
+   ```
+   function OuterComponent() {
+     try {
+       return <InnerComponent />;
+     } catch (error) {
+       handleError(error);
+     }
+   }
+   ```
 
-### Ресурсы
+### Resources
 
 * [React Documentation](https://reactJS.org/docs/getting-started.html)
 * [Why Do We Write super(props)?](https://overreacted.io/why-do-we-write-super-props/)

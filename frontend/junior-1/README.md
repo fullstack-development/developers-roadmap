@@ -3,5 +3,5 @@
 - [HTML](./html.md)
 - [CSS](./css.md)
 - [JavaScript](./js.md)
-- [Тестирование](./testing.md)
+- [Testing](./testing.md)
 - [Git](../../shared/junior-1/git.md)
