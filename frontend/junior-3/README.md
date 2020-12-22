@@ -6,7 +6,7 @@
 - [JavaScript](./js.md)
 - [Security](./security.md)
 - [DOM](./dom.md)
-- [Git](./git.md)
+- [Git](../../shared/junior-3/git.md)
 - [API](./api.md)
 - [Testing](./testing.md)
 - [Literature](./books.md)
