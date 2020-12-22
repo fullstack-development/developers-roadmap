@@ -9,7 +9,7 @@
    * How can font size be specified? What units can be used for that?
    * Which color models can be used to specify font color?
    * What is the difference between `rgb` and `rgba`?
-   * How  are font families such as serif, sans-serif, and monospace different from one another?
+   * How are font families such as serif, sans-serif, and monospace different from one another?
    * What should be noted about specifying fonts via `font-face`?
 * What is document flow?
 * What does the `float` property do? Why the parent of the element that has `float` may collapse?
@@ -28,16 +28,16 @@
    * How can elements be aligned using flexbox?
    * Using `flex-grow` and `flex-shrink`. How do you calculate the free and the occupied space when using these properties?
 * Slightly more in-depth stylesheet concepts:
-   * Box model
+   * Borders
       * What do the following properties do and what values they have:
          * `border-style`
          * `border-color`
          * `border-width`
          * `border-radius`
          * `border`
-      * Is it possible to specify a separate style for an individual box property (e. g., left or right border)?
+      * Is it possible to specify a separate style for an individual border property (e. g., left or right border)?
    * Outlines
-      * What is the difference between outlines and other box model properties?
+      * What is the difference between outlines and borders?
       * What do the following properties do and what values they have:
          * `outline-style`
          * `outline-color`
@@ -61,8 +61,8 @@
          * `background-color`
          * `background`
    * Gradients
-      * What does the `linear-gradient` function do? How is it declared?
-      * What does the `radial-gradient` function do? How is it declared?
+      * What does the `linear-gradient` function do? How is it used?
+      * What does the `radial-gradient` function do? How is it used?
    * Animation
       * What is `@keyframes`? What is it for? How is it set?
       * What do the following properties do and what values they have:
@@ -86,9 +86,9 @@
       * Can one element have multiple transformations specified for it?
       * Does transformation affect the element's coordinate system?
 * Units
-   * How do you calculate width and height in percents?
-   * How do you calculate padding and margin in percents?
-   * How do you calculate line-height in percents?
+   * How are width and height in percents calculated?
+   * How are padding and margin in percents calculated?
+   * How is line-height in percents calculated?
    * How do you use `vh`, `vw`, `vmin`, `vmax`?
 * How do you apply styles to a checkbox?
 * How do you make sure the footer stays at the bottom of the page? Name at least two methods.

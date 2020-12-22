@@ -6,8 +6,8 @@
 * Which JS data types are mutable and which are not?
 * What is a reference to a variable?
 * What is `NaN`? How do you check whether a variable is `NaN`?
-* What does it mean to create an object using constructor? Using literal?
-* When is it best to call an object's property using dot notation as opposed to square brackets?
+* What does it mean to create an object using a constructor? Using a literal?
+* When would you use dot notation as opposed to square brackets to access an object property?
 * What will happen if you try to get a property that the object doesn't have?
 * What does `hasOwnProperty` accomplish?
 * When do you use `null` as opposed to `undefined`?
@@ -57,11 +57,11 @@
 
 #### Resources
 
-* [fuzzy]Arrays MDN](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array)
+* [Arrays MDN](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
 ## Functions
 
-* Which four function calling patterns specify execution context for that function?
+* Which four function calling patterns determine execution context for that function?
    * How the `use strict` directive affects `this` inside the function?
 * If a function has many arguments, what is the simplest pattern for improving that function's readability?
 * How do you obtain all arguments of a given function, including undeclared but passed ones?

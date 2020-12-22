@@ -2,7 +2,7 @@
 
 * What is React?
 * What is a React element? How do you create it? What is it comprised of?
-   * What happens if you pass a boolean, `null`, or `undefined` value to children?
+   * What happens if you pass a boolean, `null`, or `undefined` value to `children`?
 * What is a React component?
    * What do constructors do in the React component's class? In what situation do you have to call `super`? In what situation this is not necessary?
 * What is JSX? What is it for?
@@ -30,12 +30,12 @@
    * In what situations may it be useful?
    * What is the `React.Children` API useful for?
 * Component Lifecycle
-   * What are they?
+   * What is it?
    * What methods does it have? In what situations are they called? In what order?
    * How do you use various lifecycle methods? Under what circumstances?
 * What is the `render` method supposed to do? Why do you need to keep this method pure?
 * What are HOCs? In what situations may HOCs be useful?
-* What is a React fragment? What is it for? How do you use it?
+* What is `React.Fragment`? What is it for? How do you use it?
 * Performance
    * In what situations passing an inline callback hinders performance? Why? Example: `<LoginButton onClick={(e) => this.handleClick(e, user)}>`
 * Refs
@@ -43,9 +43,9 @@
    * What does the `React.forwardRef` method do? What is it for?
    * Why is it best to use refs sparingly?
 * Controlled and uncontrolled components
-   * What are they? How do the interact with input controls?
+   * What are they? How to work with input controls in these components?
    * How do you set a default value for an input in an uncontrolled component?
-* What is context? In what situations may it be useful?
+* What is `context`? In what situations may it be useful?
 * Portals
    * What are they? What are they for? How do you use them?
    * How do context and event bubbling work with portals?

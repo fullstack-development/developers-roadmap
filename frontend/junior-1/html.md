@@ -1,6 +1,6 @@
 # HTML
 
-* HTML5 tags: how do you keep your code semantic and why is this important?
+* HTML5 tags: how do you make your code semantic and why is this important?
 * What is `doctype`? What is it for?
 * What is the difference between the tags `div`, `p`, `span`, and `a`?
 * What are inline elements such as `b`, `i`, `strong`, or `em`?
