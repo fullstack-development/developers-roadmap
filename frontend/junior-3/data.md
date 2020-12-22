@@ -1,10 +1,10 @@
-# Работа с данными
+# Working with data
 
-* Что такое `Symbol`? Какие примеры использования есть?
-* В чем отличия между массивами и массивоподобными объектами? Привести примеры массивоподобных объектов.
-* Деструктуризация
-  * Переименование свойств (например, как положить значение свойства `foo` объекта `{ foo: 'foo', ... }` в переменную `bar`), дефолтные параметры, вложенные дефолты.
-  * Какие значения примут переменные `a` и `b` в каждом случае?
+* What is `Symbol`? What are its use cases?
+* What are the differences between arrays and array-like objects? Give examples of array-like objects.
+* Destructurization
+  * Renaming properties (for example, how to set the value of object's property `foo` { foo: `foo`, ... } to the variable `bar`), default parameters, nested defaults.
+  * What values will the variables 'a' and 'b' take in each case?
     ```javascript
       function f({ a, b = 0 } = { a: '' }) {
           // ...
@@ -13,14 +13,15 @@
       f()
       f({})
     ```
-* Утечки памяти - что это? Когда они могут возникать? Как их находить и устранять?
-* Какие есть способы хранения информации на клиенте? В каких случаях какой способ лучше использовать? Какие у каждого способа есть особенности?
+* What are memory leaks? When can they happen? How to find and remove them?
+* What are the ways to store data on the client? Which way is better to use in each case? What are the features of each way?
 
-### Ресурсы
 
-* [4 вида утечек памяти в JavaScript и как с ними бороться](https://habr.com/post/309318/&amp/)
-* [Как находить и устранять утечки памяти на примере Яндекс.Почты](https://habr.com/company/yandex/blog/195198/)
-* [Обзор средств хранения данных на клиентской стороне](http://prgssr.ru/development/obzor-sredstv-hraneniya-dannyh-na-klientskoj-storone.html)
+### Resources
+
+* [4 types of memory leaks in JavaScript and how to cope with them](https://habr.com/post/309318/&amp/)
+* [How to find and fix memory leaks using the example of Yandex.Mail](https://habr.com/company/yandex/blog/195198/)
+* [Overview of client-side data storage tools](http://prgssr.ru/development/obzor-sredstv-hraneniya-dannyh-na-klientskoj-storone.html)
 * [HTTP cookies explained](https://humanwhocodes.com/blog/2009/05/05/http-cookies-explained/)
 * [Client-side storage](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Client-side_storage)
 * [Local Storage vs Cookies](https://stackoverflow.com/questions/3220660/local-storage-vs-cookies)

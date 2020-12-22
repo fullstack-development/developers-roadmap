@@ -1,13 +1,13 @@
-# Тестирование
+# Testing
 
-* Что такое граничные условия? Зачем их тестировать?
-* Что такое heisenbug? Какие есть способы их дебаггинга?
-* Что такое fixture?
-* Что такое покрытие кода тестами? Какие есть инструменты для его анализа?
-* Чем юнит-тесты отличаются от интеграционных тестов? Почему интеграционные сложнее писать и поддерживать?
-* Зачем обращать внимание на закономерности при отказе тестов? В чём может помочь анализ того, какая именно комбинация тестов отвалилась?
-* Как тесты помогают в проектировании? Почему тестируемость модуля является отличным индикатором "чистоты кода"?
-* Как тесты помогают при рефакторинге?
-* В чём преимущества правила одной концепции на один unit-тест?
-* В чём преимущества изолированных друг от друга тестов?
-* Как найти баланс между количеством тестов и покрытием кода? Какие проблемы могут быть из-за излишнего количества юнит-тестов?
+* What are boundary conditions? Why to test them?
+* What is a heisenbug? What are the ways of debugging it?
+* What is fixture?
+* What is code coverage? What tools are there to analyze it?
+* How do unit tests differ from integration tests? Why are integration tests more difficult to write and maintain?
+* Why pay attention to failure patterns when tests fail? How can an analysis that shows which combination of tests fell off help?
+* How do tests help in design? Why is the module's testability an excellent indicator of "the code purity"?
+* How do tests help with refactoring?
+* What are the advantages of the one concept rule per one unit test?
+* What are the advantages of separate tests that don't overlap each other?
+* How to find a balance between the number of tests and code coverage? What problems can be from an excessive number of unit tests?

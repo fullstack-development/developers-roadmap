@@ -1,33 +1,33 @@
 # Git
 
-* Рассказать про объектную модель (blob, tree, commit, tag) и .pack файлы.
-* Что такое "The Three Trees" (The HEAD, The Index, The Working Directory)?
-* Как производить отмену изменений? Где какой способ стоит применять? Рассказать в этом контексте про команды:
+* To tell about the object model (blob, tree, commit, tag) and .pack files.
+* What is "The Three Trees" (The HEAD, The Index, The Working Directory)?
+* How to undo changes? When each of them should be used?? To tell about the commands in this context:
   * `checkout`
   * `reset`
   * `revert`
-    * Как сделать реверт merge-коммита?
-    * Как узнать родителей merge-коммита?
+    * How to revert a merge commit?
+    * How to get parents of a merge commit?
   * `clean`
   * `rm`
-* Как можно изменить историю коммитов? Где какой способ стоит применять? Рассказать в этом контексте про команды:
-  * `commit` с флагом `--amend`
+* How to change commit history? Where to use each method? To tell about the commands in this context:
+  * `commit` with `--amend` flag
   * `cherry-pick`
   * `fitler-branch`
   * `rebase`
-    * Что такое интерактивный режим ребейза? Что он позволяет делать?
-    * Какие есть опасности при использовании ребейза?
-  * Что делают, как пользоваться, и когда бывают полезны команды:
+    * What is interactive rebase mode? What does it allow to do?
+    * What is the unsafety of using rebase?
+  * What do these commands do, how to use them, and when are they useful:
     * `stash`
     * `reflog`
     * `bisect`
-* Как отменить merge commit?
-* Что такое `HEAD` и `detached HEAD`? Что значат `HEAD^`, `HEAD~`, `HEAD@{1}`?
-* Что такое Git flow, какие знаете примеры?
+* How to cancel?
+* What are `HEAD` and `detached HEAD`? What do `HEAD^`, `HEAD~`, `HEAD@{1}` mean?
+* What is Git flow, and what are its examples?
 
-### Ресурсы
+### Resources
 
-* [Хорошие материалы по Git от Atlassian](https://www.atlassian.com/git)
+* [Good Git tutorials from Atlassian](https://www.atlassian.com/git)
 * [Git from the Bottom Up](https://jwiegley.github.io/git-from-the-bottom-up/)
 * [Demystifying Git internals](https://medium.com/@pawan_rawal/demystifying-git-internals-a004f0425a70)
 * [HEAD~ vs HEAD^ vs HEAD@{}](https://stackoverflow.com/questions/26785118/head-vs-head-vs-head-also-known-as-tilde-vs-caret-vs-at-sign/26785200)

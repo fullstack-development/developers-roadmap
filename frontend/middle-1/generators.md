@@ -1,18 +1,18 @@
-# Генераторы
+# Generators
 
-* Что такое итераторы?
-* Рассказать про протоколы итерирования:
+* What are iterators? What is the difference between iterators and regular loops?
+* To tell about the iteration protocols:
   * Symbol.iterator
   * Symbol.asyncIterator
-* Зачем нужны итераторы, если уже есть массивы? 
-* В чём разница между перебором массива и итератора через конструкции: ```for```, ```for of```, ```for in```?
-* Что такое генераторы? Где они могут пригодиться?
-* Как вы думаете, почему в качестве ключевого слова используется именно `yield`?
-* Как происходит работа с async generators?
+* What are iterators for if there are arrays already?
+* What is the difference between iterator an array and iterator through constructions: ```for```, ```for of```, ```for in```?
+* What are generators? Where can they be useful?
+* What do you think why `yield` exactly is used as a keyword? 
+* How to work with async generators?
 
-# Ресурсы
+# Resources
 
-* [Итераторы](https://learn.javascript.ru/iterable)
-* [Генераторы](https://learn.javascript.ru/generators)
+* [Iterators](https://learn.javascript.ru/iterable)
+* [Generators](https://learn.javascript.ru/generators)
 * [Async iterators and generators](https://javascript.info/async-iterators-generators)
 * [You Don't Know JS: Async & Performance. Chapter 4: Generators](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/async%20%26%20performance/ch4.md)

@@ -1,15 +1,15 @@
-# Системы сборки
+# Build systems
 
-* Что такое Webpack?
-  * Для чего он нужен?
-  * Что такое точка входа и граф зависимостей?
-  * Что такое лоадеры? Для чего они нужны?
-  * Что такое плагины? Для чего они нужны?
-* Что такое таск-раннеры и чем они отличаются от бандлеров?
-* Что такое препроцессор?
-  * В чем разница между понятиями "язык" и "препроцессор"?
-  * Зачем нужны CSS и HTML препроцессоры?
+* What is webpack?
+  * What is it for?
+  * What is an entry point? What is a dependency graph?
+  * What are loaders? What are they for?
+  * What are plugins? What are they for?
+* What is a task runner? How do bundlers differ from task runners?
+* What is a preprocessor?
+  * What is the difference between concepts "language" and "preprocessor"?
+  * What are CSS and HTML preprocessors for?
 
-### Ресурсы
-* [Preprocessor](https://en.wikipedia.org/wiki/Preprocessor)
-* [CSS Preprocessor](https://developer.mozilla.org/en-US/docs/Glossary/CSS_preprocessor)
+### Resources
+  * [Preprocessor](https://en.wikipedia.org/wiki/Preprocessor)
+  * [CSS Preprocessor](https://developer.mozilla.org/en-US/docs/Glossary/CSS_preprocessor)

@@ -1,32 +1,31 @@
 # Typescript
 
-* Что такое Type soundness и Type safety? Есть ли между этими понятиями разница?
-* Что такое structural typing? Какие есть альтернативы? Какие преимущества и недостатки у этого подхода?
-* В каких случаях TS отходит от принципов structural typing и переходит к номинативной типизации для определения compatibility типов?
-* Что такое declarations merging? Как это работает в TS? Какие плюсы и минусы? Как объединяются типы для методов?
+* What is Type soundness and Type safety? Is there any difference between these concepts?
+* What is structural typing? What are the alternative options? What are the advantages and drawbacks of this approach?
+* In what cases does TS switch from structural typing to nominative one for type compatibility resolving?
+* What is declarations merging? How does it work in TS? What are pros and cons? How are method types merged?
 * Compatibility
-  * Почему TS считает compatible тип функции с меньшим количество аргументов
+  * Why does TS treats a type with less number of arguments as compatible?
    ```typescript
    ((a: number) => 0; assignable to (b: number, s: string) => 0;)
    ```
-  * И как это распространяется на возвращаемый результат у функций?
-  * Нарушается ли у TS Type soundness из-за этого?
-* Что такое Type Variance? Что значат Invariance, Covariance, Contravariance и Bivariance?
-  * Когда в TS проявляется Covariance? Когда Bivariance? Когда Contravariance?
-  * Если в функцию передать коллбек, который принимает другой коллбек, то параметры будут проявлять Covariance или Contravariance (вывести на примере самостоятельно)?
-  * Если бы объекты и классы TS были Invariant, то как бы это повлияло на type safety и на удобство разработки?
-* Что такое Type Widening? Как этот механизм влияет на type safety в TS?
-* fresh object literal type
-  * Что это такое?
-  * Почему для него по-особому включается excess property checking?
-  * Почему передача литерала объекта не напрямую в функцию, а через промежуточное присваивание переменной, увеличивает вероятность ошибки в программе?
-* Что такое Refinement? Как он работает в контексте Discriminated Unions?
-* Почему использование generic переменных в тегах для Discriminated Unions может сделать программу более склонной к багам? Когда это действительно приводит к багам, а когда нет?
-* Что такое Companion Object Pattern? Как для его реализации используется Declaration Merging?
-* Что такое вывод типов? Какие типичные проблемы вывода типов есть? Какие типы может выводить TS?
-* Какие виды полиморфизма поддерживает TS и как с этим работать?
-
-### Ресурсы
+  * How does it work with function return values?
+  * Are there any type soundness issues caused by it? 
+* What is Type Variance? What do Invariance, Covariance, Contravariance и Bivariance mean?
+  * When can Covariance occur in TS? What about Bivariance? Contravariance?
+  * If we passed a callback which takes another callback as an argument into a function, would the parameters represent Covariance or Contravariance? (answer should be proven by an example)
+  * Would it make any impact on type safety and developer experience if objects and classes were invariant? 
+* What is Type Widening? How does it affect type safety in TS?
+* Fresh object literal type
+  * What is it?
+  * Why does excess property checking work for it in a special way?
+  * Why does passing of an object literal into a function via assignment to some variable instead of direct way increase error probability in the program?
+* What is Refinement? How does it work in the context of Discriminated Unions?
+* Why may usage of generic variables for Discriminated Unions tags lead to a buggy program? When does it really cause bugs and when not?
+* What is Companion Object Pattern? How is Declaration Merging used for its implementation?
+* What is type inference? What are the common issues of it? What types can TS infer?
+* What types of polymorphism are supported by TS and how to work with it?
+### Resources
 
 * [What is Type Soundness?](http://jschuster.org/blog/2017/03/21/what-is-type-soundness/)
 * [Is there a difference between type safety and type soundness?](https://cs.stackexchange.com/questions/82155/is-there-a-difference-between-type-safety-and-type-soundness)

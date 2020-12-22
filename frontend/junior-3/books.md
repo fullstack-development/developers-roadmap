@@ -1,4 +1,4 @@
-# Литература
+# List of references
 
-* Изучить книгу С. Макконнелла "Совершенный код".
-* Изучить книгу "Принцип пирамиды Минто" (можно только саммари с [smartreading.ru](https://smartreading.ru)).
+* To study the book "Code complete" by S. McConnell.
+* To study the book "The Minto Pyramid Principle" (or only the summary from [smartreading.ru](https://smartreading.ru)).

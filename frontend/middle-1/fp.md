@@ -1,56 +1,56 @@
-# Функциональное программирование
+# Functional programming
 
-* Изучить книгу [Functional-Light JavaScript](https://github.com/getify/Functional-Light-JS) от Kyle Simpson (1-9 главы включительно).
-* Что такое арность? Как получить арность функции в JS?
-* Что такое first-class citizen? Что в JS является таковым?
-* Какие последствия от того, что в JS функции — тоже first-class citizen?
-* Что такое функция высшего порядка?
+* To study the book [Functional-Light JavaScript](https://github.com/getify/Functional-Light-JS) by Kyle Simpson (1-9 chapters inclusively).
+* What is arity? How to get the function arity in JS?
+* What is a first-class citizen? What is it in JS?
+* What are the consequences of the fact that JS functions are also first-class citizen?
+* What is a higher-order function?
 * Control flow
-  * Что такое?
-  * Как влияет на сложность кода?
-  * Какие есть особенности control flow в программах, написанных в функциональной парадигме?
-* Частичное применение функций и каррирование
-  * Когда может быть полезным частичное применение функций?
-  * Когда может быть полезным каррирование?
-  * В чем их отличия?
-  * Каково их влияние на арность функций?
-* Композиция функций
-  * Что такое?
-  * Для чего используется?
-  * Что такое `pipe`?
-  * Как реализовать функцию `compose`?
+  * What is it?
+  * How does it influence on the code complexity?
+  * What are the features of control flow in programs written in the functional paradigm?
+* Partial function application and currying
+  * When can partial function application be useful?
+  * When can currying be useful?
+  * What are their differences?
+  * What is their influence on the functions arity?
+* Function composition
+  * What is it?
+  * What is it used for?
+  * What is a `pipe`?
+  * How to implement the `compose` function?
 * Point-free style
-  * Что такое?
-  * Какие может дать преимущества?
-  * Какие могут быть недостатки?
-* Что такое сайд эффекты? Чем они вредны и чем полезны?
-* Что такое чистые функции? Что такое "грязные функции"? В чем преимущества одних над другими?
-* Может ли из чистой функции произойти вызов "грязной"? Если да, то что это значит?
-* Как ограничивать влияние "грязных функций" на систему?
-  > У вас есть приложение, в котором обязательно должны быть определенные сайд-эффекты (например, клиентское приложение должно отправлять HTTP-запросы, показывать время и отрисовывать интерфейс). Как вы спроектируете такое приложение в функциональной парадигме, чтобы по максимуму ограничить распространение сайд-эффектов?
-* Что такое идемпотентность? В чем разница между программной и математической идемпотентностью?
-* Что такое ссылочная прозрачность? Является ли ссылочная прозрачность выражения вызова функции достаточным признаком чистоты этой функции?
+  * What is it?
+  * What advantages can it give?
+  * What disadvantages can be?
+* What are side effects? What are they harmful and useful for?
+* What are pure functions? What are "dirty functions"? What are the advantages of each of them?
+* Can a "dirty" function be called from a pure function? If so, what does it mean?
+* How to limit the influence of "dirty functions" on the system?
+  >  You have an application that must have certain side effects (for example, the client application must send HTTP requests, show the time, and render the interface). How do you design such an application in a functional paradigm to limit the spread of side effects as much as possible?
+* What is idempotence? What is the difference between program and mathematical idempotence?
+* What is referential transparency? Is the referential transparency of a function call expression a sufficient feature of the purity of this function?
 * Immutability
-  * Что такое?
-  * Являются ли объекты, содержащиеся в переменных, объявленных с помощью `const`, иммутабельными?
-  * Какие преимущества имеют иммутабельные структуры данных?
-  * Что такое structural sharing и какие проблемы решает?
-* Рекурсия
-  * Что такое?
-  * Какие могут быть преимущества и недостатки применения?
-  * Что такое оптимизация хвостового вызова? Поддерживается ли она в JS?
+  * What is it?
+  * Are the objects contained in variables declared using `const` immutable? 
+  * What are the advantages of immutable data structure?
+  * What is structural sharing and what problems does it solve?
+* Recursion
+  * What is it?
+  * What are the advantages and disadvantages of using it?
+  * -What is tail call optimization? Is it supported in JS?
 
-### Ресурсы
+### Resources
 
 * [Functional-Light JavaScript (Kyle Simpson)](https://github.com/getify/Functional-Light-JS)
-  * [Перевод](https://github.com/fxzhukov/Functional-Light-JS-RU)
+  * [Russian translation](https://github.com/fxzhukov/Functional-Light-JS-RU)
 * [Robert C Martin - Functional Programming; What? Why? When?](https://www.youtube.com/watch?v=7Zlp9rKHGD4)
 * [Functional architecture: a definition](https://blog.ploeh.dk/2018/11/19/functional-architecture-a-definition/)
 * [Functional architecture - The pits of success - Mark Seemann](https://www.youtube.com/watch?v=US8QG9I1XW0)
 * [Functional architecture is Ports and Adapters](https://blog.ploeh.dk/2016/03/18/functional-architecture-is-ports-and-adapters/)
 * [Functional Programming Design Patterns](https://fsharpforfunandprofit.com/fppatterns/)
-  * [Перевод](https://habr.com/en/post/337880/)
+  * [Russian translation](https://habr.com/en/post/337880/)
 * [What is idempotence?](https://szymonkrajewski.pl/what-is-idempotence/)
 * [Why Functional Programming? The Benefits of Referential Transparency](https://sookocheff.com/post/fp/why-functional-programming/)
-* [Осторожно! Возможны побочные эффекты](https://blog.csssr.ru/2017/10/07/side-effects)
+* [Caution!! Possible side effects](https://blog.csssr.ru/2017/10/07/side-effects)
 * [Thirteen ways of looking at a turtle](https://fsharpforfunandprofit.com/posts/13-ways-of-looking-at-a-turtle/)

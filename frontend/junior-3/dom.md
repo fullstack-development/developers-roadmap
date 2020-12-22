@@ -1,20 +1,20 @@
 # DOM
 
-* Работа с системой координат
-  * Где начинается система координат в DOM?
-  * Рассказать про координаты относительно окна/документа/экрана. Когда какие могут применяются?
-  * Как получить размеры видимой части окна?
-  * Как получить координаты определенного элемента?
-  * Как программно прокрутить документ до нужного элемента?
-* Что такое event bubbling и event capturing?
-* Что такое делегирование DOM событий? Как этим пользоваться?
-* Как происходит процесс поиска элементов с помощью методов `getElementsBy*`, `querySelector` и т.д? Какие методы быстрее и почему? Какие у них есть особенности?
-* Для чего используются свойства `innerHTML`/`outerHTML`? Каковы нюансы их использования?
-* В чем отличия между `innerHTML` и `innerText`?
-* Можно ли использовать DOM API языками программирования отличными от JS?
+* Working with coordinate system
+  * Where does coordinate system in the DOM start?
+  * To tell about coordinates relative to the window / document / screen. When can they be used?
+  * How to get the sizes of window visible part?
+  * How to get the coordinates of a specific element?
+  * How to scroll a document programmatically to the required element?
+* What is event bubbling and event capturing?
+* What is DOM event delegation? How to use it?
+* How does the process of searching for elements using methods `getElementsBy*`, `querySelector` , and so on work? Which methods are faster and why? What features do they have?
+* What are `innerHTML`/`outerHTML` properties used for? What are the features of using them?
+* What are the differences between `innerHTML` and `innerText`?
+* Can the DOM API programming languages different from JS be used?
 
-### Ресурсы
+### Resources
 
-* [Хороший курс на learn js](https://learn.javascript.ru/document)
+* [Good training course on learn js](https://learn.javascript.ru/document)
 * [W3C spec, first level DOM](https://www.w3.org/TR/REC-DOM-Level-1/expanded-toc.html)
 * [WHATWG spec, dom living standard](https://dom.spec.whatwg.org)
