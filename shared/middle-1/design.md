@@ -1,6 +1,9 @@
 # Базовые принципы проектирования
 
+* Как проведение аналогий может помочь лучше понять задачу и объяснить её другим?
+* Почему важно заранее продумать требования? Можно ли перестараться?
 * Что такое абстрагирование? Какие есть отличия между абстракцией, инкапсуляцией и скрытием информации?
+* Что такое Complexity? Чем Accidential Complexity отличается от Essential Complexity?
 * Что такое Coupling? Как абстрагирование влияет на coupling?
 * Что такое Cohesion? Является ли эта величина обратной величине Coupling?
 * Separation of concerns
@@ -29,11 +32,16 @@
   * Почему при попытке убрать дублирование, когда повторов этого кода ещё мало (до 4-5), мы можем легко ошибиться и выбрать неверный способ рефакторинга? Какая здесь аналогия со статистикой?
   * Как вы объясните фразу "Duplication is far cheaper than the wrong abstraction."?
 * Что такое Cross-cutting concerns? Что значит coarse-grained и fine-grained ответственность?
+* Какие бывают стратегии проектирования?
+* В чём заключается принцип Парето? Как этот принцип применяется к времени, которое программа выполняет определённые участки кода? Как этот принцип отражает время, которое программист тратит на написание определённого объёма кода?
 
 # Ресурсы
 
+* Metaphors for a Richer Understanding of Software Development - 2nd Сhapter of Code Complete by Steve McConnell
+* Measure Twice, Cut Once: Upstream Prerequisites - 3rd Сhapter of Code Complete by Steve McConnell
 * [Abstraction, Encapsulation, and Information Hiding](http://www.tonymarston.co.uk/php-mysql/abstraction.txt)
 * [Difference between Abstraction and Encapsulation](https://www.guru99.com/difference-between-abstraction-and-encapsulation.html#2)
+* [Accidental and Essential Complexity](https://medium.com/background-thread/accidental-and-essential-complexity-programming-word-of-the-day-b4db4d2600d4)
 * [The DRY Principle Explained: Its Benefit and Cost with Examples](https://thevaluable.dev/dry-principle-explained/) [[Перевод](https://habr.com/ru/company/mailru/blog/349978/)]
 * [Why DRY? by Mark Seemann](https://blog.ploeh.dk/2014/08/07/why-dry/)
 * [Repeat yourself, do more than one thing, and rewrite everything](https://programmingisterrible.com/post/176657481103/repeat-yourself-do-more-than-one-thing-and)
@@ -44,3 +52,5 @@
 * [Cross cutting concern example on SO](https://stackoverflow.com/questions/23700540/cross-cutting-concern-example)
 * [Cross cutting concern on Wiki](https://en.wikipedia.org/wiki/Cross-cutting_concern)
 * [Coarse-grained vs fine-grained on SO](https://stackoverflow.com/questions/3766845/coarse-grained-vs-fine-grained)
+* Design practices - 5th Chapter of Code Complete by Steve McConnell
+* The Pareto Principle - 25th Сhapter of Code Complete by Steve McConnell
