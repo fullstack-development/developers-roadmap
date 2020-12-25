@@ -1,4 +1,4 @@
-# Базовые принципы проектирования
+# Basic design principles
 
 * Inversion of Control
   * What is IoC?

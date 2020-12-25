@@ -1,13 +1,12 @@
 # Front-end Middle Developer 2 level
 
-## Области знаний
-
-- [Паттерны проектирования](./patterns.md)
-- [Базовые принципы проектирования](./design.md)
-- [Объектно-ориентированное программирование](./oop.md)
-- [Функциональное программирование](./fp.md)
-- [Сервис воркеры](./serviceWorkers.md)
-- [Сеть](./network.md)
+- [Design patterns](./patterns.md)
+> TODO Translation
+- Basic design principles
+- Object-oriented programming
+- Functional programming
+- Service Workers
+- Network
 
 > TODO fill areas
 
