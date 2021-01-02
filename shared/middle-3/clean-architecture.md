@@ -593,4 +593,6 @@
 
 3.  What is &ldquo;package by component&rdquo; approach?
 
-4.  What are other decoupling modes?
+4.  Can we bypass layer in "package by component" approach? Why?
+
+5.  What are other decoupling modes?
