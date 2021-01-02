@@ -71,7 +71,7 @@
 
 4.  What drives the growth of development costs?
 
-5.  What mistake do business managers and developers often do in context of priorities?
+5.  What mistake do business managers and developers often make in context of priorities?
 
 
 <a id="org68f327d"></a>
@@ -109,11 +109,11 @@
 
 ## Object-Oriented Programming
 
-1.  Can we define OO programming as combination of data and function?
+1.  Why can't we define OO programming as combination of data and function?
 
-2.  Can we define OO programming as a way to model the real world?
+2.  Why can't we define OO programming as a way to model the real world?
 
-3.  Can we define OO programming as a combination of encapsulation, inheritance and polymorphism?
+3.  Why can't we define OO programming as a combination of encapsulation, inheritance and polymorphism?
 
 4.  What is the difference between encapsulation, inheritance and polymorphism in the C++ and in the C language?
 
@@ -254,8 +254,6 @@
 12. What is the Zone of Uselessness?
 
 13. What is the Main Sequence?
-
-    \*
 
 
 <a id="org729c413"></a>
