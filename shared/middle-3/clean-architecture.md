@@ -1,5 +1,4 @@
-
-# Table of Contents
+Read the [book](https://books.google.ru/books/about/Clean_Architecture.html?id=uGE1DwAAQBAJ&source=kp_book_description&redir_esc=y) and answer the questions:
 
 1.  [Introduction](#org0abb8cd)
     1.  [What is the Design and Architecture?](#orga86114b)
