@@ -40,7 +40,7 @@ Learn how to design complex systems according to engineering heuristics gathered
 * How is plugin-based architecture related to the OCP?
 * Why abstractions are essential if you want to follow the OCP?
 * How to choose the kinds of changes against which to close a design of a module?
-* Why public class properties violate the OCP principle?
+* Why giving read/write access to a state through public class properties leads to a violation of the OCP principle?
 * Why the following to the OCP is easier if the SRP is not violated?
 * How the OCP can lead to premature generalization?
 * Can the OCP also be useful for a project written in FP style?
