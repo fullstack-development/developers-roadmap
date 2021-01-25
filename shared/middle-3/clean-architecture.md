@@ -70,7 +70,7 @@ Read the [book](https://books.google.ru/books/about/Clean_Architecture.html?id=u
 
 4.  What drives the growth of development costs?
 
-5.  What mistake do business managers and developers often make in context of priorities?
+5.  What mistake do business managers and developers often make in context of priorities? Why is it so important? How to avoid this mistake?
 
 
 <a id="org68f327d"></a>
