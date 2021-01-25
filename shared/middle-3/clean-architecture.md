@@ -178,6 +178,8 @@ Read the [book](https://books.google.ru/books/about/Clean_Architecture.html?id=u
 
 1.  How do the LSP morphed over the years?
 
+2.  How can LSP be extended on the level of architecture?
+
 
 <a id="org99cb15d"></a>
 
