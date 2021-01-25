@@ -99,9 +99,9 @@ Read the [book](https://books.google.ru/books/about/Clean_Architecture.html?id=u
 
 1.  Why programming is hard?
 
-2.  What&rsquo;s the problem with the goto statement?
+2.  What&rsquo;s the problem with the "goto" statement?
 
-3.  What are better alternatives for the goto statement? Why are they better?
+3.  What are better alternatives for the "goto" statement? Why are they better?
 
 
 <a id="org5f8b8f6"></a>
