@@ -145,9 +145,7 @@ Read the [book](https://books.google.ru/books/about/Clean_Architecture.html?id=u
 
 1.  What SOLID principles tell us in general?
 
-2.  Are SOLID principles applicable to functional programming?
-
-3.  What &ldquo;level&rdquo; of software do SOLID principles cover?
+2.  What &ldquo;level&rdquo; of software do SOLID principles cover?
 
 
 <a id="org39dfad6"></a>
