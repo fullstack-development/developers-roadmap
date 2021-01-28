@@ -9,7 +9,7 @@
 * How to find a process by the port number?
 * Which port numbers are reserved for administrator? Why does such restriction exist?
 * What is process supervising? Name various supervisors and their basic commands.
-* Inter-process communication methods and principles.
+* Which inter-process communication methods (IPC) do you know? How do they work?
 * Service management in Linux. What is a daemon?
 
 ## User
@@ -34,3 +34,7 @@
   * [Найти процесс по номеру порта в Linux](https://rav.pw/linux-get-process-by-port/)
   * [Управление процессами в Linux](http://www.opennet.ru/docs/RUS/lnx_process/process2.html)
   * [Linux: supervisor — управление процессами и сервисами](https://rtfm.co.ua/linux-supervisor-upravlenie-processami-i-servisami/)
+  * Inter-process communication in Linux:
+    * [Shared Storage](https://opensource.com/article/19/4/interprocess-communication-ipc-linux-part-1)
+    * [Pipes and message queues](https://opensource.com/article/19/4/interprocess-communication-linux-channels)
+    * [Sockets and signals](https://opensource.com/article/19/4/interprocess-communication-linux-networking)
