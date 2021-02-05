@@ -176,6 +176,7 @@
   * [Haskell's kind system - a primer](https://diogocastro.com/blog/2018/10/17/haskells-kind-system-a-primer/)
   * [The Future of Programming is Dependent Types — Programming Word of the Day](https://medium.com/background-thread/the-future-of-programming-is-dependent-types-programming-word-of-the-day-fcd5f2634878)
   * [What is dependent typing?](https://stackoverflow.com/questions/9338709/what-is-dependent-typing)
+  * [Does haskell have dependent types?](https://softwareengineering.stackexchange.com/questions/182066/does-haskell-have-dependent-types)
 * PolyKinds
   * [GHC docs](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#kind-polymorphism-and-type-in-type)
 * Higher ranked types
