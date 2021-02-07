@@ -22,26 +22,12 @@
   * Какие ограничения накладываются на пропсы при использовании Pure Component?
     * Почему использование Pure Component таким образом не приносит никакой пользы (укажите на конкретные проблемные места):
       ```javascript
-      function getActiveUsers(users) {
-        return users.filter(x => x.active);
-      }
-
-      function mapState(state) {
-        return {
-          totalUsers: state.usersList.length,
-          options: state.options;
-          activeUsersList: getActiveUsers(state.usersList),
-        };
-      }
-
       class OuterComponent extends React.Component {
         public render() {
-          const { dataForClick, activeUsersList, totalUsers } = this.props;
+          const { dataForClick } = this.props;
           return (
             <PureComponent
               onClick={this.makeClickHandler(dataForClick)}
-              activeUsers={activeUsersList}
-              totalUsers={totalUsers}
               options={this.enhanceOptions()}
             >
               <div>This is <b>Pure Component!</b></div>
@@ -74,27 +60,6 @@
     * В каком порядке могут выполняться обработчики? От чего это зависит?
     * Может ли один из обработчиков отменить выполнение второго обработчика?
     * Какие проблемы могут возникнуть из-за использования обработчика, навешанного через `addEventListener`?
-  * Что будет выведено на экран при клике на кнопку и почему?
-  ```javascript
-    class Component extends React.Component {
-      componentDidMount() {
-        document.addEventListener('click', this.handleDocumentClick);
-      }
-
-      render() {
-        return <button onClick={this.handleButtonClick}>Click me</button>;
-      }
-
-      handleButtonClick(e) {
-        e.stopPropagation();
-        alert('click button');
-      }
-
-      handleDocumentClick() {
-        alert('click document');
-      }
-    }
-  ```
 * Context
   * Что такое Context object? Как его создать? Из чего он состоит?
   * Какими способами можно получить доступ к Context в компоненте?
@@ -110,19 +75,10 @@
   * Какие проблемы могут возникать, если каждый раз билдить HOC в самом render?
   * Какие проблемы могут возникать, если HOC не будет копировать все статичные методы потомка?
   * Как HOC влияет на forwarded ref?
-  * Объяснить почему следующий подход может служить альтернативой HOC-ам? Когда таким образом заменить HOC не получится?
-    ```jsx
-    render() {
-      return (<WithUser>
-        {user => (<span>{user.name}</span>)}
-      </WithUser>)
-    }
-    ```
 * Что такое Render Prop? Где и как может использоваться такой приём?
 * Custom Hooks
   * Как и для чего создавать пользовательские хуки?
   * Как правильно именовать пользовательские хуки? Почему?
-* Как работают `Provider` и `connect` из `react-redux` (включая назначение `mapStateToProps` и работу механизма подписок)?
 
 ### Ресурсы
 
