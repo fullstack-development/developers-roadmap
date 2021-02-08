@@ -28,7 +28,7 @@ Advanced questions about Haskell for everyday usage.
   * What are the minimal and complete definitions for correct and working `Foldable` instance?
   * What is its relationship to monoids?
   * Basic laws for `Foldable`:
-    * A law showing the relationship between `foldr` and `foldNap`
+    * A law showing the relationship between `foldr` and `foldMap`
     * A law showing the relationship between `foldl` and `foldMap`
     * A law showing the relationship between `fmap` and `foldMap`
     * Which of them do use the `Monoid` instance?
@@ -38,7 +38,7 @@ Advanced questions about Haskell for everyday usage.
   * Why do we have `Foldable` and `Functor` constraints on `Traversable` type class?
   * What are the data declarations for `Compose` and `Identity` and what are they used for?
   * What are the laws of `Traversable`?
-* Alternative and MonadSum:
+* Alternative and MonadPlus:
   * What are their laws?
   * How `Monoid` and `Alternative` differ conceptually?
 
@@ -51,7 +51,7 @@ Advanced questions about Haskell for everyday usage.
 
 ## Functional patterns
 
-* Service Handle:
+* The Service/Handle Pattern:
   * Explain the principles of the pattern. How it's used?
   * What benefits does it give for developing a project?
   * How it helps to organize the code?
@@ -81,7 +81,7 @@ Advanced questions about Haskell for everyday usage.
   * [Traversable Basic libraries](http://hackage.haskell.org/package/base-4.12.0.0/docs/Data-Traversable.html)
   * [Stepik - 2 часть](https://stepik.org/course/693/syllabus)
   * [Haskell Programming From First Principles - Chapters 20,21](https://haskellbook.com)
-* Service Handle:
+* The Service/Handle Pattern:
   * [Haskell Design Patterns: The Handle Pattern - by Jasper Van der Jeugt](https://jaspervdj.be/posts/2018-03-08-handle-pattern.html)
   * [The Service Pattern - by Simon Meier](https://www.schoolofhaskell.com/user/meiersi/the-service-pattern)
 * Exceptions:
