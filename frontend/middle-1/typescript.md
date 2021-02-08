@@ -1,7 +1,9 @@
-# Typescript
+# TypeScript
 
 * Что такое Type soundness и Type safety? Есть ли между этими понятиями разница?
-* Что такое structural typing? Какие есть альтернативы? Какие преимущества и недостатки у этого подхода?
+* Что такое structural typing? 
+  * Какие есть альтернативы? Что такое Branding и Flavoring?
+  * Какие преимущества и недостатки у этого подхода?
 * В каких случаях TS отходит от принципов structural typing и переходит к номинативной типизации для определения compatibility типов?
 * Что такое declarations merging? Как это работает в TS? Какие плюсы и минусы? Как объединяются типы для методов?
 * Что такое Type Variance? Что значат Invariance, Covariance, Contravariance и Bivariance?
@@ -29,6 +31,8 @@
 * [What is Type Soundness?](http://jschuster.org/blog/2017/03/21/what-is-type-soundness/)
 * [Is there a difference between type safety and type soundness?](https://cs.stackexchange.com/questions/82155/is-there-a-difference-between-type-safety-and-type-soundness)
 * [How can a statically typed language support duck typing?](https://softwareengineering.stackexchange.com/questions/252984/how-can-a-statically-typed-language-support-duck-typing)
+* [Flavoring: Flexible Nominal Typing for TypeScript](https://spin.atomicobject.com/2018/01/15/typescript-flexible-nominal-typing/)
+* [Номинативная типизация в TypeScript или как защитить свой интерфейс от чужих идентификаторов](https://habr.com/ru/post/446768/)
 * [Programming TypeScript by Boris Cherny. Chapter 6.](https://learning.oreilly.com/library/view/programming-typescript/9781492037644/ch06.html)
 * [What are covariance and contravariance?](https://www.stephanboyer.com/post/132/what-are-covariance-and-contravariance)
 * [TS FAQ. Why are function parameters bivariant?](https://github.com/Microsoft/TypeScript/wiki/FAQ#why-are-function-parameters-bivariant)

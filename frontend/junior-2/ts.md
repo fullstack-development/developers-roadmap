@@ -206,11 +206,6 @@
   * Каким может быть тип дискриминанта?
   * Можно ли использовать проверку по дискриминанту в качестве Type Guard?
   * Что такое exhaustiveness checking? Зачем это нужно? Как этого добиться?
-* Что такое Branding и Flavoring?
-  * Для чего используются?
-  * В чем различие между ними?
-  * Какие проблемы могут возникнуть при использовании брендинга и флейворинга для ключей Record?
-  * Какие плюсы и минусы есть у этих подходов и когда следует применять каждый из них?
 
 ### Ресурсы
 
@@ -218,5 +213,3 @@
 * [TypeScript FAQ](https://github.com/microsoft/TypeScript/wiki/FAQ)
 * [Ликбез по типизации в языках программирования](https://habr.com/ru/post/161205/)
 * [Зачем использовать статические типы в JavaScript?](https://habr.com/ru/post/326304/)
-* [Flavoring: Flexible Nominal Typing for TypeScript](https://spin.atomicobject.com/2018/01/15/typescript-flexible-nominal-typing/)
-* [Номинативная типизация в TypeScript или как защитить свой интерфейс от чужих идентификаторов](https://habr.com/ru/post/446768/)
