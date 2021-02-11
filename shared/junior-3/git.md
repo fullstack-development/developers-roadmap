@@ -26,7 +26,7 @@
   * Что такое fast-forward merge?
   * Что делают флаги `--squash` и `--no-ff`?
 * Что такое `HEAD` и `detached HEAD`? Что значат `HEAD^`, `HEAD~`, `HEAD@{1}`?
-* Что такое Git flow, какие знаете примеры?
+* Что такое Git workflow, какие знаете примеры?
 
 ### Ресурсы
 
