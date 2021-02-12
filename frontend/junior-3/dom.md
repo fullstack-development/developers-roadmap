@@ -7,7 +7,7 @@
   * Как программно прокрутить документ до определенного элемента?
 * Что такое event bubbling и event capturing?
 * Что такое делегирование DOM событий? Как и в каких случаях этим пользоваться?
-* Рассказать про свойства `innerHTML`/`outerHTML`/`innerText`/`outerText`/`textContent`. Как и в каких случаях их ипользовать? 
+* Рассказать про свойства `innerHTML`/`outerHTML`/`innerText`/`outerText`/`textContent`. Как и в каких случаях их использовать? 
   * В чем отличия между `innerHTML`/`innerText`/`textContent`?
 
 ### Ресурсы
