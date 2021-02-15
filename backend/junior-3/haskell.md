@@ -112,13 +112,13 @@
 * Data Kinds
   * What is the kind `*`? What is the kind `Type`?
   * What is the data type promotion?
-  * What is the main goal for `DataKinds`?
-  * What is inconvenience we've got with DataKinds?
+  * What is the main goal for using `DataKinds`?
   * Is apostrophe (' symbol) required in a name of a promoted data type?
-  * Are types with promoted kinds are inhabited?
-  * Could existential type be promoted?
+  * Are types with promoted kinds inhabited?
+  * What is inconvenience we've got with `DataKinds`, concerned with terms level of promoted types?
+  * What are types which can't be promoted? 
   * How can heterogenous lists be implemented with `DataKinds` and `GADTs`?
-  * What are the dependant types and how `DataKinds` allow us to get closer to them?
+  * What are the dependent types and how `DataKinds` allow us to get closer to them?
 * Polymorphic Kinds
   * What is the main goal of `PolyKinds`?
   * How it can be used?
@@ -146,6 +146,7 @@
   * Why is there no `exist` keyword in Haskell?
   * What are the situations which require using `ScopedTypeVariables`, `ExistentialQuantification`, `RankNTypes`?
   Compare the use cases of theese extensions.
+  * Could existential type be promoted with `DataKinds` extension?
 * `ConstraintKinds`
   * What is the main goal of the extension?
   * What types and type variables would have a kind `Constraint` with this extension enabled?
@@ -173,6 +174,9 @@
   * [Paper - Giving Haskell a Promotion](https://www.seas.upenn.edu/~sweirich/papers/tldi12.pdf)
   * [Basic Type Level Programming in Haskell](http://www.parsonsmatt.org/2017/04/26/basic_type_level_programming_in_haskell.html)
   * [Haskell's kind system - a primer](https://diogocastro.com/blog/2018/10/17/haskells-kind-system-a-primer/)
+  * [The Future of Programming is Dependent Types — Programming Word of the Day](https://medium.com/background-thread/the-future-of-programming-is-dependent-types-programming-word-of-the-day-fcd5f2634878)
+  * [What is dependent typing?](https://stackoverflow.com/questions/9338709/what-is-dependent-typing)
+  * [Does haskell have dependent types?](https://softwareengineering.stackexchange.com/questions/182066/does-haskell-have-dependent-types)
 * PolyKinds
   * [GHC docs](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#kind-polymorphism-and-type-in-type)
 * Higher ranked types
