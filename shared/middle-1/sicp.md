@@ -25,10 +25,10 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * What is a tree-recursive process and when it can be useful?
     * Are linear iterative processes always less stack-consuming than analogous recursive processes?
     * Explain what does an order of growth mean?
-    * What does Θ(n) notations used for?
-    * What is slower: Θ(log(n)) or Θ(sqrt(n))?
-    * What is slower: Θ(n) or Θ(1000*n)?
-    * What is slower: Θ(n*2) or Θ(n^2)? --- ^2 means power of two <!-- TODO add more questionsМожешь плиз добавить вопросы про order of growth? -->
+    * What does `Θ(n)` notations used for?
+    * What is slower: `Θ(log(n))` or `Θ(sqrt(n))`?
+    * What is slower: `Θ(n)` or `Θ(1000*n)`?
+    * What is slower: `Θ(n*2)` or `Θ(n^2)`? *`^2` means power of two*.
     * What are probabilistic algorithms?
 
   * [1.3  Formulating Abstractions with Higher-Order Procedures](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-4.html#%_toc_%_sec_1.3)
@@ -53,7 +53,7 @@ This fundamental work emphasizes controlling the complexity of software systems 
   * [2.1  Introduction to Data Abstraction](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-4.html#%_toc_%_sec_2.1)
 
     * What is the interface abstract data has?
-    * What is the method of strategy of synthesis --- wishful thinking?
+    * What is the method of strategy of synthesis - wishful thinking?
     * What is the pair?
     * What properties of the pairs allows us to create arbitrary complex data structures?
     * What are the abstraction barriers?
@@ -112,8 +112,8 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * What are a hierarchy of types, a subtype and a supertype?
     * Why tower of types is the simplest case of the hierarchies of types?
     * How raising procedures will help in cross-type generic operations?
-    * Why coersing through raising become hard for types with multiple supertypes?
-    * How can we determine that we can safely coerse to lower type?
+    * Why coercing through raising become hard for types with multiple supertypes?
+    * How can we determine that we can safely coerce to lower type?
 
   * Chapter questions:
 
@@ -131,7 +131,7 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * Why is higher-order procedure usually used to create objects with local state? What is an alternative?
     * Why message-passing style is fit good for procedures that create objects?
     * What are new modeling approaches that we get with introducing assignments in a language?
-    * Why random-number generator requires to be statefull?
+    * Why random-number generator requires to be stateful?
     * What's the problem of "sameness" that appears with introducing assignments in a language?
     * Why does substitution model of evaluation not fit for objects with a state?
     * What property of languages is meant by "referential transparency"?
@@ -154,14 +154,15 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * How mutators can create "garbage" data?
     * What are shared data?
     * Why sharing become significant when we have assignments in a language?
-    * How Lisp solves the problems of "identity"? Can it be approprate in mathematical models of the programs?
+    * How Lisp solves the problems of "identity"? Can it be appropriate in mathematical models of the programs?
     * How does the feature like assignment allow to create circular data structures?
     * How is it possible to detect that given data structure is circular? How to do it in a constant space?
     * Explain why assignments and mutable data are equipotent language features?
-    * How does assignment allow us to create queue with Θ(1) insert and delete operations?
+    * How does assignment allow us to create queue with `Θ(1)` insert and delete operations?
     * Why does assignment allow us to implement memoization?
     * What is the event-driven simulation?
-    * What is the agenda that allow to simulate events spread of time? What is its analogue in JS?
+    * What is the agenda that allow to simulate events spread of time?
+    * What is agenda analogue in JS? *This question is answered by frontend developers.*
     * What is the propagation of constraints?
     * How does constraint networks work?
     * How are assignments (or mutability) used in implementation of constraint systems?
@@ -171,12 +172,12 @@ This fundamental work emphasizes controlling the complexity of software systems 
 
     * What does concurrency mean?
     * What is the shared state? How it can be done? What problems can appear because of shared state?
-    * Explain all possible interleaving the order of events for two processes when first one executes the expression: balance += 10; and the second one: balance *= 2 ?
+    * Explain all possible interleaving the order of events for two processes when first one executes the expression: `balance += 10;` and the second one: `balance *= 2;`?
     * Will be the problems with concurrency same if we had no assignment in the language (only immutable data)?
     * Why assignments in the language forces programmer to admit time in the modeling?
     * What does serialization mean and what is its purpose?
     * Why serialization doesn't help for a such operation like swapping the balances in two bank accounts?
-    * What is the mutex? How does it help with problems arised because of concurrency?
+    * What is the mutex? How does it help with problems arisen because of concurrency?
     * How does mutex can be implemented?
     * What operations in mutex implementation should be done atomically? Why?
     * Which situations are called deadlock? What are the ways to avoid deadlocks?
@@ -188,7 +189,7 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * Why cons-stream and delay should be special forms of languages? Should `force` be such procedure?
     * Why should all list-manipulating procedures be rewritten for streams? What actually should be changed?
     * What's the difference between methods call-by-name and call-by-need?
-    * Explain the behaviour of the programs from exercises 3.51 and 3.52
+    * Explain the behavior of the programs from exercises 3.51 and 3.52 (you don't need to complete exercises if you can fully explain the behavior).
     * Why streams can be infinite? Can we make our program stuck when working with infinite streams?
     * What's the order of growth of the computing of fibonacci numbers from stream declared implicitly both using call-by-name and call-by-need strategies?
     * What's the order of growth of the stream of all positive integers with no prime factors other than 2, 3, or 5 declared implicitly?
@@ -198,9 +199,10 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * How does delayed evaluation help to create circular dependencies?
     * What should be changed in the language, so it become normal-order evaluated? What are pros and cons of this approach?
     * Why don't mutability and delayed evaluation mix well in programming languages?
-    * How can we refactor statefull procedure to make it stateless with the streams?
+    * How can we refactor stateful procedure to make it stateless with the streams?
     * Why simple merging of two streams is not a solution for merging bank accounts?
-    * What's the difference between thunks and JS Promises?
+    * What's the difference between thunks and JS Promises? *This question is answered by frontend developers.*
+    * Is there a difference between thunks described in this chapter and Haskell thunks? *This question is answered by backend developers.*
 
 <!-- TODO: add chapter 4-5 questions and fix links to topics. -->
 ## Resources
