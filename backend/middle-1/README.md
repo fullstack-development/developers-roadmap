@@ -12,10 +12,4 @@ Middle back-end developer 1 level.
 
 ## Required resources
 
-- SICP
-
-  - Chapter 1.  Building Abstractions with Procedures
-  - Chapter 2.  Building Abstractions with Data
-  - Chapter 3.  Modularity, Objects, and State
-
-  TODO: add questions
+- [SICP](../../shared/middle-1/sicp.md)

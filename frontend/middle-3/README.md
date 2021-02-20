@@ -4,13 +4,16 @@ Middle Front-end Developer 3 level глубоко изучил основные 
 ## Области знаний
 - [Advanced FP](./fp.md)
 
+## Обязательное изучение
+
+- [SICP](../../shared/middle-1/sicp.md)
+
 > TODO fill areas
 - Advanced OOP
     - Managing complex invariants
     - CQS
     - OOP implementations
 - Confident DDD knowledge
-- Book SICP
 - Team management
     - Agile
     - Kanban
