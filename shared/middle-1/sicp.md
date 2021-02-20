@@ -123,3 +123,81 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * Which properties of procedures and data are different? Why does it matter?
 
 * Chapter 3.  Modularity, Objects, and State
+
+  * [3.1  Assignment and Local State](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-20.html#%_sec_3.1)
+
+    * What does it mean that an object has a state?
+    * Why related subsystems should be closely coupled and other should be loosely coupled?
+    * Why is higher-order procedure usually used to create objects with local state? What is an alternative?
+    * Why message-passing style is fit good for procedures that create objects?
+    * What are new modeling approaches that we get with introducing assignments in a language?
+    * Why random-number generator requires to be statefull?
+    * What's the problem of "sameness" that appears with introducing assignments in a language?
+    * Why does substitution model of evaluation not fit for objects with a state?
+    * What property of languages is meant by "referential transparency"?
+    * Why does relative orders of the operations matter meanwhile it is opposite for the functional programs?
+
+  * [3.2  The Environment Model of Evaluation](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-21.html#%_sec_3.2)
+
+    * What are environment, frame and binding?
+    * What is the enclosing environment?
+    * What is the global environment?
+    * Environment is the part of the procedure --- explain what does it mean and what are consequences of this?
+    * What is the environment model of evaluation?
+    * How does assignment evaluate?
+    * Why don't local names interfere with name of the external variables?
+    * How environment model help us to solve the problem of "sameness"?
+
+  * [3.3  Modeling with Mutable Data](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-22.html#%_sec_3.3)
+
+    * What are mutable data objects and what are mutators?
+    * How mutators can create "garbage" data?
+    * What are shared data?
+    * Why sharing become significant when we have assignments in a language?
+    * How Lisp solves the problems of "identity"? Can it be approprate in mathematical models of the programs?
+    * How does the feature like assignment allow to create circular data structures?
+    * How is it possible to detect that given data structure is circular? How to do it in a constant space?
+    * Explain why assignments and mutable data are equipotent language features?
+    * How does assignment allow us to create queue with Θ(1) insert and delete operations?
+    * Why does assignment allow us to implement memoization?
+    * What is the event-driven simulation?
+    * What is the agenda that allow to simulate events spread of time? What is its analogue in JS?
+    * What is the propagation of constraints?
+    * How does constraint networks work?
+    * How are assignments (or mutability) used in implementation of constraint systems?
+    * What is the expression-oriented style? What are advantages of this style comparing to imperative style?
+
+  * [3.4  Concurrency: Time Is of the Essence](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-23.html#%_sec_3.4)
+
+    * What does concurrency mean?
+    * What is the shared state? How it can be done? What problems can appear because of shared state?
+    * Explain all possible interleaving the order of events for two processes when first one executes the expression: balance += 10; and the second one: balance *= 2 ?
+    * Will be the problems with concurrency same if we had no assignment in the language (only immutable data)?
+    * Why assignments in the language forces programmer to admit time in the modeling?
+    * What does serialization mean and what is its purpose?
+    * Why serialization doesn't help for a such operation like swapping the balances in two bank accounts?
+    * What is the mutex? How does it help with problems arised because of concurrency?
+    * How does mutex can be implemented?
+    * What operations in mutex implementation should be done atomically? Why?
+    * Which situations are called deadlock? What are the ways to avoid deadlocks?
+    * Why does communication between processes matter for shared state or ordering of events?
+
+  * [3.5  Streams](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-24.html#%_sec_3.5)
+
+    * What the difference between lists and streams? What is happening in both construction and selection time for both lists and streams?
+    * Why cons-stream and delay should be special forms of languages? Should `force` be such procedure?
+    * Why should all list-manipulating procedures be rewritten for streams? What actually should be changed?
+    * What's the difference between methods call-by-name and call-by-need?
+    * Explain the behaviour of the programs from exercises 3.51 and 3.52
+    * Why streams can be infinite? Can we make our program stuck when working with infinite streams?
+    * What's the order of growth of the computing of fibonacci numbers from stream declared implicitly both using call-by-name and call-by-need strategies?
+    * What's the order of growth of the stream of all positive integers with no prime factors other than 2, 3, or 5 declared implicitly?
+    * What's the technique called "sequence accelerator"?
+    * How can we can accelerate the accelerated sequence?
+    * How can we merge infinite sequences? Why simple appending doesn't fit here?
+    * How does delayed evaluation help to create circular dependencies?
+    * What should be changed in the language, so it become normal-order evaluated? What are pros and cons of this approach?
+    * Why don't mutability and delayed evaluation mix well in programming languages?
+    * How can we refactor statefull procedure to make it stateless with the streams?
+    * Why simple merging of two streams is not a solution for merging bank accounts?
+    * What's the difference between thunks and JS Promises?
