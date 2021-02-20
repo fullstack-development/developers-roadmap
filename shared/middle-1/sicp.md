@@ -201,3 +201,12 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * How can we refactor statefull procedure to make it stateless with the streams?
     * Why simple merging of two streams is not a solution for merging bank accounts?
     * What's the difference between thunks and JS Promises?
+
+<!-- TODO: add chapter 4-5 questions and fix links to topics. -->
+## Resources
+
+* [SICP translated into Russian](http://newstar.rinet.ru/~goga/sicp/sicp.pdf)
+
+* [Interactive book with examples and exercises executable in browser](http://xuanji.appspot.com/isicp/)
+
+* [SICP learning guide (article in Russian)](https://guides.hexlet.io/how-to-learn-sicp/)
