@@ -9,7 +9,12 @@
 * How to find a process by the port number?
 * Which port numbers are reserved for administrator? Why does such restriction exist?
 * What is process supervising? Name various supervisors and their basic commands.
-* Which inter-process communication methods (IPC) do you know? How do they work?
+* How do the following inter-process communication (IPC) methods work?
+  * Shared files. What problem with shared access to a file do we have and how
+    to solve it?
+  * Signals.
+  * Pipes, FIFO-channels.
+  * Sockets. How do sockets differ from pipes conceptually?
 * Service management in Linux. What is a daemon?
 
 Resources:
