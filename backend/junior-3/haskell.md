@@ -166,11 +166,11 @@
 * GADTs
   * [Wikibooks](<https://en.wikibooks.org/wiki/Haskell/GADT>)
   * [Haskell wiki](<https://wiki.haskell.org/GADTs_for_dummies>)
-  * [GHC docs](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#extension-GADTs)
+  * [GHC docs](https://downloads.haskell.org/~ghc/8.8-latest/docs/html/users_guide/glasgow_exts.html#extension-GADTs)
   * [Fun with phantom types](http://www.cs.ox.ac.uk/ralf.hinze/publications/With.pdf)
   * [Type Constraints in Data Declaration Haskell](https://stackoverflow.com/questions/40825878/type-constraints-in-data-declaration-haskell)
 * DataKinds
-  * [GHC docs](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#extension-DataKinds)
+  * [GHC docs](https://downloads.haskell.org/~ghc/8.8-latest/docs/html/users_guide/glasgow_exts.html#extension-DataKinds)
   * [Paper - Giving Haskell a Promotion](https://www.seas.upenn.edu/~sweirich/papers/tldi12.pdf)
   * [Basic Type Level Programming in Haskell](http://www.parsonsmatt.org/2017/04/26/basic_type_level_programming_in_haskell.html)
   * [Haskell's kind system - a primer](https://diogocastro.com/blog/2018/10/17/haskells-kind-system-a-primer/)
@@ -178,21 +178,21 @@
   * [What is dependent typing?](https://stackoverflow.com/questions/9338709/what-is-dependent-typing)
   * [Does haskell have dependent types?](https://softwareengineering.stackexchange.com/questions/182066/does-haskell-have-dependent-types)
 * PolyKinds
-  * [GHC docs](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#kind-polymorphism-and-type-in-type)
+  * [GHC docs](https://downloads.haskell.org/~ghc/8.8-latest/docs/html/users_guide/glasgow_exts.html#kind-polymorphism-and-type-in-type)
 * Higher ranked types
-  * [GHC docs](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#extension-RankNTypes)
+  * [GHC docs](https://downloads.haskell.org/~ghc/8.8-latest/docs/html/users_guide/glasgow_exts.html#extension-RankNTypes)
   * [Higher-rank and higher-kinded types](https://www.stephanboyer.com/post/115/higher-rank-and-higher-kinded-types)
   * [Haskell wiki](https://wiki.haskell.org/Rank-N_types)
 * Existential types
   * [Haskell Wiki](https://wiki.haskell.org/Existential_type)
-  * [GHC docs](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#existentially-quantified-data-constructors)
+  * [GHC docs](https://downloads.haskell.org/~ghc/8.8-latest/docs/html/users_guide/glasgow_exts.html#existentially-quantified-data-constructors)
   * [WikiBooks](https://en.wikibooks.org/wiki/Haskell/Existentially_quantified_types)
   * [Why there is no an "Exist" keyword](https://stackoverflow.com/questions/28545545/why-there-is-no-an-exist-keyword-in-haskell-for-existential-quantification)
   * [What's the theoretical basis for existential types](https://stackoverflow.com/questions/10753073/whats-the-theoretical-basis-for-existential-types)
   * [What does the `forall` keyword in Haskell/GHC do](https://stackoverflow.com/questions/3071136/what-does-the-forall-keyword-in-haskell-ghc-do)
   * [Logic for Economists (optional resource)](https://www.coursera.org/learn/logic-for-economists/home/welcome)
 * `ConstraintKinds`
-  * [GHC docs](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#extension-ConstraintKinds)
+  * [GHC docs](https://downloads.haskell.org/~ghc/8.8-latest/docs/html/users_guide/glasgow_exts.html#extension-ConstraintKinds)
   * [Constraint Kinds for GHC](http://blog.omega-prime.co.uk/2011/09/10/constraint-kinds-for-ghc/)
   * [The Constraint kind](https://jeltsch.wordpress.com/2013/02/14/the-constraint-kind/)
 
@@ -347,7 +347,7 @@ Quite hard to read for this level, you would better reread it later.
 #### Debugging resources
 
 * [Hackage (Debug.Trace)](http://hackage.haskell.org/package/base-4.11.1.0/docs/Debug-Trace.html#g:1)
-* [GHC Docs (GHCi Debugger)](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/ghci.html#the-ghci-debugger)
+* [GHC Docs (GHCi Debugger)](https://downloads.haskell.org/~ghc/8.8-latest/docs/html/users_guide/ghci.html#the-ghci-debugger)
 
 ## Kata
 
