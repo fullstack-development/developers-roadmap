@@ -10,6 +10,19 @@
     * Как на него отвечает сервер?
   * Какие бывают `Access-control-*` заголовки? Зачем они нужны?
 * Что такое JSONP? Зачем он нужен?
+* Атаки
+  * XSS (Cross-site scripting)
+    * Что такое?
+    * Как работает?
+    * Для чего можно использовать?
+    * Какие бывают типы? Что вы о них знаете?
+    * Какие есть способы предотвратить атаку (не обязательно перечислять все)?
+  * CSRF (Cross-site request forgery)
+    * Что такое?
+    * Как работает?
+    * Для чего можно использовать?
+    * Какие есть способы предотвратить атаку (не обязательно перечислять все)?
+    * В чем разница между XSS и CSRF?
 
 ### Ресурсы
 
@@ -19,3 +32,7 @@
 * [HTTP OPTIONS method](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/OPTIONS)
 * [Authoritative guide to CORS (Cross-Origin Resource Sharing) for REST APIs](https://www.moesif.com/blog/technical/cors/Authoritative-Guide-to-CORS-Cross-Origin-Resource-Sharing-for-REST-APIs/)
 * [XMLHttpRequest: кросс-доменные запросы](https://learn.javascript.ru/xhr-crossdomain)
+* [Основы XSS](https://hackware.ru/?p=1174&PageSpeed=noscript)
+* [XSS](https://portswigger.net/web-security/cross-site-scripting)
+* [XSS Game](https://xss-game.appspot.com/level1)
+* [CSRF](https://portswigger.net/web-security/csrf)
