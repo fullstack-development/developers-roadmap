@@ -16,6 +16,9 @@ Resources:
 
 * [Управление процессами в Linux](http://www.opennet.ru/docs/RUS/lnx_process/process2.html)
 * [Найти процесс по номеру порта в Linux](https://rav.pw/linux-get-process-by-port/)
+* [Why are the first 1024 ports restricted to the root user only?](https://unix.stackexchange.com/questions/16564/why-are-the-first-1024-ports-restricted-to-the-root-user-only)
+* [Privileged Ports](https://www.w3.org/Daemon/User/Installation/PrivilegedPorts.html)
+* [Process supervision](https://en.wikipedia.org/wiki/Process_supervision)
 * [Linux: supervisor — управление процессами и сервисами](https://rtfm.co.ua/linux-supervisor-upravlenie-processami-i-servisami/)
 * [How To Use Systemctl to Manage Systemd Services and Units](https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units)
 * Inter-process communication in Linux:
