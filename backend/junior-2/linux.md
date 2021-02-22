@@ -14,10 +14,10 @@
 
 Resources:
 
-* [How To Use Systemctl to Manage Systemd Services and Units](https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units)
-* [Найти процесс по номеру порта в Linux](https://rav.pw/linux-get-process-by-port/)
 * [Управление процессами в Linux](http://www.opennet.ru/docs/RUS/lnx_process/process2.html)
+* [Найти процесс по номеру порта в Linux](https://rav.pw/linux-get-process-by-port/)
 * [Linux: supervisor — управление процессами и сервисами](https://rtfm.co.ua/linux-supervisor-upravlenie-processami-i-servisami/)
+* [How To Use Systemctl to Manage Systemd Services and Units](https://www.digitalocean.com/community/tutorials/how-to-use-systemctl-to-manage-systemd-services-and-units)
 * Inter-process communication in Linux:
   * [Shared Storage](https://opensource.com/article/19/4/interprocess-communication-ipc-linux-part-1)
   * [Pipes and message queues](https://opensource.com/article/19/4/interprocess-communication-linux-channels)
