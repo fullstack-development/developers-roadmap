@@ -7,7 +7,7 @@ Junior back-end developer 3 level.
 - [Haskell](./haskell.md)
 - [AWS](./aws.md)
 - [Git](../../shared/junior-3/git.md)
-- [Basic principles of coding and design](../../shared/junior-3/codingAndDesign.md)
+- [Basic principles of coding and design](../../shared/junior-3/basicCodingAndDesignPrinciples.md)
 
 ## Required resources
 

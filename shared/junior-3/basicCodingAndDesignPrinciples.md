@@ -1,0 +1,42 @@
+# Basic principles of coding and design
+
+## The Goal
+Learn the most important and common coding principles for all programming languages and get acquainted with notions of design. When answering on design questions you have to explain your understanding and discuss it with interviewers. This topic is preparation for [Basic design principles](../../shared/middle-1/design.md).
+
+
+## Coding
+* What are "magic" numbers and why they are bad?
+* Why is it important to test code? What are black-box testing and white-box testing?
+* What is the difference between the following types of testing:
+  * Unit testing
+  * Component testing
+  * Integration testing
+  * Regression testing
+  * System testing
+* Is premature optimaztion harmfull on early stage of development? Explain why?
+
+#### Resources
+* Code Complete by Steve McConnell:
+  * Numbers in General - Subchapter 12.1
+  * Developer Testing - Chapter 22
+  * Code-Tuning Strategies - Chapter 25
+
+
+## Design
+* Why is it important to think over requirements in advance? Is it possible to overdo it?
+* Explain the following practices of design:
+  * Iterate
+  * Divide and Conquer
+  * Top-Down and Bottom-Up design approaches
+* What is Complexity? What is the difference between Accidental Complexity and Essential Complexity?
+* What is Cohesion?
+* What is Coupling?
+* What is the best combination of Cohesion and Coupling?
+
+#### Resources
+* Code Complete by Steve McConnell:
+  * Measure Twice, Cut Once: Upstream Prerequisites - Chapter 3
+  * Design Practices - Subchapter 5.4
+* [Accidental and Essential Complexity](https://medium.com/background-thread/accidental-and-essential-complexity-programming-word-of-the-day-b4db4d2600d4)
+* [Difference between Cohesion and Coupling](https://stackoverflow.com/questions/3085285/difference-between-cohesion-and-coupling)
+
