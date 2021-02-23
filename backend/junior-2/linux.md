@@ -34,10 +34,16 @@ Resources:
 ## User
 
 * Concept of users and user groups in Linux.
-* Access rights of users and groups. Access permissions of file system objects.
+* Access rights of users and groups.
+* What are basic (rwx) access permissions of a file? What is their meaning for
+  regular files and directories?
 * How to change access rights to a file?
 * How to access a file as another user?
 * Who is the root user in Linux? How to access a file as a root user?
+
+Resources:
+
+* [File-system permissions](https://en.wikipedia.org/wiki/File-system_permissions#Traditional_Unix_permissions)
 
 ## curl
 
