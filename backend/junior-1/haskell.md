@@ -46,6 +46,7 @@ This level requires basic skills to solve local tasks in a project.
   * How and why do you use ADTs?
   * How and why the record syntax is used?
     How to extract a value from one of the fields of the corresponding ADT?
+  * How can you update a value using the record update syntax?
   * What is recursive data structure? Can you give some examples?
 * Immutable data:  
   * What is an immutability concept?
