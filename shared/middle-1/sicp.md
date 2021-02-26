@@ -2,9 +2,9 @@
 
 This fundamental work emphasizes controlling the complexity of software systems through general techniques common to all engineering design: building abstractions to hide details and to separate specification from implementation, establishing conventional interfaces to allow the creation of standard modules, and shifting modes of linguistic description[...read more](https://mitpress.mit.edu/sites/default/files/sicp/course.html)
 
-* Chapter 1.  Building Abstractions with Procedures
+* Chapter 1. Building Abstractions with Procedures
 
-  * [1.1  The Elements of Programming](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-4.html#%_toc_%_sec_1.1)
+  * [1.1 The Elements of Programming](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-4.html#%_toc_%_sec_1.1)
 
     * Why evaluation of combinations can be represented in the form of a tree? What are leafs and branches?
     * What is the Substitution Model for Procedure Application?
@@ -16,7 +16,7 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * What is a scope of a variable name and what does capturing the variable mean?
     * What is the lexical scoping?
 
-  * [1.2  Procedures and the Processes They Generate](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-4.html#%_toc_%_sec_1.2)
+  * [1.2 Procedures and the Processes They Generate](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-4.html#%_toc_%_sec_1.2)
 
     * What is a linear recursive process and what is a linear iterative process? What are the advantages of each of them?
     * What is the state variables for linear iterative process?
@@ -31,7 +31,7 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * What is slower: `Θ(n*2)` or `Θ(n^2)`? *`^2` means power of two*.
     * What are probabilistic algorithms?
 
-  * [1.3  Formulating Abstractions with Higher-Order Procedures](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-4.html#%_toc_%_sec_1.3)
+  * [1.3 Formulating Abstractions with Higher-Order Procedures](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-4.html#%_toc_%_sec_1.3)
 
     * What are higher-order procedures?
     * Why let definition is just a syntactic sugar for lambda functions?
@@ -48,9 +48,9 @@ This fundamental work emphasizes controlling the complexity of software systems 
 
     * What is the procedural abstraction? How does it help us to make modular design?
 
-* Chapter 2.  Building Abstractions with Data
+* Chapter 2. Building Abstractions with Data
 
-  * [2.1  Introduction to Data Abstraction](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-4.html#%_toc_%_sec_2.1)
+  * [2.1 Introduction to Data Abstraction](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-4.html#%_toc_%_sec_2.1)
 
     * What is the interface abstract data has?
     * What is the method of strategy of synthesis - wishful thinking?
@@ -63,7 +63,7 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * What is the difference between implementing pairs with dispatching and with lambda (from exercise 2.4)?
     * What are the Church numerals?
 
-  * [2.2  Hierarchical Data and the Closure Property](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-4.html#%_toc_%_sec_2.2)
+  * [2.2 Hierarchical Data and the Closure Property](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-4.html#%_toc_%_sec_2.2)
 
     * What is the closure property? Does it mean the same as in Lisp/Javascript community?
     * What is the sequence? Why are pairs enough to implement sequences?
@@ -79,7 +79,7 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * What role do primitives play in stratified design?
     * Why does stratified design make the program robust?
 
-  * [2.3  Symbolic Data](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-16.html#%_sec_2.3)
+  * [2.3 Symbolic Data](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-16.html#%_sec_2.3)
 
     * What are the sets?
     * What is the binary tree? When the binary tree is balanced?
@@ -87,7 +87,7 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * What is a set of records and when it can be useful?
     * What is the Huffman Encoding Trees?
 
-  * [2.4  Multiple Representations for Abstract Data](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-17.html#%_sec_2.4)
+  * [2.4 Multiple Representations for Abstract Data](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-17.html#%_sec_2.4)
 
     * Why keeping multiple representations for abstract data in the same system can be useful?
     * What is the additivity? How is this property related to the representations for abstract data?
@@ -102,7 +102,7 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * What is the message-passing approach?
     * Compare "dispatching on type", "data-directed" and "message-passing" approaches.
 
-  * [2.5  Systems with Generic Operations](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-18.html#%_sec_2.5)
+  * [2.5 Systems with Generic Operations](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-18.html#%_sec_2.5)
 
     * Explain the idea of Generic Operations?
     * Why two-level tags are used in the example of the generic arithmetic operations package?
@@ -122,9 +122,9 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * Which properties of procedures and data are common? Why does it matter?
     * Which properties of procedures and data are different? Why does it matter?
 
-* Chapter 3.  Modularity, Objects, and State
+* Chapter 3. Modularity, Objects, and State
 
-  * [3.1  Assignment and Local State](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-20.html#%_sec_3.1)
+  * [3.1 Assignment and Local State](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-20.html#%_sec_3.1)
 
     * What does it mean that an object has a state?
     * Why related subsystems should be closely coupled and other should be loosely coupled?
@@ -137,18 +137,18 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * What property of languages is meant by "referential transparency"?
     * Why does relative orders of the operations matter meanwhile it is opposite for the functional programs?
 
-  * [3.2  The Environment Model of Evaluation](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-21.html#%_sec_3.2)
+  * [3.2 The Environment Model of Evaluation](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-21.html#%_sec_3.2)
 
     * What are environment, frame and binding?
     * What is the enclosing environment?
     * What is the global environment?
-    * Environment is the part of the procedure --- explain what does it mean and what are consequences of this?
+    * Environment is the part of the procedure - explain what does it mean and what are consequences of this?
     * What is the environment model of evaluation?
     * How does assignment evaluate?
     * Why don't local names interfere with name of the external variables?
     * How environment model help us to solve the problem of "sameness"?
 
-  * [3.3  Modeling with Mutable Data](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-22.html#%_sec_3.3)
+  * [3.3 Modeling with Mutable Data](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-22.html#%_sec_3.3)
 
     * What are mutable data objects and what are mutators?
     * How mutators can create "garbage" data?
@@ -168,7 +168,7 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * How are assignments (or mutability) used in implementation of constraint systems?
     * What is the expression-oriented style? What are advantages of this style comparing to imperative style?
 
-  * [3.4  Concurrency: Time Is of the Essence](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-23.html#%_sec_3.4)
+  * [3.4 Concurrency: Time Is of the Essence](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-23.html#%_sec_3.4)
 
     * What does concurrency mean?
     * What is the shared state? How it can be done? What problems can appear because of shared state?
@@ -183,7 +183,7 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * Which situations are called deadlock? What are the ways to avoid deadlocks?
     * Why does communication between processes matter for shared state or ordering of events?
 
-  * [3.5  Streams](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-24.html#%_sec_3.5)
+  * [3.5 Streams](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-24.html#%_sec_3.5)
 
     * What the difference between lists and streams? What is happening in both construction and selection time for both lists and streams?
     * Why cons-stream and delay should be special forms of languages? Should `force` be such procedure?
