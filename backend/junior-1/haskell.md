@@ -11,7 +11,9 @@ This level requires basic skills to solve local tasks in a project.
 * How and when the `let... in...`  expression is used?
 * How and when the `where...` clause is used?
 * Function application:
-  * What is function application operator? And what is its precedence value?
+  * What is the difference between the following ways to apply a function: `f x`
+    (function application syntax), `$` operator, `&` operator? Why do they
+    exist? What is their precedence and associativity?
   * What is partial application?
     * What functions can be applied partially?
     * Why there are no function arguments with default values in Haskell?
@@ -23,9 +25,8 @@ This level requires basic skills to solve local tasks in a project.
   * Function application precedence:
     * What are the possible values for precedence in Haskell?
     * What is associativity of operators?
-    * What is associative property? Does function application has that property?
+    * Is the function application syntax associative? In other words, is `(a b) c` identical to `a (b c)`?
     * What are the possible values for associativity in Haskell?
-    * Why does `$` operator exist?
 * Function composition:
   * How function composition operator is declared? What are its precedence and associativity?
   * Is function composition associative?
@@ -45,6 +46,7 @@ This level requires basic skills to solve local tasks in a project.
   * How and why do you use ADTs?
   * How and why the record syntax is used?
     How to extract a value from one of the fields of the corresponding ADT?
+  * How can you update a value using the record update syntax?
   * What is recursive data structure? Can you give some examples?
 * Immutable data:  
   * What is an immutability concept?
@@ -52,12 +54,13 @@ This level requires basic skills to solve local tasks in a project.
   * Can you list the pros and cons of both concepts?
   * What concept is using in Haskell?
   * How can you update values in immutable data structure?
-  * Can you give some examples for the record and the list?
 * What is `newtype` declaration? Why does it exist? What are its constraints and properties?
 * Polymorphic types:
   * What are polymorphic types and polymorphic functions?
   * Examples of polymorphic types and functions.
-  * What does instantiation of a type variable mean? Does it happen at run time or at compile time?
+  * How does instantiation of a type variable happen, i. e. how does a type
+    variable become a concrete type? Does it happen at run time or at compile
+    time?
 * What is bottom (`_|_`)?
 
 ## Lists
