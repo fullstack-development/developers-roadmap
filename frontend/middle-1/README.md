@@ -1,7 +1,7 @@
 # Front-end Middle 1 level
 
 - [Алгоритмы и структуры данных](./algorithmsAndDataStructures.md)
-- [Базовые принципы проектирования](../../shared/middle-1/design.md)
+- [Базовые принципы проектирования](../../shared/middle/design.md)
 - [ООП](./oop.md)
 - [SOLID](./solid.md)
 - [ФП](./fp.md)

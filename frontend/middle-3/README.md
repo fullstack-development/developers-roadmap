@@ -6,7 +6,7 @@ Middle Front-end Developer 3 level глубоко изучил основные 
 
 ## Обязательное изучение
 
-- [SICP](../../shared/middle-1/sicp.md)
+- [Chapters 1,2,3,4,5 of SICP](../../shared/middle/sicp.md)
 
 > TODO fill areas
 - Advanced OOP

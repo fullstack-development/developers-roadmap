@@ -8,8 +8,8 @@ Middle back-end developer 1 level.
 - [Linux](./linux.md)
 - [Databases](./db.md)
 - [Networking](./networking.md)
-- [Basic design principles](../../shared/middle-1/design.md)
+- [Basic design principles](../../shared/middle/design.md)
 
 ## Required resources
 
-- [SICP](../../shared/middle-1/sicp.md)
+- [Chapters 1,2,3 of SICP](../../shared/middle/sicp.md)
