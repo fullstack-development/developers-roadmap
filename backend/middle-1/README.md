@@ -8,7 +8,7 @@ Middle back-end developer 1 level.
 - [Linux](./linux.md)
 - [Databases](./db.md)
 - [Networking](./networking.md)
-- [Basic design principles](../../shared/middle/design.md)
+- [Basic design principles](../../shared/middle/basic-design-principles.md)
 
 ## Required resources
 
