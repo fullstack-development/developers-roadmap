@@ -503,7 +503,7 @@ Read the [book](https://books.google.ru/books/about/Clean_Architecture.html?id=u
 
 ## The Test Boundary
 
-1.  What is Fragile Tests Problem
+1.  What is Fragile Tests Problem?
 
 2.  How do you solve this problem?
 
