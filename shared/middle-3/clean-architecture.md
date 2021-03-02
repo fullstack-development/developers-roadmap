@@ -55,7 +55,9 @@ Read the [book](https://books.google.ru/books/about/Clean_Architecture.html?id=u
 
 1.  What goal does a software architecture have?
 
-2.  When do you prefer "messy" code? When do you prefer staying "clean"?
+2.  When and why do you prefer "messy" code?
+
+3.  When and why do you prefer staying "clean"?
 
 
 <a id="orgd69a43e"></a>
