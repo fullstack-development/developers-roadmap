@@ -248,15 +248,19 @@ Read the [book](https://books.google.ru/books/about/Clean_Architecture.html?id=u
 
 8.  What is the Stable Abstractions Principle?
 
-9.  How can you measure the abstractness of a component?
+9.  How do you extend functionality of stable components?
 
-10. What is the I/A graph?
+10. How does OCP relate to SAP? Can you implement that OCP with just a function?
 
-11. What is the Zone of Pain?
+11. How can you measure the abstractness of a component?
 
-12. What is the Zone of Uselessness?
+12. What is the I/A graph?
 
-13. What is the Main Sequence?
+13. What is the Zone of Pain?
+
+14. What is the Zone of Uselessness?
+
+15. What is the Main Sequence?
 
 
 <a id="org729c413"></a>
