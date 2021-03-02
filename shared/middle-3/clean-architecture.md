@@ -334,7 +334,7 @@ Read the [book](https://books.google.ru/books/about/Clean_Architecture.html?id=u
 
 4.  Give some examples of the software that draw lines and the software that don&rsquo;t draw.
 
-5.  What is the axis of change?
+5.  What is the axis of change? How does it relate to boundaries?
 
 
 <a id="org53830d7"></a>
