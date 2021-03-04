@@ -1,7 +1,8 @@
 # Basic principles of coding and design
 
 ## The Goal
-Learn the most important and common coding principles for all programming languages and get acquainted with notions of design. When answering on design questions you have to explain your understanding and discuss it with interviewers. This topic is preparation for [Basic design principles](../../shared/middle-1/design.md).
+To learn the most important and common coding principles for all programming languages and get acquainted with notions of design.
+Design questions do not require conventional formulaic answers. An in-depth examination of the topic is covered in section [Basic design principles](../../shared/middle-1/design.md).
 
 
 ## Coding
@@ -13,7 +14,7 @@ Learn the most important and common coding principles for all programming langua
   * Integration testing
   * Regression testing
   * System testing
-* Is premature optimaztion harmfull on early stage of development? Explain why?
+* Is optimization harmful on early stage of development? Explain why.
 
 #### Resources
 * Code Complete by Steve McConnell:
