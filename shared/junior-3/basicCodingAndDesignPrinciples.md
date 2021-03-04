@@ -20,7 +20,7 @@ Design questions do not require conventional formulaic answers. An in-depth exam
   * Integration testing
   * Regression testing
   * System testing
-* Is optimization harmful on early stage of development? Explain why.
+* What is premature optimization and why is it harmful? What should be done in order to make sure that optimization is worth doing?
 
 #### Resources
 * Code Complete by Steve McConnell:
