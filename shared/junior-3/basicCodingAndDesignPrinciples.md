@@ -7,6 +7,12 @@ Design questions do not require conventional formulaic answers. An in-depth exam
 
 ## Coding
 * What are "magic" numbers and why they are bad?
+* Error management:
+  * Why is it important to validate input data?
+  * What are exceptions? How do we work with them?
+  * What will happen if exception will not being caught?
+  * What representation of errors other than exceptions are there? Which would you prefer?
+  * Are there errors that cannot be represented other than exceptions?
 * Why is it important to test code? What are black-box testing and white-box testing?
 * What is the difference between the following types of testing:
   * Unit testing
