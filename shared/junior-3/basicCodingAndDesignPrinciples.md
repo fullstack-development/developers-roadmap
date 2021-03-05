@@ -13,6 +13,8 @@ Design questions do not require conventional formulaic answers. An in-depth exam
   * What will happen if an exception is not caught?
   * What representation of errors other than exceptions are there? Which would you prefer?
   * Are there errors that cannot be represented other than exceptions?
+  * Should any error interrupt function's execution? Why?
+  * What strategies of handling errors do you know?
 * Why is it important to test code? What are black-box testing and white-box testing?
 * What is the difference between the following types of testing:
   * Unit testing
