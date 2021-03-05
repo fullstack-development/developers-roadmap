@@ -10,7 +10,7 @@ Design questions do not require conventional formulaic answers. An in-depth exam
 * Error management:
   * Why is it important to validate input data?
   * What are exceptions? How do we work with them?
-  * What will happen if exception will not being caught?
+  * What will happen if an exception is not caught?
   * What representation of errors other than exceptions are there? Which would you prefer?
   * Are there errors that cannot be represented other than exceptions?
 * Why is it important to test code? What are black-box testing and white-box testing?
@@ -25,13 +25,14 @@ Design questions do not require conventional formulaic answers. An in-depth exam
 #### Resources
 * Code Complete by Steve McConnell:
   * Numbers in General - Subchapter 12.1
+  * Protecting Your Program from Invalid Inputs - Subchapter 8.1
+  * Exceptions - Subchapter 8.4
   * Developer Testing - Chapter 22
   * Code-Tuning Strategies - Chapter 25
 
 
 ## Design
-* Why is it important to think over requirements in advance? Is it possible to overdo it?
-* Explain the following practices of design:
+* Explain the following design practices:
   * Iterate
   * Divide and Conquer
   * Top-Down and Bottom-Up design approaches
