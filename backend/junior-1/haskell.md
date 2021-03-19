@@ -36,6 +36,14 @@ This level requires basic skills to solve local tasks in a project.
   * What is a tail recursion?
   * What is a tail call optimization? Can you give examples of functions with and without tail call optimization?
 
+#### Resources
+
+* Sections:
+  * [Section of an infix operator](https://wiki.haskell.org/Section_of_an_infix_operator)
+  * [Sections in Haskell report](http://www.haskell.org/onlinereport/exps.html#sections)
+* [Why composition is right associative - Stackoverflow](https://stackoverflow.com/questions/20342860/why-is-function-composition-in-haskell-right-associative)
+* [Tail Call Optimization](https://medium.com/@lex.sheehan/tail-call-optimization-303ca8d12de7)
+
 ## Types
 
 * What is a type in Haskell? What is a type signature, what could it specify about a type and how it does that?
@@ -48,7 +56,7 @@ This level requires basic skills to solve local tasks in a project.
     How to extract a value from one of the fields of the corresponding ADT?
   * How can you update a value using the record update syntax?
   * What is recursive data structure? Can you give some examples?
-* Immutable data:  
+* Immutable data:
   * What is an immutability concept?
   * How does it differ from mutability?
   * Can you list the pros and cons of both concepts?
@@ -62,6 +70,16 @@ This level requires basic skills to solve local tasks in a project.
     variable become a concrete type? Does it happen at run time or at compile
     time?
 * What is bottom (`_|_`)?
+
+#### Resources
+
+* [Haskell Data Types Review! (5th chapter can be skipped)](https://mmhaskell.com/blog/2019/2/11/haskell-data-types-review)
+* Immutability
+  * [Immutability is Awesome](https://mmhaskell.com/blog/2017/1/9/immutability-is-awesome)
+  * [What does immutable variable in Haskell mean? - Stackoverflow](https://stackoverflow.com/questions/38040812/what-does-immutable-variable-in-haskell-mean)
+* Newtypes
+  * [Why does anyone use newtypes?](https://wiki.haskell.org/Newtype)
+  * [Магия newtype в Haskell](https://habr.com/ru/post/323526/)
 
 ## Lists
 
@@ -83,6 +101,12 @@ This level requires basic skills to solve local tasks in a project.
     What are the differences between these use cases?
   * Does it matter if a folding function has left or right associativity?
 
+#### Resources
+
+* [Свертки списков - IBM](https://www.ibm.com/developerworks/ru/library/l-haskell4/)
+* [`foldr`, `foldl` - Haskell wiki](https://wiki.haskell.org/Foldr_Foldl_Foldl%27)
+* [`foldl` as `foldr` - Haskell wiki](https://wiki.haskell.org/Foldl_as_foldr)
+
 ## Modules
 
 * Module declaration.
@@ -101,6 +125,10 @@ This level requires basic skills to solve local tasks in a project.
     module A(?) where
       import qualified Data.Maybe as Mb
     ```
+
+#### Resources
+
+* [Modules declaration, import and export rules](https://www.haskell.org/onlinereport/haskell2010/haskellch5.html)
 
 ## Language control expressions
 
@@ -162,6 +190,10 @@ This level requires basic skills to solve local tasks in a project.
 * `do`-notation.
 * How does Monad differ from Functor and Applicative?
 
+#### Resources
+
+* [All about monad - Haskell wiki](https://wiki.haskell.org/All_About_Monads)
+
 ## Monad transformers
 
 * What is Monad transformer? Why it's used?
@@ -187,28 +219,6 @@ This level requires basic skills to solve local tasks in a project.
 * What will happen after evaluating the function `putStrLn <$> getLine`? Explain why.
 * Is there a difference between using `MaybeT (StateT s IO) ()` and `StateT s (MaybeT IO) ()`?
 
-### Resources
+#### Resources
 
-* Functions:
-  * [Tail Call Optimization](https://medium.com/@lex.sheehan/tail-call-optimization-303ca8d12de7)
-* Types:
-  * [Haskell Data Types Review! (5th chapter can be skipped)](https://mmhaskell.com/blog/2019/2/11/haskell-data-types-review)
-  * [Why does anyone use newtypes?](https://wiki.haskell.org/Newtype)
-  * [Магия newtype в Haskell](https://habr.com/ru/post/323526/)
-* Sections:
-  * [Section of an infix operator](https://wiki.haskell.org/Section_of_an_infix_operator)
-  * [Sections in Haskell report](http://www.haskell.org/onlinereport/exps.html#sections)
-* Function application and composition:
-  * [Why composition is right associative - Stackoverflow](https://stackoverflow.com/questions/20342860/why-is-function-composition-in-haskell-right-associative)
-  * [A curious associativity of the `<$>` operator](https://ro-che.info/articles/2019-07-22-associativity-of-fmap)
-* Folds:
-  * [Свертки списков - IBM](https://www.ibm.com/developerworks/ru/library/l-haskell4/)
-  * [`foldr`, `foldl` - Haskell wiki](https://wiki.haskell.org/Foldr_Foldl_Foldl%27)
-  * [`foldl` as `foldr` - Haskell wiki](https://wiki.haskell.org/Foldl_as_foldr)
-* Modules:
-  * [Modules declaration, import and export rules](https://www.haskell.org/onlinereport/haskell2010/haskellch5.html)
-* Monads:
-  * [All about monad - Haskell wiki](https://wiki.haskell.org/All_About_Monads)
-* Immutability
-  * [Immutability is Awesome](https://mmhaskell.com/blog/2017/1/9/immutability-is-awesome)
-  * [What does immutable variable in Haskell mean? - Stackoverflow](https://stackoverflow.com/questions/38040812/what-does-immutable-variable-in-haskell-mean)
+* [A curious associativity of the `<$>` operator](https://ro-che.info/articles/2019-07-22-associativity-of-fmap)
