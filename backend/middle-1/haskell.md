@@ -131,6 +131,7 @@ Why is `unliftio` considered safer by the author of `safe-exceptions`?
 * Suppose we have `data Example b c = A | B b | C Int c`:
   * What is the `Rep (Example b c)` type?
   * What would be the result of `to (C 2 "fsd")`?
+* How Generic programming can be improved with this `ConstraintKinds` extension enabled?
 
 #### Generics resources
 
