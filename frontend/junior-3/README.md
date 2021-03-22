@@ -9,6 +9,7 @@
 - [Git](../../shared/junior-3/git.md)
 - [API](./api.md)
 - [Тестирование](./testing.md)
+- [Базовые принципы кодирования и проектирования](../../shared/junior-3/basicCodingAndDesignPrinciples.md)
 - [Литература](./books.md)
 
 ## Специфично для нашего стека

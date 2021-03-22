@@ -1,5 +1,17 @@
 # Безопасность
 
+* Атаки
+  * XSS (Cross-site scripting)
+    * Что такое?
+    * Как работает?
+    * Для чего можно использовать?
+    * Какие бывают типы? Что вы о них знаете?
+    * Какие есть способы предотвратить (необязательно перечислять все)?
+  * CSRF (Cross-site request forgery)
+    * Что такое?
+    * Как работает?
+    * Для чего можно использовать?
+    * Какие есть способы предотвратить (необязательно перечислять все)?
 * Что такое SOP (Same-origin policy)? Зачем нужен? Как можно обойти ограничения SOP?
 * Что такое CORS (Cross-origin resource sharing)? Зачем нужен?
   * Preflight request
@@ -13,6 +25,10 @@
 
 ### Ресурсы
 
+* [Основы XSS](https://hackware.ru/?p=1174&PageSpeed=noscript)
+* [XSS](https://portswigger.net/web-security/cross-site-scripting)
+* [XSS Game](https://xss-game.appspot.com/level1)
+* [CSRF](https://portswigger.net/web-security/csrf)
 * [SOP](https://developer.mozilla.org/en/docs/Web/Security/Same-origin_policy)
 * [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 * [Preflight request](https://developer.mozilla.org/en-US/docs/Glossary/Preflight_request)
