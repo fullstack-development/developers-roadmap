@@ -51,3 +51,27 @@ Resources:
 * Send request specifying a body.
 * Send request specifying a header.
 * How to get supplementary debug information on making a request?
+
+## Environment
+
+* What is an environment variable?
+* Why is `PATH` variable needed? What is its format?
+* How to set the variable's value in a shell?
+* How to configure the variable's value for all sessions?
+* How to update the variable's value by appending a string to it?
+* What is `.profile`?
+
+Resources:
+
+* [Environment Variables](https://tldp.org/LDP/intro-linux/html/sect_07_02.html#sect_07_02_1)
+* [The path](https://tldp.org/LDP/intro-linux/html/sect_03_02.html#sect_03_02_01)
+* [Shell Startup](https://tldp.org/LDP/sag/html/shell-startup.html)
+
+## Getting help
+
+* What is the command for showing documentation for a specific program or topic?
+  How to use it?
+
+Resources:
+
+* [Getting help](https://tldp.org/LDP/intro-linux/html/sect_02_03.html)
