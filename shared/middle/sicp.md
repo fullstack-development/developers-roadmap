@@ -19,12 +19,12 @@ This fundamental work emphasizes controlling the complexity of software systems 
   * [1.2 Procedures and the Processes They Generate](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-4.html#%_toc_%_sec_1.2)
 
     * What is a linear recursive process and what is a linear iterative process? What are the advantages of each of them?
-    * What is the state variables for linear iterative process?
+    * What are the state variables for linear iterative process?
     * What's the difference between recursive procedure and recursive process?
     * What is the tail-recursive implementation of a language?
-    * What is a tree-recursive process and when it can be useful?
+    * What is a tree-recursive process and when can it be useful?
     * Are linear iterative processes always less stack-consuming than analogous recursive processes?
-    * Explain what does an order of growth mean?
+    * What does an order of growth mean?
     * What does `Θ(n)` notations used for?
     * What is slower: `Θ(log(n))` or `Θ(sqrt(n))`?
     * What is slower: `Θ(n)` or `Θ(1000*n)`?
@@ -34,13 +34,13 @@ This fundamental work emphasizes controlling the complexity of software systems 
   * [1.3 Formulating Abstractions with Higher-Order Procedures](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-4.html#%_toc_%_sec_1.3)
 
     * What are higher-order procedures?
-    * Why let definition is just a syntactic sugar for lambda functions?
+    * Why is let definition just a syntactic sugar for lambda functions?
     * What is the fixed point of a function?
     * What is the average damping and why it helps to aids the convergence of fixed-point searches?
     * How do higher-order procedures that accept other procedures as parameters help in designing programs?
     * How do higher-order procedures that return other procedures as results help in designing programs?
     * What are the examples of higher-order procedures that both accept and return procedures?
-    * What elements of the languages does have first-class status? What does it mean in designing programs?
+    * What elements of programming languages do usually have the first-class status? What does it mean in program design?
     * What is the composition of the functions? What type does it have?
     * What is the iterative improvement computational strategy?
 
@@ -52,32 +52,33 @@ This fundamental work emphasizes controlling the complexity of software systems 
 
   * [2.1 Introduction to Data Abstraction](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-4.html#%_toc_%_sec_2.1)
 
-    * What is the interface abstract data has?
+    * What interface does abstract data have?
     * What is the method of strategy of synthesis - wishful thinking?
     * What is the pair?
     * What properties of the pairs allows us to create arbitrary complex data structures?
     * What are the abstraction barriers?
-    * Why abstraction barriers allow to make refactoring more easily?
-    * Why constructors and selectors should satisfy a laws? What kind of laws?
-    * Why higher-order function and lexical scoping is enough to implement abstract data?
+    * Why do abstraction barriers allow to make refactoring more easily?
+    * Why should constructors and selectors satisfy laws? What kind of laws?
+    * Why are higher-order function and lexical scoping enough to implement abstract data?
     * What is the difference between implementing pairs with dispatching and with lambda (from exercise 2.4)?
     * What are the Church numerals?
 
   * [2.2 Hierarchical Data and the Closure Property](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-4.html#%_toc_%_sec_2.2)
 
-    * What is the closure property? Does it mean the same as in Lisp/Javascript community?
-    * What is the sequence? Why are pairs enough to implement sequences?
+    * What is the closure property?
+    * Does closure mean the same in Lisp and Javascript community? *This question is answered by frontend developers.*
+    * What is the sequence? Why pairs are enough to implement sequences?
     * Why does mapping increases the readability of the program?
     * How to represent lists with pairs?
     * How to represent arbitrary deep and arbitrary wide trees with pairs?
-    * What is the common way how to rewrite procedures for list to make them work with trees?
+    * Is there a generic way to rewrite procedures working with lists to make them work with trees?
     * What are the conventional interfaces? What is the relation between conventional interface and abstraction barrier?
     * What are folds? What's difference between left and right folds?
     * What property should combining function have to make results indistinguishable both for left and right folds?
-    * What is the flatmap? When it can be useful?
+    * What is the flatmap? When can it be useful?
     * What is the stratified design? What is the difference between stratified design and abstraction barriers?
-    * What role do primitives play in stratified design?
-    * Why does stratified design make the program robust?
+    * What role do primitives play in the stratified design?
+    * Why does the stratified design make the program robust?
 
   * [2.3 Symbolic Data](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-16.html#%_sec_2.3)
 
@@ -128,7 +129,7 @@ This fundamental work emphasizes controlling the complexity of software systems 
 
     * What does it mean that an object has a state?
     * Why related subsystems should be closely coupled and other should be loosely coupled?
-    * Why is higher-order procedure usually used to create objects with local state? What is an alternative?
+    * Why is higher-order procedure usually used to create objects with local state? What is the alternative?
     * Why message-passing style is fit good for procedures that create objects?
     * What are new modeling approaches that we get with introducing assignments in a language?
     * Why random-number generator requires to be stateful?
@@ -139,22 +140,22 @@ This fundamental work emphasizes controlling the complexity of software systems 
 
   * [3.2 The Environment Model of Evaluation](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-21.html#%_sec_3.2)
 
-    * What are environment, frame and binding?
+    * What are the environment, the frame and the binding?
     * What is the enclosing environment?
     * What is the global environment?
     * Environment is the part of the procedure - explain what does it mean and what are consequences of this?
     * What is the environment model of evaluation?
     * How does assignment evaluate?
     * Why don't local names interfere with name of the external variables?
-    * How environment model help us to solve the problem of "sameness"?
+    * How does environment model help us to solve the problem of "sameness"?
 
   * [3.3 Modeling with Mutable Data](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-22.html#%_sec_3.3)
 
     * What are mutable data objects and what are mutators?
     * How mutators can create "garbage" data?
     * What are shared data?
-    * Why sharing become significant when we have assignments in a language?
-    * How Lisp solves the problems of "identity"? Can it be appropriate in mathematical models of the programs?
+    * Why does sharing become significant when we have assignments in a language?
+    * How does Lisp solve the problems of "identity"? Can it be appropriate in mathematical models of the programs?
     * How does the feature like assignment allow to create circular data structures?
     * How is it possible to detect that given data structure is circular? How to do it in a constant space?
     * Explain why assignments and mutable data are equipotent language features?
@@ -174,30 +175,30 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * What is the shared state? How it can be done? What problems can appear because of shared state?
     * Explain all possible interleaving the order of events for two processes when first one executes the expression: `balance += 10;` and the second one: `balance *= 2;`?
     * Will be the problems with concurrency same if we had no assignment in the language (only immutable data)?
-    * Why assignments in the language forces programmer to admit time in the modeling?
+    * Why do assignments in the language force programmer to admit time in the modeling?
     * What does serialization mean and what is its purpose?
-    * Why serialization doesn't help for a such operation like swapping the balances in two bank accounts?
+    * Why serialization doesn't help for such an operation like swapping the balances in two bank accounts?
     * What is the mutex? How does it help with problems arisen because of concurrency?
     * How does mutex can be implemented?
-    * What operations in mutex implementation should be done atomically? Why?
+    * Which operations in mutex implementation should be done atomically? Why?
     * Which situations are called deadlock? What are the ways to avoid deadlocks?
     * Why does communication between processes matter for shared state or ordering of events?
 
   * [3.5 Streams](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-24.html#%_sec_3.5)
 
-    * What the difference between lists and streams? What is happening in both construction and selection time for both lists and streams?
-    * Why cons-stream and delay should be special forms of languages? Should `force` be such procedure?
+    * What is the difference between lists and streams? What is happening in both construction and selection time for both lists and streams?
+    * Why should cons-stream and delay be special forms of languages? Should `force` be such a procedure?
     * Why should all list-manipulating procedures be rewritten for streams? What actually should be changed?
     * What's the difference between methods call-by-name and call-by-need?
     * Explain the behavior of the programs from exercises 3.51 and 3.52 (you don't need to complete exercises if you can fully explain the behavior).
-    * Why streams can be infinite? Can we make our program stuck when working with infinite streams?
-    * What's the order of growth of the computing of fibonacci numbers from stream declared implicitly both using call-by-name and call-by-need strategies?
+    * Why can streams be infinite? Can we make our program stuck when working with infinite streams?
+    * What's the order of growth of the computing of fibonacci numbers from stream declared implicitly using both call-by-name and call-by-need strategies?
     * What's the order of growth of the stream of all positive integers with no prime factors other than 2, 3, or 5 declared implicitly?
     * What's the technique called "sequence accelerator"?
     * How can we can accelerate the accelerated sequence?
     * How can we merge infinite sequences? Why simple appending doesn't fit here?
     * How does delayed evaluation help to create circular dependencies?
-    * What should be changed in the language, so it become normal-order evaluated? What are pros and cons of this approach?
+    * What should be changed in the language, so it becomes normal-order evaluated? What are pros and cons of this approach?
     * Why don't mutability and delayed evaluation mix well in programming languages?
     * How can we refactor stateful procedure to make it stateless with the streams?
     * Why simple merging of two streams is not a solution for merging bank accounts?
