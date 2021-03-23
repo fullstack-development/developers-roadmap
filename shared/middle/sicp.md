@@ -25,10 +25,10 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * What is a tree-recursive process and when can it be useful?
     * Are linear iterative processes always less stack-consuming than analogous recursive processes?
     * What does an order of growth mean?
-    * What does `Θ(n)` notations used for?
-    * What is slower: `Θ(log(n))` or `Θ(sqrt(n))`?
-    * What is slower: `Θ(n)` or `Θ(1000*n)`?
-    * What is slower: `Θ(n*2)` or `Θ(n^2)`? *`^2` means power of two*.
+    * What is `Θ(n)` notation used for?
+    * What does grow faster: `Θ(log(n))` or `Θ(sqrt(n))`?
+    * What does grow faster: `Θ(n)` or `Θ(1000*n)`?
+    * What does grow faster: `Θ(n*2)` or `Θ(n^2)`? *`^2` means power of two*.
     * What are probabilistic algorithms?
 
   * [1.3 Formulating Abstractions with Higher-Order Procedures](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-4.html#%_toc_%_sec_1.3)
@@ -36,7 +36,7 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * What are higher-order procedures?
     * Why is let definition just a syntactic sugar for lambda functions?
     * What is the fixed point of a function?
-    * What is the average damping and why it helps to aids the convergence of fixed-point searches?
+    * What is the average damping and why does it help to converge fixed-point searches?
     * How do higher-order procedures that accept other procedures as parameters help in designing programs?
     * How do higher-order procedures that return other procedures as results help in designing programs?
     * What are the examples of higher-order procedures that both accept and return procedures?
@@ -93,32 +93,32 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * Why keeping multiple representations for abstract data in the same system can be useful?
     * What is the additivity? How is this property related to the representations for abstract data?
     * What are the generic procedures?
-    * When rectangular and when polar form of the complex numbers are useful?
-    * What is the type tag? When it can be useful?
-    * Explain when to strip off and when to attach tags to the abstract data?
-    * What is the dispatching on type? Why this approach is not additive?
-    * What is the data-directed programming? Why this approach requires the global mutable table?
-    * Why data-directed approach helps us to avoid procedure names conflict?
-    * How apply-generic from this chapter works?
+    * When is the rectangular form of the complex number useful? When is the polar form of the complex number useful?
+    * What is the type tag? When can it be useful?
+    * Explain when to strip off and when to attach tags to the abstract data.
+    * What is the dispatching on type? Why isn't this approach additive?
+    * What is the data-directed programming? Why does this approach require the global mutable table?
+    * Why does data-directed approach help us to avoid procedure names conflict?
+    * How does apply-generic from this chapter work?
     * What is the message-passing approach?
     * Compare "dispatching on type", "data-directed" and "message-passing" approaches.
 
   * [2.5 Systems with Generic Operations](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-18.html#%_sec_2.5)
 
-    * Explain the idea of Generic Operations?
-    * Why two-level tags are used in the example of the generic arithmetic operations package?
-    * Why implementing each procedure for each possible type combinations is cumbersome?
+    * Can you explain the idea of Generic Operations?
+    * Why are two-level tags used in the example of the generic arithmetic operations package?
+    * Why is implementing each procedure for each possible type combination cumbersome?
     * When such approach is the best way to create generic operations?
     * What is the coercion?
     * What are a hierarchy of types, a subtype and a supertype?
     * Why tower of types is the simplest case of the hierarchies of types?
-    * How raising procedures will help in cross-type generic operations?
+    * How can procedures raising help in cross-type generic operations?
     * Why coercing through raising become hard for types with multiple supertypes?
     * How can we determine that we can safely coerce to lower type?
 
   * Chapter questions:
 
-    * How does  compound data help to increase the modularity of a program?
+    * How does compound data help to increase the modularity of a program?
     * What is the data abstraction?
     * Which properties of procedures and data are common? Why does it matter?
     * Which properties of procedures and data are different? Why does it matter?
@@ -167,7 +167,7 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * What is the propagation of constraints?
     * How does constraint networks work?
     * How are assignments (or mutability) used in implementation of constraint systems?
-    * What is the expression-oriented style? What are advantages of this style comparing to imperative style?
+    * What is the expression-oriented style? What are advantages of this style, compared to imperative style?
 
   * [3.4 Concurrency: Time Is of the Essence](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-23.html#%_sec_3.4)
 
