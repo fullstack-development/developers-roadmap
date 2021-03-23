@@ -105,14 +105,13 @@
 
 ##### Resources
 
-* Type and Data Families
-  * [Haskell's Type Families presentation](https://cdepillabout.github.io/haskell-type-families-presentation/#/)
-  * [24 Days of GHC Extensions: Type Families](https://ocharles.org.uk/blog/posts/2014-12-12-type-families.html)
-  * [Haskell Injectivity Of Type Families And Reasons Of Its Ambiguity](https://wapxmas.github.io/haskell-injectivity/)
-  * [Avoid overlapping instances with closed type families](https://kseo.github.io/posts/2017-02-05-avoid-overlapping-instances-with-closed-type-families.html)
-  * [String interpolation and overlapping instances 101](https://williamyaoh.com/posts/2019-05-27-string-interpolation-and-overlapping-instances.html)
-  * [Type families usage in servant](https://arow.info/blog/posts/2015-07-10-servant-intro.html)
-  * [Why can't we define closed data families?](https://stackoverflow.com/questions/49433716/why-cant-we-define-closed-data-families)
+* [Haskell's Type Families presentation](https://cdepillabout.github.io/haskell-type-families-presentation/#/)
+* [24 Days of GHC Extensions: Type Families](https://ocharles.org.uk/blog/posts/2014-12-12-type-families.html)
+* [Haskell Injectivity Of Type Families And Reasons Of Its Ambiguity](https://wapxmas.github.io/haskell-injectivity/)
+* [Avoid overlapping instances with closed type families](https://kseo.github.io/posts/2017-02-05-avoid-overlapping-instances-with-closed-type-families.html)
+* [String interpolation and overlapping instances 101](https://williamyaoh.com/posts/2019-05-27-string-interpolation-and-overlapping-instances.html)
+* [Type families usage in servant](https://arow.info/blog/posts/2015-07-10-servant-intro.html)
+* [Why can't we define closed data families?](https://stackoverflow.com/questions/49433716/why-cant-we-define-closed-data-families)
 
 ### GADTs
 
