@@ -71,9 +71,8 @@
 * Final tagless
   * [Introduction to Tagless Final](https://serokell.io/blog/2018/12/07/tagless-final)
 
-### GHC extensions
 
-#### Deriving, RecordWildCards, TypeOperators, type classes' extensions
+### Deriving, RecordWildCards, TypeOperators, type classes' extensions
 
 * Extensions for deriving:
   * `StandaloneDeriving`
@@ -89,12 +88,12 @@
 * `FlexibleContexts` & `FlexibleInstances`
 * `MultiParamTypeClasses` & `FunctionalDependencies`
 
-#### Resources
+##### Resources
 
 * RecordWildCards
   * [The Power of RecordWildCards](https://kodimensional.dev/recordwildcards)
 
-#### Type and Data Families
+### Type and Data Families
 
 * What are the three variations of type families: closed, open, associated? What are their difference and purpose?
 * What is injectivity?
@@ -104,7 +103,7 @@
 * How closed type families can help to create overlapping type classes instances?
 * What are the differences between Functional Dependencies and associated Type Families? What are the situations when the best choice would be to use associated type families, and when it would be fundeps?
 
-#### Resources
+##### Resources
 
 * Type and Data Families
   * [Haskell's Type Families presentation](https://cdepillabout.github.io/haskell-type-families-presentation/#/)
@@ -115,7 +114,7 @@
   * [Type families usage in servant](https://arow.info/blog/posts/2015-07-10-servant-intro.html)
   * [Why can't we define closed data families?](https://stackoverflow.com/questions/49433716/why-cant-we-define-closed-data-families)
 
-#### GADTs
+### GADTs
 
 * What is the difference between GADT and ADT?
 * What is the main goal of GADT?
@@ -125,7 +124,7 @@
 * Is it considered a good practice to put constraints in consructors inside GADT declaration?
 * How does deriving instances work for GADT? What problems may occur?
 
-#### Resources
+##### Resources
 
 * [Wikibooks](<https://en.wikibooks.org/wiki/Haskell/GADT>)
 * [Haskell wiki](<https://wiki.haskell.org/GADTs_for_dummies>)
@@ -134,7 +133,7 @@
 * [Type Constraints in Data Declaration Haskell](https://stackoverflow.com/questions/40825878/type-constraints-in-data-declaration-haskell)
 * [GADTs vs. MultiParamTypeClasses](https://stackoverflow.com/questions/10994508/gadts-vs-multiparamtypeclasses)
 
-#### DataKinds
+### DataKinds
 
 * What is kind?
 * What is the kind `*`? What is the kind `Type`?
@@ -147,7 +146,7 @@
 * How can heterogenous lists be implemented with `DataKinds` and `GADTs`?
 * What are the dependent types and how `DataKinds` allow us to get closer to them?
 
-#### Resources
+##### Resources
 
 * [GHC docs](https://downloads.haskell.org/~ghc/8.8-latest/docs/html/users_guide/glasgow_exts.html#extension-DataKinds)
 * [Paper - Giving Haskell a Promotion](https://www.seas.upenn.edu/~sweirich/papers/tldi12.pdf)
@@ -157,19 +156,19 @@
 * [What is dependent typing?](https://stackoverflow.com/questions/9338709/what-is-dependent-typing)
 * [Does haskell have dependent types?](https://softwareengineering.stackexchange.com/questions/182066/does-haskell-have-dependent-types)
 
-#### Polymorphic Kinds
+### Polymorphic Kinds
 
 * What is the main goal of `PolyKinds`?
 * How it can be used?
 * What declarations would have the inferred kind `*` and not polykinded `forall k. k`?
 * What is `Proxy` datatype? What is it used for? Why do we need `PolyKinds` to implement it?
 
-#### Resources
+##### Resources
 
 * [GHC docs](https://downloads.haskell.org/~ghc/8.8-latest/docs/html/users_guide/glasgow_exts.html#kind-polymorphism-and-type-in-type)
 * [Kwang's Haskell Blog - Data.Proxy](https://kseo.github.io/posts/2017-01-15-data-proxy.html)
 
-#### ScopedTypeVariables, Higher ranked types
+### ScopedTypeVariables, Higher ranked types
 
 * `ScopedTypeVariables`
   * What is the main goal of this extension?
@@ -180,14 +179,14 @@
   * Can we create datatypes and newtypes with `RankNTypes`?
   * Can we use constraints with `RankNTypes`?
 
-#### Resources
+##### Resources
 
 * Higher ranked types
   * [GHC docs](https://downloads.haskell.org/~ghc/8.8-latest/docs/html/users_guide/glasgow_exts.html#extension-RankNTypes)
   * [Higher-rank and higher-kinded types](https://www.stephanboyer.com/post/115/higher-rank-and-higher-kinded-types)
   * [Haskell wiki](https://wiki.haskell.org/Rank-N_types)
 
-#### ExistentialQuantification
+### ExistentialQuantification
 
 * What is the main goal of the `ExistentialQuantification` extension?
 * Can we use constraints for types of quantified constructor parameters?
@@ -202,7 +201,7 @@
 * What are the situations which require using `ScopedTypeVariables`, `ExistentialQuantification`, `RankNTypes`? Compare the use cases of these extensions.
 * Could existential type be promoted with `DataKinds` extension?
 
-#### Resources
+##### Resources
 
 * [Haskell Wiki](https://wiki.haskell.org/Existential_type)
 * [GHC docs](https://downloads.haskell.org/~ghc/8.8-latest/docs/html/users_guide/glasgow_exts.html#existentially-quantified-data-constructors)
@@ -211,7 +210,7 @@
 * [What's the theoretical basis for existential types](https://stackoverflow.com/questions/10753073/whats-the-theoretical-basis-for-existential-types)
 * [What does the `forall` keyword in Haskell/GHC do](https://stackoverflow.com/questions/3071136/what-does-the-forall-keyword-in-haskell-ghc-do)
 
-#### ConstraintKinds
+### ConstraintKinds
 
 * What is the main goal of the extension?
 * What types and type variables would have a kind `Constraint` with this extension enabled?
@@ -219,7 +218,7 @@
 * How pattern Reified dictionaries can be implemented with this extension enabled?
 * Could classes be partially applied?
 
-#### Resources
+##### Resources
 
 * [GHC docs](https://downloads.haskell.org/~ghc/8.8-latest/docs/html/users_guide/glasgow_exts.html#extension-ConstraintKinds)
 * [Constraint Kinds for GHC](http://blog.omega-prime.co.uk/2011/09/10/constraint-kinds-for-ghc/)
