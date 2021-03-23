@@ -3,7 +3,7 @@ Middle Front-end Developer 3 level глубоко изучил основные 
 
 ## Области знаний
 - [Advanced FP](./fp.md)
-- [Clean Architecture](../../shared/middle-3/clean-architecture.md)
+- [Clean Architecture](../../shared/middle/clean-architecture.md)
 
 ## Обязательное изучение
 
