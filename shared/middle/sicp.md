@@ -74,7 +74,7 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * Is there a generic way to rewrite procedures working with lists to make them work with trees?
     * What are the conventional interfaces? What is the relation between conventional interface and abstraction barrier?
     * What are folds? What's difference between left and right folds?
-    * What property should combining function have to make results indistinguishable both for left and right folds?
+    * What property should the combining function have to make results indistinguishable both for the left and right folds?
     * What is the flatmap? When can it be useful?
     * What is the stratified design? What is the difference between stratified design and abstraction barriers?
     * What role do primitives play in the stratified design?
@@ -95,7 +95,7 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * What are the generic procedures?
     * When is the rectangular form of the complex number useful? When is the polar form of the complex number useful?
     * What is the type tag? When can it be useful?
-    * Explain when to strip off and when to attach tags to the abstract data.
+    * When are tags for abstract data stripped off and when are attached?
     * What is the dispatching on type? Why isn't this approach additive?
     * What is the data-directed programming? Why does this approach require the global mutable table?
     * Why does data-directed approach help us to avoid procedure names conflict?
@@ -198,7 +198,7 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * How can we can accelerate the accelerated sequence?
     * How can we merge infinite sequences? Why simple appending doesn't fit here?
     * How does delayed evaluation help to create circular dependencies?
-    * What should be changed in the language, so it becomes normal-order evaluated? What are pros and cons of this approach?
+    * What should be changed in the language, so it becomes normal-order evaluated? What are the pros and cons of this approach?
     * Why don't mutability and delayed evaluation mix well in programming languages?
     * How can we refactor stateful procedure to make it stateless with the streams?
     * Why simple merging of two streams is not a solution for merging bank accounts?
