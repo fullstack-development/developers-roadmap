@@ -131,6 +131,7 @@ Why is `unliftio` considered safer by the author of `safe-exceptions`?
 * Suppose we have `data Example b c = A | B b | C Int c`:
   * What is the `Rep (Example b c)` type?
   * What would be the result of `to (C 2 "fsd")`?
+* How Generic programming can be improved with `ConstraintKinds` extension enabled?
 
 #### Generics resources
 
@@ -138,6 +139,7 @@ Why is `unliftio` considered safer by the author of `safe-exceptions`?
 * [GHC.Generics on Wiki Haskell](https://wiki.haskell.org/GHC.Generics)
 * [GHC Generics Explained](https://www.stackbuilders.com/tutorials/haskell/generics/)
 * [Haddock (functions for getting information about datatypes)](https://hackage.haskell.org/package/base-4.8.2.0/docs/GHC-Generics.html#t:Datatype)
+* [Constraint Kinds for GHC](http://blog.omega-prime.co.uk/2011/09/10/constraint-kinds-for-ghc/)
 
 ### Lenses
 
