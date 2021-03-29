@@ -33,7 +33,6 @@
 ### Ресурсы
 
 * [Talk(eng), Robert Philips, What the heck is event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
-* [Talk(rus), Robert Philips, Что за чертовщина такая event loop?](https://www.youtube.com/watch?v=8cV4ZvHXQL4)
 * [How in general handle 10000 requests (Stackoverflow).](https://stackoverflow.com/questions/34855352/how-in-general-does-node-js-handle-10-000-concurrent-requests)
 * [You don't know JS: async and performance(rus).](https://github.com/devSchacht/You-Dont-Know-JS/tree/master/async%20%26%20performance)
 * [Understanding the Node.JS event loop](http://blog.mixu.net/2011/02/01/understanding-the-node-js-event-loop/)
