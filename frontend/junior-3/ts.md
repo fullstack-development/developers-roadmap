@@ -31,14 +31,18 @@
       type Head = 'Nick Fury';
       type Dead = 'Iron Man';
 
-      interface PersonalInformation {
+      interface IPersonalInformation {
         age: number;
         name: string;
         superpower: any;
       }
 
       // Example:
-      const personalInformation: PersonalInformation = { age: 25, name: 'NameOfAvenger', superpower: 'SuperpowerOfAvenger' };
+      const personalInformation: IPersonalInformation = {
+       age: 25,
+       name: 'NameOfAvenger',
+       superpower: 'SuperpowerOfAvenger'
+      };
       const survivedAvengers: SurvivedAvengers<'Thor' | 'Hawkeye' | 'Iron Man'> = { 
         Thor: personalInformation, 
         Hawkeye: personalInformation, 
@@ -53,7 +57,7 @@
   * `Required<T>`
   * `Record<T, U>`
   * `Pick<T, U>`
-  * `Omit<T,K>`
+  * `Omit<T, K>`
   * `Exclude<T, U>`
   * `Extract<T, U>`
   * `NonNullable<T>`
