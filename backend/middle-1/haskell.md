@@ -112,11 +112,15 @@ TODO: add resources
   Why do we need it?
 * What is the purpose of `safe-exceptions` library? Which exception handling problems does it address?
 Why is `unliftio` considered safer by the author of `safe-exceptions`?
+* Describe a problem which arises when handling exceptions and using functions like `bracket` with stateful monadic stacks.
+  * How is it solved in `monad-control` library?
+  * How is it solved in `unliftio` library?
 
 #### Exceptions resources
 
 * [Exceptions Best Practices in Haskell.](https://www.fpcomplete.com/blog/2016/11/exceptions-best-practices-haskell)
 * [Docs for safe-exceptions](https://github.com/fpco/safe-exceptions)
+* [Bracket, monad-control, and unliftio - Exceptions tutorial from IH book](https://markkarpov.com/tutorial/exceptions.html)
 
 ### Generics
 
