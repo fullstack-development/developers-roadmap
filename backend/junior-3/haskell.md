@@ -328,9 +328,6 @@ Should we ban using this pattern?
   * What is the `Exception` type class?
   * Why do we need the exception hierarchy and what are the desired properties of such a hierarchy?
   * Write an example of a custom exception inclusion into the hierarchy.
-* Describe a problem which arises when handling exceptions and using functions like `bracket` with stateful monadic stacks.
-  * How is it solved in `monad-control` library?
-  * How is it solved in `unliftio` library?
 
 #### Exceptions resources
 
