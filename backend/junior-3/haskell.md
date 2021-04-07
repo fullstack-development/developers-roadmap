@@ -1,8 +1,6 @@
 # Haskell for Junior-3
 
-## Themes
-
-### Type classes
+## Type classes
 
 * Why using constraints on a type variable within a data declaration isn't a good idea?
 * What is coherence and why is it important to maintain it? What are the possible cases of coherence violation?
@@ -25,7 +23,7 @@
   * How do typeclasses help this abstraction style?
   * What are the pros and cons of using typeclasses while building the abstraction?
 
-#### Type classes resources
+#### Resources
 
 * Overlapping
   * [On Type Class Instance Selection](https://hackernoon.com/typeclass-instance-selection-fea1068920e6)
@@ -45,7 +43,7 @@
   * [Introduction to Tagless Final](https://serokell.io/blog/2018/12/07/tagless-final)
 
 
-### TypeOperators and type classes extensions:
+## TypeOperators and type classes extensions:
 
 * `TypeOperators`
 * `FlexibleContexts` & `FlexibleInstances`
@@ -53,16 +51,15 @@
 
 #### Resources
 
-* MultiParamTypeClasses & FunctionalDependencies
-  * [GHC docs: Functional dependencies](https://downloads.haskell.org/ghc/latest/docs/html/users_guide/exts/functional_dependencies.html)
-  * [Haskel wiki: Multi-parameter type class](https://wiki.haskell.org/Multi-parameter_type_class)
-  * [Haskell wiki: Functional dependencies](https://wiki.haskell.org/Functional_dependencies)
+* [GHC docs: Functional dependencies](https://downloads.haskell.org/ghc/latest/docs/html/users_guide/exts/functional_dependencies.html)
+* [Haskel wiki: Multi-parameter type class](https://wiki.haskell.org/Multi-parameter_type_class)
+* [Haskell wiki: Functional dependencies](https://wiki.haskell.org/Functional_dependencies)
 
 #### Optional resources
 
 * [FPComplete: Functional Dependencies](https://www.fpcomplete.com/haskell/tutorial/fundeps/)
 
-### Type and Data Families
+## Type and Data Families
 
 * What are the three variations of type families: closed, open, associated? What are their difference and purpose?
 * What is injectivity?
@@ -82,7 +79,7 @@
 * [Type families usage in servant](https://arow.info/blog/posts/2015-07-10-servant-intro.html)
 * [Why can't we define closed data families?](https://stackoverflow.com/questions/49433716/why-cant-we-define-closed-data-families)
 
-### GADTs
+## GADTs
 
 * What is the difference between GADT and ADT?
 * What is the main goal of GADT?
@@ -101,7 +98,7 @@
 * [Type Constraints in Data Declaration Haskell](https://stackoverflow.com/questions/40825878/type-constraints-in-data-declaration-haskell)
 * [GADTs vs. MultiParamTypeClasses](https://stackoverflow.com/questions/10994508/gadts-vs-multiparamtypeclasses)
 
-### DataKinds
+## DataKinds
 
 * What is kind?
 * What is the kind `*`? What is the kind `Type`?
@@ -124,7 +121,7 @@
 * [What is dependent typing?](https://stackoverflow.com/questions/9338709/what-is-dependent-typing)
 * [Does haskell have dependent types?](https://softwareengineering.stackexchange.com/questions/182066/does-haskell-have-dependent-types)
 
-### ScopedTypeVariables, Higher ranked types
+## ScopedTypeVariables, Higher ranked types
 
 * `ScopedTypeVariables`
   * What is the main goal of this extension?
@@ -142,7 +139,7 @@
   * [Higher-rank and higher-kinded types](https://www.stephanboyer.com/post/115/higher-rank-and-higher-kinded-types)
   * [Haskell wiki](https://wiki.haskell.org/Rank-N_types)
 
-### ExistentialQuantification
+## ExistentialQuantification
 
 * What is the main goal of the `ExistentialQuantification` extension?
 * Can we use constraints for types of quantified constructor parameters?
@@ -166,7 +163,7 @@
 * [What's the theoretical basis for existential types](https://stackoverflow.com/questions/10753073/whats-the-theoretical-basis-for-existential-types)
 * [What does the `forall` keyword in Haskell/GHC do](https://stackoverflow.com/questions/3071136/what-does-the-forall-keyword-in-haskell-ghc-do)
 
-### Laziness
+## Laziness
 
 * What is a reduction strategy? What is an evaluation strategy? How do they differ?
 * What is lazy evaluation? How it differs from eager evaluation? Is lazy evaluation the same as non-strictness?
@@ -222,7 +219,7 @@
 
 * What are the GHC extensions `Strict` and `StrictData`?
 
-#### Laziness resources
+#### Resources
 
 * Haskell Performance in Wikibooks:
   * [Introduction](https://en.wikibooks.org/wiki/Haskell/Performance_introduction)
@@ -251,18 +248,18 @@
   * [All About Strictness. - FP Complete](https://www.fpcomplete.com/blog/2017/09/all-about-strictness)
   * [Does a function in Haskell always evaluate its return value? - Stackoverflow](https://stackoverflow.com/questions/27685224/does-a-function-in-haskell-always-evaluate-its-return-value)
 
-### Lists
+## Lists
 
 * What is the difference between `foldl'`, `foldr'` and `foldl`, `foldr`?
 * How `foldl`, `foldl'`, `foldr` and `foldr'` behave with infinite lists, and why do they have the particular behavior?
 * When `foldl'` does not solve the problem of deferring too many calculations?
 * Which fold functions support short-circuit (lazy) evaluation?
 
-#### Lists Resources
+#### Resources
 
 * [Fixing `foldl`](http://www.well-typed.com/blog/90/)
 
-### Exceptions
+## Exceptions
 
 * What is the exception free pattern?
 * How do we abstract the possibility of failure in Haskell?
@@ -291,7 +288,7 @@ Should we ban using this pattern?
 * [Exceptions tutorial from IH book](https://markkarpov.com/tutorial/exceptions.html)
 Quite hard to read for this level, you would better reread it later.
 
-### Testing
+## Testing
 
 * What are three most popular approaches to make code testable in Haskell?
   * Final tagless
@@ -300,19 +297,19 @@ Quite hard to read for this level, you would better reread it later.
 * How MTL-style monad allows you to mock real implementation?
 * How can you pass dictionaries to switch the behavior of the program in various contexts?
 
-#### Testing resources
+#### Resources
 
 * [Mocking in Haskell](https://www.reddit.com/r/haskell/comments/5bnr6b/mocking_in_haskell/)
 * [Unit testing effectful Haskell with monad-mock](https://lexi-lambda.github.io/blog/2017/06/29/unit-testing-effectful-haskell-with-monad-mock/)
 * [Invert Your Mocks!](https://www.parsonsmatt.org/2017/07/27/inverted_mocking.html)
 
-### Debugging
+## Debugging
 
 * `Debug.Trace`
   * How is it useful?
   * How does it work?
 
-#### Debugging resources
+#### Resources
 
 * [Hackage (Debug.Trace)](http://hackage.haskell.org/package/base-4.11.1.0/docs/Debug-Trace.html#g:1)
 
