@@ -54,9 +54,20 @@
 
 TODO: add resources
 
-### GHC extensions
+### Polymorphic Kinds
 
-* Pattern Synonyms
+* What is the main goal of `PolyKinds`?
+* How it can be used?
+* What declarations would have the inferred kind `*` and not polykinded `forall k. k`?
+* What is `Proxy` datatype? What is it used for? Why do we need `PolyKinds` to implement it?
+
+#### Polymorphic Kinds Resources
+
+* [GHC docs](https://downloads.haskell.org/~ghc/8.8-latest/docs/html/users_guide/glasgow_exts.html#kind-polymorphism-and-type-in-type)
+* [Kwang's Haskell Blog - Data.Proxy](https://kseo.github.io/posts/2017-01-15-data-proxy.html)
+
+### Pattern Synonyms
+
   * What are Pattern Synonyms and what are they used for?
   * Can we pattern match on concrete values (constants) in the right-hand side?
   * Where can Pattern Synonyms occur? Can we declare them locally, inside of functions?
@@ -70,10 +81,24 @@ TODO: add resources
   How can we bundle Pattern Synonyms with datatypes in export and import lists?
   * Pattern Synonyms and type constraints. What are `CReq` and `CProv`?
 
-#### GHC extensions resources
+#### Pattern Synonyms resources
 
 * Pattern synonyms
   * [GHC docs](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#extension-PatternSynonyms)
+
+### ConstraintKinds
+
+* What is the main goal of the extension?
+* What types and type variables would have a kind `Constraint` with this extension enabled?
+* What is the pattern of Indexed constraints? What is its goal?
+* How pattern Reified dictionaries can be implemented with this extension enabled?
+* Could classes be partially applied?
+
+#### ConstraintKinds resources
+
+* [GHC docs](https://downloads.haskell.org/~ghc/8.8-latest/docs/html/users_guide/glasgow_exts.html#extension-ConstraintKinds)
+* [Constraint Kinds for GHC](http://blog.omega-prime.co.uk/2011/09/10/constraint-kinds-for-ghc/)
+* [The Constraint kind](https://jeltsch.wordpress.com/2013/02/14/the-constraint-kind/)
 
 ### Type inference
 
@@ -144,6 +169,22 @@ Why is `unliftio` considered safer by the author of `safe-exceptions`?
 * [GHC Generics Explained](https://www.stackbuilders.com/tutorials/haskell/generics/)
 * [Haddock (functions for getting information about datatypes)](https://hackage.haskell.org/package/base-4.8.2.0/docs/GHC-Generics.html#t:Datatype)
 * [Constraint Kinds for GHC](http://blog.omega-prime.co.uk/2011/09/10/constraint-kinds-for-ghc/)
+
+### GHCi Debugger
+
+* How to set command line arguments for main function if it loads arguments with `getArgs`?
+* How to set a breakpoint?
+* How to evaluate in single step mode?
+What are the commands which help with that?
+* How to show the source code around some breakpoint?
+* How to show currently used variables?
+* What are the ways to print currently used variables?
+* How to show the execution history ("how did we get here")?
+* How to break in a case of an exception to analyze its cause?
+
+#### GHCi Debugger resources
+
+* [GHC Docs (GHCi Debugger)](https://downloads.haskell.org/~ghc/8.8-latest/docs/html/users_guide/ghci.html#the-ghci-debugger)
 
 ### Lenses
 

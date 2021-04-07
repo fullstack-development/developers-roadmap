@@ -2,33 +2,6 @@
 
 ## Themes
 
-### Basic type classes
-
-* Applicative
-  * What is the purpose of `Data.Either.Validation` and what is the difference between it and `Data.Either`?
-  * Why does `Data.Either.Validation` have no `Monad` instance?
-* Monads
-  * Why is there no function `runIO`?
-  * Why `IO` transformer doesn't exist?
-
-#### Basic type classes resources
-
-* Applicative
-  * [Validating Form Data via Applicative Functors](https://k-bx.github.io/articles/Validating-Form-Data-via-Applicative-Functors.html)
-* Monads
-  * Антон Холомьёв. Учебник по Haskell. Глава 8. IO
-
-### Lists
-
-* What is the difference between `foldl'`, `foldr'` and `foldl`, `foldr`?
-* How `foldl`, `foldl'`, `foldr` and `foldr'` behave with infinite lists, and why do they have the particular behavior?
-* When `foldl'` does not solve the problem of deferring too many calculations?
-* Which fold functions support short-circuit (lazy) evaluation?
-
-#### Lists Resources
-
-* [Fixing `foldl`](http://www.well-typed.com/blog/90/)
-
 ### Type classes
 
 * Why using constraints on a type variable within a data declaration isn't a good idea?
@@ -72,26 +45,22 @@
   * [Introduction to Tagless Final](https://serokell.io/blog/2018/12/07/tagless-final)
 
 
-### Deriving, RecordWildCards, TypeOperators, type classes' extensions
+### TypeOperators and type classes extensions:
 
-* Extensions for deriving:
-  * `StandaloneDeriving`
-  * `DeriveFunctor`
-  * `DeriveFoldable`
-  * `DeriveTraversable`
-  * `GeneralizedNewtypeDeriving`
-  * `DeriveAnyClass`
-  * `DerivingVia`
-  * `DerivingStrategies`
-* `RecordWildCards`
 * `TypeOperators`
 * `FlexibleContexts` & `FlexibleInstances`
 * `MultiParamTypeClasses` & `FunctionalDependencies`
 
-##### Resources
+#### Resources
 
-* RecordWildCards
-  * [The Power of RecordWildCards](https://kodimensional.dev/recordwildcards)
+* MultiParamTypeClasses & FunctionalDependencies
+  * [GHC docs: Functional dependencies](https://downloads.haskell.org/ghc/latest/docs/html/users_guide/exts/functional_dependencies.html)
+  * [Haskel wiki: Multi-parameter type class](https://wiki.haskell.org/Multi-parameter_type_class)
+  * [Haskell wiki: Functional dependencies](https://wiki.haskell.org/Functional_dependencies)
+
+#### Optional resources
+
+* [FPComplete: Functional Dependencies](https://www.fpcomplete.com/haskell/tutorial/fundeps/)
 
 ### Type and Data Families
 
@@ -103,7 +72,7 @@
 * How closed type families can help to create overlapping type classes instances?
 * What are the differences between Functional Dependencies and associated Type Families? What are the situations when the best choice would be to use associated type families, and when it would be fundeps?
 
-##### Resources
+#### Resources
 
 * [Haskell's Type Families presentation](https://cdepillabout.github.io/haskell-type-families-presentation/#/)
 * [24 Days of GHC Extensions: Type Families](https://ocharles.org.uk/blog/posts/2014-12-12-type-families.html)
@@ -123,7 +92,7 @@
 * Is it considered a good practice to put constraints in consructors inside GADT declaration?
 * How does deriving instances work for GADT? What problems may occur?
 
-##### Resources
+#### Resources
 
 * [Wikibooks](<https://en.wikibooks.org/wiki/Haskell/GADT>)
 * [Haskell wiki](<https://wiki.haskell.org/GADTs_for_dummies>)
@@ -145,7 +114,7 @@
 * How can heterogenous lists be implemented with `DataKinds` and `GADTs`?
 * What are the dependent types and how `DataKinds` allow us to get closer to them?
 
-##### Resources
+#### Resources
 
 * [GHC docs](https://downloads.haskell.org/~ghc/8.8-latest/docs/html/users_guide/glasgow_exts.html#extension-DataKinds)
 * [Paper - Giving Haskell a Promotion](https://www.seas.upenn.edu/~sweirich/papers/tldi12.pdf)
@@ -154,18 +123,6 @@
 * [The Future of Programming is Dependent Types — Programming Word of the Day](https://medium.com/background-thread/the-future-of-programming-is-dependent-types-programming-word-of-the-day-fcd5f2634878)
 * [What is dependent typing?](https://stackoverflow.com/questions/9338709/what-is-dependent-typing)
 * [Does haskell have dependent types?](https://softwareengineering.stackexchange.com/questions/182066/does-haskell-have-dependent-types)
-
-### Polymorphic Kinds
-
-* What is the main goal of `PolyKinds`?
-* How it can be used?
-* What declarations would have the inferred kind `*` and not polykinded `forall k. k`?
-* What is `Proxy` datatype? What is it used for? Why do we need `PolyKinds` to implement it?
-
-##### Resources
-
-* [GHC docs](https://downloads.haskell.org/~ghc/8.8-latest/docs/html/users_guide/glasgow_exts.html#kind-polymorphism-and-type-in-type)
-* [Kwang's Haskell Blog - Data.Proxy](https://kseo.github.io/posts/2017-01-15-data-proxy.html)
 
 ### ScopedTypeVariables, Higher ranked types
 
@@ -178,7 +135,7 @@
   * Can we create datatypes and newtypes with `RankNTypes`?
   * Can we use constraints with `RankNTypes`?
 
-##### Resources
+#### Resources
 
 * Higher ranked types
   * [GHC docs](https://downloads.haskell.org/~ghc/8.8-latest/docs/html/users_guide/glasgow_exts.html#extension-RankNTypes)
@@ -200,7 +157,7 @@
 * What are the situations which require using `ScopedTypeVariables`, `ExistentialQuantification`, `RankNTypes`? Compare the use cases of these extensions.
 * Could existential type be promoted with `DataKinds` extension?
 
-##### Resources
+#### Resources
 
 * [Haskell Wiki](https://wiki.haskell.org/Existential_type)
 * [GHC docs](https://downloads.haskell.org/~ghc/8.8-latest/docs/html/users_guide/glasgow_exts.html#existentially-quantified-data-constructors)
@@ -208,20 +165,6 @@
 * [Why there is no an "Exist" keyword](https://stackoverflow.com/questions/28545545/why-there-is-no-an-exist-keyword-in-haskell-for-existential-quantification)
 * [What's the theoretical basis for existential types](https://stackoverflow.com/questions/10753073/whats-the-theoretical-basis-for-existential-types)
 * [What does the `forall` keyword in Haskell/GHC do](https://stackoverflow.com/questions/3071136/what-does-the-forall-keyword-in-haskell-ghc-do)
-
-### ConstraintKinds
-
-* What is the main goal of the extension?
-* What types and type variables would have a kind `Constraint` with this extension enabled?
-* What is the pattern of Indexed constraints? What is its goal?
-* How pattern Reified dictionaries can be implemented with this extension enabled?
-* Could classes be partially applied?
-
-##### Resources
-
-* [GHC docs](https://downloads.haskell.org/~ghc/8.8-latest/docs/html/users_guide/glasgow_exts.html#extension-ConstraintKinds)
-* [Constraint Kinds for GHC](http://blog.omega-prime.co.uk/2011/09/10/constraint-kinds-for-ghc/)
-* [The Constraint kind](https://jeltsch.wordpress.com/2013/02/14/the-constraint-kind/)
 
 ### Laziness
 
@@ -308,6 +251,17 @@
   * [All About Strictness. - FP Complete](https://www.fpcomplete.com/blog/2017/09/all-about-strictness)
   * [Does a function in Haskell always evaluate its return value? - Stackoverflow](https://stackoverflow.com/questions/27685224/does-a-function-in-haskell-always-evaluate-its-return-value)
 
+### Lists
+
+* What is the difference between `foldl'`, `foldr'` and `foldl`, `foldr`?
+* How `foldl`, `foldl'`, `foldr` and `foldr'` behave with infinite lists, and why do they have the particular behavior?
+* When `foldl'` does not solve the problem of deferring too many calculations?
+* Which fold functions support short-circuit (lazy) evaluation?
+
+#### Lists Resources
+
+* [Fixing `foldl`](http://www.well-typed.com/blog/90/)
+
 ### Exceptions
 
 * What is the exception free pattern?
@@ -357,21 +311,10 @@ Quite hard to read for this level, you would better reread it later.
 * `Debug.Trace`
   * How is it useful?
   * How does it work?
-* GHCi
-  * How to set command line arguments for main function if it loads arguments with `getArgs`?
-  * How to set a breakpoint?
-  * How to evaluate in single step mode?
-  What are the commands which help with that?
-  * How to show the source code around some breakpoint?
-  * How to show currently used variables?
-  * What are the ways to print currently used variables?
-  * How to show the execution history ("how did we get here")?
-  * How to break in a case of an exception to analyze its cause?
 
 #### Debugging resources
 
 * [Hackage (Debug.Trace)](http://hackage.haskell.org/package/base-4.11.1.0/docs/Debug-Trace.html#g:1)
-* [GHC Docs (GHCi Debugger)](https://downloads.haskell.org/~ghc/8.8-latest/docs/html/users_guide/ghci.html#the-ghci-debugger)
 
 ## Kata
 
