@@ -1,8 +1,6 @@
 # Haskell for Middle-1
 
-## Themes
-
-### Basic type classes
+## Basic type classes
 
 * Functors
   * What is covariance and contravariance in the context of functors and category theory?
@@ -21,14 +19,14 @@
     * Name a few practical use cases (at least one).
     * Which of type variables applied to a profunctor appear in negative and which in positive position?
 
-#### Basic type classes resources
+#### Resources
 
 * Functors
   * [(Co-contra) variance](https://www.fpcomplete.com/blog/2016/11/covariance-contravariance)
   * [I love profunctors](https://www.schoolofhaskell.com/school/to-infinity-and-beyond/pick-of-the-week/profunctors)
   * [Functoriality (just not bad article about functors)](https://bartoszmilewski.com/2015/02/03/functoriality/)
 
-### Type classes
+## Type classes
 
 * What are the mechanisms of implementing type classes (overloading)?
   * Passing Dictionaries
@@ -39,67 +37,92 @@
   * What are the GHC specific implementation details?
   * What optimization is conducted by the compiler?
 
-#### Type classes resources
+#### Resources
 
 * [Are typeclasses essential?](https://stackoverflow.com/questions/25855507/are-typeclasses-essential)
 * [Implementation basics description](http://www.cs.tufts.edu/comp/150PLD/Notes/TypeClasses.pdf)
 * [Theoretical work about type classes implementation](http://okmij.org/ftp/Computation/typeclass.html)
 * [Edward Kmett - Type Classes vs. the World](https://www.youtube.com/watch?v=hIZxTQP1ifo)
 
-### Types
+## Types
 
 * What is a cardinality?
 
-#### Types resources
+#### Resources
 
 TODO: add resources
 
-### GHC extensions
+## Polymorphic Kinds
 
-* Pattern Synonyms
-  * What are Pattern Synonyms and what are they used for?
-  * Can we pattern match on concrete values (constants) in the right-hand side?
-  * Where can Pattern Synonyms occur? Can we declare them locally, inside of functions?
-  * What is the restriction on type variables with Bidirectional Pattern Synonyms?
-  * What are Unidirectional Pattern Synonyms?
-  What are their constraints comparing with Bidirectional Pattern Synonyms?
-  * What are Explicitly Bidirectional Pattern Synonyms?
-  Which new opportunities they provide comparing with Unidirectional and Bidirectional Pattern Synonyms?
-  * Can we use record syntax with Pattern Synonyms?
-  * How to import and export Pattern Synonyms?
-  How can we bundle Pattern Synonyms with datatypes in export and import lists?
-  * Pattern Synonyms and type constraints. What are `CReq` and `CProv`?
+* What is the main goal of `PolyKinds`?
+* How it can be used?
+* What declarations would have the inferred kind `*` and not polykinded `forall k. k`?
+* What is `Proxy` datatype? What is it used for? Why do we need `PolyKinds` to implement it?
 
-#### GHC extensions resources
+#### Resources
+
+* [GHC docs](https://downloads.haskell.org/~ghc/8.8-latest/docs/html/users_guide/glasgow_exts.html#kind-polymorphism-and-type-in-type)
+* [Kwang's Haskell Blog - Data.Proxy](https://kseo.github.io/posts/2017-01-15-data-proxy.html)
+
+## Pattern Synonyms
+
+* What are Pattern Synonyms and what are they used for?
+* Can we pattern match on concrete values (constants) in the right-hand side?
+* Where can Pattern Synonyms occur? Can we declare them locally, inside of functions?
+* What is the restriction on type variables with Bidirectional Pattern Synonyms?
+* What are Unidirectional Pattern Synonyms?
+What are their constraints comparing with Bidirectional Pattern Synonyms?
+* What are Explicitly Bidirectional Pattern Synonyms?
+Which new opportunities they provide comparing with Unidirectional and Bidirectional Pattern Synonyms?
+* Can we use record syntax with Pattern Synonyms?
+* How to import and export Pattern Synonyms?
+How can we bundle Pattern Synonyms with datatypes in export and import lists?
+* Pattern Synonyms and type constraints. What are `CReq` and `CProv`?
+
+#### Resources
 
 * Pattern synonyms
   * [GHC docs](https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/glasgow_exts.html#extension-PatternSynonyms)
 
-### Type inference
+## ConstraintKinds
+
+* What is the main goal of the extension?
+* What types and type variables would have a kind `Constraint` with this extension enabled?
+* What is the pattern of Indexed constraints? What is its goal?
+* How pattern Reified dictionaries can be implemented with this extension enabled?
+* Could classes be partially applied?
+
+#### Resources
+
+* [GHC docs](https://downloads.haskell.org/~ghc/8.8-latest/docs/html/users_guide/glasgow_exts.html#extension-ConstraintKinds)
+* [Constraint Kinds for GHC](http://blog.omega-prime.co.uk/2011/09/10/constraint-kinds-for-ghc/)
+* [The Constraint kind](https://jeltsch.wordpress.com/2013/02/14/the-constraint-kind/)
+
+## Type inference
 
 * Basic concepts of Hindley-Milner type inference.
   * What steps does the algorithm takes to infer a type?
   * Up to what degree does the algorithm infer a type: the most polymorphic or the most concrete? Explain why.
   * Monomorphism restriction. What is it?
 
-#### Type inference resources
+#### Resources
 
 * [Лекция 1 | Вывод типов от Хиндли-Милнера до GHC 8.8 | Виталий Брагилевский | Лекториум - youtube](https://youtu.be/_HYI7zjkrEs)
 * [Types and Type Inference - presentation](http://www.cs.tau.ac.il/~msagiv/courses/apl12/types.pdf)
 * [Модель типизации Хиндли — Милнера и пример её реализации на языке Haskell](http://www.fprog.ru/2010/issue5/roman-dushkin-hindley-milner)
 
-### Laziness
+## Laziness
 
 * How is value from evaluated thunk stored (are we allowed to avoid redundant reevaluations)?
 * Enumerate cases where thunk with ADT will be evaluated.
 * What is the irrefutable pattern and how does it work?
 * What does the `sprint` function do?
 
-#### Laziness resources
+#### Resources
 
 * [Laziness from What I Wish I Knew When Learning Haskell](http://dev.stephendiehl.com/hask/#laziness)
 
-### Exceptions
+## Exceptions
 
 * Async exceptions
   * What is a synchronous exception?
@@ -116,13 +139,13 @@ Why is `unliftio` considered safer by the author of `safe-exceptions`?
   * How is it solved in `monad-control` library?
   * How is it solved in `unliftio` library?
 
-#### Exceptions resources
+#### Resources
 
 * [Exceptions Best Practices in Haskell.](https://www.fpcomplete.com/blog/2016/11/exceptions-best-practices-haskell)
 * [Docs for safe-exceptions](https://github.com/fpco/safe-exceptions)
 * [Bracket, monad-control, and unliftio - Exceptions tutorial from IH book](https://markkarpov.com/tutorial/exceptions.html)
 
-### Generics
+## Generics
 
 * What is generic programming?
 * What is `Generic` type class and what is its main goal?
@@ -137,7 +160,7 @@ Why is `unliftio` considered safer by the author of `safe-exceptions`?
   * What would be the result of `to (C 2 "fsd")`?
 * How Generic programming can be improved with `ConstraintKinds` extension enabled?
 
-#### Generics resources
+#### Resources
 
 * [What is datatype-generic programming](https://maxhallinan.com/posts/2019/09/17/what-is-datatype-generic-programming/)
 * [GHC.Generics on Wiki Haskell](https://wiki.haskell.org/GHC.Generics)
@@ -145,7 +168,23 @@ Why is `unliftio` considered safer by the author of `safe-exceptions`?
 * [Haddock (functions for getting information about datatypes)](https://hackage.haskell.org/package/base-4.8.2.0/docs/GHC-Generics.html#t:Datatype)
 * [Constraint Kinds for GHC](http://blog.omega-prime.co.uk/2011/09/10/constraint-kinds-for-ghc/)
 
-### Lenses
+## GHCi Debugger
+
+* How to set command line arguments for main function if it loads arguments with `getArgs`?
+* How to set a breakpoint?
+* How to evaluate in single step mode?
+What are the commands which help with that?
+* How to show the source code around some breakpoint?
+* How to show currently used variables?
+* What are the ways to print currently used variables?
+* How to show the execution history ("how did we get here")?
+* How to break in a case of an exception to analyze its cause?
+
+#### Resources
+
+* [GHC Docs (GHCi Debugger)](https://downloads.haskell.org/~ghc/8.8-latest/docs/html/users_guide/ghci.html#the-ghci-debugger)
+
+## Lenses
 
 * What is the main goal of lenses?
 * What is the type `Lens`, what does it mean?
@@ -162,7 +201,7 @@ Why is it convenient?
 * What is the goal of the microlens library?
 When to use it and when do not?
 
-#### Lenses resources
+#### Resources
 
 * [Program imperatively using Haskell lenses](http://www.haskellforall.com/2013/05/program-imperatively-using-haskell.html) Most classic introduction
 * [A Little Lens Starter Tutorial](https://www.schoolofhaskell.com/school/to-infinity-and-beyond/pick-of-the-week/a-little-lens-starter-tutorial)
