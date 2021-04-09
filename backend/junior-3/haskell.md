@@ -170,7 +170,7 @@
   * [Singletons](https://www.codewars.com/kata/54750ed320c64c64e20002e2)
 * Write your own tiny implementation of servant.
   For reference use this [guide](https://www.well-typed.com/blog/2015/11/implementing-a-minimal-version-of-haskell-servant/).
-* Solve practice exercises. You could ask your interviewers if you have difficulties.
+* Solve practice exercises. You can ask your interviewers if you have difficulties.
   * [Test understanding of functional dependencies](../../backend/junior-3/Practice/FunctionalDependencies.hs)
   * [Test understanding of DataKinds used with TypeFamilies and FunctionalDependencies](../../backend/junior-3/Practice/DataKinds.hs)
   * [Test understanding of ExistentialQuantification and RankNTypes](../../backend/junior-3/Practice/ExistentialQuantification.hs)
