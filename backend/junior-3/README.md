@@ -15,7 +15,7 @@ Junior back-end developer 3 level.
   - Book makes clear arguments towards planning and structuring a text. It describes main patterns when creating a text. This knowledge would help with creating issues, describing complex questions, making a reasoned answer, while making it easy to understand from readers perspective.
   - Reading the full version is not required, you can read only the summary. Sufficient version in Russian is here [Smartreading](https://smartreading.ru/summary/227).
 
-## Practice exercises
+## Practical exercises
 
 - [FunctionalDependencies.hs](../../backend/junior-3/Practice/FunctionalDependencies.hs)
 - [DataKinds.hs](../../backend/junior-3/Practice/DataKinds.hs)
