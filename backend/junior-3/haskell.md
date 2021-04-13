@@ -107,7 +107,7 @@
 * Is apostrophe (' symbol) required in a name of a promoted data type?
 * Are types with promoted kinds inhabited?
 * Can we create a function from a regular data type into promoted one and vice versa?
-* What are types which can't be promoted? 
+* What are types which can't be promoted?
 * How can heterogenous lists be implemented with `DataKinds` and `GADTs`?
 * What are the dependent types and how `DataKinds` allow us to get closer to them?
 
@@ -162,6 +162,18 @@
 * [Why there is no an "Exist" keyword](https://stackoverflow.com/questions/28545545/why-there-is-no-an-exist-keyword-in-haskell-for-existential-quantification)
 * [What's the theoretical basis for existential types](https://stackoverflow.com/questions/10753073/whats-the-theoretical-basis-for-existential-types)
 * [What does the `forall` keyword in Haskell/GHC do](https://stackoverflow.com/questions/3071136/what-does-the-forall-keyword-in-haskell-ghc-do)
+
+## Extensions Practice
+
+* Solve kata.
+  * [Count them all!](https://www.codewars.com/kata/5b1bdc2bccef79e948000086)
+  * [Singletons](https://www.codewars.com/kata/54750ed320c64c64e20002e2)
+* Write your own tiny implementation of servant.
+  For reference use this [guide](https://www.well-typed.com/blog/2015/11/implementing-a-minimal-version-of-haskell-servant/).
+* Solve practice exercises. You may ask your interviewers if you have difficulties.
+  * [Test understanding of functional dependencies](../../backend/junior-3/Practice/FunctionalDependencies.hs)
+  * [Test understanding of DataKinds used with TypeFamilies and FunctionalDependencies](../../backend/junior-3/Practice/DataKinds.hs)
+  * [Test understanding of ExistentialQuantification and RankNTypes](../../backend/junior-3/Practice/ExistentialQuantification.hs)
 
 ## Laziness
 
@@ -312,9 +324,3 @@ Quite hard to read for this level, you would better reread it later.
 #### Resources
 
 * [Hackage (Debug.Trace)](http://hackage.haskell.org/package/base-4.11.1.0/docs/Debug-Trace.html#g:1)
-
-## Kata
-
-* GHC extensions
-  * [Count them all!](https://www.codewars.com/kata/5b1bdc2bccef79e948000086)
-  * [Singletons](https://www.codewars.com/kata/54750ed320c64c64e20002e2)
