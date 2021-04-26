@@ -233,32 +233,25 @@
 
 #### Resources
 
-* Haskell Performance in Wikibooks:
-  * [Introduction](https://en.wikibooks.org/wiki/Haskell/Performance_introduction)
-  * [Graph reduction](https://en.wikibooks.org/wiki/Haskell/Graph_reduction)
-  * [Laziness](https://en.wikibooks.org/wiki/Haskell/Laziness)
-  * [Time and space profiling](https://en.wikibooks.org/wiki/Haskell/Time_and_space_profiling)
-  * [Strictness](https://en.wikibooks.org/wiki/Haskell/Strictness)
-  * [Algorithm complexity](https://en.wikibooks.org/wiki/Haskell/Algorithm_complexity)
-* Laziness
-  * [Lazy evaluation](https://www.ksp.kit.edu/9783731505464)
-  Optional resource. Read the contents, abstract and conclusions to understand the scope of work. You may want to read chapters from 1.1 to 1.6 and chapter 2.1.
-  * [Wiki-page Haskell Prime about Bang Patterns](https://prime.haskell.org/wiki/BangPatterns)
-  * [The Incomplete Guide to Lazy Evaluation](https://hackhands.com/guide-lazy-evaluation-haskell/)
-  The guide is in three parts, the third about denotational semantics is optional.
-  * [Oh my laziness!](https://alpmestan.com/posts/2013-10-02-oh-my-laziness.html)
-  * [Articles of Edward Yang](http://blog.ezyang.com/2011/04/the-haskell-heap/)
-  It is a set of articles.
-  * [Gentle Introduction to Haskell (Lazy Pattern-Matching)](https://www.haskell.org/tutorial/patterns.html)
-  * [Как работают ленивые вычисления - habr](https://habr.com/ru/post/247213/)
-  * [Lazy vs. non-strict - Haskell wiki](https://wiki.haskell.org/Lazy_vs._non-strict)
-  * [WHNF - Haskell wiki](https://wiki.haskell.org/Weak_head_normal_form)
+* Reduction and evaluation strategies:
+  * [Wikibooks: Graph reduction](https://en.wikibooks.org/wiki/Haskell/Graph_reduction)
+  * [Wikibooks: Laziness](https://en.wikibooks.org/wiki/Haskell/Laziness)
+  * [Wikibooks: Strictness](https://en.wikibooks.org/wiki/Haskell/Strictness)
+  * [Haskell wiki: Lazy vs. non-strict](https://wiki.haskell.org/Lazy_vs._non-strict)
+* Thunk, WHNF, NF:
   * [GHC illustrated (about thunk inner structure) - presentation](https://takenobu-hs.github.io/downloads/haskell_ghc_illustrated.pdf)
-  * [What is Weak Head Normal Form? - Stackoverflow](https://stackoverflow.com/questions/6872898/what-is-weak-head-normal-form/6889335#6889335)
-  * [Evaluation strategy - wiki](https://en.wikipedia.org/wiki/Evaluation_strategy)
-  * [Brief normal forms explanation with Haskell - Medium article](https://medium.com/@aleksandrasays/brief-normal-forms-explanation-with-haskell-cd5dfa94a157)
-  * [All About Strictness. - FP Complete](https://www.fpcomplete.com/blog/2017/09/all-about-strictness)
-  * [Does a function in Haskell always evaluate its return value? - Stackoverflow](https://stackoverflow.com/questions/27685224/does-a-function-in-haskell-always-evaluate-its-return-value)
+  * [Stackoverflow: What is Weak Head Normal Form (and NF)?](https://stackoverflow.com/questions/6872898/what-is-weak-head-normal-form/6889335#6889335)
+* Bang Patterns, `seq`, `deepseq`, examples:
+* [All About Strictness.](https://www.fpcomplete.com/blog/2017/09/all-about-strictness)
+* [Wiki-page Haskell Prime about Bang Patterns](https://gitlab.haskell.org/haskell/prime/-/wikis/BangPatterns)
+* [Gentle Introduction to Haskell (Lazy Pattern-Matching)](https://www.haskell.org/tutorial/patterns.html)
+* [Does a function in Haskell always evaluate its return value? - Stackoverflow](https://stackoverflow.com/questions/27685224/does-a-function-in-haskell-always-evaluate-its-return-value)
+
+#### Optional resources
+* [Lazy evaluation](https://www.ksp.kit.edu/9783731505464)
+Optional resource. Read the contents, abstract and conclusions to understand the scope of work. You may want to read chapters from 1.1 to 1.6 and chapter 2.1.
+* [Brief normal forms explanation with Haskell (Not only WHNF and NF)](https://medium.com/@aleksandrasays/brief-normal-forms-explanation-with-haskell-cd5dfa94a157)
+* [Как работают ленивые вычисления - habr](https://habr.com/ru/post/247213/)
 
 ## Lists
 
