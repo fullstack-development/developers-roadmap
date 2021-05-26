@@ -22,6 +22,7 @@
   * How is it used as a programming pattern?
   * How do typeclasses help this abstraction style?
   * What are the pros and cons of using typeclasses while building the abstraction?
+  * What role does it have in testing?
 
 #### Resources
 
@@ -300,15 +301,6 @@ Should we ban using this pattern?
 * [Exceptions tutorial from IH book](https://markkarpov.com/tutorial/exceptions.html)
 Quite hard to read for this level, you would better reread it later.
 
-## Testing
-
-* What are three most popular approaches to make code testable in Haskell?
-  * Final tagless
-  * `Handle`/`Service` pattern
-  * Free Monads
-* How MTL-style monad allows you to mock real implementation?
-* How can you pass dictionaries to switch the behavior of the program in various contexts?
-
 #### Resources
 
 * [Mocking in Haskell](https://www.reddit.com/r/haskell/comments/5bnr6b/mocking_in_haskell/)
@@ -319,7 +311,7 @@ Quite hard to read for this level, you would better reread it later.
 
 * `Debug.Trace`
   * How is it useful?
-  * How does it work?
+  * How does it work? (Hint: check the `trace` function realization in the source)
 
 #### Resources
 
