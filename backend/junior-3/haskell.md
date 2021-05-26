@@ -301,12 +301,6 @@ Should we ban using this pattern?
 * [Exceptions tutorial from IH book](https://markkarpov.com/tutorial/exceptions.html)
 Quite hard to read for this level, you would better reread it later.
 
-#### Resources
-
-* [Mocking in Haskell](https://www.reddit.com/r/haskell/comments/5bnr6b/mocking_in_haskell/)
-* [Unit testing effectful Haskell with monad-mock](https://lexi-lambda.github.io/blog/2017/06/29/unit-testing-effectful-haskell-with-monad-mock/)
-* [Invert Your Mocks!](https://www.parsonsmatt.org/2017/07/27/inverted_mocking.html)
-
 ## Debugging
 
 * `Debug.Trace`
