@@ -305,7 +305,7 @@ Quite hard to read for this level, you would better reread it later.
 
 * `Debug.Trace`
   * How is it useful?
-  * How does it work? (Hint: check the `trace` function realization in the source)
+  * How does it work? (Hint: check the `trace` function implementation in the source)
 
 #### Resources
 
