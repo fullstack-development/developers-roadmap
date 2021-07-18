@@ -67,7 +67,7 @@
 * Is open type/data family injective? Would type/data family be injective if it was associated with a type class? Would type/data family be injective if it would be closed?
 * Why there are no closed data families?
 * Can open type family instances overlap with parameters? Can closed typed families do it?
-* How closed type families can help to create overlapping type classes instances?
+* How closed type families can sometimes be used instead of type class instance overlapping?
 * What are the differences between Functional Dependencies and associated Type Families? What are the situations when the best choice would be to use associated type families, and when it would be fundeps?
 
 #### Resources
