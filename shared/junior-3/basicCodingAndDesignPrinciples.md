@@ -2,7 +2,7 @@
 
 ## The Goal
 To learn the most important and common coding principles for all programming languages and get acquainted with notions of design.
-Design questions do not require conventional formulaic answers. An in-depth examination of the topic is covered in section [Basic design principles](../../shared/middle-1/design.md).
+Design questions do not require conventional formulaic answers. An in-depth examination of the topic is covered in section [Basic design principles](../../shared/middle/basic-design-principles.md).
 
 
 ## Coding
