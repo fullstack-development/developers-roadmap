@@ -5,6 +5,9 @@
 * Functors
   * What is covariance and contravariance in the context of functors and category theory?
   * What are the negative and positive positions?
+  * Is it possible to make a covariant functor into contravariant or back?
+  * What types can be both covariant functors and contravariant?
+  * What are invariant functors?
   * Contrafunctor (Contravariant functor)
     * What is the signature of `contramap` function?
     * Make an example of instance definition for some ADT.
