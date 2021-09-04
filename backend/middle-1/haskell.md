@@ -124,6 +124,7 @@ How can we bundle Pattern Synonyms with datatypes in export and import lists?
 #### Resources
 
 * [Laziness from What I Wish I Knew When Learning Haskell](http://dev.stephendiehl.com/hask/#laziness)
+* [The GHC Runtime System - Ch. 4 Laziness](http://ezyang.com/jfp-ghc-rts-draft.pdf)
 
 ## Exceptions
 
