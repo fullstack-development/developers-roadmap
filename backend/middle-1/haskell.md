@@ -5,7 +5,6 @@
 * Functors
   * What is covariance and contravariance in the context of functors and category theory?
   * What are the negative and positive positions?
-  * Is it possible to make a covariant functor into contravariant or back?
   * What types can be both covariant functors and contravariant?
   * What are invariant functors?
   * Contrafunctor (Contravariant functor)
@@ -49,7 +48,13 @@
 
 ## Types
 
-* What is a cardinality?
+* What is cardinality?
+* What is the notion of isomorphism when we are talking about types?
+* Should isomorphic types have the same cardinality?
+
+#### Exercises
+
+* [Kata - isomorphism](https://www.codewars.com/kata/isomorphism)
 
 #### Resources
 
