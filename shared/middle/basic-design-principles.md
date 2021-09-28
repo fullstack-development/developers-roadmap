@@ -1,7 +1,7 @@
 # Базовые принципы проектирования
 
 * Что такое абстрагирование? Какие есть отличия между абстракцией, инкапсуляцией и скрытием информации?
-* Что такое Coupling? Рассказать про следующие виды coupling:
+* Что такое Coupling? Рассказать с примерами про следующие виды coupling:
   * Content coupling
   * Common coupling
   * External coupling
@@ -9,7 +9,7 @@
   * Stamp (data-structured) coupling
   * Data coupling
 * Как абстрагирование влияет на Coupling? 
-* Что такое Cohesion?  Рассказать про следующие виды cohesion:
+* Что такое Cohesion?  Рассказать с примерами про следующие виды cohesion:
   * Coincidental cohesion
   * Logical cohesion
   * Temporal cohesion
