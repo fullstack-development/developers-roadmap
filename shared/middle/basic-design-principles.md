@@ -1,8 +1,27 @@
 # Базовые принципы проектирования
 
 * Что такое абстрагирование? Какие есть отличия между абстракцией, инкапсуляцией и скрытием информации?
-* Что такое Coupling? Как абстрагирование влияет на coupling?
-* Что такое Cohesion? Является ли эта величина обратной величине Coupling?
+* Coupling
+  * Что такое Coupling? 
+  * Рассказать с примерами про следующие виды coupling:
+    * Content coupling
+    * Common coupling
+    * External coupling
+    * Control coupling
+    * Stamp (data-structured) coupling
+    * Data coupling
+  * Как абстрагирование влияет на Coupling? 
+* Cohesion 
+  * Что такое Cohesion?  
+  * Рассказать с примерами про следующие виды cohesion:
+    * Coincidental cohesion
+    * Logical cohesion
+    * Temporal cohesion
+    * Procedural cohesion
+    * Communicational/informational cohesion
+    * Sequential cohesion
+    * Functional cohesion
+  * Является ли величина Cohesion обратной величине Coupling?
 * Separation of concerns
   * Что это такое?
   * Какие преимущества даёт следование этому принципу?
@@ -33,6 +52,8 @@
 
 * [Abstraction, Encapsulation, and Information Hiding](http://www.tonymarston.co.uk/php-mysql/abstraction.txt)
 * [Difference between Abstraction and Encapsulation](https://www.guru99.com/difference-between-abstraction-and-encapsulation.html#2)
+* [Cohesion](https://www.chegg.com/learn/computer-science/computer-software/module-cohesion)
+* [Coupling](https://www.chegg.com/learn/computer-science/computer-software/module-coupling)
 * [The DRY Principle Explained: Its Benefit and Cost with Examples](https://thevaluable.dev/dry-principle-explained/) [[Перевод](https://habr.com/ru/company/mailru/blog/349978/)]
 * [Why DRY? by Mark Seemann](https://blog.ploeh.dk/2014/08/07/why-dry/)
 * [Repeat yourself, do more than one thing, and rewrite everything](https://programmingisterrible.com/post/176657481103/repeat-yourself-do-more-than-one-thing-and)
