@@ -70,7 +70,6 @@ Learn how to design complex systems according to engineering heuristics gathered
 * What is the goal of the ISP?
 * How the ISP helps to solve the problem of classes that implement non-cohesive interfaces?
 * How can violation of the ISP principle also lead to violation of the LSP?
-* Should we avoid multiple inheritance if interfaces are several abstract classes?
 * Can the ISP also be useful for a project written in FP style?
 
 #### Resources
