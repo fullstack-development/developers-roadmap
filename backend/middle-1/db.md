@@ -1,4 +1,4 @@
-# Databases for Junior-3
+# Databases for Middle-1
 
 ## Questions
 
@@ -12,7 +12,7 @@
 * What are integrity and consistency?
 * What is ACID?
 * Transactions in PostgreSQL:
-  * What is the general idea behind their implementation?
+  * What is the general idea behind their implementation? (Describe MVCC)
   * Violations of isolation: dirty read, non-repeatable read, phantom read, serialization anomaly. What is their meaning?
   * Isolation levels: Read Committed, Repeatable Read, Serializable. What anomalies are allowed to happen under these levels?
   * What levels can trigger a serialization failure? How to handle it?
@@ -48,6 +48,7 @@
 * Database normalization:
   * [Database Normalization – in Easy to Understand English](https://www.essentialsql.com/database-normalization/)
   * [What is Normalization in DBMS](https://www.guru99.com/database-normalization.html)
+  * [What does 1NF actually mean?](https://www.cargocultcode.com/what-does-first-normal-form-mean/)
 * [PostgreSQL docs &mdash; Transaction isolation](https://www.postgresql.org/docs/13/transaction-iso.html)
 * CAP theorem
   * [CAP теорема доступным языком](https://habr.com/ru/post/130577/)
@@ -59,6 +60,6 @@
   * [Index types](https://thoughtbot.com/blog/postgres-index-types)
     * Note: with regards to the hash index, this article talks about an older version of PostgreSQL ([no newer than 9.6](https://www.postgresql.org/docs/9.6/indexes-types.html)), while in more recent ones ([starting from 10](https://www.postgresql.org/docs/10/hash-intro.html)), its problems have been solved, and now it's "fully crash recoverable", and thus are completely safe to use.
 * `VACUUM`, `EXPLAIN`
-  * [PotgreSQL docs &mdash; Using EXPLAIN](https://www.postgresql.org/docs/13/using-explain.html)
+  * [PostgreSQL docs &mdash; Using EXPLAIN](https://www.postgresql.org/docs/13/using-explain.html)
   * [Introduction to VACUUM, ANALYZE, EXPLAIN, and COUNT](https://wiki.postgresql.org/wiki/Introduction_to_VACUUM,_ANALYZE,_EXPLAIN,_and_COUNT)
   * [Explaining the unexplainable](https://www.depesz.com/2013/04/16/explaining-the-unexplainable/), [part 2](https://www.depesz.com/2013/04/27/explaining-the-unexplainable-part-2/), [part 3](https://www.depesz.com/2013/05/09/explaining-the-unexplainable-part-3/), [part 4](https://www.depesz.com/2013/05/19/explaining-the-unexplainable-part-4/)
