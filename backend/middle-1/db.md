@@ -14,7 +14,7 @@
 * Transactions in PostgreSQL:
   * What is the general idea behind their implementation? (Describe MVCC)
   * Violations of isolation: dirty read, non-repeatable read, phantom read, serialization anomaly. What is their meaning?
-  * Isolation levels: Read Committed, Repeatable Read, Serializable. What anomalies are allowed to happen under these levels?
+  * Isolation levels: Read Uncommited, Read Committed, Repeatable Read, Serializable. What anomalies are allowed to happen under these levels?
   * What levels can trigger a serialization failure? How to handle it?
   * What happens when a query is run outside of any transaction?
   * Is it possible to nest transactions?
