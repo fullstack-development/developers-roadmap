@@ -1,11 +1,23 @@
-# Databases for Junior-3
+# Databases for Middle-1
 
 ## Questions
 
 * What are base operations for relations?
+* What is projection?
+* Database normalization:
+  * What is the main idea behind the normalization process?
+  * What are the conditions for 1NF, 2NF, 3NF?
+  * What are the general transformations that help us achieve the normal forms?
+  * Normalize this table: [link](https://docs.google.com/spreadsheets/d/11DWWljndtwVSyRbYgKTbDXTnwM1E5ZiLrxwQdGvXm_8/edit?usp=sharing) (use `File->Make a copy` to get an editable copy).
 * What are integrity and consistency?
 * What is ACID?
-* What is projection?
+* Transactions in PostgreSQL:
+  * What is the general idea behind their implementation? (Describe MVCC)
+  * Violations of isolation: dirty read, non-repeatable read, phantom read, serialization anomaly. What is their meaning?
+  * Isolation levels: Read Uncommited, Read Committed, Repeatable Read, Serializable. What anomalies are allowed to happen under these levels?
+  * What levels can trigger a serialization failure? How to handle it?
+  * What happens when a query is run outside of any transaction?
+  * Is it possible to nest transactions?
 * What is CAP theorem?
   * Does it work in real world?
   * What combination of CAP guarantees is not encountered in practice?
@@ -14,6 +26,7 @@
   * What are the pros and cons of adding an index?
 * What are Views in PostgreSQL?
 * What are Sequences in PostgreSQL?
+  * How sequences may violate ACID?
 * What is `VACUUM` operation in PostgreSQL?
 * What is the `EXPLAIN` command?
   * What do `ANALYZE` and `BUFFERS` add to command?
@@ -32,13 +45,21 @@
 
 ### Resources
 
+* Database normalization:
+  * [Database Normalization – in Easy to Understand English](https://www.essentialsql.com/database-normalization/)
+  * [What is Normalization in DBMS](https://www.guru99.com/database-normalization.html)
+  * [What does 1NF actually mean?](https://www.cargocultcode.com/what-does-first-normal-form-mean/)
+* [PostgreSQL docs &mdash; Transaction isolation](https://www.postgresql.org/docs/13/transaction-iso.html)
 * CAP theorem
   * [CAP теорема доступным языком](https://habr.com/ru/post/130577/)
   * [Brewer's CAP Theorem](http://www.julianbrowne.com/article/brewers-cap-theorem)
     * [Перевод](https://softwaremaniacs.org/blog/2010/01/31/brewers-cap-theorem/)
   * [The CAP Theorem in practice](https://hub.packtpub.com/the-cap-theorem-in-practice-the-consistency-vs-availability-trade-off-in-distributed-databases/)
 * Indexes
+  * [PostgreSQL docs &mdash; Indexes](https://www.postgresql.org/docs/13/indexes.html)
   * [Index types](https://thoughtbot.com/blog/postgres-index-types)
+    * Note: with regards to the hash index, this article talks about an older version of PostgreSQL ([no newer than 9.6](https://www.postgresql.org/docs/9.6/indexes-types.html)), while in more recent ones ([starting from 10](https://www.postgresql.org/docs/10/hash-intro.html)), its problems have been solved, and now it's "fully crash recoverable", and thus are completely safe to use.
 * `VACUUM`, `EXPLAIN`
+  * [PostgreSQL docs &mdash; Using EXPLAIN](https://www.postgresql.org/docs/13/using-explain.html)
   * [Introduction to VACUUM, ANALYZE, EXPLAIN, and COUNT](https://wiki.postgresql.org/wiki/Introduction_to_VACUUM,_ANALYZE,_EXPLAIN,_and_COUNT)
   * [Explaining the unexplainable](https://www.depesz.com/2013/04/16/explaining-the-unexplainable/), [part 2](https://www.depesz.com/2013/04/27/explaining-the-unexplainable-part-2/), [part 3](https://www.depesz.com/2013/05/09/explaining-the-unexplainable-part-3/), [part 4](https://www.depesz.com/2013/05/19/explaining-the-unexplainable-part-4/)
