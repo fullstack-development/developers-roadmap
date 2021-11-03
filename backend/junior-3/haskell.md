@@ -99,6 +99,29 @@
 * [Type Constraints in Data Declaration Haskell](https://stackoverflow.com/questions/40825878/type-constraints-in-data-declaration-haskell)
 * [GADTs vs. MultiParamTypeClasses](https://stackoverflow.com/questions/10994508/gadts-vs-multiparamtypeclasses)
 
+## DataKinds
+
+* What is kind?
+* What is the kind `*`? What is the kind `Type`?
+* What is the data type promotion?
+* What is the main goal for using `DataKinds`?
+* Is apostrophe (' symbol) required in a name of a promoted data type?
+* Are types with promoted kinds inhabited?
+* Can we create a function from a regular data type into promoted one and vice versa?
+* What are types which can't be promoted?
+* How can heterogenous lists be implemented with `DataKinds` and `GADTs`?
+* What are the dependent types and how `DataKinds` allow us to get closer to them?
+
+#### Resources
+
+* [GHC docs](https://downloads.haskell.org/~ghc/8.8-latest/docs/html/users_guide/glasgow_exts.html#extension-DataKinds)
+* [Paper - Giving Haskell a Promotion](https://www.seas.upenn.edu/~sweirich/papers/tldi12.pdf)
+* [Basic Type Level Programming in Haskell](http://www.parsonsmatt.org/2017/04/26/basic_type_level_programming_in_haskell.html)
+* [Haskell's kind system - a primer](https://diogocastro.com/blog/2018/10/17/haskells-kind-system-a-primer/)
+* [The Future of Programming is Dependent Types — Programming Word of the Day](https://medium.com/background-thread/the-future-of-programming-is-dependent-types-programming-word-of-the-day-fcd5f2634878)
+* [What is dependent typing?](https://stackoverflow.com/questions/9338709/what-is-dependent-typing)
+* [Does haskell have dependent types?](https://softwareengineering.stackexchange.com/questions/182066/does-haskell-have-dependent-types)
+
 ## ScopedTypeVariables, Higher ranked types
 
 * `ScopedTypeVariables`
@@ -117,6 +140,41 @@
   * [Higher-rank and higher-kinded types](https://www.stephanboyer.com/post/115/higher-rank-and-higher-kinded-types)
   * [Haskell wiki](https://wiki.haskell.org/Rank-N_types)
 
+## ExistentialQuantification
+
+* What is the main goal of the `ExistentialQuantification` extension?
+* Can we use constraints for types of quantified constructor parameters?
+* Can we use different constraints for different constructor?
+* Could we use existentially quantified types in record constructors?
+* What is the scope of existential type variables?
+* Can we use `ExistentialQuantification` when declaring `newtype`?
+* Can we pattern-match on an existentially quantified constructor in `let` or `where` block?
+* Can we pattern-match on an existentially quantified constructor in `case` block?
+* Can we use `deriving` with existentially quantified data types?
+* Why is there no `exist` keyword in Haskell?
+* What are the situations which require using `ScopedTypeVariables`, `ExistentialQuantification`, `RankNTypes`? Compare the use cases of these extensions.
+* Could existential type be promoted with `DataKinds` extension?
+
+#### Resources
+
+* [Haskell Wiki](https://wiki.haskell.org/Existential_type)
+* [GHC docs](https://downloads.haskell.org/~ghc/8.8-latest/docs/html/users_guide/glasgow_exts.html#existentially-quantified-data-constructors)
+* [WikiBooks](https://en.wikibooks.org/wiki/Haskell/Existentially_quantified_types)
+* [Why there is no an "Exist" keyword](https://stackoverflow.com/questions/28545545/why-there-is-no-an-exist-keyword-in-haskell-for-existential-quantification)
+* [What's the theoretical basis for existential types](https://stackoverflow.com/questions/10753073/whats-the-theoretical-basis-for-existential-types)
+* [What does the `forall` keyword in Haskell/GHC do](https://stackoverflow.com/questions/3071136/what-does-the-forall-keyword-in-haskell-ghc-do)
+
+## Extensions Practice
+
+* Solve kata.
+  * [Count them all!](https://www.codewars.com/kata/5b1bdc2bccef79e948000086)
+  * [Singletons](https://www.codewars.com/kata/54750ed320c64c64e20002e2)
+* Write your own tiny implementation of servant.
+  For reference use this [guide](https://www.well-typed.com/blog/2015/11/implementing-a-minimal-version-of-haskell-servant/).
+* Solve practice exercises. You may ask your interviewers if you have difficulties.
+  * [Test understanding of functional dependencies](../../backend/junior-3/Practice/FunctionalDependencies.hs)
+  * [Test understanding of DataKinds used with TypeFamilies and FunctionalDependencies](../../backend/junior-3/Practice/DataKinds.hs)
+  * [Test understanding of ExistentialQuantification and RankNTypes](../../backend/junior-3/Practice/ExistentialQuantification.hs)
 
 ## Laziness
 
@@ -238,71 +296,12 @@ Should we ban using this pattern?
 #### Exceptions resources
 
 * [Defining exceptions in Haskell](https://www.fpcomplete.com/blog/defining-exceptions-in-haskell)
-* [Exceptions Best Practices in Haskell.](https://www.fpcomplete.com/blog/2016/11/exceptions-best-practices-haskell)
+* [Exceptions Best Practices in Haskell.](https://www.fpcomplete.com/blog/2016/11/exceptions-best-practices-haskell)
 * [Catching all exceptions](https://www.schoolofhaskell.com/user/snoyberg/general-haskell/exceptions/catching-all-exceptions#transformers)
 * [Exceptions tutorial from IH book](https://markkarpov.com/tutorial/exceptions.html)
 Quite hard to read for this level, you would better reread it later.
 
-## [Optional] DataKinds
-
-* What is kind?
-* What is the kind `*`? What is the kind `Type`?
-* What is the data type promotion?
-* What is the main goal for using `DataKinds`?
-* Is apostrophe (' symbol) required in a name of a promoted data type?
-* Are types with promoted kinds inhabited?
-* Can we create a function from a regular data type into promoted one and vice versa?
-* What are types which can't be promoted?
-* How can heterogenous lists be implemented with `DataKinds` and `GADTs`?
-* What are the dependent types and how `DataKinds` allow us to get closer to them?
-
-#### Resources
-
-* [GHC docs](https://downloads.haskell.org/~ghc/8.8-latest/docs/html/users_guide/glasgow_exts.html#extension-DataKinds)
-* [Paper - Giving Haskell a Promotion](https://www.seas.upenn.edu/~sweirich/papers/tldi12.pdf)
-* [Basic Type Level Programming in Haskell](http://www.parsonsmatt.org/2017/04/26/basic_type_level_programming_in_haskell.html)
-* [Haskell's kind system - a primer](https://diogocastro.com/blog/2018/10/17/haskells-kind-system-a-primer/)
-* [The Future of Programming is Dependent Types — Programming Word of the Day](https://medium.com/background-thread/the-future-of-programming-is-dependent-types-programming-word-of-the-day-fcd5f2634878)
-* [What is dependent typing?](https://stackoverflow.com/questions/9338709/what-is-dependent-typing)
-* [Does haskell have dependent types?](https://softwareengineering.stackexchange.com/questions/182066/does-haskell-have-dependent-types)
-
-## [Optional] ExistentialQuantification
-
-* What is the main goal of the `ExistentialQuantification` extension?
-* Can we use constraints for types of quantified constructor parameters?
-* Can we use different constraints for different constructor?
-* Could we use existentially quantified types in record constructors?
-* What is the scope of existential type variables?
-* Can we use `ExistentialQuantification` when declaring `newtype`?
-* Can we pattern-match on an existentially quantified constructor in `let` or `where` block?
-* Can we pattern-match on an existentially quantified constructor in `case` block?
-* Can we use `deriving` with existentially quantified data types?
-* Why is there no `exist` keyword in Haskell?
-* What are the situations which require using `ScopedTypeVariables`, `ExistentialQuantification`, `RankNTypes`? Compare the use cases of these extensions.
-* Could existential type be promoted with `DataKinds` extension?
-
-#### Resources
-
-* [Haskell Wiki](https://wiki.haskell.org/Existential_type)
-* [GHC docs](https://downloads.haskell.org/~ghc/8.8-latest/docs/html/users_guide/glasgow_exts.html#existentially-quantified-data-constructors)
-* [WikiBooks](https://en.wikibooks.org/wiki/Haskell/Existentially_quantified_types)
-* [Why there is no an "Exist" keyword](https://stackoverflow.com/questions/28545545/why-there-is-no-an-exist-keyword-in-haskell-for-existential-quantification)
-* [What's the theoretical basis for existential types](https://stackoverflow.com/questions/10753073/whats-the-theoretical-basis-for-existential-types)
-* [What does the `forall` keyword in Haskell/GHC do](https://stackoverflow.com/questions/3071136/what-does-the-forall-keyword-in-haskell-ghc-do)
-
-## [Optional] Extensions Practice
-
-* Solve kata.
-  * [Count them all!](https://www.codewars.com/kata/5b1bdc2bccef79e948000086)
-  * [Singletons](https://www.codewars.com/kata/54750ed320c64c64e20002e2)
-* Write your own tiny implementation of servant.
-  For reference use this [guide](https://www.well-typed.com/blog/2015/11/implementing-a-minimal-version-of-haskell-servant/).
-* Solve practice exercises. You may ask your interviewers if you have difficulties.
-  * [Test understanding of functional dependencies](../../backend/junior-3/Practice/FunctionalDependencies.hs)
-  * [Test understanding of DataKinds used with TypeFamilies and FunctionalDependencies](../../backend/junior-3/Practice/DataKinds.hs)
-  * [Test understanding of ExistentialQuantification and RankNTypes](../../backend/junior-3/Practice/ExistentialQuantification.hs)
-
-## [Optional] Debugging
+## Debugging
 
 * `Debug.Trace`
   * How is it useful?
