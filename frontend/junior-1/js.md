@@ -89,7 +89,7 @@
 * [Why would a program use a closure?](https://softwareengineering.stackexchange.com/questions/285941/why-would-a-program-use-a-closure)
 * [Четыре паттерна вызова функций в JavaScript](https://habr.com/ru/post/155815/)
 * [Каррирование функций в JavaScript](https://habr.com/ru/company/ruvds/blog/427295/)
-* [Карринг и частичное применение](https://www.ibm.com/developerworks/ru/library/j-jn9/)
+* [Продвинутая реализация каррирования](https://learn.javascript.ru/currying-partials)
 * [Мемоизация в JS и ускорение функций](https://habr.com/ru/company/ruvds/blog/332384/)
 
 ## Прототипы
