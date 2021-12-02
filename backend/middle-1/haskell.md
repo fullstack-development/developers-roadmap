@@ -188,7 +188,7 @@ What are the commands which help with that?
 
 * What is the main goal of lenses?
 * What is the type `Lens`, what does it mean?
-* What are the methods `view`, `over`, `set`?
+* What are functions `view`, `over`, `set`?
 * What is a `Prism`?
 * What is a `Traversal`?
 * What is an `Iso`?
