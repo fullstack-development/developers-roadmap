@@ -56,7 +56,7 @@
   * [Second Normal Form - Wipipedia](https://en.wikipedia.org/wiki/Second_normal_form)
   * [Third Normal Form](https://en.wikipedia.org/wiki/Third_normal_form)
   * C.J.Date. Introduction to Database Systems, 8ed, 2004. / Дейт К.Дж. - Введение в системы баз данных.
-  * [Основы технологий баз данных, 2 изд., 2020 - Новиков и др.](https://edu.postgrespro.ru/dbtech.pdf)
+  * [Основы технологий баз данных, 2 изд., 2020, Новиков и др. - 2.2.1 Нормальные формы](https://edu.postgrespro.ru/dbtech.pdf)
   * [What does 1NF actually mean?](https://www.cargocultcode.com/what-does-first-normal-form-mean/)
 * [PostgreSQL docs &mdash; Transaction isolation](https://www.postgresql.org/docs/13/transaction-iso.html)
 * CAP theorem
