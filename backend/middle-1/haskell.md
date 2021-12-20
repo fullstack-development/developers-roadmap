@@ -58,7 +58,7 @@
 
 #### Resources
 
-TODO: add resources
+* [Cardinality of a Set](https://math24.net/cardinality-set.html)
 
 ## Polymorphic Kinds
 
