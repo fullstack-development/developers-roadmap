@@ -44,7 +44,7 @@
   * [Introduction to Tagless Final](https://serokell.io/blog/2018/12/07/tagless-final)
 
 
-## TypeOperators and type classes extensions:
+## TypeOperators and type classes extensions
 
 * `TypeOperators`
 * `FlexibleContexts` & `FlexibleInstances`
@@ -127,7 +127,7 @@
 * `ScopedTypeVariables`
   * What is the main goal of this extension?
 * Higher ranked types
-  * What is a "rank" of a function?
+  * What is a higher rank function?
   * Give examples of rank-1, rank-2, rank-3 functions.
   * What is the main goal of `RankNTypes` extension?
   * Can we create datatypes and newtypes with `RankNTypes`?
@@ -197,17 +197,18 @@
   * `1:(thunk)`
   * `1:2:(thunk)`
   * `1:2:3:[]`
+  * `thunk:thunk`
   * `15`
   * `\x -> x * 2`
   * `(\x -> x + 1) 3`
 * Can haskell evaluate in strict mode?
-* Why strict functions in Haskell evaluate values to WHNF and not NF?
 * What is the function `seq` (and operator `$!`)?
 * What is the function `deepseq` (and operator `$!!`)?
 * Could using `seq` change the returned value of the function?
+* What is the expression result: ``(a + b) `seq` ((a + b) : list)``? Why?
 * What is the GHC extension `BangPatterns`?
   * Make examples when bang pattern is useless.
-  * Make examples when bang pattern has less power, than it could be supposed.
+  * What form does the bang pattern force values to be calculated to?
   * Show the difference between this two definitions:
     * `f1`
 
@@ -223,14 +224,16 @@
     f2 x False = False
     ```
 
-  * Does bang patterns force execution, when they are nested in constructors inside of `let` or `where` expressions?
-    * There is a `!` inside a `Maybe`, which is inside a `let` expression, and `let` expressions are lazy:
+  * Do bang patterns force execution when they are nested in constructors inside
+    `let` or `where` expressions? Does this force `a` to be evaluated and when
+    it does?
 
     ```haskell
     let (Just !a) = x in 1 + 1
     ```
 
 * What are the GHC extensions `Strict` and `StrictData`?
+* What form do Haskell functions calculate values to with `Strict` extension enabled? Why not to another form?
 
 #### Resources
 
