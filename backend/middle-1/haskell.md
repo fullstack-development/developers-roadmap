@@ -5,6 +5,8 @@
 * Functors
   * What is covariance and contravariance in the context of functors and category theory?
   * What are the negative and positive positions?
+  * What types can be both covariant functors and contravariant?
+  * What are invariant functors?
   * Contrafunctor (Contravariant functor)
     * What is the signature of `contramap` function?
     * Make an example of instance definition for some ADT.
@@ -46,11 +48,17 @@
 
 ## Types
 
-* What is a cardinality?
+* What is cardinality?
+* What is the notion of isomorphism when we are talking about types?
+* Should isomorphic types have the same cardinality?
+
+#### Exercises
+
+* [Kata - isomorphism](https://www.codewars.com/kata/isomorphism)
 
 #### Resources
 
-TODO: add resources
+* [Cardinality of a Set](https://math24.net/cardinality-set.html)
 
 ## Polymorphic Kinds
 
@@ -121,6 +129,7 @@ How can we bundle Pattern Synonyms with datatypes in export and import lists?
 #### Resources
 
 * [Laziness from What I Wish I Knew When Learning Haskell](http://dev.stephendiehl.com/hask/#laziness)
+* [The GHC Runtime System - Ch. 4 Laziness](http://ezyang.com/jfp-ghc-rts-draft.pdf)
 
 ## Exceptions
 
