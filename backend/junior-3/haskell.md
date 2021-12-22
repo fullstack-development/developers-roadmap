@@ -202,8 +202,8 @@
   * `\x -> x * 2`
   * `(\x -> x + 1) 3`
 * Can haskell evaluate in strict mode?
-* Why are values in Haskell typically (when using bang patterns, `Strict`,
-  `seq`, `foldl'`, `modifyIORef'` etc) calculated to WHNF, not to NF?
+* Why are values in Haskell typically (when using `Strict`, `seq`, `foldl'`,
+  `modifyIORef'` etc) calculated to WHNF, not to NF?
 * What is the function `seq` (and operator `$!`)?
 * What is the function `deepseq` (and operator `$!!`)?
 * Could using `seq` change the returned value of the function?
