@@ -202,6 +202,8 @@
   * `\x -> x * 2`
   * `(\x -> x + 1) 3`
 * Can haskell evaluate in strict mode?
+* Why are values in Haskell typically (when using bang patterns, `Strict`,
+  `seq`, `foldl'`, `modifyIORef'` etc) calculated to WHNF, not to NF?
 * What is the function `seq` (and operator `$!`)?
 * What is the function `deepseq` (and operator `$!!`)?
 * Could using `seq` change the returned value of the function?
@@ -225,15 +227,15 @@
     ```
 
   * Do bang patterns force execution when they are nested in constructors inside
-    `let` or `where` expressions? Does this force `a` to be evaluated and when
+    `let` or `where` expressions? Does this force `a` to be evaluated or when
     it does?
 
     ```haskell
     let (Just !a) = x in 1 + 1
+    let (Just !a) = x in [a]
     ```
 
 * What are the GHC extensions `Strict` and `StrictData`?
-* What form do Haskell functions calculate values to with `Strict` extension enabled? Why not to another form?
 
 #### Resources
 
