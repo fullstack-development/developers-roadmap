@@ -207,7 +207,9 @@
 * What is the function `seq` (and operator `$!`)?
 * What is the function `deepseq` (and operator `$!!`)?
 * Could using `seq` change the returned value of the function?
-* What is the expression result: ``(a + b) `seq` ((a + b) : list)``? Why?
+* In which way does runtime behavior of the following expressions differ?
+  * ``(a + b) `seq` ((a + b) : list)``
+  * ``let s = a + b in s `seq` (s : list)``
 * What is the GHC extension `BangPatterns`?
   * Make examples when bang pattern is useless.
   * What form does the bang pattern force values to be calculated to?
