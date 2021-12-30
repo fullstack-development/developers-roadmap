@@ -17,3 +17,4 @@
 * [Talk, Универсальный JavaScript, Сергей Черепанов](https://www.youtube.com/watch?v=Y5RV5Ys0-00)
 * [Talk, Server Rendering with React and React Router v4](https://www.youtube.com/watch?v=mZEv4mHsU5E)
 * [Why Isomorphic JavaScript?](https://www.oreilly.com/library/view/building-isomorphic-javascript/9781491932926/ch01.html)
+* [Is SSR with React worth it?](https://blog.jakoblind.no/is-ssr-worth-it/#is-ssr-with-react-worth-it)
