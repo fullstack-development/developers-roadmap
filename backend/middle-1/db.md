@@ -6,6 +6,12 @@
 * What is projection?
 * Database normalization:
   * What is the main idea behind the normalization process?
+  * What are the following terms:
+    * a superkey (суперключ)
+    * a candidate key (потенциальный ключ)
+    * a primary key (первичный ключ)
+    * a prime and a non-prime attribute (ключевой и неключевой атрибут)
+    * a functional dependency
   * What are the conditions for 1NF, 2NF, 3NF?
   * What are the general transformations that help us achieve the normal forms?
   * Normalize this table: [link](https://docs.google.com/spreadsheets/d/11DWWljndtwVSyRbYgKTbDXTnwM1E5ZiLrxwQdGvXm_8/edit?usp=sharing) (use `File->Make a copy` to get an editable copy).
@@ -45,9 +51,12 @@
 
 ### Resources
 
-* Database normalization:
-  * [Database Normalization – in Easy to Understand English](https://www.essentialsql.com/database-normalization/)
-  * [What is Normalization in DBMS](https://www.guru99.com/database-normalization.html)
+* Database normalization: 
+  * [First Normal Form - Wikipedia](https://en.wikipedia.org/wiki/First_normal_form)
+  * [Second Normal Form - Wipipedia](https://en.wikipedia.org/wiki/Second_normal_form)
+  * [Third Normal Form](https://en.wikipedia.org/wiki/Third_normal_form)
+  * C.J.Date. Introduction to Database Systems, 8ed, 2004. / Дейт К.Дж. - Введение в системы баз данных.
+  * [Основы технологий баз данных, 2 изд., 2020, Новиков и др. - 2.2.1 Нормальные формы](https://edu.postgrespro.ru/dbtech.pdf)
   * [What does 1NF actually mean?](https://www.cargocultcode.com/what-does-first-normal-form-mean/)
 * [PostgreSQL docs &mdash; Transaction isolation](https://www.postgresql.org/docs/13/transaction-iso.html)
 * CAP theorem
