@@ -27,12 +27,17 @@ This topic covers Cardano blockchain specifics.
     * What are the additions into eUTXO model in comparison with UTXO?
   * What tools are used to develop Smart Contracts on Cardano?
     * How is Cardano Plutus different from Bitcoin script and Ethereum smart contracts?
-    * What is the Plutus Platform? What are its components?
-    * What is typical plutus decentralized application architecture?
+    * What is the Plutus Platform?
+    * What Plutus Application Backend? What other applications does it interact with?
+    * What are two typical plutus decentralized application parts?
+      * What is off-chain code part used for?
+      * What is on-chain code part used for?
 
 * What cryptographic algorithms are used in Cardano for hashing and signing?
 
-* What is Cardano Hydra?
+* What is Cardano Hydra? What problem does it solve?
+
+* What is Cardano hard fork combinator? What problem does it solve?
 
 ## Resources
 
@@ -58,3 +63,5 @@ This topic covers Cardano blockchain specifics.
 * [Ouroboros Protocol](https://cardano-foundation.gitbook.io/stake-pool-course/lessons/introduction/ouroboros)
 * [Ouroboros – Which version is currently implemented?](https://cardano.stackexchange.com/questions/3707/ouroboros-which-version-is-currently-implemented)
 * [plutus-pioneer-program repository](https://github.com/input-output-hk/plutus-pioneer-program)
+* [About hard forks](https://docs.cardano.org/core-concepts/about-hard-forks)
+* [What's the difference between "on-chain" and "off-chain" in plutus smart contracts?](https://cardano.stackexchange.com/questions/219/whats-the-difference-between-on-chain-and-off-chain-in-plutus-smart-contrac)
