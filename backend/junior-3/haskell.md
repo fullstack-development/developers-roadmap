@@ -1,6 +1,6 @@
 # Haskell for Junior-3
 
-## Type classes
+## Type classes  <!---984bc9d9-0558-4cfe-8040-a5003b26d143-->
 
 * Why using constraints on a type variable within a data declaration isn't a good idea?
 * What is coherence and why is it important to maintain it? What are the possible cases of coherence violation?
@@ -44,7 +44,7 @@
   * [Introduction to Tagless Final](https://serokell.io/blog/2018/12/07/tagless-final)
 
 
-## TypeOperators and type classes extensions:
+## TypeOperators and type classes extensions  <!---76f602a7-9154-42ef-8c16-545bdd0825d8-->
 
 * `TypeOperators`
 * `FlexibleContexts` & `FlexibleInstances`
@@ -60,7 +60,7 @@
 
 * [FPComplete: Functional Dependencies](https://www.fpcomplete.com/haskell/tutorial/fundeps/)
 
-## Type and Data Families
+## Type and Data Families  <!---a9729646-5d0d-44fe-861b-462f752e9a99-->
 
 * What are the three variations of type families: closed, open, associated? What are their difference and purpose?
 * What is injectivity?
@@ -80,7 +80,7 @@
 * [Type families usage in servant](https://arow.info/blog/posts/2015-07-10-servant-intro.html)
 * [Why can't we define closed data families?](https://stackoverflow.com/questions/49433716/why-cant-we-define-closed-data-families)
 
-## GADTs
+## GADTs  <!---f56e5f9d-1742-4de8-b302-68b78bedbf14-->
 
 * What is the difference between GADT and ADT?
 * What is the main goal of GADT?
@@ -99,7 +99,7 @@
 * [Type Constraints in Data Declaration Haskell](https://stackoverflow.com/questions/40825878/type-constraints-in-data-declaration-haskell)
 * [GADTs vs. MultiParamTypeClasses](https://stackoverflow.com/questions/10994508/gadts-vs-multiparamtypeclasses)
 
-## ScopedTypeVariables, Higher ranked types
+## ScopedTypeVariables, Higher ranked types  <!---873566cd-db56-4bcf-83f7-ea4d5084e568-->
 
 * `ScopedTypeVariables`
   * What is the main goal of this extension?
@@ -118,7 +118,7 @@
   * [Haskell wiki](https://wiki.haskell.org/Rank-N_types)
 
 
-## Laziness
+## Laziness  <!---c4993c2b-70e0-4aaa-97f9-1123172679b0-->
 
 * What is a reduction strategy? What is an evaluation strategy? How do they differ?
 * What is lazy evaluation? How it differs from eager evaluation? Is lazy evaluation the same as non-strictness?
@@ -203,7 +203,7 @@
   * [All About Strictness. - FP Complete](https://www.fpcomplete.com/blog/2017/09/all-about-strictness)
   * [Does a function in Haskell always evaluate its return value? - Stackoverflow](https://stackoverflow.com/questions/27685224/does-a-function-in-haskell-always-evaluate-its-return-value)
 
-## Lists
+## Lists  <!---3588c42a-e743-43e4-86ca-3ddf5ec9af70-->
 
 * What is the difference between `foldl'`, `foldr'` and `foldl`, `foldr`?
 * How `foldl`, `foldl'`, `foldr` and `foldr'` behave with infinite lists, and why do they have the particular behavior?
@@ -214,7 +214,7 @@
 
 * [Fixing `foldl`](http://www.well-typed.com/blog/90/)
 
-## Exceptions
+## Exceptions  <!---16a7962c-b291-47ae-ad9f-730f2bbe877d-->
 
 * What is the exception free pattern?
 * How do we abstract the possibility of failure in Haskell?
@@ -235,7 +235,7 @@ Should we ban using this pattern?
   * Why do we need the exception hierarchy and what are the desired properties of such a hierarchy?
   * Write an example of a custom exception inclusion into the hierarchy.
 
-#### Exceptions resources
+#### Resources
 
 * [Defining exceptions in Haskell](https://www.fpcomplete.com/blog/defining-exceptions-in-haskell)
 * [Exceptions Best Practices in Haskell.](https://www.fpcomplete.com/blog/2016/11/exceptions-best-practices-haskell)
@@ -243,7 +243,7 @@ Should we ban using this pattern?
 * [Exceptions tutorial from IH book](https://markkarpov.com/tutorial/exceptions.html)
 Quite hard to read for this level, you would better reread it later.
 
-## [Optional] DataKinds
+## (Optional) DataKinds  <!---94153e24-bbf8-402c-8ed3-cc6d925c63b1-->
 
 * What is kind?
 * What is the kind `*`? What is the kind `Type`?
@@ -266,7 +266,7 @@ Quite hard to read for this level, you would better reread it later.
 * [What is dependent typing?](https://stackoverflow.com/questions/9338709/what-is-dependent-typing)
 * [Does haskell have dependent types?](https://softwareengineering.stackexchange.com/questions/182066/does-haskell-have-dependent-types)
 
-## [Optional] ExistentialQuantification
+## (Optional) ExistentialQuantification  <!---ff6e6650-b3da-47c6-89b5-4f65f3773cc7-->
 
 * What is the main goal of the `ExistentialQuantification` extension?
 * Can we use constraints for types of quantified constructor parameters?
@@ -290,7 +290,7 @@ Quite hard to read for this level, you would better reread it later.
 * [What's the theoretical basis for existential types](https://stackoverflow.com/questions/10753073/whats-the-theoretical-basis-for-existential-types)
 * [What does the `forall` keyword in Haskell/GHC do](https://stackoverflow.com/questions/3071136/what-does-the-forall-keyword-in-haskell-ghc-do)
 
-## [Optional] Extensions Practice
+## (Optional) Extensions Practice  <!---52d1c359-9dc0-40af-94bd-66a9dfc82a3e-->
 
 * Solve kata.
   * [Count them all!](https://www.codewars.com/kata/5b1bdc2bccef79e948000086)
@@ -302,7 +302,7 @@ Quite hard to read for this level, you would better reread it later.
   * [Test understanding of DataKinds used with TypeFamilies and FunctionalDependencies](../../backend/junior-3/Practice/DataKinds.hs)
   * [Test understanding of ExistentialQuantification and RankNTypes](../../backend/junior-3/Practice/ExistentialQuantification.hs)
 
-## [Optional] Debugging
+## (Optional) Debugging  <!---962bd720-d70d-42ed-81ca-fb3b11486d80-->
 
 * `Debug.Trace`
   * How is it useful?
