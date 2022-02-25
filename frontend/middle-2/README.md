@@ -6,7 +6,7 @@
 - [Базовые принципы проектирования](./design.md)
 - [Объектно-ориентированное программирование](./oop.md)
 - [Функциональное программирование](./fp.md)
-- [Алгоритмы и структуры данных](./algorithmsAndDataStructures.md)
+- [Алгоритмы и структуры данных](./../../shared/middle/algorithmsAndDataStructures.md)
 - [Сеть](./network.md)
 - [Сервис воркеры](./serviceWorkers.md)
 
