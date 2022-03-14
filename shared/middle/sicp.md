@@ -174,8 +174,8 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * What does concurrency mean?
     * What is the shared state? How it can be done? What problems can appear because of shared state?
     * Explain all possible interleaving the order of events for two processes when first one executes the expression: `balance += 10;` and the second one: `balance *= 2;`?
-    * Will be the problems with concurrency same if we had no assignment in the language (only immutable data)?
-    * Why do assignments in the language force programmer to admit time in the modeling?
+    * Will problems with concurrency be the same if we have no assignment in the language (only immutable data)?
+    * Why do assignments in the language force programmer to admit time in modeling?
     * What does serialization mean and what is its purpose?
     * Why serialization doesn't help for such an operation like swapping the balances in two bank accounts?
     * What is the mutex? How does it help with problems arisen because of concurrency?
