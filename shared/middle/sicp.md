@@ -28,7 +28,7 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * What is `Θ(n)` notation used for?
     * What does grow faster: `Θ(log(n))` or `Θ(sqrt(n))`?
     * What does grow faster: `Θ(n)` or `Θ(1000*n)`?
-    * What does grow faster: `Θ(n*2)` or `Θ(n^2)`? *`^2` means power of two*.
+    * What does grow faster: `Θ(n*2)` or `Θ(n²)`?
     * What are probabilistic algorithms?
 
   * [1.3 Formulating Abstractions with Higher-Order Procedures](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-4.html#%_toc_%_sec_1.3)
