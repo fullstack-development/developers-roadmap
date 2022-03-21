@@ -187,7 +187,7 @@ This fundamental work emphasizes controlling the complexity of software systems 
   * [3.5 Streams](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-24.html#%_sec_3.5)
 
     * What is the difference between lists and streams? What is happening in both construction and selection time for both lists and streams?
-    * Why should cons-stream and delay be special forms of languages? Should `force` be such a procedure?
+    * Why do `cons-stream` and `delay` have to be special forms in Scheme? Should `force` be such a form?
     * Why should all list-manipulating procedures be rewritten for streams? What actually should be changed?
     * What's the difference between methods call-by-name and call-by-need?
     * Explain the behavior of the programs from exercises 3.51 and 3.52 (you don't need to complete exercises if you can fully explain the behavior).
@@ -195,12 +195,12 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * What's the order of growth of the computing of fibonacci numbers from stream declared implicitly using both call-by-name and call-by-need strategies?
     * What's the order of growth of the stream of all positive integers with no prime factors other than 2, 3, or 5 declared implicitly?
     * What's the technique called "sequence accelerator"?
-    * How can we can accelerate the accelerated sequence?
+    * How can we can accelerate an accelerated sequence?
     * How can we merge infinite sequences? Why simple appending doesn't fit here?
     * How does delayed evaluation help to create circular dependencies?
     * What should be changed in the language, so it becomes normal-order evaluated? What are the pros and cons of this approach?
     * Why don't mutability and delayed evaluation mix well in programming languages?
-    * How can we refactor stateful procedure to make it stateless with the streams?
+    * How can we refactor a stateful procedure to make it stateless with streams?
     * Why simple merging of two streams is not a solution for merging bank accounts?
     * What's the difference between thunks and JS Promises? *This question is answered by frontend developers.*
     * Is there a difference between thunks described in this chapter and Haskell thunks? *This question is answered by backend developers.*
