@@ -157,6 +157,8 @@ Why is `unliftio` considered safer by the author of `safe-exceptions`?
 ## Generics
 
 * What is generic programming?
+* What methods of generic programming can be used in GHC Haskell? (name at least three)
+  * How these methods may synergize with other extensions, such as `DefaultSignatures`, `ConstraintKinds`, overlapping instances or others?
 * What is `Generic` type class and what is its main goal?
 * What is the difference between `Generic` and `Generic1` typeclasses?
 * What are the primitive types that can describe all other Haskell algebraic data types (`K1`, `:+:`, etc)?
@@ -164,17 +166,28 @@ Why is `unliftio` considered safer by the author of `safe-exceptions`?
 * What is type family `Rep` and what is its main goal?
 * How to get data type name, constructor name, field names (for record fields)?
 * Is there a possibility to check if the data type is a `newtype` wrapper?
-* Suppose we have `data Example b c = A | B b | C Int c`:
-  * What is the `Rep (Example b c)` type?
+* Suppose we have:
+  ```hs
+    data Example b c
+        = A
+        | B b
+        | C Int c
+        | D String (Maybe Int) [Example b c]
+  ```
+  * What is the `Rep (Example b c)` type? Is there any ambiguity in its definition?
   * What would be the result of `to (C 2 "fsd")`?
-* How Generic programming can be improved with `ConstraintKinds` extension enabled?
+  * Advanced question: describe `Rep1 (Example b)` and `to1 (D "ML" Nothing [A, B (), C 3 ()])`.
+* How do `PolyKinds` affect `Generic1`?
+* What are `Generic`'s limitations? Are there any data declarations that cannot be represented with this machinery? Is there any alternative for handling these in a generic fashion?
 
 #### Resources
 
+* [Haddock for GHC.Generics](https://hackage.haskell.org/package/base-4.16.0.0/docs/GHC-Generics.html)
+  * [functions for getting information about datatypes](https://hackage.haskell.org/package/base-4.16.0.0/docs/GHC-Generics.html#t:Datatype)
+  * [Generic1 explanation](https://hackage.haskell.org/package/base-4.16.0.0/docs/GHC-Generics.html#g:15)
 * [What is datatype-generic programming](https://maxhallinan.com/posts/2019/09/17/what-is-datatype-generic-programming/)
 * [GHC.Generics on Wiki Haskell](https://wiki.haskell.org/GHC.Generics)
 * [GHC Generics Explained](https://www.stackbuilders.com/tutorials/haskell/generics/)
-* [Haddock (functions for getting information about datatypes)](https://hackage.haskell.org/package/base-4.8.2.0/docs/GHC-Generics.html#t:Datatype)
 * [Constraint Kinds for GHC](http://blog.omega-prime.co.uk/2011/09/10/constraint-kinds-for-ghc/)
 
 ## GHCi Debugger
