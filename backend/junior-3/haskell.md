@@ -210,10 +210,11 @@
 * In which way does runtime behavior of the following expressions differ?
   * ``a + b `seq` (a + b) : list``
   * ``let s = a + b in s `seq` s : list``
+* What are conditions when `seq` or `deepseq` can actually evaluate a value?
 * What is the GHC extension `BangPatterns`?
-  * Make examples when bang pattern is useless.
-  * What form does the bang pattern force values to be calculated to?
-  * Show the difference between this two definitions:
+  * Make examples when a bang pattern is useless.
+  * Do bang patterns force values to WHNF or NF?
+  * Show the difference between these two definitions:
     * `f1`
 
     ```haskell
@@ -267,6 +268,8 @@
   * [Brief normal forms explanation with Haskell - Medium article](https://medium.com/@aleksandrasays/brief-normal-forms-explanation-with-haskell-cd5dfa94a157)
   * [All About Strictness. - FP Complete](https://www.fpcomplete.com/blog/2017/09/all-about-strictness)
   * [Does a function in Haskell always evaluate its return value? - Stackoverflow](https://stackoverflow.com/questions/27685224/does-a-function-in-haskell-always-evaluate-its-return-value)
+  * See "Learning to use `seq`",
+    [Real World Haskell](http://book.realworldhaskell.org/read/functional-programming.html) book.
 
 ## Lists
 
