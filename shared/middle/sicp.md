@@ -97,7 +97,7 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * What is the type tag? When can it be useful?
     * When are tags for abstract data stripped off and when are attached?
     * What is the dispatching on type? Why isn't this approach additive?
-    * What is the data-directed programming? Why does this approach require the global mutable table?
+    * What is the data-directed programming?
     * Why does data-directed approach help us to avoid procedure names conflict?
     * How does `apply-generic` function from this chapter work?
     * What is the message-passing approach?
@@ -107,11 +107,11 @@ This fundamental work emphasizes controlling the complexity of software systems 
 
     * Can you explain the idea of Generic Operations?
     * Why are two-level tags used in the example of the generic arithmetic operations package?
-    * Why is implementing each procedure for each possible type combination cumbersome?
+    * What is a problem with implementing procedures for all possible combinations of types?
     * When such approach is the best way to create generic operations?
     * What is the coercion?
     * What are a hierarchy of types, a subtype and a supertype?
-    * Why a tower of types is the simplest case of the hierarchies of types?
+    * What advantage does a tower of types have as a particular case of hierarchies of types for implementing generic operations?
     * How can type raising help in cross-type generic operations?
     * Why does coercing through raising become hard for types with multiple supertypes?
     * How can we determine that we can safely coerce to a lower type?
