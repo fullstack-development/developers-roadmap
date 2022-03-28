@@ -2,6 +2,9 @@
 
 ## Type classes
 
+* How are type classes implemented in Haskell?
+  * What is a dictionary?
+  * How is it defined and passed into functions?
 * Why using constraints on a type variable within a data declaration isn't a good idea?
 * What is coherence and why is it important to maintain it? What are the possible cases of coherence violation?
 * Overlapping
@@ -26,6 +29,8 @@
 
 #### Resources
 
+* Type class implementation
+  * On dictionaries: [Type Classes: Internals of Type classes](https://nikivazou.github.io/CMSC498V/lectures/TypeClasses.html#internals-of-type-classes)
 * Overlapping
   * [On Type Class Instance Selection](https://hackernoon.com/typeclass-instance-selection-fea1068920e6)
 * Orphans
@@ -42,7 +47,6 @@
   * [Wadler letter "Make ad hoc polymorphism less ad hoc"](https://homepages.inf.ed.ac.uk/wadler/papers/class-letter/class-letter.txt)
 * Final tagless
   * [Introduction to Tagless Final](https://serokell.io/blog/2018/12/07/tagless-final)
-
 
 ## TypeOperators and type classes extensions
 
@@ -180,18 +184,32 @@
 
 * What is a reduction strategy? What is an evaluation strategy? How do they differ?
 * What is lazy evaluation? How it differs from eager evaluation? Is lazy evaluation the same as non-strictness?
-* What is outside in and inside out evaluation?
+* What is outermost (outside in, applicative-order) and innermost (inside out, normal-order) reduction strategy?
+* What is the difference between call-by-value, call-by-name and call-by-need evaluation strategies?
 * What is a redex?
 * What are the pros and cons of lazy evaluation? Provide some examples.
-* What strategy used in Haskell?
-* What is thunk?
+* What strategy is used in Haskell?
+* What is printed when evaluating the expression? Why? (See questions on
+  `Debug.Trace` below.)
+
+  ```hs
+  trace ":" (trace "1" 1 : trace "[]" [])
+  ```
+
+* What is a strict function?
+* Are the following functions strict?
+  * `length`
+  * `\x -> [x]`
+  * `const` in the first parameter
+  * `const` in the second parameter
+  * `id`
+* What is a thunk?
   * Describe the concept of its inner structure.
   * Could you think of cases when thunk occupies less space than the evaluated value and visa versa?
   * Can you nest thunks?
   * Can thunks be recursive?
-* What is the difference between call by value, call by name and call by need?
 * What is WHNF?
-* Are next expressions in WHNF or NF?
+* Are the following expressions in WHNF or NF?
   * `(*) (2 + 2)`
   * `thunk`
   * `1:(thunk)`
@@ -201,16 +219,34 @@
   * `15`
   * `\x -> x * 2`
   * `(\x -> x + 1) 3`
-* Can haskell evaluate in strict mode?
-* Why are values in Haskell typically (when using `Strict`, `seq`, `foldl'`,
-  `modifyIORef'` etc) calculated to WHNF, not to NF?
+* Can Haskell evaluate in the strict mode?
+* Why are values in Haskell typically calculated to WHNF, not to NF (when using
+  `Strict` extension, `seq`, `foldl'`, `modifyIORef'` etc)? Why is Haskell
+  designed in this way?
 * What is the function `seq` (and operator `$!`)?
 * What is the function `deepseq` (and operator `$!!`)?
 * Could using `seq` change the returned value of the function?
-* In which way does runtime behavior of the following expressions differ?
-  * ``a + b `seq` (a + b) : list``
-  * ``let s = a + b in s `seq` s : list``
-* What are conditions when `seq` or `deepseq` can actually evaluate a value?
+* In which way does runtime behavior of the following expressions differ? Which
+  is better?
+  * ``a + b `seq` [a + b]``
+  * ``let s = a + b in s `seq` [s]``
+* What is the result of the following expressions? Why?
+  - ``N undefined `seq` ()`` where `N` is a `data` declaration
+  - ``N undefined `seq` ()`` where `N` is a `newtype` declaration
+* What are conditions when `seq` or `deepseq` can evaluate their first
+  parameter? For example, will `seq` crash at `undefined` below? Why?
+
+  ```hs
+  print $ const "Hello!" $ undefined `seq` ()``
+  ```
+
+* What is printed when evaluating the expression? What is the evaluation order?
+  Is it guaranteed?
+
+  ```hs
+  trace "1" () `seq` trace "2" ()
+  ```
+
 * What is the GHC extension `BangPatterns`?
   * Make examples when a bang pattern is useless.
   * Do bang patterns force values to WHNF or NF?
@@ -230,46 +266,52 @@
     ```
 
   * Do bang patterns force execution when they are nested in constructors inside
-    `let` or `where` expressions? Does this force `a` to be evaluated or when
-    it does?
+    `let` expressions or `where` clauses?
 
-    ```haskell
-    let (Just !a) = x in 1 + 1
-    let (Just !a) = x in [a]
-    ```
+  * Does evaluation to the WHNF of the following expressions throw an exception?
+    Why?
 
-* What are the GHC extensions `Strict` and `StrictData`?
+    - `let !a = undefined in True`
+    - `let  (Just !a) = Just undefined in True`
+    - `let !(Just !a) = Just undefined in True`
+    - `let  (Just !a) = Just undefined in [a]`
+    - `let  (Just !a) = Just undefined in a`
+    - `let  (Just !a, Just !b) = (Just True, Just undefined) in a`
+    - `let  (Just !a, Just !b) = (Just True, Just undefined) in True`
+
+* What are the GHC extensions `Strict` and `StrictData`? Which one implies
+  another?
+* Will `a` be evaluated to the WHNF with the `Strict` extension enabled?
+  - `f a = [a]`
+  - `f (Just a) = [a]`
+* Does the following definition make the list strict? What exactly will be evaluated?
+
+  ```hs
+  {-# LANGUAGE StrictData #-}
+
+  data StrictList a = StrictList [a]
+  ```
 
 #### Resources
 
-* Haskell Performance in Wikibooks:
-  * [Introduction](https://en.wikibooks.org/wiki/Haskell/Performance_introduction)
-  * [Graph reduction](https://en.wikibooks.org/wiki/Haskell/Graph_reduction)
-  * [Laziness](https://en.wikibooks.org/wiki/Haskell/Laziness)
-  * [Time and space profiling](https://en.wikibooks.org/wiki/Haskell/Time_and_space_profiling)
-  * [Strictness](https://en.wikibooks.org/wiki/Haskell/Strictness)
-  * [Algorithm complexity](https://en.wikibooks.org/wiki/Haskell/Algorithm_complexity)
-* Laziness
-  * [Lazy evaluation](https://www.ksp.kit.edu/9783731505464)
-  Optional resource. Read the contents, abstract and conclusions to understand the scope of work. You may want to read chapters from 1.1 to 1.6 and chapter 2.1.
-  * [Wiki-page Haskell Prime about Bang Patterns](https://prime.haskell.org/wiki/BangPatterns)
-  * [The Incomplete Guide to Lazy Evaluation](https://hackhands.com/guide-lazy-evaluation-haskell/)
-  The guide is in three parts, the third about denotational semantics is optional.
-  * [Oh my laziness!](https://alpmestan.com/posts/2013-10-02-oh-my-laziness.html)
-  * [Articles of Edward Yang](http://blog.ezyang.com/2011/04/the-haskell-heap/)
-  It is a set of articles.
-  * [Gentle Introduction to Haskell (Lazy Pattern-Matching)](https://www.haskell.org/tutorial/patterns.html)
-  * [Как работают ленивые вычисления - habr](https://habr.com/ru/post/247213/)
-  * [Lazy vs. non-strict - Haskell wiki](https://wiki.haskell.org/Lazy_vs._non-strict)
-  * [WHNF - Haskell wiki](https://wiki.haskell.org/Weak_head_normal_form)
-  * [GHC illustrated (about thunk inner structure) - presentation](https://takenobu-hs.github.io/downloads/haskell_ghc_illustrated.pdf)
-  * [What is Weak Head Normal Form? - Stackoverflow](https://stackoverflow.com/questions/6872898/what-is-weak-head-normal-form/6889335#6889335)
-  * [Evaluation strategy - wiki](https://en.wikipedia.org/wiki/Evaluation_strategy)
-  * [Brief normal forms explanation with Haskell - Medium article](https://medium.com/@aleksandrasays/brief-normal-forms-explanation-with-haskell-cd5dfa94a157)
-  * [All About Strictness. - FP Complete](https://www.fpcomplete.com/blog/2017/09/all-about-strictness)
-  * [Does a function in Haskell always evaluate its return value? - Stackoverflow](https://stackoverflow.com/questions/27685224/does-a-function-in-haskell-always-evaluate-its-return-value)
-  * See "Learning to use `seq`",
-    [Real World Haskell](http://book.realworldhaskell.org/read/functional-programming.html) book.
+* [All About Strictness. - FP Complete](https://www.fpcomplete.com/blog/2017/09/all-about-strictness):
+  laziness, bang patterns, strict functions, avoinding space leaks.
+* [Evaluation strategy - wiki](https://en.wikipedia.org/wiki/Evaluation_strategy):
+  the difference between evaluation and reduction.
+* [Haskell/Graph reduction wikibook](https://en.wikibooks.org/wiki/Haskell/Graph_reduction):
+  redexes, reduction strategies.
+* [Haskell/Laziness wikibook](https://en.wikibooks.org/wiki/Haskell/Laziness):
+  non-strictness vs laziness, examples of redex reduction, strict functions.
+* On the `seq` evaluation order:
+  [`seq` documentation in hackage](https://hackage.haskell.org/package/ghc-prim-0.8.0/docs/GHC-Prim.html#v:seq)
+* See "Learning to use `seq`" in
+  [Real World Haskell](http://book.realworldhaskell.org/read/functional-programming.html)
+* [GHC docs: BangPatterns](https://downloads.haskell.org/~ghc/9.2.1/docs/html/users_guide/exts/strict.html#extension-BangPattern
+* [GHC docs: StrictData](https://downloads.haskell.org/~ghc/9.2.1/docs/html/users_guide/exts/strict.html#strict-by-default-data-types)
+* [GHC docs: Strict](https://downloads.haskell.org/~ghc/9.2.1/docs/html/users_guide/exts/strict.html#strict-by-default-pattern-bindings)
+* [Does a function in Haskell always evaluate its return value? - Stackoverflow](https://stackoverflow.com/questions/27685224/does-a-function-in-haskell-always-evaluate-its-return-value)
+* Optionally: [Lazy Evaluation: From natural semantics to a machine-checked compiler transformation](https://www.ksp.kit.edu/9783731505464)
+  Read the contents, abstract and conclusions to understand the scope of work. You may want to read chapters from 1.1 to 1.6 and chapter 2.1.
 
 ## Lists
 
@@ -284,15 +326,16 @@
 
 ## Exceptions
 
-* What is the exception free pattern?
+* How can we deal with exceptional situations and errors in pure code?
 * How do we abstract the possibility of failure in Haskell?
   * `ExceptT`.
   * Custom sum types.
   * `Exception` type.
   * String-like types.
-* Why `ExceptT MyException IO` is considered an anti-pattern?
-How do we mislead the user of our transformer stack if we use this pattern?
-Should we ban using this pattern?
+* Why `ExceptT MyException IO` is sometimes considered an anti-pattern?
+  * How do we mislead the user of our transformer stack if we use this pattern?
+  * Can it be helpful?
+  * When would you prefer `ExceptT IO` instead of IO exceptions? When the opposite?
 * What basic type classes do help us to distinguish the functions with an effect of failure?
   * `Control.Monad.Except.MonadError`
   * `Control.Monad.Catch.MonadThrow`,
