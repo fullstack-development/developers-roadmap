@@ -1,5 +1,11 @@
 # Linux administration for junior-2
 
+- [Processes](#processes)
+- [User](#user)
+- [curl](#curl)
+- [Environment](#environment)
+- [Getting help](#getting-help)
+
 ## Processes
 
 * How to send a signal to a process? Which signals could be sent?
