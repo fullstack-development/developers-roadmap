@@ -1,5 +1,29 @@
 # Haskell for Junior-3
 
+[Type classes](#type-classes)
+
+[TypeOperators and type classes extensions](#typeoperators-and-type-classes-extensions)
+
+[Type and Data Families](#type-and-data-families)
+
+[GADTs](#gadts)
+
+[DataKinds](#datakinds)
+
+[ScopedTypeVariables, Higher ranked types](#scopedtypevariables-higher-ranked-types)
+
+[ExistentialQuantification](#existentialquantification)
+
+[Extensions Practice](#extensions-practice)
+
+[Laziness](#laziness)
+
+[Lists](#lists)
+
+[Exceptions](#exceptions)
+
+[Debugging](#debugging)
+
 ## Type classes
 
 * Why using constraints on a type variable within a data declaration isn't a good idea?
