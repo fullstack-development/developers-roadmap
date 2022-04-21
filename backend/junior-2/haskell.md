@@ -2,6 +2,19 @@
 
 Advanced questions about Haskell for everyday usage.
 
+- [Modules](#modules)
+- [Typeclasses](#typeclasses)
+- [Applicative](#applicative)
+- [Monads](#monads)
+- [Monoids](#monoids)
+- [Foldable](#foldable)
+- [Traversable](#traversable)
+- [Alternative and MonadPlus](#alternative-and-monadplus)
+- [Deriving and RecordWildCards extensions](#deriving-and-recordwildcards-extensions)
+- [Error management](#error-management)
+- [Service/Handle Pattern](#servicehandle-pattern)
+- [Concurrency](#concurrency)
+
 ## Modules
 
 * What are cyclic dependencies and what are the methods of resolving them?
