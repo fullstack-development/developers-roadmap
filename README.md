@@ -1,44 +1,39 @@
 # Developers roadmap
-Как изучить front-end или back-end разработку? Как максимально эффективно прокачаться от junior к middle и от middle к senior? Какие ресурсы выбирать по каким темам?
+How to master front-end or back-end development? How to upgrade from junior to middle and from middle to senior most effectively? What resources to choose for studying specific topics?
 
-## Введение
-В одном репозитории мы собрали темы и ресурсы, которые помогут вам вырасти как front-end или back-end разработчику. Мы советуем выбрать одно из этих двух направлений и максимально сфокусироваться на нём. Только после уверенного овладения одной из областей при большом желании можно начинать переходить на другую, либо оставаться в своей области и изучать её ещё глубже.
+## Introduction
+We have collected some topics and resources in one repository. They will help you improve your skills as a front-end or back-end developer. We advise you to choose one of these two areas and focus on it as much as possible. If you really want to, you can move to another area, but only after mastering the first one. Also, you can continue improving your skills in a selected field and go deeper into it.
 
-Перед тем как создавать pull request, изучите [требования к оформлению вопросов и ресурсов](./requirements.md).
+## Status
+We are actively porting the program from the previous platform (rizzoma.com). So, we are still restoring many parts and completing the material structure.
 
-## Статус
-Сейчас программа находится в фазе активного переноса с прошлой платформы, где мы её писали (rizzoma.com), поэтому многие куски пока что ещё упущены, структура материала не окончательно заполнена.
-
-## Градации
-Ниже приведены наши субъективные представления стандартных уровней мастерства разработчиков.
+## Gradation
+We provide our subjective view of basic developer skills below.
 
 ### Junior frontend developer
-* Умеет решать локальные задачи, которые хорошо декомпозированы и укладываются в принятые в проекте соглашения и архитектурные принципы.
-* Хорошо знает основной инструментарий — html, css, javascript.
-* Уверенно владеет React.JS на уровне, который позволяет решать абсолютное большинство стандартных задач, связанных с интерфейсами.
-* Умеет ясно излагать свои мысли в письменной и устной форме, понимает важность проактивности для командной работы.
+* This specialist can solve local well-decomposed tasks that comply with the agreements and project architectural principles.
+* They are proficient in fundamental tools such as HTML, CSS and Javascript.
+* Also, a junior developer has a good knowledge of React.JS, which allows them to solve most of the standard interface tasks.
+* Their communication skills are good in both written and oral forms, and he understands the importance of proactive teamwork.
 
 ### Middle frontend developer
-* Отлично знает инструментарий, включая React.JS.
-* Имеет навыки проектирования и знает основные принципы разработки поддерживаемого продукта, т.е. владеет ООП, ФП, понимает DDD и SOLID.
-* Умеет спроектировать небольшого и среднего размера стандартные проекты (интерфейс для проекта до ±100k строк с командой до ±10 участников).
-* Умеет эффективно решать задачи в рамках заданной архитектуры (например, следуя парадигме от React+Redux).
-* Знает, как решить нетривиальные локальные задачи, чаще всего не связанные с интерфейсами напрямую, например, написать небольшую библиотеку для удобного API по работе с URI.
-* Понимает бизнес-ценность своей работы, может предложить пересмотр требований задачи для лучшего достижений этих ценностей, может предложить убрать задачу из бэклога, аргументировав возможными альтернативами или даже доказав её низкий приоритет.
-* Умеет декомпозировать и довольно точно оценить объем работ для небольших работ (до 2-х человекомесяцев). Умеет явно увидеть области риска при оценке, сузить их наименьшими усилиями и явно фокусировать внимание команды на них.
-* Проявляет эмпатию, не перебивает, умеет выслушать, понять точку зрения оппонента и предложить аргументированные альтернативы.
+* This developer has excellent knowledge of the full range of tools, including React.JS.
+* Also, he has design skills and is familiar with the basic principles of supported product development. A middle front-end developer operates OOP, FP, DDD and SOLID efficiently
+* They can design small or medium scale standard projects, such as an interface of up to ±100k code lines with a team of about ±10 members.
+* This developer knows how to solve problems within a defined architecture (for instance, following the paradigm from React + Redux).
+* A middle front-end developer solves complex local problems that are often not directly related to interfaces. For example, they can write a small library for a convenient API for working with a URI. For example, they may suggest removing a task from the backlog, arguing this with possible alternatives or even proving its low priority.
+* The developer understands the business value of their work. So, they may propose to revise the task requirements to achieve these values.
+* The specialist can decompose and estimate the amount of work for small projects (up to 2 man-months). Also, he notices the risk areas, reducing them with the least effort and focusing the team's attention on these weaknesses.
+* The developer shows empathy, does not interrupt, knows how to listen, understands different point of view and offers well-reasoned alternatives.
 
 ### Senior frontend developer
-* Отлично понимает весь контекст проекта, включая пользователей (и их цели), бизнес, всю команду разработчиков.
-* Понимает бизнес-ценности всего продукта и всей команды.
-* Может помочь ясно сформулировать требования к задаче, учитывая стратегические цели компании.
-* Может спроектировать верхнеуровневую архитектуру продукта учитывая весь контекст (пользователи, бизнес, 3rd party services etc).
-* Сам может выбрать необходимый стек для всего комплекса решений, который может состоять из нескольких больших проектов.
-* Умеет самостоятельно эффективно разбираться в неизвестных и достаточно объемных областях, применять изученное для решения поставленных проблем там, где это эффективно (например, быстро изучить meteor.js и предложить создавать проект на нем, если он действительно лучше подходит).
-* Умеет давать оценки даже для существенного объема работ, запросить все необходимые требования, доработать их при необходимости, заложить риски.
+* They understands the entire project context, including users (and their goals), business and the development team.
+* A senior developer realizes the product and team business value.
+* They can help define the task requirements, paying attention to the strategic company goals.
+* Such a specialist can design a high-level product architecture considering the entire context. It includes users, business, 3rd party services etc.
+* They can choose a necessary stack for the whole complex of solutions, consisting of several big projects.
+* A senior front-end developer deals with unfamiliar and broad areas effectively and without help. Also, such a specialist applies his experience to problem solution where it can be efficient. For example, they can learn meteor.js quickly and offer to design a project using this web platform if it really fits better.
+* This developer can estimate even considerable work scope, request all the relevant requirements, finalize them if necessary and assess risks.
 
-## Рекомендация
-Советуем для удобного чтения установить расширение [Octotree](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc?hl=ru).
-
-## Обучение с 0 до Junior
-Наша команда также разработала систему обучения по front-end и back-end разработке с нуля. Изучить подробности и заполнить форму, чтобы начать изучение программы, можно [на нашей странице](https://www.fullstack-development.com/front-end-education).
+## Recommendation
+We recommend installing the [Octotree](https://chrome.google.com/webstore/detail/octotree-github-code-tree/bkhaagjahfmjljalopjnoealnfndnagc?hl=en) extension for better reading .
