@@ -1,20 +1,24 @@
 # Haskell for Junior-1
 
 This level requires basic skills to solve local tasks in a project.
-
-- [Functions](#functions)
-- [Types](#types)
-- [Lists](#lists)
-- [Modules](#modules)
-- [Language control expressions](#language-control-expressions)
-- [Typeclasses (one parameter)](#typeclasses-one-parameter)
-- [Monoid](#monoid)
-- [Functor](#functor)
-- [Applicative](#applicative)
-- [Monad](#monad)
-- [Monad transformers](#monad-transformers)
-- [Type inference](#type-inference)
-- [Advanced questions](#advanced-questions)
+<details>
+<summary>List of contents</summary>
+  
+ - [Functions](#functions)
+ - [Types](#types)
+ - [Lists](#lists)
+ - [Modules](#modules)
+ - [Language control expressions](#language-control-expressions)
+ - [Typeclasses (one parameter)](#typeclasses-one-parameter)
+ - [Monoid](#monoid)
+ - [Functor](#functor)
+ - [Applicative](#applicative)
+ - [Monad](#monad)
+ - [Monad transformers](#monad-transformers)
+ - [Type inference](#type-inference)
+ - [Advanced questions](#advanced-questions)
+  
+</details>
 
 ## Functions
 
