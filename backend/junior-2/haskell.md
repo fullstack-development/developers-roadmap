@@ -2,6 +2,9 @@
 
 Advanced questions about Haskell for everyday usage.
 
+<details>
+<summary>List of contents</summary>
+  
 - [Modules](#modules)
 - [Typeclasses](#typeclasses)
 - [Applicative](#applicative)
@@ -14,6 +17,8 @@ Advanced questions about Haskell for everyday usage.
 - [Error management](#error-management)
 - [Service/Handle Pattern](#servicehandle-pattern)
 - [Concurrency](#concurrency)
+</details>
+
 
 ## Modules
 
