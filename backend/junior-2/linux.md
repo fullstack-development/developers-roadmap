@@ -1,11 +1,16 @@
 # Linux administration for junior-2
 
+<details>
+<summary>List of contents</summary>
+ 
 - [Processes](#processes)
 - [User](#user)
 - [curl](#curl)
 - [Environment](#environment)
 - [Getting help](#getting-help)
 
+ </details>
+ 
 ## Processes
 
 * How to send a signal to a process? Which signals could be sent?
