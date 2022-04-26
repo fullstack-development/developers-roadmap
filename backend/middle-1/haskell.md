@@ -1,5 +1,9 @@
 # Haskell for Middle-1
 
+
+<details>
+<summary>List of contents</summary>
+ 
 - [Basic type classes](#basic-type-classes)
 - [Type classes](#type-classes)
 - [Types](#types)
@@ -14,6 +18,8 @@
 - [Lenses](#lenses)
 - [Kata](#kata)
 
+ </details>
+ 
 ## Basic type classes
 
 * Functors
