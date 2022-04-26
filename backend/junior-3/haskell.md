@@ -1,5 +1,8 @@
 # Haskell for Junior-3
 
+<details>
+<summary>List of contents</summary>
+ 
 - [Type classes](#type-classes)
 - [TypeOperators and type classes extensions](#typeoperators-and-type-classes-extensions)
 - [Type and Data Families](#type-and-data-families)
@@ -12,6 +15,8 @@
 - [Lists](#lists)
 - [Exceptions](#exceptions)
 - [Debugging](#debugging)
+ 
+</details>
 
 ## Type classes
 
