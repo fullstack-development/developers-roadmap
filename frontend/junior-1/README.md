@@ -5,3 +5,4 @@
 - [JavaScript](./js.md)
 - [Тестирование](./testing.md)
 - [Git](../../shared/junior-1/git.md)
+- [React](./react.md)
