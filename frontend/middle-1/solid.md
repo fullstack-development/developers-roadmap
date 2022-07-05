@@ -1,5 +1,19 @@
 # SOLID principles
 
+<details>
+  <summary>List of contents</summary>
+  
+  - [The Goal](#the-goal)
+  - [The Single Responsibility Principle (SRP)](#the-single-responsibility-principle-srp)
+  - [The Open Closed Principle (OCP)](#the-open-closed-principle-ocp)
+  - [The Liskov Substitution Principle (LSP)](#the-liskov-substitution-principle-lsp)
+  - [The Interface Segregation Principle (ISP)](#the-interface-segregation-principle-isp)
+  - [The Dependency Inversion Principle (DIP)](#the-dependency-inversion-principle-dip)
+  - [SOLID](#solid)
+  
+  </details>
+  
+
 ## The Goal
 Learn how to design complex systems according to engineering heuristics gathered by R. Martin. The principles are mostly useful for programs written both in OOP and FP paradigms. SOLID is a bright example of not just isolated principles, but the system of checks and balances. In the future you can also learn how to apply the principles for designing high-level architecture too (see Clean Architecture).
 

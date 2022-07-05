@@ -1,5 +1,19 @@
 # Functional programming
 
+<details>
+ <summary>List of contents</summary>
+ 
+ - [Closures](#closures)
+ - [Tail call](#tail-call)
+ - [Currying](#currying)
+ - [Point free style](#point-free-style)
+ - [Immutability](#immutability)
+ - [Algebraic Data Types](#algebraic-data-types)
+ - [Combinator library](#combinator-library)
+ - [Common topic resources](#common-topic-resources)
+ 
+</details>
+
 ## Closures
 * What are free variables?
 * Dynamic scoping

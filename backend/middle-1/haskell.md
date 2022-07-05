@@ -1,5 +1,25 @@
 # Haskell for Middle-1
 
+
+<details>
+<summary>List of contents</summary>
+ 
+- [Basic type classes](#basic-type-classes)
+- [Type classes](#type-classes)
+- [Types](#types)
+- [Polymorphic Kinds](#polymorphic-kinds)
+- [Pattern Synonyms](#pattern-synonyms)
+- [ConstraintKinds](#constraintkinds)
+- [Type inference](#type-inference)
+- [Laziness](#laziness)
+- [Exceptions](#exceptions)
+- [Generics](#generics)
+- [GHCi Debugger](#ghci-debugger)
+- [Lenses](#lenses)
+- [Kata](#kata)
+
+ </details>
+ 
 ## Basic type classes
 
 * Functors
