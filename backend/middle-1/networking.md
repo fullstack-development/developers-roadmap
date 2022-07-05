@@ -40,3 +40,4 @@
   * [IP](http://xgu.ru/wiki/IP)
 * REST:
   * [What the hell is REST, Anyway?](https://programmingisterrible.com/post/181841346708/what-the-hell-is-rest-anyway)
+  * [The mythology of REST](https://twirl.medium.com/the-mythology-of-rest-695eb00ba8c0)
