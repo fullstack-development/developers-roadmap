@@ -47,6 +47,7 @@
     }
     ```
 * Как и для чего использовать хуки `useMemo` и `useCallback`? 
+  * Всегда ли следует оборачивать код в `useMemo`/`useCallback`?
 * Portals
   * Что это такое? Зачем нужны? Как использовать?
   * Как будет работать контекст и event bubbling в случае с порталами?
@@ -66,4 +67,4 @@
 
 * [React Documentation](https://reactJS.org/docs/getting-started.html)
 * [Полное руководство по useEffect](https://habr.com/ru/company/ruvds/blog/445276/) - объёмная, но очень классная статья по useEffect, которая поможет раскрыть глаза на многие вещи. Возможно придётся осилить в 2 подхода.
-
+* [Все ли вы знаете о useCallback](https://habr.com/ru/post/529950/)
