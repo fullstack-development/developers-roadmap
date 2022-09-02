@@ -97,9 +97,9 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * What is the type tag? When can it be useful?
     * When are tags for abstract data stripped off and when are attached?
     * What is the dispatching on type? Why isn't this approach additive?
-    * What is the data-directed programming? Why does this approach require the global mutable table?
+    * What is the data-directed programming?
     * Why does data-directed approach help us to avoid procedure names conflict?
-    * How does apply-generic from this chapter work?
+    * How does `apply-generic` function from this chapter work?
     * What is the message-passing approach?
     * Compare "dispatching on type", "data-directed" and "message-passing" approaches.
 
@@ -107,14 +107,14 @@ This fundamental work emphasizes controlling the complexity of software systems 
 
     * Can you explain the idea of Generic Operations?
     * Why are two-level tags used in the example of the generic arithmetic operations package?
-    * Why is implementing each procedure for each possible type combination cumbersome?
+    * What is a problem with implementing procedures for all possible combinations of types?
     * When such approach is the best way to create generic operations?
     * What is the coercion?
     * What are a hierarchy of types, a subtype and a supertype?
-    * Why tower of types is the simplest case of the hierarchies of types?
-    * How can procedures raising help in cross-type generic operations?
-    * Why coercing through raising become hard for types with multiple supertypes?
-    * How can we determine that we can safely coerce to lower type?
+    * What advantage does a tower of types have as a particular case of hierarchies of types for implementing generic operations?
+    * How can type raising help in cross-type generic operations?
+    * Why does coercing through raising become hard for types with multiple supertypes?
+    * How can we determine that we can safely coerce to a lower type?
 
   * Chapter questions:
 
@@ -175,13 +175,13 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * What is the shared state? How it can be done? What problems can appear because of shared state?
     * Explain all possible interleaving the order of events for two processes when first one executes the expression: `balance += 10;` and the second one: `balance *= 2;`?
     * Will problems with concurrency be the same if we have no assignment in the language (only immutable data)?
-    * Why do assignments in the language force programmer to admit time in modeling?
+    * Why do assignments in the language force programmer to allow for time in modeling?
     * What does serialization mean and what is its purpose?
     * Why serialization doesn't help for such an operation like swapping the balances in two bank accounts?
     * What is the mutex? How does it help with problems arisen because of concurrency?
     * How does mutex can be implemented?
     * Which operations in mutex implementation should be done atomically? Why?
-    * Which situations are called deadlock? What are the ways to avoid deadlocks?
+    * Which situations are called deadlocks? What are the ways to avoid deadlocks?
     * Why does communication between processes matter for shared state or ordering of events?
 
   * [3.5 Streams](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-24.html#%_sec_3.5)
