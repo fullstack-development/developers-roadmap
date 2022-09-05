@@ -1,63 +1,59 @@
 # React
 
-* Что такое React?
-* Что такое React Element? Как его можно создать? Из чего он состоит?
-  * Что будет, если передать булевые, `null` или `undefined` значения в children?
-* Что такое React Component?
-  * Что делают конструкторы в родительских классах реакт компонент? Когда надо вызывать `super`, а когда нет?
-* Что такое JSX и зачем он нужен?
-  * Почему атрибуты в JSX пишутся, используя camelCase (например, `tabIndex`, а не `tabindex`)? Почему `className`, а не `class`?
-  * Почему название компоненты, которая используется в JSX, нужно писать с большой буквы?
-  * В чём проблема следующего кода `<p>{items.length && <El items={items} />}</p>`?
-  * Написать аналог с `React.createElement`:
+* useEffect
+  * Нужно ли указывать функции в виде зависимостей эффектов?
+  * Что выведется в консоли для следующего кода, если быстро нажать 5 раз на кнопку, и почему?
     ```javascript
-    <OuterComponent color="black" disabled>
-      <InnerComponent hidden={false} />
-      <div>
-        Div text content
-      </div>
-    </OuterComponent>
+    function Counter() {
+      const [count, setCount] = useState(0);
+
+      useEffect(() => {
+        setTimeout(() => {
+          console.log(`You clicked ${count} times`);
+        }, 3000);
+      });
+
+      return (
+        <div>
+          <p>You clicked {count} times</p>
+          <button onClick={() => setCount(count + 1)}>
+            Click me
+          </button>
+        </div>
+      );
+    }
     ```
-* Что такое Virtual DOM и зачем он нужен?
-* Что такое `state` и `props` у компонента?
-  * Как обновить `state`? Почему не стоит это делать через прямую запись в `this.state`?
-  * Если передать в `setState` не все свойства, которые до этого уже были в стейте, то будут ли удалены те, что не переданы?
-  * В каких случаях стоит хранить значения в стейте компоненты, а в каких случаях в инстансе?
-  * Как правильно обновлять `state` на основе предыдущего значения `state`? Какие могут при этом возникнуть проблемы?
-  * Что такое top-down data flow? Что является основным механизмом синхронизации нескольких компонент?
-* `props.children`
-  * Что это такое?
-  * Когда может быть полезным?
-  * Что позволяет делать `React.Children` API?
-* Component Lifecycle
-  * Что это такое?
-  * Когда какие методы вызываются? В каком порядке?
-  * Как и в каких случаях использовать те или иные методы жизненного цикла?
-* Что должен делать метод `render`? Почему необходимо держать этот метод чистым?
-* Hooks
-  * Какие существуют правила при работе с хуками?
-  * Для чего предназначены хуки `useState`, `useReducer`, `useEffect`? Как с ними работать?
-  * Что может возвращать колбэк, передаваемый в `useEffect`?
-  * Что такое массив зависимостей? Рассказать как он влияет на работу хука на примере useEffect (в том числе на возвращаемое колбэком значение).
-* Что такое HOC? Когда хоки могут быть полезны?
-* Что такое React Fragment? Для чего он нужен? Как его использовать?
-* Performance
-  * Когда передача инлайн-коллбека ухудшает производительность и почему? Пример: `<LoginButton onClick={(e) => this.handleClick(e, user)}>`
-* refs
-  * Что это такое? Зачем нужны? Как их использовать?
-  * Как и для чего использовать хук `useRef`?
-  * Что делает и зачем нужен метод `React.forwardRef`?
-  * Почему refs стоит использовать умеренно?
-* Controlled и uncontrolled компоненты
-  * Что это такое? Как происходит работа с инпутами?
-  * Как задать дефолтное значение для инпута в uncontrolled компоненте?
-* Что такое Context и когда может быть полезен?
+  * Как сделать так, что бы все 5 раз вывелось последнее значение, то есть цифра 5?
+  * Что выведется в консоли для следующего кода, если несколько раз быстро нажать на кнопку?
+    ```javascript
+    function Example() {
+      const [count, setCount] = useState(0);
+
+      useEffect(() => {
+        console.log(count);
+        if (count % 2 === 0) {
+          return () => setTimeout(() => console.log("It was even render"), 1000);
+        } else {
+          return () => setTimeout(() => console.log("It was odd render"), 1000);
+        }
+      });
+
+      return (
+        <div>
+          <p>You clicked {count} times</p>
+          <button onClick={() => setCount(count + 1)}>Click me</button>
+        </div>
+      );
+    }
+    ```
+* Как и для чего использовать хуки `useMemo` и `useCallback`? 
+  * Всегда ли следует оборачивать код в `useMemo`/`useCallback`?
 * Portals
   * Что это такое? Зачем нужны? Как использовать?
   * Как будет работать контекст и event bubbling в случае с порталами?
 * Что такое Error Boundaries? Зачем они нужны? Как ими пользоваться?
   * Будут ли "пойманы" в `catch` блоке ошибки, возникающие при рендере `InnerComponent`? Почему?
-  ```
+  ```javascript
   function OuterComponent() {
     try {
       return <InnerComponent />;
@@ -70,4 +66,6 @@
 ### Ресурсы
 
 * [React Documentation](https://reactJS.org/docs/getting-started.html)
-* [Why Do We Write super(props)?](https://overreacted.io/why-do-we-write-super-props/)
+* [Полное руководство по useEffect](https://habr.com/ru/company/ruvds/blog/445276/) - объёмная, но очень классная статья по useEffect, которая поможет раскрыть глаза на многие вещи. Возможно придётся осилить в 2 подхода.
+* [Все ли вы знаете о useCallback](https://habr.com/ru/post/529950/)
+* [Интересная ветка обсуждения в комментариях статьи выше](https://habr.com/ru/post/529950/comments/#comment_22380330)

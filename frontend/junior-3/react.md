@@ -49,7 +49,6 @@
         }
       }
       ```    
-  * Как и для чего использовать хуки `useMemo` и `useCallback`? 
 * Performance
   * Что такое windowing или virtualizing списков?
   * Всегда ли происходит перерисовка DOM-элемента, если `shouldComponentUpdate` вернул `true`?
