@@ -184,7 +184,7 @@
 
 * What is a reduction strategy? What is an evaluation strategy? How do they differ?
 * What is lazy evaluation? How it differs from eager evaluation? Is lazy evaluation the same as non-strictness?
-* What is outermost (outside in, applicative-order) and innermost (inside out, normal-order) reduction strategy?
+* What is outermost (outside in, normal-order) and innermost (inside out, applicative-order) reduction strategy?
 * What is the difference between call-by-value, call-by-name and call-by-need evaluation strategies?
 * What is a redex?
 * What are the pros and cons of lazy evaluation? Provide some examples.
@@ -204,7 +204,6 @@
   * `const` in the second parameter
   * `id`
 * What is a thunk?
-  * Describe the concept of its inner structure.
   * Could you think of cases when thunk occupies less space than the evaluated value and visa versa?
   * Can you nest thunks?
   * Can thunks be recursive?
@@ -231,8 +230,8 @@
   * ``a + b `seq` [a + b]``
   * ``let s = a + b in s `seq` [s]``
 * What is the result of the following expressions? Why?
-  - ``N undefined `seq` ()`` where `N` is a `data` declaration
-  - ``N undefined `seq` ()`` where `N` is a `newtype` declaration
+  - `seq (D undefined) ()` where `data D a = D a`.
+  - `seq (N undefined) ()` where `newtype N a = N a`.
 * What are conditions when `seq` or `deepseq` can evaluate their first
   parameter? For example, will `seq` crash at `undefined` below? Why?
 
@@ -335,7 +334,7 @@
 * Why `ExceptT MyException IO` is sometimes considered an anti-pattern?
   * How do we mislead the user of our transformer stack if we use this pattern?
   * Can it be helpful?
-  * When would you prefer `ExceptT IO` instead of IO exceptions? When the opposite?
+  * When would you prefer `ExceptT e IO` instead of IO exceptions? When the opposite?
 * What basic type classes do help us to distinguish the functions with an effect of failure?
   * `Control.Monad.Except.MonadError`
   * `Control.Monad.Catch.MonadThrow`,
