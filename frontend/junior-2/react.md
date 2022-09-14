@@ -48,6 +48,48 @@
     ```
 * Как и для чего использовать хуки `useMemo` и `useCallback`? 
   * Всегда ли следует оборачивать код в `useMemo`/`useCallback`?
+* Для чего предназначен хук `useReducer`? Как с ним работать?
+* Performance
+  * Для чего в хук `useState` можно передавать функцию вместо `initialState`?
+  * Когда передача инлайн-коллбека ухудшает производительность и почему? Пример: `<LoginButton onClick={(e) => this.handleClick(e, user)}>`
+  * Что такое `React.memo`? Для чего он нужен?
+    * Когда его стоит, а когда не стоит использовать?
+    * Какие ограничения накладываются на пропсы при использовании `React.memo`?
+    * Почему использование `React.memo` для `MemoComponent` таким образом не приносит никакой пользы (укажите на конкретные проблемные места):
+      ```javascript
+        const outerComponent = ({ options, dataForClick, onComponentClick }) => {
+          const makeClickHandler = (dataForClick) => {
+            return () => onComponentClick(dataForClick);
+          }
+
+          const enhanceOptions = () => {
+            const uppercased = {};
+            Object.keys(options).forEach(key => {
+              uppercased[key] = options[key].toUpperCase();
+            })
+            return uppercased;
+          }
+
+          return (
+            <MemoComponent
+              onClick={makeClickHandler(dataForClick)}
+              options={enhanceOptions()}
+            >
+              <div>This is <b>Memo Component!</b></div>
+            </MemoComponent>
+          );
+        };
+      ```    
+* State Management
+  * Какие есть способы организации состояния, когда в этом состоянии нуждаются несколько компонентов?
+  * Почему поднятие состояния до общего родителя может быть неудобным?
+  * Context
+    * Что такое Context object? Как его создать? Из чего он состоит?
+    * Как использовать хук `useContext`?
+    * Как обновить Context из глубоко вложенной компоненты (т.е. пробрасывать коллбэк в таком случае - очень неудобное решение)?
+    * Можно ли вкладывать провайдеры одного и того же Context друг в друга? Из какого провайдера при этом будут браться данные?
+    * Почему не стоит злоупотреблять Context?
+* Что такое HOC? Когда хоки могут быть полезны?
 * Portals
   * Что это такое? Зачем нужны? Как использовать?
   * Как будет работать контекст и event bubbling в случае с порталами?
@@ -69,3 +111,4 @@
 * [Полное руководство по useEffect](https://habr.com/ru/company/ruvds/blog/445276/) - объёмная, но очень классная статья по useEffect, которая поможет раскрыть глаза на многие вещи. Возможно придётся осилить в 2 подхода.
 * [Все ли вы знаете о useCallback](https://habr.com/ru/post/529950/)
 * [Интересная ветка обсуждения в комментариях статьи выше](https://habr.com/ru/post/529950/comments/#comment_22380330)
+* [Passing Data Deeply with Context](https://beta.reactjs.org/learn/passing-data-deeply-with-context)
