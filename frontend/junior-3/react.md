@@ -29,9 +29,43 @@
   * Зачем делать функцию, которая возвращает функцию высшего порядка, создающую HOC? Как это помогает сделать HOC композабельным?
   * Какие проблемы могут возникать, если HOC не будет прокидывать входящие props дальше в потомка?
   * Как обрабатывать `displayName` при создании HOC?
-  * Какие проблемы могут возникать, если каждый раз билдить HOC в самом render?
-  * Какие проблемы могут возникать, если HOC не будет копировать все статичные методы потомка?
   * Как HOC влияет на forwarded ref?
+  * В чем преимущество использование HOC для получения значения из контекста перед useContext и наоборот?
+    * with useContext:
+      ```typescript
+      type Props = {
+          prop1: any;
+      }
+
+      const MyComp: FC<Props> = ({ prop1 }) => {
+          const { prop2,  prop3 } = useContext(context);
+          ...
+      } 
+
+      // usage
+      <MyComp prop1="asd" />
+      ```
+
+
+    * with HOC:
+      ```typescript
+      type Props = {
+          prop1: any;
+          prop2: any;
+          prop3: any;
+      }
+
+      const MyComp: FC<Props> = ({ prop1, prop2, prop3 }) => {...}
+
+      // селектор тут скорее концепция, в данном случае селектор частично удовлетворяет интерфейс компонента
+      const selector1 = () => {...} // прокидывает в компоненту prop2 и prop3
+      const MyCompWithStore1 = withSomething(selector1)(MyComp);
+      const selector2 = () => {...} // прокидывает в компоненту prop1 и prop3
+      const MyCompWithStore2 = withSomething(selector2)(MyComp);
+
+      <MyCompWithStore1 prop1="asd" />
+      <MyCompWithStore2 prop2="asd" />
+      ```
 * Что такое Render Prop? Где и как может использоваться такой приём?
 * Custom Hooks
   * Как и для чего создавать пользовательские хуки?
