@@ -204,6 +204,7 @@
   * `const` in the second parameter
   * `id`
 * What is a thunk?
+  * Describe the concept of its inner structure
   * Could you think of cases when thunk occupies less space than the evaluated value and visa versa?
   * Can you nest thunks?
   * Can thunks be recursive?
@@ -301,6 +302,8 @@
   redexes, reduction strategies.
 * [Haskell/Laziness wikibook](https://en.wikibooks.org/wiki/Haskell/Laziness):
   non-strictness vs laziness, examples of redex reduction, strict functions.
+* On thunks: [Lazy Evaluation and Weak Head Normal Form - Parallel and
+  Concurrent Programming in Haskell](https://www.oreilly.com/library/view/parallel-and-concurrent/9781449335939/ch02.html#sec_par-eval-whnf).
 * On the `seq` evaluation order:
   [`seq` documentation in hackage](https://hackage.haskell.org/package/ghc-prim-0.8.0/docs/GHC-Prim.html#v:seq)
 * See "Learning to use `seq`" in
