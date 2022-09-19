@@ -40,3 +40,43 @@
 
 + [Immediately-Invoked Function Expression (IIFE)](http://benalman.com/news/2010/11/immediately-invoked-function-expression/)
 + [How does Array.prototype.slice.call() work?](https://stackoverflow.com/questions/7056925/how-does-array-prototype-slice-call-work)
+
+## Promises
+
+* Что такое Promise? Для чего он нужен?
+* Как создать Promise?
+  * Когда выполняется коллбэк, передаваемый аргументом в конструктор промиса?
+* Методы `then`, `catch`, `finally`
+  * Для чего используются?
+  * Что такое цепочка промисов?
+  * Что могут возвращать их коллбеки?
+    * Как возвращаемое значение влияет на состояние промиса, возвращаемого данным методом?
+* В чем отличие между `then(resolveHandler).catch(rejectHandler)` и `then(resolveHandler, rejectHandler)`?
+* Можно ли отменить выполнение промиса?
+* Для чего нужны и как использовать следующие методы:
+  * `Promise.resolve`
+  * `Promise.reject`
+  * `Promise.all`
+  * `Promise.allSettled`
+  * `Promise.race`
+  * `Promise.any`
+* В чем преимущества и недостатки коллбэков и промисов?
+* Какое состояние и результат будут у следующего промиса и почему:
+  ```javascript
+    const promise = new Promise((resolve, reject) => {
+      resolve(0);
+      reject(1);
+      resolve(2);
+    });
+  ```
+* Что такое async/await?
+  * Где можно применять ключевое слово `await`?
+  * Как обрабатывать ошибки для async/await?
+  
+#### Ресурсы
+
+* [JavaScript — from callbacks to async/await](https://medium.freecodecamp.org/javascript-from-callbacks-to-async-await-1cc090ddad99)
+* [Promise (learn.javascript.ru)](https://learn.javascript.ru/promise)
+* [We have a problem with promises](https://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html)
+* [You're Missing the Point of Promises](https://blog.domenic.me/youre-missing-the-point-of-promises/#toc_1)
+* [You Don't Know JS: Async & Performance](https://github.com/leonardomso/You-Dont-Know-JS/tree/master/async%20%26%20performance) [(рус.)](https://github.com/devSchacht/You-Dont-Know-JS/tree/master/async%20%26%20performance) - можно прочесть первые три главы
