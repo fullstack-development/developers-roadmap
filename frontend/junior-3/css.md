@@ -12,7 +12,7 @@
 #### Ресурсы
 
 * [Что такое progressive JPEG?](https://walnut.team/blog/pogovorim-o-tehnologiyah/progressive-jpeg-chto-za-zver/)
-* [Разница между DPI и PPI](https://xn----7sbbtqh1alwh2cf.xn--p1ai/text/ppidpi.php)
+* [PPI и DPI: в чем разница?](https://artforlife.ru/stati-po-dizajnu/ppi-i-dpi-v-chem-raznitsa.html)
 * [Оптимизация графики для Retina-экранов](https://habr.com/ru/post/150071/)
 
 ## Общие вопросы
