@@ -6,7 +6,6 @@
 - [SOLID](./solid.md)
 - [ФП](./fp.md)
 - [Асинхронность](./async.md)
-- [Генераторы](./generators.md)
 - [Изоморфность](./isomorphism.md)
 - [Тестирование](./testing.md)
 
