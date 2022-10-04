@@ -54,4 +54,4 @@
 * [React Documentation](https://reactJS.org/docs/getting-started.html)
 * [New React Documentation](https://beta.reactjs.org/)
 * [Keeping Components Pure](https://beta.reactjs.org/learn/keeping-components-pure)
-* [Lifecykle of reactive effects](https://beta.reactjs.org/learn/lifecycle-of-reactive-effects)
+* [Lifecycle of reactive effects](https://beta.reactjs.org/learn/lifecycle-of-reactive-effects)
