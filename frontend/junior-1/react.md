@@ -53,5 +53,7 @@
 
 * [React Documentation](https://reactJS.org/docs/getting-started.html)
 * [New React Documentation](https://beta.reactjs.org/)
+* [Making Sense of React Hooks](https://medium.com/@dan_abramov/making-sense-of-react-hooks-fdbde8803889)
+* [React hooks: not magic, just arrays](https://medium.com/@ryardley/react-hooks-not-magic-just-arrays-cd4f1857236e)
 * [Keeping Components Pure](https://beta.reactjs.org/learn/keeping-components-pure)
 * [Lifecycle of reactive effects](https://beta.reactjs.org/learn/lifecycle-of-reactive-effects)
