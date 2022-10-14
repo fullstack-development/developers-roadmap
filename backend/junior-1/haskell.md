@@ -42,13 +42,12 @@ This level requires basic skills to solve local tasks in a project.
     * Could you use other than binary functions in sections?
   * Function application precedence:
     * What are the possible values for precedence in Haskell?
-    * What is associativity of operators?
+    * What is associativity of operators? How does it differ from associativity as a mathemathical property?
     * Is the function application syntax associative? In other words, is `(a b) c` identical to `a (b c)`?
     * What are the possible values for associativity in Haskell?
 * Function composition:
   * How function composition operator is declared? What are its precedence and associativity?
-  * Is function composition associative?
-  * What is the associativity of function composition?
+  * Is function composition mathematically associative?
 * Recursion
   * What is the difference between iterative and recursive algorithms?
   * What is a tail recursion?
