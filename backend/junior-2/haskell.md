@@ -130,6 +130,7 @@ import qualified Data.Maybe
 
 * Deriving
   * [GHC docs: Deriving mechanism](https://downloads.haskell.org/ghc/latest/docs/html/users_guide/exts/deriving.html)
+  * [kowainik: Strategic deriving](https://kowainik.github.io/posts/deriving)
 * RecordWildCards
   * [The Power of RecordWildCards](https://kodimensional.dev/recordwildcards)
 
