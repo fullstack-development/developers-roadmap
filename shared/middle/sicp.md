@@ -213,3 +213,5 @@ This fundamental work emphasizes controlling the complexity of software systems 
 * [Interactive book with examples and exercises executable in browser](http://xuanji.appspot.com/isicp/)
 
 * [SICP learning guide (article in Russian)](https://guides.hexlet.io/ru/how-to-learn-sicp/)
+
+* [SICP Lectures](https://www.youtube.com/playlist?list=PLE18841CABEA24090) 
