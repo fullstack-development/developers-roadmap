@@ -1,10 +1,10 @@
 # SICP - Structure and Interpretation of Computer Programs
 
-This fundamental work emphasizes controlling the complexity of software systems through general techniques common to all engineering design: building abstractions to hide details and to separate specification from implementation, establishing conventional interfaces to allow the creation of standard modules, and shifting modes of linguistic description[...read more](https://mitpress.mit.edu/sites/default/files/sicp/course.html)
+This fundamental work emphasizes controlling the complexity of software systems through general techniques common to all engineering design: building abstractions to hide details and to separate specification from implementation, establishing conventional interfaces to allow the creation of standard modules, and shifting modes of linguistic description[...read more](https://web.mit.edu/6.001/6.037/sicp.pdf)
 
 * Chapter 1. Building Abstractions with Procedures
 
-  * [1.1 The Elements of Programming](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-4.html#%_toc_%_sec_1.1)
+  * [1.1 The Elements of Programming](https://xuanji.appspot.com/isicp/1-1-elements.html)
 
     * Why evaluation of combinations can be represented in the form of a tree? What are leafs and branches?
     * What is the Substitution Model for Procedure Application?
@@ -16,7 +16,7 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * What is a scope of a variable name and what does capturing the variable mean?
     * What is the lexical scoping?
 
-  * [1.2 Procedures and the Processes They Generate](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-4.html#%_toc_%_sec_1.2)
+  * [1.2 Procedures and the Processes They Generate](https://xuanji.appspot.com/isicp/1-2-procedures.html)
 
     * What is a linear recursive process and what is a linear iterative process? What are the advantages of each of them?
     * What are the state variables for linear iterative process?
@@ -31,7 +31,7 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * What does grow faster: `Θ(n*2)` or `Θ(n²)`?
     * What are probabilistic algorithms?
 
-  * [1.3 Formulating Abstractions with Higher-Order Procedures](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-4.html#%_toc_%_sec_1.3)
+  * [1.3 Formulating Abstractions with Higher-Order Procedures](https://xuanji.appspot.com/isicp/1-3-hop.html)
 
     * What are higher-order procedures?
     * Why is let definition just a syntactic sugar for lambda functions?
@@ -50,7 +50,7 @@ This fundamental work emphasizes controlling the complexity of software systems 
 
 * Chapter 2. Building Abstractions with Data
 
-  * [2.1 Introduction to Data Abstraction](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-4.html#%_toc_%_sec_2.1)
+  * [2.1 Introduction to Data Abstraction](https://xuanji.appspot.com/isicp/2-1-data.html)
 
     * What interface does abstract data have?
     * What is the method of strategy of synthesis - wishful thinking?
@@ -63,7 +63,7 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * What is the difference between implementing pairs with dispatching and with lambda (from exercise 2.4)?
     * What are the Church numerals?
 
-  * [2.2 Hierarchical Data and the Closure Property](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-4.html#%_toc_%_sec_2.2)
+  * [2.2 Hierarchical Data and the Closure Property](https://xuanji.appspot.com/isicp/2-2-closure.html)
 
     * What is the closure property?
     * Does closure mean the same in Lisp and Javascript community? *This question is answered by frontend developers.*
@@ -80,7 +80,7 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * What role do primitives play in the stratified design?
     * Why does the stratified design make the program robust?
 
-  * [2.3 Symbolic Data](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-16.html#%_sec_2.3)
+  * [2.3 Symbolic Data](https://xuanji.appspot.com/isicp/2-3-symbolic.html)
 
     * What are the sets?
     * What is the binary tree? When the binary tree is balanced?
@@ -88,7 +88,7 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * What is a set of records and when it can be useful?
     * What is the Huffman Encoding Trees?
 
-  * [2.4 Multiple Representations for Abstract Data](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-17.html#%_sec_2.4)
+  * [2.4 Multiple Representations for Abstract Data](https://xuanji.appspot.com/isicp/2-4-representation.html)
 
     * Why keeping multiple representations for abstract data in the same system can be useful?
     * What is the additivity? How is this property related to the representations for abstract data?
@@ -103,7 +103,7 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * What is the message-passing approach?
     * Compare "dispatching on type", "data-directed" and "message-passing" approaches.
 
-  * [2.5 Systems with Generic Operations](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-18.html#%_sec_2.5)
+  * [2.5 Systems with Generic Operations](https://xuanji.appspot.com/isicp/2-5-generic.html)
 
     * Can you explain the idea of Generic Operations?
     * Why are two-level tags used in the example of the generic arithmetic operations package?
@@ -125,7 +125,7 @@ This fundamental work emphasizes controlling the complexity of software systems 
 
 * Chapter 3. Modularity, Objects, and State
 
-  * [3.1 Assignment and Local State](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-20.html#%_sec_3.1)
+  * [3.1 Assignment and Local State](https://xuanji.appspot.com/isicp/3-1-assignment.html)
 
     * What does it mean that an object has a state?
     * Why related subsystems should be closely coupled and other should be loosely coupled?
@@ -138,7 +138,7 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * What property of languages is meant by "referential transparency"?
     * Why does relative orders of the operations matter meanwhile it is opposite for the functional programs?
 
-  * [3.2 The Environment Model of Evaluation](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-21.html#%_sec_3.2)
+  * [3.2 The Environment Model of Evaluation](https://xuanji.appspot.com/isicp/3-2-environment.html)
 
     * What are the environment, the frame and the binding?
     * What is the enclosing environment?
@@ -149,7 +149,7 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * Why don't local names interfere with name of the external variables?
     * How does environment model help us to solve the problem of "sameness"?
 
-  * [3.3 Modeling with Mutable Data](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-22.html#%_sec_3.3)
+  * [3.3 Modeling with Mutable Data](https://xuanji.appspot.com/isicp/3-3-modeling.html)
 
     * What are mutable data objects and what are mutators?
     * How mutators can create "garbage" data?
@@ -169,7 +169,7 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * How are assignments (or mutability) used in implementation of constraint systems?
     * What is the expression-oriented style? What are advantages of this style, compared to imperative style?
 
-  * [3.4 Concurrency: Time Is of the Essence](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-23.html#%_sec_3.4)
+  * [3.4 Concurrency: Time Is of the Essence](https://xuanji.appspot.com/isicp/3-4-concurrency.html)
 
     * What does concurrency mean?
     * What is the shared state? How it can be done? What problems can appear because of shared state?
@@ -184,7 +184,7 @@ This fundamental work emphasizes controlling the complexity of software systems 
     * Which situations are called deadlocks? What are the ways to avoid deadlocks?
     * Why does communication between processes matter for shared state or ordering of events?
 
-  * [3.5 Streams](http://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-24.html#%_sec_3.5)
+  * [3.5 Streams](https://xuanji.appspot.com/isicp/3-5-streams.html)
 
     * What is the difference between lists and streams? What is happening in both construction and selection time for both lists and streams?
     * Why do `cons-stream` and `delay` have to be special forms in Scheme? Should `force` be such a form?
@@ -208,8 +208,10 @@ This fundamental work emphasizes controlling the complexity of software systems 
 <!-- TODO: add chapter 4-5 questions and fix links to topics. -->
 ## Resources
 
-* [SICP translated into Russian](http://newstar.rinet.ru/~goga/sicp/sicp.pdf)
+* [SICP translated into Russian](https://studizba.com/files/show/pdf/36257-1-h-abel-son-dzh-dzh-sassman-dzh-sassman-.html)
 
 * [Interactive book with examples and exercises executable in browser](http://xuanji.appspot.com/isicp/)
 
-* [SICP learning guide (article in Russian)](https://guides.hexlet.io/how-to-learn-sicp/)
+* [SICP learning guide (article in Russian)](https://guides.hexlet.io/ru/how-to-learn-sicp/)
+
+* [SICP Lectures](https://www.youtube.com/playlist?list=PLE18841CABEA24090) 
