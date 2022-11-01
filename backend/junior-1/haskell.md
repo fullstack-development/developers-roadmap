@@ -239,3 +239,4 @@ This level requires basic skills to solve local tasks in a project.
 #### Resources
 
 * [A curious associativity of the `<$>` operator](https://ro-che.info/articles/2019-07-22-associativity-of-fmap)
+* [Real World Haskell - `Transformer stacking order is important` section](http://book.realworldhaskell.org/read/monad-transformers.html)
