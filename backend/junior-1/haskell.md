@@ -49,7 +49,6 @@ This level requires basic skills to solve local tasks in a project.
   * How function composition operator is declared? What are its precedence and associativity?
   * Is function composition mathematically associative?
 * Recursion
-  * What is the difference between iterative and recursive algorithms?
   * What is a tail recursion?
   * What is a tail call optimization? Can you give examples of functions with and without tail call optimization?
 
