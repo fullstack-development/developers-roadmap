@@ -84,7 +84,7 @@ This level requires basic skills to solve local tasks in a project.
 ## OOP
 
 * How do you create a class in Python?
-* What is __init__?
+* What is `__init__`?
 * What is the use of self in Python?
 * How does inheritance work in python? Explain it with an example.
 * What kinds of inheritance exist in Python?
