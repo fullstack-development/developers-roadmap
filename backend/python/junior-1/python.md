@@ -20,14 +20,6 @@
 - How to find out variable's type?
 - What are mutable and immutable objects? What objects are mutable and which are not?
 - What is `id` function used for?
-- What will be displayed? Why?
-  ```python
-    a = [1, 2]
-    b = a
-    b.append(3)
-
-    print(a)
-  ```
 
 #### Resources
 
@@ -83,17 +75,6 @@
 - What is a side effect?
 - What can be returned from function? Is `return` statement required?
 - What are default argument values? When are they useful?
-- Why will it display? Why?
-  ```python
-    def f(a, l=[]):
-      l.append(a)
-
-      return l
-
-    print(f(1))
-    print(f(2))
-    print(f(3))
-  ```
 - What can you do if you don’t want the default to be shared between subsequent calls
 - What are keyword arguments?
 - What are `/` and `*` special parameters used for?
@@ -106,6 +87,26 @@
 #### Resources
 - [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
 - [Python args and kwargs: Demystified](https://realpython.com/python-kwargs-and-args/#passing-multiple-arguments-to-a-function)
+
+## Practice
+- What will be displayed? Why?
+  - ```python
+      a = [1, 2]
+      b = a
+      b.append(3)
+
+      print(a)
+    ```
+  - ```python
+      def f(a, l=[]):
+        l.append(a)
+  
+        return l
+  
+      print(f(1))
+      print(f(2))
+      print(f(3))
+    ```
 
 ---
 
