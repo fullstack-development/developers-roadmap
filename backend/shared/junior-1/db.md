@@ -20,13 +20,17 @@
 
 ## SQL
 
-- What is Structured Query Language (SQL)?
+- What is Structured Query Language (SQL)? What is it used for?
 - `SELECT` keyword
   - What is it used for?
   - What does it return?
   - Can we use returned value as a new separate table?
-- What are the keywords `LIMIT`, `OFFSET`, `ORDER BY`, `GROUP BY`?
-- What are `INSERT`, `UPDATE` and `DELETE` keywords? What do these keywords return? How can we use returned value?
+- `LIMIT`, `OFFSET`, `ORDER BY`, `GROUP BY` keywords
+  - What are they used for?
+- `INSERT`, `UPDATE` and `DELETE` keywords
+  - What are they used for?
+  - What do these keywords return? 
+  - How can we use returned value?
 - `WHERE` keyword
   - What is it used for?
   - What operators can be used with this keyword?
