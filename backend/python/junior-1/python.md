@@ -1,6 +1,5 @@
-# Python for Junior-1
+# Python
 
-This level requires basic skills to solve local tasks in a project.
 <details>
 <summary>List of contents</summary>
 
