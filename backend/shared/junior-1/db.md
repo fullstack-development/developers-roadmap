@@ -1,19 +1,39 @@
-# Databases for Junior-1
+# Questions
 
-## Themes
+<details>
+<summary>List of contents</summary>
 
-* What are relational databases?
-* What is `SELECT` operation? Can we use returned value of `SELECT` as new ordinary table?
-* What are the next parts of `SELECT` operation: `LIMIT`, `OFFSET`, `ORDER BY`, `GROUP BY`?
-* How can you group rules in `WHERE` block?
-* What is `JOIN` operation? What are the differences between `INNER`, `LEFT`, `RIGHT` and `FULL OUTER JOIN`?
-* What are `INSERT`, `UPDATE` and `DELETE` operations? What data can be returned as results for such operations?
+- [Databases](#databases)
+- [SQL](#sql)
+  
+</details>
 
-### Resources
+## Databases
 
-* [Литература с Postgrespro](https://postgrespro.ru/education/books):
-  * Новиков, Б. А. Основы технологий баз данных, часть 1:
-    * Теоретические основы БД - 2.1, 2.2
-  * Моргунов, Е. П. PostgreSQL. Основы языка SQL:
-    * Основы SQL - главы 1-7
-* [Введение в базы данных, курс Stepik](https://stepik.org/course/551/)
+- What is a database?
+- What is a relational database?
+
+#### Resources
+
+- [What is a database?](https://www.oracle.com/database/what-is-database/)
+- [What is a relational database?](https://www.oracle.com/database/what-is-a-relational-database/)
+
+## SQL
+
+- What is Structured Query Language (SQL)?
+- `SELECT` keyword
+  - What is it used for?
+  - What does it return?
+  - Can we use returned value as a new separate table?
+- What are the keywords `LIMIT`, `OFFSET`, `ORDER BY`, `GROUP BY`?
+- What are `INSERT`, `UPDATE` and `DELETE` keywords? What do these keywords return? How can we use returned value?
+- `WHERE` keyword
+  - What is it used for?
+  - What operators can be used with this keyword?
+- `JOIN` keyword
+  - What is it used for?
+  - What are the differences between `INNER`, `LEFT`, `RIGHT` and `FULL OUTER JOIN`?
+
+#### Resources
+
+- [SQL Tutorial](https://www.w3schools.com/sql/default.asp)
