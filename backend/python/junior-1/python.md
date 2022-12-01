@@ -88,7 +88,7 @@
 
 #### Resources
 - [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
-- [Pure Functions vs Impure Functions in Python]([https://docs.python.org/3/tutorial/index.html](https://medium.com/@benjamin.BA/pure-functions-vs-impure-functions-in-python-b2f009664ee4))
+- [Pure Functions vs Impure Functions in Python](https://medium.com/@benjamin.BA/pure-functions-vs-impure-functions-in-python-b2f009664ee4)
 - [Python args and kwargs: Demystified](https://realpython.com/python-kwargs-and-args/#passing-multiple-arguments-to-a-function)
 
 ## Practice
