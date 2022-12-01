@@ -91,21 +91,21 @@
 ## Practice
 - What will be displayed? Why?
   - ```python
-      a = [1, 2]
-      b = a
-      b.append(3)
+    a = [1, 2]
+    b = a
+    b.append(3)
 
-      print(a)
+    print(a)
     ```
   - ```python
-      def f(a, l=[]):
-        l.append(a)
+    def f(a, l=[]):
+      l.append(a)
   
-        return l
+      return l
   
-      print(f(1))
-      print(f(2))
-      print(f(3))
+    print(f(1))
+    print(f(2))
+    print(f(3))
     ```
 
 ---
