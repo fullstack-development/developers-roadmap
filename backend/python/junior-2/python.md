@@ -1,6 +1,4 @@
-# Python for Junior-2
-
-Advanced questions about Python.
+# Python
 
 <details>
 <summary>List of contents</summary>
