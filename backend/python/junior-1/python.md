@@ -26,7 +26,7 @@
     b = a
     b.append(3)
 
-    print(b)
+    print(a)
   ```
 
 #### Resources
@@ -36,8 +36,78 @@
 - [What is the None keyword in Python?](https://www.educative.io/answers/what-is-the-none-keyword-in-python)
 - [Objects, Memory, and Mutation in Python](https://medium.com/@birnbera/objects-memory-and-mutation-in-python-810bf090b63c)
 
-## Data types
- - 
+## Numbers
+- What arithmetic operators exist? When and how are they used?
+- What is the difference between division and floor(integer) division?
+
+#### Resources
+- [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
+
+## Strings
+- What is string concatenation?
+- What is string repetition?
+- What is string indexing?
+- What is string slicing?
+- How can we iterate over a string?
+- What are formatted string literals?
+
+#### Resources
+- [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
+
+## Lists
+- How is list created?
+- How to add/change/delete element(s) from list?
+- How to find out list's length?
+- What is list comprehension?
+- What is list packing and unpacking?
+- How can we iterate over a list?
+- What is the difference between shallow and deep copy?
+
+#### Resources
+- [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
+- [Shallow vs Deep Copying of Python Objects](https://realpython.com/copying-python-objects/)
+
+## Tuples
+- How is tuple created?
+- How to create tuple with one element?
+- What is tuple packing and unpacking?
+- How can we iterate over a tuple?
+- What is the difference between list and tuple?
+
+#### Resources
+- [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
+
+## Functions
+- What functions are useful for?
+- What is the difference between argument and parameter?
+- What is a side effect?
+- What can be returned from function? Is `return` statement required?
+- What are default argument values? When are they useful?
+- Why will it display? Why?
+  ```python
+    def f(a, l=[]):
+      l.append(a)
+
+      return l
+
+    print(f(1))
+    print(f(2))
+    print(f(3))
+  ```
+- What can you do if you don’t want the default to be shared between subsequent calls
+- What are keyword arguments?
+- What are `/` and `*` special parameters used for?
+- What are `*args` and `**kwargs` notations used for?
+- What is `lambda` keyword used for?
+- Scope
+  - What is it?
+  - What is LEGB rule? 
+
+#### Resources
+- [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
+- [Python args and kwargs: Demystified](https://realpython.com/python-kwargs-and-args/#passing-multiple-arguments-to-a-function)
+
+---
 
 ## Internet
 
