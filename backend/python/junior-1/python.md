@@ -3,13 +3,41 @@
 <details>
 <summary>List of contents</summary>
 
+- [Basics](#basics)
 - [Internet](#internet)
 - [Common](#common)
 - [Syntax](#syntax)
 - [OOP](#oop)
 - [Styleguide](#styleguide)
-  
+
 </details>
+
+## Basics
+
+- What is python?
+- What data types exist in python? What are they used for?
+- What is `None` keyword?
+- How to find out variable's type?
+- What are mutable and immutable objects? What objects are mutable and which are not?
+- What is `id` function used for?
+- What will be displayed? Why?
+  ```python
+    a = [1, 2]
+    b = a
+    b.append(3)
+
+    print(b)
+  ```
+
+#### Resources
+
+- [What is Python? Executive Summary](https://www.python.org/doc/essays/blurb/)
+- [Python Data Types](https://www.w3schools.com/python/python_datatypes.asp)
+- [What is the None keyword in Python?](https://www.educative.io/answers/what-is-the-none-keyword-in-python)
+- [Objects, Memory, and Mutation in Python](https://medium.com/@birnbera/objects-memory-and-mutation-in-python-810bf090b63c)
+
+## Data types
+ - 
 
 ## Internet
 
