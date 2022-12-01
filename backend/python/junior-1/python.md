@@ -89,7 +89,7 @@
 - [Python args and kwargs: Demystified](https://realpython.com/python-kwargs-and-args/#passing-multiple-arguments-to-a-function)
 
 ## Practice
-- What will be displayed? Why?
+What will be displayed? Why?
   - ```python
     a = [1, 2]
     b = a
