@@ -48,7 +48,7 @@
 
 ## Lists
 - How is list created?
-- How to add/change/delete element(s) from list?
+- How to add/change/delete element(s) from a list?
 - How to find out list's length?
 - What is list comprehension?
 - What is list packing and unpacking?
@@ -61,7 +61,7 @@
 
 ## Tuples
 - How is tuple created?
-- How to create tuple with one element?
+- How to create a tuple with one element?
 - What is tuple packing and unpacking?
 - How can we iterate over a tuple?
 - What is the difference between list and tuple?
