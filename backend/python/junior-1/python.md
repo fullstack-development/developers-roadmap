@@ -72,7 +72,9 @@
 ## Functions
 - What functions are useful for?
 - What is the difference between argument and parameter?
-- What is a side effect?
+- What is a side-effect of a function?
+- Why is it important to write functions without side-effects?
+- What is a pure function?
 - What can be returned from function? Is `return` statement required?
 - What are default argument values? When are they useful?
 - What can you do if you don’t want the default to be shared between subsequent calls
@@ -86,10 +88,11 @@
 
 #### Resources
 - [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
+- [Pure Functions vs Impure Functions in Python]([https://docs.python.org/3/tutorial/index.html](https://medium.com/@benjamin.BA/pure-functions-vs-impure-functions-in-python-b2f009664ee4))
 - [Python args and kwargs: Demystified](https://realpython.com/python-kwargs-and-args/#passing-multiple-arguments-to-a-function)
 
 ## Practice
-- What will be displayed? Why?
+What will be displayed? Why?
   - ```python
     a = [1, 2]
     b = a
