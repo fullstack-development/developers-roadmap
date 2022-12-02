@@ -13,12 +13,14 @@
 </details>
 
 ## Basics
-
 - Python
   - What is it?
   - What is it used for?
   - What are it's pros?
   - What are it's cons?
+- Variables
+  - What is it?
+  - What restrictions does a varibale name have?
 - Data types
   - Which exist?
   - What are they used for?
@@ -31,11 +33,11 @@
 - What is `id` function used for?
 
 #### Resources
-
 - [What is Python? Executive Summary](https://www.python.org/doc/essays/blurb/)
 - [Python Data Types](https://www.w3schools.com/python/python_datatypes.asp)
 - [What is the None keyword in Python?](https://www.educative.io/answers/what-is-the-none-keyword-in-python)
 - [Objects, Memory, and Mutation in Python](https://medium.com/@birnbera/objects-memory-and-mutation-in-python-810bf090b63c)
+
 
 ## Numbers
 - What is the difference between integer number and float number?
@@ -47,6 +49,7 @@
 
 #### Resources
 - [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
+
 
 ## Strings
 - What is string concatenation?
@@ -61,8 +64,10 @@
 #### Resources
 - [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
 
+
 ## Lists
-- How is list created?
+- What is a list?
+- How to create a list?
 - How can we iterate over a list?
 - How to find out list's length?
 - Which methods exist to work with lists?
@@ -74,8 +79,10 @@
 - [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
 - [Shallow vs Deep Copying of Python Objects](https://realpython.com/copying-python-objects/)
 
+
 ## Tuples
-- How is tuple created?
+- What is a tuple?
+- How to create a tuple?
 - How can we iterate over a tuple?
 - How to create a tuple with one element?
 - How to find out tuple's length?
@@ -86,11 +93,27 @@
 #### Resources
 - [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
 
+
+## Dictionaries
+- What is a dictionary?
+- How to create a dictionary?
+- Keys
+  - How to check the existence of a dictionary key?
+  - What restrictions does it have?
+- How can we iterate over a dictionary?
+- Which methods exist to work with dictionaries?
+- What is dictionary comprehension?
+- What is dictionary packing and unpacking?
+
+#### Resources
+- [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
+
+
 ## Functions
-- What is it?
-- Why are they useful for?
+- What is a function?
+- Why are functions useful for?
 - What is the difference between an argument and a parameter?
-- Side-effect of a function
+- Side-effects
   - What is it?
   - Why is it important to write functions without them?
 - What is a pure function?
@@ -111,6 +134,7 @@
 - [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
 - [Pure Functions vs Impure Functions in Python](https://medium.com/@benjamin.BA/pure-functions-vs-impure-functions-in-python-b2f009664ee4)
 - [Python args and kwargs: Demystified](https://realpython.com/python-kwargs-and-args/#passing-multiple-arguments-to-a-function)
+
 
 ## Practice
 What will be displayed? Why?
