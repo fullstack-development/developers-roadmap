@@ -14,11 +14,20 @@
 
 ## Basics
 
-- What is python?
-- What data types exist in python? What are they used for?
+- Python
+  - What is it?
+  - What is it used for?
+  - What are it's pros?
+  - What are it's cons?
+- Data types
+  - Which exist?
+  - What are they used for?
 - What is `None` keyword?
 - How to find out variable's type?
-- What are mutable and immutable objects? What objects are mutable and which are not?
+- Object mutability
+  - What is it?
+  - Which objects are mutable?
+  - Which are not?
 - What is `id` function used for?
 
 #### Resources
@@ -29,7 +38,11 @@
 - [Objects, Memory, and Mutation in Python](https://medium.com/@birnbera/objects-memory-and-mutation-in-python-810bf090b63c)
 
 ## Numbers
-- What arithmetic operators exist? When and how are they used?
+- What is the difference between integer number and float number?
+- Arithmetic operators
+  - Which exist?
+  - When are they used?
+  - How are they used?
 - What is the difference between division and floor(integer) division?
 
 #### Resources
@@ -41,6 +54,8 @@
 - What is string indexing?
 - What is string slicing?
 - How can we iterate over a string?
+- How to find out string's length?
+- Which methods exist to work with strings?
 - What are formatted string literals?
 
 #### Resources
@@ -48,11 +63,11 @@
 
 ## Lists
 - How is list created?
-- How to add/change/delete element(s) from a list?
+- How can we iterate over a list?
 - How to find out list's length?
+- Which methods exist to work with lists?
 - What is list comprehension?
 - What is list packing and unpacking?
-- How can we iterate over a list?
 - What is the difference between shallow and deep copy?
 
 #### Resources
@@ -61,23 +76,29 @@
 
 ## Tuples
 - How is tuple created?
-- How to create a tuple with one element?
-- What is tuple packing and unpacking?
 - How can we iterate over a tuple?
+- How to create a tuple with one element?
+- How to find out tuple's length?
+- Which methods exist to work with tuples?
+- What is tuple packing and unpacking?
 - What is the difference between list and tuple?
 
 #### Resources
 - [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
 
 ## Functions
-- What functions are useful for?
-- What is the difference between argument and parameter?
-- What is a side-effect of a function?
-- Why is it important to write functions without side-effects?
+- What is it?
+- Why are they useful for?
+- What is the difference between an argument and a parameter?
+- Side-effect of a function
+  - What is it?
+  - Why is it important to write functions without them?
 - What is a pure function?
 - What can be returned from function? Is `return` statement required?
-- What are default argument values? When are they useful?
-- What can you do if you don’t want the default to be shared between subsequent calls
+- Default argument value
+  - What is it?
+  - When is it useful?
+  - What can you do if you don’t want the default to be shared between subsequent calls?
 - What are keyword arguments?
 - What are `/` and `*` special parameters used for?
 - What are `*args` and `**kwargs` notations used for?
