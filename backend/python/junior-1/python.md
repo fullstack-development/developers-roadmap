@@ -99,11 +99,26 @@
 - How to create a dictionary?
 - Keys
   - How to check the existence of a dictionary key?
+  - How to get a value by it and not to catch an error if it is missing?
   - What restrictions does it have?
 - How can we iterate over a dictionary?
 - Which methods exist to work with dictionaries?
 - What is dictionary comprehension?
 - What is dictionary packing and unpacking?
+
+#### Resources
+- [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
+
+
+## Loops
+- What is it?
+- Tell about loop types:
+  - `while`
+  - `for`
+- Tell about control statements of a loop:
+  - `break`
+  - `continue`
+- How `else` clause can be used with loops?
 
 #### Resources
 - [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
@@ -115,7 +130,7 @@
 - What is the difference between an argument and a parameter?
 - Side-effects
   - What is it?
-  - Why is it important to write functions without them?
+  - Why is it important to avoid them?
 - What is a pure function?
 - What can be returned from function? Is `return` statement required?
 - Default argument value
@@ -137,25 +152,49 @@
 
 
 ## Practice
-What will be displayed? Why?
+- What will be displayed? Why?
   - ```python
     a = [1, 2]
     b = a
     b.append(3)
 
-    print(a)
+    print(a) # ?
     ```
   - ```python
     def f(a, l=[]):
-      l.append(a)
+        l.append(a)
   
-      return l
+        return l
   
-    print(f(1))
-    print(f(2))
-    print(f(3))
+    print(f(1)) # ?
+    print(f(2)) # ?
+    print(f(3)) # ?
     ```
+- Why doesn't it work? Fix it.
+```python
+a = 'doesn't'
 
+print(a) # Expected: doesn't. Result: error
+```
+- It is expected to show a string informing about `n`'s value on each iteration but for `n = 5` the string is shown twice. Why? Fix it. (_you can only work with `if` block_)
+```python
+for n in range(1, 11):
+    if n == 5:
+        print(f'n is equal to {n}')
+
+    print(f'n is equal to {n}')
+```
+- Create a list of squares based on the input list using three ways:
+  - `while` loop
+  - `for` loop
+  - list comprehension
+```python
+nums = [1, 2, 3, 4, 5]
+squares = []
+# Magic...
+print(squares) # [1, 4, 9, 16, 25]
+```
+ 
 ---
 
 ## Internet
