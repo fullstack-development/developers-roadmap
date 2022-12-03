@@ -18,14 +18,14 @@
   - What is it used for?
   - What are it's pros?
   - What are it's cons?
-- Variables
+- Variable
   - What is it?
   - What restrictions does a varibale name have?
-- Data types
+- Data type
   - Which exist?
   - What are they used for?
-- What is `None` keyword?
 - How to find out variable's type?
+- What is `None` keyword?
 - Object mutability
   - What is it?
   - Which objects are mutable?
@@ -40,11 +40,11 @@
 
 
 ## Numbers
-- What is the difference between integer number and float number?
+- What is the difference between an integer number and a float number?
 - Arithmetic operators
   - Which exist?
-  - When are they used?
-  - How are they used?
+  - When to use?
+  - How to use?
 - What is the difference between division and floor(integer) division?
 
 #### Resources
@@ -88,7 +88,7 @@
 - How to find out tuple's length?
 - Which methods exist to work with tuples?
 - What is tuple packing and unpacking?
-- What is the difference between list and tuple?
+- What is the difference between a list and a tuple?
 
 #### Resources
 - [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
@@ -98,7 +98,7 @@
 - What is a dictionary?
 - How to create a dictionary?
 - Keys
-  - How to check the existence of a dictionary key?
+  - How to check the existence of it?
   - How to get a value by it and not to catch an error if it is missing?
   - What restrictions does it have?
 - How can we iterate over a dictionary?
@@ -111,7 +111,7 @@
 
 
 ## Loops
-- What is it?
+- What is a loop?
 - Tell about loop types:
   - `while`
   - `for`
@@ -126,7 +126,7 @@
 
 ## Functions
 - What is a function?
-- Why are functions useful for?
+- Why are functions useful?
 - What is the difference between an argument and a parameter?
 - Side-effects
   - What is it?
@@ -151,6 +151,29 @@
 - [Python args and kwargs: Demystified](https://realpython.com/python-kwargs-and-args/#passing-multiple-arguments-to-a-function)
 
 
+## Classes
+- What is a class?
+- What is a class attribute?
+- What is a method?
+- `__init__` method
+  - What is it used for?
+  - How to use it?
+- What is a class instance?
+- Instance attribute
+  - What is it?
+  - What is the diffirence from a class attribute?
+- Inheritance
+  - What is it?
+  - How to use it?
+  - What is a parent class?
+  - What is a child class?
+  - How to access the parent class from inside a method of a child class?
+  - How to check if an object is an instance of a specific class?
+
+#### Resources
+- [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
+
+
 ## Practice
 - What will be displayed? Why?
   - ```python
@@ -161,10 +184,10 @@
     print(a) # ?
     ```
   - ```python
-    def f(a, l=[]):
-        l.append(a)
+    def f(a, b=[]):
+        b.append(a)
   
-        return l
+        return b
   
     print(f(1)) # ?
     print(f(2)) # ?
@@ -176,26 +199,31 @@ a = 'doesn't'
 
 print(a) # Expected: doesn't. Result: error
 ```
-- It is expected to show a string informing about `n`'s value on each iteration but for `n = 5` the string is shown twice. Why? Fix it. (_you can only work with `if` block_)
+- It is expected to show a string informing about `a`'s value on each iteration but for `a = 5` the string is shown twice. Why? Fix it. (_you can only work with `if` block_)
 ```python
-for n in range(1, 11):
-    if n == 5:
-        print(f'n is equal to {n}')
+for a in range(1, 11):
+    if a == 5:
+        print(f'a is equal to {a}')
 
-    print(f'n is equal to {n}')
+    print(f'a is equal to {a}')
 ```
 - Create a list of squares based on the input list using three ways:
   - `while` loop
   - `for` loop
   - list comprehension
 ```python
-nums = [1, 2, 3, 4, 5]
-squares = []
+a = [1, 2, 3, 4, 5]
+b = []
 # Magic...
-print(squares) # [1, 4, 9, 16, 25]
+print(b) # [1, 4, 9, 16, 25]
 ```
- 
+- Create a function that takes a positive integer to calculate the sum of it's digits
+```python
+print(f(123)) # 6
+print(f(1337)) # 14
+```
 ---
+
 
 ## Internet
 
