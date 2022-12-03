@@ -35,6 +35,7 @@
   - Which objects are mutable?
   - Which are not?
 - What is `id` function used for?
+- What are modules and packages in Python?
 
 #### Resources
 - [What is Python? Executive Summary](https://www.python.org/doc/essays/blurb/)
