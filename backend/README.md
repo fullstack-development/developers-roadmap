@@ -1,7 +1,7 @@
 # Programming languages
 
-- [haskell](./haskell/README.md)
-- [python](./python/README.md)
+- [Haskell](./haskell/README.md)
+- [Python](./python/README.md)
 
 ## Optional topics
 
