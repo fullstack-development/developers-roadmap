@@ -217,7 +217,7 @@ a = 'doesn't'
 
 print(a) # Expected: doesn't. Result: error
 ```
-- It is expected to show a string informing about `a`'s value on each iteration but for `a = 5` the string is shown twice. Why? Fix it. (_you can only work with `if` block_)
+- It is expected to show a string informing about `a`'s value on each iteration but for `a = 5` the string is shown twice. Why? Fix it. (*you can only work with `if` block*)
 ```python
 for a in range(1, 11):
     if a == 5:
