@@ -20,7 +20,7 @@
   - What are it's cons?
 - Variable
   - What is it?
-  - What restrictions does a varibale name have?
+  - What restrictions does its name have?
 - Data type
   - Which exist?
   - What are they used for?
@@ -54,7 +54,11 @@
 ## Strings
 - What is string concatenation?
 - What is string repetition?
-- What is string indexing?
+- String indexing?
+  - What is it?
+  - Negative indexes
+    - Can we use them?
+    - When they can be useful?
 - What is string slicing?
 - How can we iterate over a string?
 - How to find out string's length?
@@ -68,6 +72,14 @@
 ## Lists
 - What is a list?
 - How to create a list?
+- What is list concatenation?
+- What is list repetition?
+- List indexing?
+  - What is it?
+  - Negative indexes
+    - Can we use them?
+    - When they can be useful?
+- What is list slicing?
 - How can we iterate over a list?
 - How to find out list's length?
 - Which methods exist to work with lists?
