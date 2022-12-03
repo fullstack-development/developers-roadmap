@@ -4,11 +4,15 @@
 <summary>List of contents</summary>
 
 - [Basics](#basics)
-- [Internet](#internet)
-- [Common](#common)
-- [Syntax](#syntax)
-- [OOP](#oop)
-- [Styleguide](#styleguide)
+- [Numbers](#numbers)
+- [Strings](#strings)
+- [Lists](#lists)
+- [Tuples](#tuples)
+- [Dictionaries](#dictionaries)
+- [Loops](#loops)
+- [Functions](#functions)
+- [Classes](#classes)
+- [Practice](#practice)
 
 </details>
 
