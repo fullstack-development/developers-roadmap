@@ -22,6 +22,8 @@
 
 #### Resources
 - [Django documentation](https://docs.djangoproject.com/en/4.1/)
+- [MVC Framework Tutorial for Beginners: What is, Architecture & Example](https://www.guru99.com/mvc-tutorial.html)
+- [Is Django an MVC or an MVT framework?](quora.com/Is-Django-an-MVC-or-an-MVT-framework)
 
 
 ## Models
