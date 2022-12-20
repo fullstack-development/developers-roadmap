@@ -36,12 +36,16 @@
   - Which are not?
 - What is `id` function used for?
 - What are modules and packages in Python?
+- Virtual environment
+  - What is it?
+  - Why do we need it?
 
 #### Resources
 - [What is Python? Executive Summary](https://www.python.org/doc/essays/blurb/)
 - [Python Data Types](https://www.w3schools.com/python/python_datatypes.asp)
 - [What is the None keyword in Python?](https://www.educative.io/answers/what-is-the-none-keyword-in-python)
 - [Objects, Memory, and Mutation in Python](https://medium.com/@birnbera/objects-memory-and-mutation-in-python-810bf090b63c)
+- [Python Virtual Environments: A Primer](https://realpython.com/python-virtual-environments-a-primer/)
 
 
 ## Numbers
