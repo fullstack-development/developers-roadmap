@@ -3,16 +3,28 @@
 <details>
 <summary>List of contents</summary>
 
-- [Basics](#basics)
-- [Numbers](#numbers)
-- [Strings](#strings)
-- [Lists](#lists)
-- [Tuples](#tuples)
-- [Dictionaries](#dictionaries)
-- [Loops](#loops)
-- [Functions](#functions)
-- [Classes](#classes)
-- [Practice](#practice)
+- [Questions](#questions)
+  - [Basics](#basics)
+      - [Resources](#resources)
+  - [Numbers](#numbers)
+      - [Resources](#resources-1)
+  - [Strings](#strings)
+      - [Resources](#resources-2)
+  - [Lists](#lists)
+      - [Resources](#resources-3)
+  - [Tuples](#tuples)
+      - [Resources](#resources-4)
+  - [Dictionaries](#dictionaries)
+      - [Resources](#resources-5)
+  - [Loops](#loops)
+      - [Resources](#resources-6)
+  - [Functions](#functions)
+      - [Resources](#resources-7)
+  - [Classes](#classes)
+      - [Resources](#resources-8)
+  - [Type annotations](#type-annotations)
+      - [Resources](#resources-9)
+  - [Practice](#practice)
 
 </details>
 
@@ -181,7 +193,7 @@
 - What is a class instance?
 - Instance attribute
   - What is it?
-  - What is the diffirence from a class attribute?
+  - What is the difference from a class attribute?
 - Inheritance
   - What is it?
   - How to use it?
@@ -192,6 +204,25 @@
 
 #### Resources
 - [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
+
+## Type annotations
+  - What is a type annotation?
+  - What are the type annotations for next items (provide examples)?
+    - `integer/float` numbers?
+    - `string`?
+    - `list`?
+    - `tuple`?
+    - `dictionary`?
+    - variable which can contain `None` or `string`?
+    - variable which can be of any type?
+    - type of function which takes string argument and prints it?
+  -  How to run `mypy` for type checking in the following cases:
+     -  when annotations are required in the whole project 
+     -  when annotations are desirable but not required
+     
+#### Resources 
+  - [Understanding type annotation in Python](https://blog.logrocket.com/understanding-type-annotation-python/#adding-type-hints-variables)
+  - [Kinds of types](https://mypy.readthedocs.io/en/stable/kinds_of_types.html)
 
 
 ## Practice
