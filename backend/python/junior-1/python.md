@@ -20,8 +20,6 @@
 - Python
   - What is it?
   - What is it used for?
-  - What are it's pros?
-  - What are it's cons?
 - Variable
   - What is it?
   - What restrictions does its name have?
