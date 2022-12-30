@@ -3,28 +3,27 @@
 <details>
 <summary>List of contents</summary>
 
-- [Questions](#questions)
-  - [Basics](#basics)
-      - [Resources](#resources)
-  - [Numbers](#numbers)
-      - [Resources](#resources-1)
-  - [Strings](#strings)
-      - [Resources](#resources-2)
-  - [Lists](#lists)
-      - [Resources](#resources-3)
-  - [Tuples](#tuples)
-      - [Resources](#resources-4)
-  - [Dictionaries](#dictionaries)
-      - [Resources](#resources-5)
-  - [Loops](#loops)
-      - [Resources](#resources-6)
-  - [Functions](#functions)
-      - [Resources](#resources-7)
-  - [Classes](#classes)
-      - [Resources](#resources-8)
-  - [Type annotations](#type-annotations)
-      - [Resources](#resources-9)
-  - [Practice](#practice)
+- [Basics](#basics)
+  - [Resources](#resources)
+- [Numbers](#numbers)
+  - [Resources](#resources-1)
+- [Strings](#strings)
+  - [Resources](#resources-2)
+- [Lists](#lists)
+  - [Resources](#resources-3)
+- [Tuples](#tuples)
+  - [Resources](#resources-4)
+- [Dictionaries](#dictionaries)
+  - [Resources](#resources-5)
+- [Loops](#loops)
+  - [Resources](#resources-6)
+- [Functions](#functions)
+  - [Resources](#resources-7)
+- [Classes](#classes)
+  - [Resources](#resources-8)
+- [Type annotations](#type-annotations)
+  - [Resources](#resources-9)
+- [Practice](#practice)
 
 </details>
 
@@ -45,17 +44,12 @@
   - Which objects are mutable?
   - Which are not?
 - What is `id` function used for?
-- What are modules and packages in Python?
-- Virtual environment
-  - What is it?
-  - Why do we need it?
 
 #### Resources
 - [What is Python? Executive Summary](https://www.python.org/doc/essays/blurb/)
 - [Python Data Types](https://www.w3schools.com/python/python_datatypes.asp)
 - [What is the None keyword in Python?](https://www.educative.io/answers/what-is-the-none-keyword-in-python)
 - [Objects, Memory, and Mutation in Python](https://medium.com/@birnbera/objects-memory-and-mutation-in-python-810bf090b63c)
-- [Python Virtual Environments: A Primer](https://realpython.com/python-virtual-environments-a-primer/)
 
 
 ## Numbers
@@ -205,20 +199,30 @@
 #### Resources
 - [The Python Tutorial](https://docs.python.org/3/tutorial/index.html)
 
+
+## Modules and packages
+- What are modules and packages in Python?
+
+#### Resources
+- [Python Modules and Packages – An Introduction](https://realpython.com/python-modules-packages/)
+
+## Virtual environment
+  - What is a virtual environment? Why do we need it?
+
+#### Resources
+- [Python Virtual Environments: A Primer](https://realpython.com/python-virtual-environments-a-primer/)
+
+
 ## Type annotations
   - What is a type annotation?
-  - What are the type annotations for next items (provide examples)?
-    - `integer/float` numbers?
+  - What are the type annotations for next items?
+    - `integer/float`?
     - `string`?
     - `list`?
     - `tuple`?
     - `dictionary`?
     - variable which can contain `None` or `string`?
     - variable which can be of any type?
-    - type of function which takes string argument and prints it?
-  -  How to run `mypy` for type checking in the following cases:
-     -  when annotations are required in the whole project 
-     -  when annotations are desirable but not required
      
 #### Resources 
   - [Understanding type annotation in Python](https://blog.logrocket.com/understanding-type-annotation-python/#adding-type-hints-variables)
@@ -272,4 +276,9 @@ print(b) # [1, 4, 9, 16, 25]
 ```python
 print(f(123)) # 6
 print(f(1337)) # 14
+```
+- Add type annotations to the function
+```python
+def f(string):
+    print(string)
 ```
