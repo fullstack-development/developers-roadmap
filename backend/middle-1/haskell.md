@@ -162,6 +162,7 @@ How can we bundle Pattern Synonyms with datatypes in export and import lists?
   Why do we need it?
   * What is an uninterruptible mask? How does the `uninterruptibleMask` function work?
   Why do we need it?
+  * Which operations are interruptible? What may be the practical usecases for the `uninterruptibleMask` function?
 * What is the purpose of `safe-exceptions` library? Which exception handling problems does it address?
 Why is `unliftio` considered safer by the author of `safe-exceptions`?
 * Describe a problem which arises when handling exceptions and using functions like `bracket` with stateful monadic stacks.
@@ -170,9 +171,10 @@ Why is `unliftio` considered safer by the author of `safe-exceptions`?
 
 #### Resources
 
-* [Exceptions Best Practices in Haskell.](https://www.fpcomplete.com/blog/2016/11/exceptions-best-practices-haskell)
+* [Safe exception handling](https://www.fpcomplete.com/haskell/tutorial/exceptions/)
 * [Docs for safe-exceptions](https://github.com/fpco/safe-exceptions)
 * [Bracket, monad-control, and unliftio - Exceptions tutorial from IH book](https://markkarpov.com/tutorial/exceptions.html)
+* [Interruptible operations](https://hackage.haskell.org/package/base-4.18.0.0/docs/Control-Exception.html#g:13)
 
 ## Generics
 
