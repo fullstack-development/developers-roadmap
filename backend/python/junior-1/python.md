@@ -21,8 +21,12 @@
   - [Resources](#resources-7)
 - [Classes](#classes)
   - [Resources](#resources-8)
-- [Type annotations](#type-annotations)
+- [Modules and packages](#modules-and-packages)
   - [Resources](#resources-9)
+- [Virtual environment](#virtual-environment)
+  - [Resources](#resources-10)
+- [Type annotations](#type-annotations)
+  - [Resources](#resources-11)
 - [Practice](#practice)
 
 </details>
@@ -205,6 +209,7 @@
 
 #### Resources
 - [Python Modules and Packages – An Introduction](https://realpython.com/python-modules-packages/)
+
 
 ## Virtual environment
   - What is a virtual environment? Why do we need it?

@@ -4,60 +4,176 @@
 <summary>List of contents</summary>
 
 - [Basics](#basics)
+  - [Resources](#resources)
 - [Models](#models)
+  - [Resources](#resources-1)
 - [Urls](#urls)
+  - [Resources](#resources-2)
 - [Views](#views)
-- [Template](#template)
+  - [Resources](#resources-3)
+- [Templates](#template)
 - [Forms](#forms)
 
 </details>
 
 ## Basics
-- What is Django?
+- Django
+  - What is it?
+  - What is it used for?
 - What is MVC architecture?
-- Is Django based on MVC?
-- What structure of modules Django projects has?
-- What is app in Django? 
-- How to create and register Django app?
+- What is MVT architecture?
+- What achitecture is Django based on?
+- Django project
+  - What is it?
+  - How to create it?
+  - What base structure does it have?
+- Django app
+  - What is it?
+  - How to create it?
+  - What base structure does it have?
+  - How is it different from a Django project?
 
 #### Resources
-- [Django documentation](https://docs.djangoproject.com/en/4.1/)
+- [Django documentation](https://docs.djangoproject.com/)
 - [MVC Framework Tutorial for Beginners: What is, Architecture & Example](https://www.guru99.com/mvc-tutorial.html)
 - [Is Django an MVC or an MVT framework?](https://www.quora.com/Is-Django-an-MVC-or-an-MVT-framework)
 
 
 ## Models
-- What is a Django model?
+- Model
+  - What is it?
+  - How to create it?
+  - How to enable it?
+- Field
+  - What is it?
+  - How to create it?
+- Tell about fields:
+  - `BooleanField`
+  - `CharField`
+  - `TextField`
+    -  How is it different from `CharField`?
+  - `DateField`
+  - `ImageField`
+- Tell about field options:
+  - `null`
+  - `blank`
+  - `choices`
+  - `default`
+  - `help_text`
+  - `verbose_name`
+  - `primary_key`
+  - `unique`
+- Tell about model relations:
+  - One-to-one
+  - Many-to-one
+  - Many-to-many
+- Tell about field options:
+  - `related_name`
+  - `on_delete`
 - What is Django ORM?
-- What is the difference between `models.CharField` and `models.TextField`?
-- How to create field with choices?
-- What are null, blank, primary_key, help_text, default, unique attributes of a field used for?
-- Which relations between models are exist?
-- What are on_delete, verbose_name and related_name used for in relation field?
-- What are model queries? How it works? 
-- Which methods and operators exist for filter model queries?
-- What are migrations? how to create and apply migrations?
-- How to create model instance? 
-- How to find model instance and what will happen if instance doesnt exist?
+- What is a `Manager`?
+- `QuerySet`
+  - What is it?
+  - What does it mean that it is lazy?
+- Creating objects
+  - How to create object via instance's method?
+  - How to create object via manager's method?
+- Tell about retrieving methods:
+  - `get`
+    - What will happen if there are no results that match the query?
+    - What will happen if more than one item matches the query?
+  - `first`
+  - `last`
+  - `all`
+  - `filter`
+  - `exclude`
+- Field lookups
+  - What is it?
+  - Tell about lookups:
+    - `(i)exact`
+    - `(i)contains`
+    - `in`
+    - `gt(e)`
+    - `lt(e)`
+    - `(i)startswith`
+    - `(i)endswith`
+- Tell about aggregation functions:
+  - `Avg`
+  - `Count`
+  - `Min`
+  - `Max`
+  - `Sum`
+- What is `Q` object?
+- Updating objects
+  - How to update single object?
+  - How to update multiple objects?
+- Deleting objects
+  - How to delete single object?
+  - How to delete multiple objects?
+- Migrations
+  - What is it?
+  - Tell about commands:
+    - `makemigrations`
+    - `migrate`
+
+#### Resources
+- [Django documentation](https://docs.djangoproject.com/)
+
 
 ## Urls
-- How to add new urls to API?
-- What is the difference between path, include, reverse?
-- What are request methods?
-- What are response codes?
-- What are CRUD operations?
+- What is URLconf module?
+- Why do we need `urlpatterns` list?
+- Tell about functions:
+  - `path`
+    - What `name` keyword agrument used for?
+  - `include`
+  - `reverse`
+
+#### Resources
+- [Django documentation](https://docs.djangoproject.com/)
+
 
 ## Views
-- What is the difference between functional views and class based views?
-- What is render method/function?
-- Why business logic in view layer is bad?
+- What is view in Django?
+- What is the difference between functional and class based view?
+- `render` function
+  - What is it?
+  - What is it used for?
+- Tell about HTTP request methods:
+  - `GET`
+  - `HEAD`
+  - `POST`
+  - `PUT`
+  - `PATCH`
+  - `DELETE`
+  - `OPTIONS`
+- Tell about HTTP response status codes:
+  - `200`
+  - `201`
+  - `204`
+  - `400`
+  - `401`
+  - `403`
+  - `404`
+  - `405`
+  - `500`
+- What is CRUD?
 
-## Template
-- What are django templates?
-- How to create new django template?
-- What is `collectstatic` command in manage.py?
+#### Resources
+- [Django documentation](https://docs.djangoproject.com/)
+- [HTTP request methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
+- [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
+- [What is CRUD?](https://www.codecademy.com/article/what-is-crud)
+
+
+## Templates
+- What is a template?
+- How to create a template?
+- What is a `collectstatic` command?
 - What is context?
 
 ## Forms
-- What is the difference between models forms and template form?
-- How works validation of model form?
+- ModelForm
+  - What is it?
+  - What is it used for?
+  - How does validation of the form works?
