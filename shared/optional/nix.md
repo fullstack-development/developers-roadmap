@@ -81,3 +81,19 @@
 
 ## Chapter 10. Developing with nix-shell
 
+* What is the purpose of `nix-shell` tool?
+* What is the approach when we can call different phases manually? Describe the main principles.
+
+## Chapter 11. Garbage Collector
+
+* What is a GC root? Where are they stored?
+* What is a concept of garbage collection in nix?
+* What is the `indirect root` and how to garbage collect it?
+* Do old dependencies of referred to the build or profile remove automatically during garbage collection? How to remove them?
+
+## Chapter 12. Inputs Design Pattern
+
+* What is a concept of `single repository pattern`?
+* When can we use `default.nix` file?
+* What is a concept of `inputs pattern`?
+  TODO: add exercises for patterns
