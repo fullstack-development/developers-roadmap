@@ -12,7 +12,9 @@
 - [Views](#views)
   - [Resources](#resources-3)
 - [Templates](#template)
+  - [Resources](#resources-4)
 - [Forms](#forms)
+  - [Resources](#resources-5)
 
 </details>
 
@@ -172,8 +174,15 @@
 - What is a `collectstatic` command?
 - What is context?
 
+#### Resources
+- [Django documentation](https://docs.djangoproject.com/)
+
+
 ## Forms
 - ModelForm
   - What is it?
   - What is it used for?
   - How does validation of the form works?
+
+#### Resources
+- [Django documentation](https://docs.djangoproject.com/)
