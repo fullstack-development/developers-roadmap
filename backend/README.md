@@ -6,3 +6,4 @@
 ## Optional topics
 
 - [blockchain](./optional/blockchain.md)
+- [Docker](./optional/docker.md)
