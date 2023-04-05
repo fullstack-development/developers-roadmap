@@ -119,7 +119,7 @@
     - `migrate`
 
 #### Resources
-- [Django documentation](https://docs.djangoproject.com/)
+- [Django documentation](https://docs.djangoproject.com/#the-model-layer)
 
 
 ## Urls
@@ -132,7 +132,7 @@
   - `reverse`
 
 #### Resources
-- [Django documentation](https://docs.djangoproject.com/)
+- [Django documentation](https://docs.djangoproject.com/#the-view-layer)
 
 
 ## Views
@@ -162,7 +162,7 @@
 - What is CRUD?
 
 #### Resources
-- [Django documentation](https://docs.djangoproject.com/)
+- [Django documentation](https://docs.djangoproject.com/#the-view-layer)
 - [HTTP request methods](https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
 - [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
 - [What is CRUD?](https://www.codecademy.com/article/what-is-crud)
@@ -175,7 +175,7 @@
 - What is context?
 
 #### Resources
-- [Django documentation](https://docs.djangoproject.com/)
+- [Django documentation](https://docs.djangoproject.com/#the-template-layer)
 
 
 ## Forms
@@ -185,4 +185,4 @@
   - How does validation of the form works?
 
 #### Resources
-- [Django documentation](https://docs.djangoproject.com/)
+- [Django documentation](https://docs.djangoproject.com/#forms)
