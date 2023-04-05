@@ -1,3 +1,0 @@
-# Topics
-
-- [Python](./python.md)
