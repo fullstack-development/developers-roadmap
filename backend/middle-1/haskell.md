@@ -4,7 +4,7 @@
 <details>
 <summary>List of contents</summary>
  
-- [Basic type classes](#basic-type-classes)
+- [Functors](#functors)
 - [Type classes](#type-classes)
 - [Types](#types)
 - [Polymorphic Kinds](#polymorphic-kinds)
@@ -19,34 +19,40 @@
 - [Kata](#kata)
 
  </details>
- 
-## Basic type classes
 
-* Functors
-  * What is covariance and contravariance in the context of functors and category theory?
-  * What are the negative and positive positions?
-  * What types can be both covariant functors and contravariant?
-  * What are invariant functors?
-  * Contrafunctor (Contravariant functor)
-    * What is the signature of `contramap` function?
-    * Make an example of instance definition for some ADT.
-    * What is the semantic meaning of applying `contramap`?
-  * Bifunctor
-    * What is the signature of `bimap` function?
-    * What ADT's do have the `Bifunctor` instance?
-    * Is a bifunctor covariant or contravariant on type variables applied to it?
-  * Profunctor
-    * What is the signature of `dimap` function?
-    * Write an instance implementation for `(->)`.
-    * Name a few practical use cases (at least one).
-    * Which of type variables applied to a profunctor appear in negative and which in positive position?
+## Functors
+
+* What is covariance and contravariance in the context of functors and category theory?
+* What are the negative and positive positions?
+* What types can be both covariant functors and contravariant?
+* What are invariant functors?
+* Contrafunctor (Contravariant functor)
+  * What is the signature of `contramap` function?
+  * Make an example of instance definition for some ADT.
+  * What is the semantic meaning of applying `contramap`?
+* Bifunctor
+  * What is the signature of `bimap` function?
+  * What ADT's do have the `Bifunctor` instance?
+  * Is a bifunctor covariant or contravariant on type variables applied to it?
+* Profunctor
+  * What is the signature of `dimap` function?
+  * Write an instance implementation for `(->)`.
+  * Name a few practical use cases (at least one).
+  * Which of type variables applied to a profunctor appear in negative and which in positive position?
 
 #### Resources
 
-* Functors
-  * [(Co-contra) variance](https://www.fpcomplete.com/blog/2016/11/covariance-contravariance)
-  * [I love profunctors](https://www.schoolofhaskell.com/school/to-infinity-and-beyond/pick-of-the-week/profunctors)
-  * [Functoriality (just not bad article about functors)](https://bartoszmilewski.com/2015/02/03/functoriality/)
+* [(Co-contra) variance](https://www.fpcomplete.com/blog/2016/11/covariance-contravariance)
+* [I love profunctors](https://www.schoolofhaskell.com/school/to-infinity-and-beyond/pick-of-the-week/profunctors)
+* [Functoriality (just not bad article about functors)](https://bartoszmilewski.com/2015/02/03/functoriality/)
+* An example of using profunctors:
+  [`Statement`](https://hackage.haskell.org/package/hasql-1.5.0.2/docs/Hasql-Statement.html#t:Statement)
+  type from the `hasql` library.
+* typeclasses.com on [contravariance](https://typeclasses.com/contravariance)
+* typeclasses.com on [profunctors](https://typeclasses.com/profunctors)
+* An easy explanation of `Contravariant`: a `Functor` may be thought as it
+  "contains" or "produces" values, while a `Contravariant` "consumes" them. Pay
+  attention on the polarity term.
 
 ## Type classes
 
@@ -97,7 +103,7 @@
 * What are Pattern Synonyms and what are they used for?
 * Can we pattern match on concrete values (constants) in the right-hand side?
 * Where can Pattern Synonyms occur? Can we declare them locally, inside of functions?
-* What is the restriction on type variables with Bidirectional Pattern Synonyms?
+* What is the restriction on parameters of Bidirectional Pattern Synonyms?
 * What are Unidirectional Pattern Synonyms?
 What are their constraints comparing with Bidirectional Pattern Synonyms?
 * What are Explicitly Bidirectional Pattern Synonyms?
@@ -141,15 +147,34 @@ How can we bundle Pattern Synonyms with datatypes in export and import lists?
 
 ## Laziness
 
-* How is value from evaluated thunk stored (are we allowed to avoid redundant reevaluations)?
-* Enumerate cases where thunk with ADT will be evaluated.
-* What is the irrefutable pattern and how does it work?
-* What does the `sprint` function do?
+* Describe the process of evaluating a thunk and storing the evaluated value.
+* After a thunk is fully evaluated, can the GHC runtime evaluate it again?
+* What is a black hole and what problem does it solve?
+* For what kind of thunks are black holes used?
+* Enumerate cases where a thunk returning an ADT is evaluated.
+* What is an irrefutable pattern and how does it work?
+* Where are patterns in Haskell irrefutable by default?
+* Which patterns are irrefutable:
+  1. `f (Just a) = ...`
+  1. `let (Just a) = ...`
+  1. `where (Just a) = ...`
+  1. `g (N a) = ...` where `newtype N a = N a`.
+  1. `g (D a) = ...` where `data D a = D a`.
+  1. `f a = ...`
+  1. `f _ = ...`
+* When can irrefutable patterns be useful? Hint: you may describe why
+  [`Data.List.partition`](https://hackage.haskell.org/package/base-4.16.0.0/docs/src/Data.OldList.html#partition)
+  uses them.
+* What does the `sprint` command do in `ghci`?
 
 #### Resources
 
 * [Laziness from What I Wish I Knew When Learning Haskell](http://dev.stephendiehl.com/hask/#laziness)
 * [The GHC Runtime System - Ch. 4 Laziness](http://ezyang.com/jfp-ghc-rts-draft.pdf)
+* Haskell 2010 Language Report:
+  * See p. 3.17.2 Informal Semantics of Pattern Matching in [Pattern Matching](https://www.haskell.org/onlinereport/haskell2010/haskellch3.html#x8-580003.17)
+  * [Irrefutable Patterns in Let Expressions](https://www.haskell.org/onlinereport/haskell2010/haskellch3.html#x8-440003.12)
+  * See p. 4.4.3.2 Pattern bindings in [Nested declarations](https://www.haskell.org/onlinereport/haskell2010/haskellch4.html#x10-800004.4)
 
 ## Exceptions
 
@@ -165,6 +190,8 @@ How can we bundle Pattern Synonyms with datatypes in export and import lists?
   * Which operations are interruptible? What may be the practical usecases for the `uninterruptibleMask` function?
 * What is the purpose of `safe-exceptions` library? Which exception handling problems does it address?
 Why is `unliftio` considered safer by the author of `safe-exceptions`?
+* When does the problem of rethrowing asynchronous exceptions as synchronous
+  happen and how can it be solved?
 * Describe a problem which arises when handling exceptions and using functions like `bracket` with stateful monadic stacks.
   * How is it solved in `monad-control` library?
   * How is it solved in `unliftio` library?
@@ -237,6 +264,9 @@ What are the commands which help with that?
 * What is a `Traversal`?
 * What is an `Iso`?
 * Why is `Monoid` constraint required in `view` for traversals?
+* Is a `Prism` a `Lens`, a `Traversal` a `Lens`, an `Iso` a `Lens`, a
+  `Traversal` an `Iso`, a `Prism` an `Iso`, or vice versa?
+* Is the `traverse` method of the `Traversable` class a `Traverse`?
 * What are the lens laws?
 * Why do lenses fit well for composing?
 * How operators are grouped by name (which ones are started with `^`, which ones contain `~`, `.` (dot), `%`, `=`)?
@@ -244,6 +274,8 @@ What are the commands which help with that?
 Why is it convenient?
 * What is the goal of the microlens library?
 When to use it and when do not?
+* When and why is it better to use `generic-lens` and `optics` libraries? What
+  libraries can we use together?
 
 #### Resources
 
