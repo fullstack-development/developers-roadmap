@@ -10,6 +10,8 @@
   - [Resources](#resources-1)
 - [Generators](#generators)
   - [Resources](#resources-2)
+- [Context managers](#context-managers)
+  - [Resources](#resources-3)
 
 </details>
 
@@ -53,4 +55,4 @@
 - What methods are necessary to enable context manager functionality for the custom class? How these methods will be used in the case of work with file (explain the flow)?
 
 #### Resources
-<!-- TODO: add resources -->
+- [Context Managers and Python's with Statement](https://realpython.com/python-with-statement/)
