@@ -15,12 +15,21 @@
 
 </details>
 
-## Errors and exceptions
-- What is the `try ... finally`?
+## Exceptions
+- What is a `syntax error`
+- What is an `exception`?
+- What information does exception sctring contain?
+- How does `try ... except` statement work? 
+- Is it possible to catch several exceptions using `except`?
+- What is the purpose of `else` clause after `except`? In what cases else instruction will be executed?
+- What is the purpose of `finally` clause? In what cases finally instruction will be executed?
+- How is the exceptions hierarchy works in the Python?
+- How to define a custom exception?
+- How to raise exception?
+- How to raise the exceptions chain and when it can be useful?
 
 #### Resources
-- [Понимание итераторов в Python](https://habr.com/ru/articles/488112/)
-- [Python Iterators](https://www.programiz.com/python-programming/iterator)
+- [Errors and Exceptions](https://docs.python.org/3/tutorial/errors.html)
 
 ## Iterators
 - What are `iterator`, `iterator object` and `iterator protocol`?

@@ -48,4 +48,3 @@
 
 #### Resouces
 - [contextlib.contextmanager](https://docs.python.org/3/library/contextlib.html#contextlib.contextmanager)
-
