@@ -49,8 +49,8 @@
 - What is the `generator function`?
 - What does `yield` command do?
 - What is the purpose of `close()`, `throw()`, `send()` methods of generator?
-- In which cases generators shoud be used? What are the advantages of using generators? What types of tasks require to use generators?
-- What information does generator stores in the memory?
+- In which cases shoud generators be used? What are the advantages of using generators? What types of tasks are required to use generators?
+- What information does generator store in the memory?
 - What is the difference between `iterators` and `generators`?
 
 #### Resources
