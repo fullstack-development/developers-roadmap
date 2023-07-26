@@ -4,7 +4,7 @@ Advanced topics for the junior level
 
 ## Areas of expertise 
 - [Haskell](./haskell.md)
-- [Linux administration](./linux.md)
+- [Linux administration](../../shared/junior-2/linux.md)
 
 ## Required resources
 
