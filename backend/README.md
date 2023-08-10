@@ -7,3 +7,5 @@
 
 - [blockchain](./optional/blockchain.md)
 - [Docker](./optional/docker.md)
+- [Metrics: Prometheus and Grafana](./optional/metrics.md)
+
