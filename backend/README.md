@@ -6,3 +6,5 @@
 ## Optional topics
 
 - [blockchain](./optional/blockchain.md)
+- [Metrics: Prometheus and Grafana](./optional/metrics.md)
+
