@@ -9,7 +9,7 @@
   - [Resources](#resources-1)
 - [Django Admin site](#django-admin-site)
   - [Resources](#resources-2)
-- [Files handling](#files-handling)
+- [Files managing](#files-managing)
   - [Resources](#resources-3)
 - [Django rest framework (DRF): Serializers](#drf-serializers)
   - [Resources](#resources-4)
@@ -76,12 +76,12 @@
 - What is a `storage object`? 
 - What is a `FileSystemStorage`? 
 - How to customize the storage?
-- What is the purpose of the MEDIA_ROOT and MEDIA_URL settings in Django?
+- What is the purpose of the `MEDIA_ROOT` and `MEDIA_URL` settings in Django?
 - How to create a form for file uploads?
-- What is the role of the request.FILES object?
+- What is the role of the `request.FILES` object?
 - What attribute should be set for the form with file uploading? 
 - What is an `Upload Handler`? 
-- What serializer field do you use to upload file in DRF? What content-type do you use in request to upload file
+- What serializer field do you use to upload file in DRF? What content-type do you use in request to upload file?
 - How do you manage and clean up unused files in Django?
 
 #### Resources
@@ -91,10 +91,9 @@
 ## Django rest framework (DRF): Serializers
 - What is a `serializer`?
 - What is the purpose of serializers in DRF, and how do they differ from regular Django forms?
-- Can you explain the process of serializing data and deserializing data in the context of DRF?
 - How do you define a serializer for a Django model, and what are the different fields you can use in a serializer?
 - How to use `serializers.Serializer` class to serialize and deserialize the data?
-- What is the role of the Serializer class's `create()`, `update()` and `save()` methods, and when are they called?
+- What is the role of the Serializer `create()`, `update()` and `save()` methods, and when are they called?
 - How to serialize nested data?
 - Is it possible to create/update nested objects using `create()`, `update()` methods?
 - How to validate object data and field value?
@@ -115,7 +114,6 @@
 ## Django rest framework (DRF): Views
 - What are `API views` in DRF, and how do they differ from regular Django views?
 - What is the purpose of using class-based views in DRF, and what are some advantages over function-based views?
-- How do you create a basic function-based view for handling API requests in DRF?
 - What is the purpose of `Mixin classes` in DRF? 
 - How to use `APIView` to handle different HTTP methods (GET, POST, PUT, DELETE, etc.)?
 - What is the purpose of `pagination`, and how do you implement pagination in view?
