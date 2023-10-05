@@ -17,6 +17,8 @@
   - [Resources](#resources-5)
 - [OOP](#oop)
   - [Resources](#resources-6)
+- [Package manager](#package-manager)
+  - [Resources](#resources-7)
 
 </details>
 
@@ -140,3 +142,12 @@
 - [Функция super() в Python](https://docs-python.ru/tutorial/vstroennye-funktsii-interpretatora-python/funktsija-super/)
 - [Python | Method Overloading](https://www.geeksforgeeks.org/python-method-overloading/)
 - [Operator Overloading in Python](https://www.askpython.com/python/operator-overloading-in-python)
+
+## Package manager
+- What is a `pip` and what is it's purpose? Can we use it in the virtual environment?
+- How to install and remove a package using `pip`?
+- How to make a reproducible environment with particular python dependencies?
+- How to make a stamp with all python libraries from the current environment? How to install all dependencies from the stamp?
+
+#### Resources
+- [https://pip.pypa.io/en/stable/getting-started/](Pip documentation)

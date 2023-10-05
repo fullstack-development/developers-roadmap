@@ -2,10 +2,11 @@
 
 - [Python](./python.md)
 - [Linux administration](../../shared/junior-2/linux.md)
+- [Django](./docker.md)
 
 ## Specific for our stack
 
-- [Django](./django.md)
+- [Django and Django Rest Framework](./django.md)
 
 ## Required resources
 

@@ -3,16 +3,54 @@
 <details>
 <summary>List of contents</summary>
 
-- [Django Admin site](#django-admin-site)
+- [Settings](#settings)
   - [Resources](#resources)
-- [Django rest framework (DRF): Serializers](#drf-serializers)
+- [Migrations](#migrations)
   - [Resources](#resources-1)
-- [Django rest framework (DRF): Views](#drf-views)
+- [Django Admin site](#django-admin-site)
   - [Resources](#resources-2)
-- [Django rest framework (DRF): Routers](#drf-routers)
+- [Files handling](#files-handling)
   - [Resources](#resources-3)
+- [Django rest framework (DRF): Serializers](#drf-serializers)
+  - [Resources](#resources-4)
+- [Django rest framework (DRF): Views](#drf-views)
+  - [Resources](#resources-5)
+- [Django rest framework (DRF): Routers](#drf-routers)
+  - [Resources](#resources-6)
+- [Logging](#logging)
+  - [Resources](#resources-7)
 
 </details>
+
+## Settings
+- How can you access Django settings in the project's code?
+- How to store sensitive data in the settings?
+- How to add custom settings to the project? 
+- How you can override default settings in Django for different environments (e.g., development, staging, production)?
+- How you can dynamically modify Django settings based on runtime conditions or environment variables?
+- What is the purpose of the `SECRET_KEY` setting in Django? Why is it important to keep it secret?
+- What is the use of the `DEBUG` setting in Django?
+- What is the purpose of the following settings:
+  - `INSTALLED_APPS`
+  - `DATABASES`
+  - `ALLOWED_HOSTS`
+  - `STATIC_ROOT` and `STATIC_URL`
+
+#### Resources
+- [Settings](https://docs.djangoproject.com/en/4.2/ref/settings/)
+
+
+## Migrations
+- Does django apply all migrations every time you call `migrate`?
+- How does django know what migration hasn't applied yet?
+- What are the cases when you can remove old migrations and create new, and when you should save old migrations?
+- How to revert the last migration? How to revert all migrations?
+- How to create a custom migration using `RunPython`? When it can be useful?
+- How to create a custom migration using `RunSql`? When it can be useful?
+
+- [Migrations](https://docs.djangoproject.com/en/4.2/topics/migrations/)
+- [Migrations operations](https://docs.djangoproject.com/en/4.2/ref/migration-operations/#django.db.migrations.operations.RunPython)
+
 
 ## Django Admin site
 - What is Django Admin, and how does it help in managing the administration interface of a Django project?
@@ -32,6 +70,23 @@
 #### Resources
 - [The Django admin site](https://docs.djangoproject.com/en/4.2/ref/contrib/admin/)
 
+## Files managing
+- What are the ways to make a Django model containing an image field?
+- Where will uploaded images and files be stored? What value will be written to the image field in db? 
+- What is a `storage object`? 
+- What is a `FileSystemStorage`? 
+- How to customize the storage?
+- What is the purpose of the MEDIA_ROOT and MEDIA_URL settings in Django?
+- How to create a form for file uploads?
+- What is the role of the request.FILES object?
+- What attribute should be set for the form with file uploading? 
+- What is an `Upload Handler`? 
+- What serializer field do you use to upload file in DRF? What content-type do you use in request to upload file
+- How do you manage and clean up unused files in Django?
+
+#### Resources
+- [Managing files](https://docs.djangoproject.com/en/4.2/topics/files/)
+- [File Uploads](https://docs.djangoproject.com/en/4.2/topics/http/file-uploads/)
 
 ## Django rest framework (DRF): Serializers
 - What is a `serializer`?
@@ -93,3 +148,19 @@
 #### Resources
 - [Routers](https://www.django-rest-framework.org/api-guide/routers/)
 - [Versioning](https://www.django-rest-framework.org/api-guide/versioning/)
+
+
+## Logging
+- What is the difference between using `print()` and logging?
+- What is the purpose of log levels in Django logging?
+- How do you configure logging in a Django project?
+- What is the purpose of the following parts of logging config:
+    - Loggers
+    - Handlers
+    - Filters
+    - Formatters
+- How can you control the verbosity of log messages in Django? 
+
+#### Resources
+- [Logging](https://docs.djangoproject.com/en/4.2/topics/logging/)
+
