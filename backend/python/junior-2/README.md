@@ -2,7 +2,7 @@
 
 - [Python](./python.md)
 - [Linux administration](../../shared/junior-2/linux.md)
-- [Django](./docker.md)
+- [Django](../../shared/junior-2/docker.md)
 
 ## Specific for our stack
 
