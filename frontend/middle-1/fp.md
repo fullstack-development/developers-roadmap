@@ -2,6 +2,7 @@
 
 * Изучить книгу [Functional-Light JavaScript](https://github.com/getify/Functional-Light-JS) от Kyle Simpson (1-9 главы включительно).
 * Что такое арность? Как получить арность функции в JS?
+* Что такое аргументы и параметры функции?
 * Что такое first-class citizen? Что в JS является таковым?
 * Какие последствия от того, что в JS функции — тоже first-class citizen?
 * Что такое функция высшего порядка?
