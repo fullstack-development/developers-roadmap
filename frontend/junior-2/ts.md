@@ -37,7 +37,6 @@
 * Может ли класс одновременно реализовывать набор интерфейсов и наследоваться от другого класса?
 * Каковы назначения модификаторов свойств классов?
   * В чем отличие `private` от `#`?
-  
 * В чем отличие абстрактных классов от обычных классов и интерфейсов?
 * Можно ли объявить в интерфейсе тип метода таким образом, чтобы он возвращал контекст своего вызова?
   ```ts
@@ -65,134 +64,139 @@
       1. вторым – имя поля, по которому производится фильтрация;
       1. третьим – значение, которое должно содержать поле;
       1. возвращала тип первого аргумента (исходного массива).
-    ```typescript
-      // исходная функция
-      function filterBy(input: Object[], propName: string, propValue: any): Object[] {
-        return input.filter(item => item[propName] === propValue);
-      }
-    ```
-    ```typescript
-      // что должно получиться
-      interface IEmployee {
-        name: string;
-        age: number;
-        position: 'Programmer' | 'Accountant' | 'Designer';
-      }
+    <details>
+      <summary>Подробности:</summary>
 
-      const employees: IEmployee[] = [
-        { name: 'Michael', age: 20, position: 'Programmer' },
-        { name: 'Jordan', age: 25, position: 'Designer' },
-        { name: 'Steve', age: 34, position: 'Accountant' },
-        { name: 'Tom', age: 19, position: 'Programmer' },
-        { name: 'Bob', age: 43, position: 'Programmer' },
-        { name: 'Michael', age: 19, position: 'Programmer' },
-        { name: 'Bob', age: 27, position: 'Designer' },
-      ];
+      ```typescript
+        // исходная функция
+        function filterBy(input: Object[], propName: string, propValue: any): Object[] {
+          return input.filter(item => item[propName] === propValue);
+        }
+      ```
+      ```typescript
+        // что должно получиться
+        interface IEmployee {
+          name: string;
+          age: number;
+          position: 'Programmer' | 'Accountant' | 'Designer';
+        }
 
-    filterBy(employees, 'position', 'Programmer'); // вернёт IEmployee[]
-    filterBy(employees, 'surname', 'Cook'); // ошибка, тип IEmployee не содержит поле 'surname'
-    filterBy(employees, 'position', 'Tester'); // ошибка, поле 'position' не может содержать значение 'Tester',
-    ```
+        const employees: IEmployee[] = [
+          { name: 'Michael', age: 20, position: 'Programmer' },
+          { name: 'Jordan', age: 25, position: 'Designer' },
+          { name: 'Steve', age: 34, position: 'Accountant' },
+          { name: 'Tom', age: 19, position: 'Programmer' },
+          { name: 'Bob', age: 43, position: 'Programmer' },
+          { name: 'Michael', age: 19, position: 'Programmer' },
+          { name: 'Bob', age: 27, position: 'Designer' },
+        ];
+
+      filterBy(employees, 'position', 'Programmer'); // вернёт IEmployee[]
+      filterBy(employees, 'surname', 'Cook'); // ошибка, тип IEmployee не содержит поле 'surname'
+      filterBy(employees, 'position', 'Tester'); // ошибка, поле 'position' не может содержать значение 'Tester',
+      ```
+    </details>
   * Типизируйте класс `List` так, чтобы:
     1. Конструктор класса принимал массив объектов с обязательным полем `id`;
     1. Метод `addItem` позволял добавить только объект с типом аргумента конструктора;
     1. Метод `getList` возвращал массив объектов с типом аргумента конструктора;
+    <details>
+    <summary>Подробности</summary>
     
-    ```typescript
-      // Исходный класс
-    
-      class List {
-        private list;
+      ```typescript
+        // Исходный класс
+      
+        class List {
+          private list;
 
-        constructor(list) {
-          this.list = list;
+          constructor(list) {
+            this.list = list;
+          }
+
+          addItem(item) {
+            this.list.push(item);
+          }
+
+          getList() {
+            return this.list;
+          }
+        }
+      ```
+      ```typescript
+        // Что должно получиться
+
+        interface IGuest {
+          login: string;
+          password: string;
         }
 
-        addItem(item) {
-          this.list.push(item);
+        const guests: IGuest[] = [
+          {
+            login: 'guest',
+            password: '123',
+          }, 
+          {
+            login: 'user',
+            password: '123',
+          }
+        ];
+
+        const guestsList = new List<IGuest>(guests); // ошибка, в типе IGuest отсутствует поле id
+
+        interface IUser {
+          id: number;
+          login: string;
+          password: string;
         }
 
-        getList() {
-          return this.list;
-        }
-      }
-    ```
-    ```typescript
-      // Что должно получиться
+        const users: IUser[] = [
+          {
+            id: 1,
+            login: 'guest',
+            password: '123',
+          }, 
+          {
+            id: 2,
+            login: 'user',
+            password: '123',
+          }, 
+          {
+            id: 3,
+            login: 'author',
+            password: '123',
+          }
+        ];
 
-      interface IGuest {
-        login: string;
-        password: string;
-      }
+        const usersList = new List<IUser>(users); // ok
 
-      const guests: IGuest[] = [
-        {
+        usersList.addItem({
           login: 'guest',
           password: '123',
-        }, 
-        {
-          login: 'user',
-          password: '123',
-        }
-      ];
+        }); // ошибка, отсутствует поле id
 
-      const guestsList = new List<IGuest>(guests); // ошибка, в типе IGuest отсутствует поле id
-
-      interface IUser {
-        id: number;
-        login: string;
-        password: string;
-      }
-
-      const users: IUser[] = [
-        {
-          id: 1,
-          login: 'guest',
-          password: '123',
-        }, 
-        {
-          id: 2,
-          login: 'user',
-          password: '123',
-        }, 
-        {
+        usersList.addItem({
           id: 3,
-          login: 'author',
+          login: 'admin',
+        }); // ошибка, отсутствует поле password
+
+        usersList.addItem({
+          id: 5,
+          login: 'guest',
           password: '123',
-        }
-      ];
+        }); // ok
 
-      const usersList = new List<IUser>(users); // ok
-
-      usersList.addItem({
-        login: 'guest',
-        password: '123',
-      }); // ошибка, отсутствует поле id
-
-      usersList.addItem({
-        id: 3,
-        login: 'admin',
-      }); // ошибка, отсутствует поле password
-
-      usersList.addItem({
-        id: 5,
-        login: 'guest',
-        password: '123',
-      }); // ok
-
-      const usersArray = usersList.getList(); // IUser[];
-    ```
-
+        const usersArray = usersList.getList(); // IUser[];
+      ```
+    </details>
+    
   * По каким правилам выводятся типы дженерик аргументов при вызове функций в следующих случаях:
     * если при вызове функции явно передан дженерик аргумент;
     * если дженерик аргумент не передан и этот аргумент используется для типизации аргумента функции;
     * если дженерик аргумент не передан и этот аргумент используется для типизации возвращаемого функцией значения;
-
   * Как можно использовать обобщения в реакт компонентах?  
 * Union и intersection типы
   * Для чего нужны?
   * Как использовать?
- 
 * Что такое Type Guards? Для чего они нужны?
 * Как работают основные Type Guards:
   * оператор `in`
