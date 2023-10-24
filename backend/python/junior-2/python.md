@@ -118,7 +118,6 @@
 - What is an `instance method`? How to create and use it?
 - What is a `class method`? How to create and use it?
 - What is a `static method`? How to create and use it?
-- What is a `__str__` method?
 - Is what cases is the `clasess inheritance`useful?
 - How to have child class with more parameters than our parent class?
 - What is a purpose of a `super` function? In what cases it can be useful? 
@@ -133,6 +132,9 @@
 - What is the purpose of the `@property` decorator?
 - What is an `abstraction` and why is it an important part of OOP?
 - What are an `abstract class` and `abstract method`? When may they be useful? How to create them in Python?
+- What is a `magic` or `dunder` method in Python?
+- What is the purpose of `__new__` and `__init__` methods?
+- What are a `__str__` and `__repr__` methods? What is the difference between them?
 
 #### Resources
 - [Object-Oriented Programming in Python](https://www.askpython.com/python/oops/object-oriented-programming-python)
