@@ -135,6 +135,8 @@
 - What is a `magic` or `dunder` method in Python?
 - What is the purpose of `__new__` and `__init__` methods?
 - What are a `__str__` and `__repr__` methods? What is the difference between them?
+- What is a `Diamond inheritance` problem?
+- How `Method Resolution Order` works?
 
 #### Resources
 - [Object-Oriented Programming in Python](https://www.askpython.com/python/oops/object-oriented-programming-python)
@@ -144,6 +146,10 @@
 - [Функция super() в Python](https://docs-python.ru/tutorial/vstroennye-funktsii-interpretatora-python/funktsija-super/)
 - [Python | Method Overloading](https://www.geeksforgeeks.org/python-method-overloading/)
 - [Operator Overloading in Python](https://www.askpython.com/python/operator-overloading-in-python)
+- [Difference between Method and Function in Python
+](https://www.tutorialspoint.com/difference-between-method-and-function-in-python)
+- [Method Resolution Order and Diamond inheritance in Python
+](https://medium.com/@soumyas567/method-resolution-order-and-diamond-inheritance-in-python-3ba1c37eb0a9)
 
 ## Package manager
 - What is a `pip` and what is it's purpose? Can we use it in the virtual environment?
