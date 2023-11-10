@@ -8,8 +8,11 @@
 * Что делают медиа свойства `hover`, `pointer`, `any-hover`, `any-pointer`?
 * Что делают селекторы `:has(), :where(), :is()`?
 * Что означают следующие единицы измерения `lvh, svh, dvh, lvw, svw, dvw`?
-* Что делают свойства `filter` и `backdrop-filter`?
 * Как пользоваться `Media Queries: Range Syntax`?
+* Что делают следующие свойства:
+  * `filter`
+  * `backdrop-filter`
+  * `mix-blend-mode`
 
 #### Ресурсы
 
