@@ -18,6 +18,7 @@
 ## Общие вопросы
 
 * Как работает `calc()`? Какие параметры принимает? Какие операции допустимы? В каких единицах измерения можно задавать значения параметров?
+* Как работают функции `min(), max(), clamp()`?
 * Как реализовать треугольник на чистом CSS?
 * Как работает `@import`? Почему не стоит использовать `@import` для загрузки стилей в документ?
 
@@ -27,8 +28,12 @@
       @import url('a.css');
     </style>
    ```
+* Что такое `container-queries`? Как пользоваться? Чем отличаются от `media-queries`?
+  * Рассказать про единицы измерения `cqw, cqh, cqi, cqb, cqmax, cqmin`.
 
 #### Ресурсы
 
 * [Треугольники через CSS](http://htmlbook.ru/blog/treugolniki-cherez-css)
 * [Не используйте @import](https://habr.com/ru/post/57012/)
+* [CSS container queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_container_queries)
+* [Basic concepts of logical properties and values](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_logical_properties_and_values/Basic_concepts_of_logical_properties_and_values)
