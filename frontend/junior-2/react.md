@@ -48,7 +48,7 @@
     ```
 * Performance
   * Для чего в хук `useState` можно передавать функцию вместо `initialState`?
-  * Когда передача инлайн-коллбека ухудшает производительность и почему? Пример: `<LoginButton onClick={(e) => this.handleClick(e, user)}>`
+  * Когда передача инлайн-коллбека ухудшает производительность и почему? Пример: `<LoginButton onClick={(e) => handleClick(e, user)}>`
   * Как и для чего использовать хуки `useMemo` и `useCallback`? 
     * Всегда ли следует оборачивать код в `useMemo`/`useCallback`?
   * Что такое `React.memo`? Для чего он нужен?
