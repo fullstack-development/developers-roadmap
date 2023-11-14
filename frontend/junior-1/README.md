@@ -3,6 +3,6 @@
 - [HTML](./html.md)
 - [CSS](./css.md)
 - [JavaScript](./js.md)
-- [Тестирование](./testing.md)
+- [Тестирование](../../shared/junior-1/testing.md)
 - [Git](../../shared/junior-1/git.md)
 - [React](./react.md)
