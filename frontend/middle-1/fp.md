@@ -15,6 +15,24 @@
   * Когда может быть полезным каррирование?
   * В чем их отличия?
   * Каково их влияние на арность функций?
+  * Реализовать функцию `curry` с поддержкой плейсхолдеров:
+    <details>
+      <summary>Подробности:</summary>
+      
+      ```javascript
+        const abc = function (a, b, c) { return [a, b, c]; };
+
+        const curried = curry(abc);
+
+        curried(1, 2, 3); // => [1, 2, 3]
+        curried(1)(2)(3); // => [1, 2, 3]
+        curried(1, 2)(3); // => [1, 2, 3]
+        curried(_, 2, 3)(1); // => [1, 2, 3]
+        curried(1, _, 3)(2); // => [1, 2, 3]
+        curried(1, _, _)(2, 3); // => [1, 2, 3]
+        curried(_, _, 3)(1)(2); // => [1, 2, 3]
+      ```
+    </details>
 * Композиция функций
   * Что такое?
   * Для чего используется?
@@ -45,6 +63,7 @@
 
 * [Functional-Light JavaScript (Kyle Simpson)](https://github.com/getify/Functional-Light-JS)
 * [Robert C Martin - Functional Programming; What? Why? When?](https://www.youtube.com/watch?v=7Zlp9rKHGD4)
+* [Implement curry() with placeholder support](https://bigfrontend.dev/problem/implement-curry-with-placeholder/solution)
 * [Functional architecture: a definition](https://blog.ploeh.dk/2018/11/19/functional-architecture-a-definition/)
 * [Functional architecture - The pits of success - Mark Seemann](https://www.youtube.com/watch?v=US8QG9I1XW0)
 * [Functional architecture is Ports and Adapters](https://blog.ploeh.dk/2016/03/18/functional-architecture-is-ports-and-adapters/)
