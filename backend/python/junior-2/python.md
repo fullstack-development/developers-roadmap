@@ -25,7 +25,7 @@
 ## Exceptions
 - What is a `syntax error`
 - What is an `exception`?
-- What information does exception sctring contain?
+- What information does exception string contain?
 - How does `try ... except` statement work? 
 - Is it possible to catch several exceptions using `except`?
 - What is the purpose of `else` clause after `except`? In what cases else instruction will be executed?
@@ -45,7 +45,6 @@
 - How to return the next instance of iterator?
 - What exception will be called after the last iteration?
 - How `for` loop does work with iterators?
-- How to create a custom iterator?
 - Is it possible to create an inifinite iterator?
 
 #### Resources
@@ -54,6 +53,8 @@
 
 
 ## Generators
+- What is a `sequence`?
+- WHat is an `iterable`? What are the differences between sequence and iterable?
 - What is `generator`? What is `generator expression`?
 - What is the `generator function`?
 - What does `yield` command do?
@@ -89,10 +90,10 @@
 - What is a `decorator`?
 - What is a special syntax of functions decoration?
 - How to call the decorated function?
-- Is it possible to call decorated function without running code from wrapper?
+- Is it possible to call decorator function without running code from wrapper?
 - How is decorators work related to the lexical scoping?
 - Is it possible to wrap up the fuction with many decorators? If yes, how it works?
-- How to decorate function if it waits arguments?
+- How to decorate function if it accepts arguments?
 - In what cases can decorators be useful?
 
 #### Resources
