@@ -26,6 +26,7 @@
 
 #### Ресурсы
 
+* [CSS: о выводе коротких и длинных текстов](https://habr.com/ru/companies/ruvds/articles/535016/)
 * [Выявление устройств с сенсорными экранами на чистом CSS](https://habr.com/ru/company/ruvds/blog/556156/)
 
 ## Гриды
