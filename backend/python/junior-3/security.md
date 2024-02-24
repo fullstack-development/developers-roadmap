@@ -59,7 +59,18 @@
 - [JWT Authentication Best Practices](https://blog.openreplay.com/jwt-authentication-best-practices/)
 
 ## Authentication in Django and DRF
-- What is the purpose of User model in Django? 
+- What is the purpose of User model in Django?
 
-## Cors
-## CSRF
+
+## Cross-Site Scripting (XSS)
+## Cross-Site Request Forgery CSRF
+## Sql Injection
+## Security Misconfiguration: 
+Default configurations or incomplete setups can leave your application vulnerable.
+## Sensitive Data Exposure: 
+Insufficient protection of sensitive data like passwords, credit card numbers, etc.
+## Insecure Deserialization: 
+Tampering with serialized objects can lead to remote code execution or other attacks.
+## Using Components with Known Vulnerabilities:
+Libraries or frameworks with unpatched vulnerabilities can be exploited.
+
