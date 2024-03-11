@@ -114,7 +114,7 @@
 * [Units of measurement. Percentages](https://learn.javascript.ru/css-units#protsenty/)
 * [CSS Colors](https://www.w3.org/TR/css-color-3/)
 * [What You May Not Know About the Z-Index Property](https://webdesign.tutsplus.com/articles/what-you-may-not-know-about-the-z-index-property--webdesign-16892)
-* [Stack context](https://developer.mozilla.org/en/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context)
+* [The stacking context (MDN)](https://developer.mozilla.org/en/docs/Web/CSS/CSS_Positioning/Understanding_z_index/The_stacking_context)
 * [Specificity of selectors (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity)
 * [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 <!-- TODO:: find resource on English -->
