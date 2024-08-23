@@ -25,7 +25,7 @@
 
 ### Ресурсы
 
-* [Основы XSS](https://hackware.ru/?p=1174&PageSpeed=noscript)
+* [Основы XSS](https://hackware.ru/?p=1174)
 * [XSS](https://portswigger.net/web-security/cross-site-scripting)
 * [XSS Game](https://xss-game.appspot.com/level1)
 * [CSRF](https://portswigger.net/web-security/csrf)
