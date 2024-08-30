@@ -17,4 +17,4 @@
 * [Зачем нужны юнит-тесты](https://tproger.ru/translations/unit-tests-purposes/)
 * [Как, используя TDD, сократить время разработки](https://www.simbirsoft.com/blog/razrabotka-cherez-testirovanie-polza-i-vred/)
 * [Об использовании модульных тестов и TDD](https://eax.me/unit-testing/)
-* [Осторожно! Возможны побочные эффекты](http://blog.csssr.ru/2017/10/07/side-effects)
+* [Осторожно! Возможны побочные эффекты](https://blog.csssr.com/ru/article/side-effects/)
