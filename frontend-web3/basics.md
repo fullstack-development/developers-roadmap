@@ -3,25 +3,41 @@
 ### Блокчейн
 * Что такое Web1, Web2 и Web3?
 * Что такое блокчейн? 
+* Что такое транзакция? Что такое revert транзакции? Почему транзакция исполняется с задержкой?
+* Что такое цифровая подпись?
 * Что такое dApp?
 * Что такое ethereum?
 * Что такое evm-совместимые сети?
 * Что такое тестовые сети (testnets)?
 * Что такое газ? От чего зависит стоимость транзакций в блокчейне?
-* Что такое смарт-контракт и ABI?
-* Что такое “события” в смарт контракте?
 
 ##### Ресурсы
 
 * [Introduction to Web3](https://ethereum.org/en/web3/)
 * [Блокчейн изнутри: как устроен биткоин](https://vas3k.blog/blog/blockchain/)
+* [Ethereum docs: Transactions](https://ethereum.org/en/developers/docs/transactions/)
+* [Digital Signatures on ethereum](https://github.com/fullstack-development/blockchain-wiki/blob/main/concepts/digital-signature-on-ethereum/README.md)
 * [Как устроен Ethereum и смарт-контракты](https://vas3k.blog/blog/ethereum/)
 * [What are EVM Compatible Blockchains?](https://blog.thirdweb.com/evm-compatible-blockchains-and-ethereum-virtual-machine/)
 * [Тестовая сеть](https://academy.binance.com/ru/glossary/testnet)
 * [Ethereum: Network fees](https://ethereum.org/en/gas/)
 * [What is Ethereum Gas? (Examples + Easy Explanation)](https://www.youtube.com/watch?v=3ehaSqwUZ0s)
+
+### Смарт-контракты
+* Что такое смарт-контракт и ABI?
+* Что такое “события” в смарт контракте?
+  * Что такое indexed параметры?
+* В чем отличия функций view, pure, payable в смарт-контракте?
+* Что такое keccak256 и для чего применяется?
+
+##### Ресурсы
+
 * [Anatomy of smart contracts: Events and logs](https://ethereum.org/en/developers/docs/smart-contracts/anatomy/#events-and-logs)
-* [Solidity docs: Events](https://docs.soliditylang.org/en/v0.7.0/contracts.html#events)
+* [Solidity docs: Events](https://docs.soliditylang.org/en/v0.8.27/contracts.html#events)
+* [Event argument indexing](https://github.com/fullstack-development/blockchain-wiki/blob/main/solidity/event-argument-indexing/README.md)
+* [Solidity docs: State mutability](https://docs.soliditylang.org/en/v0.8.27/contracts.html#state-mutability)
+* [What are Payable Functions in Solidity?](https://docs.alchemy.com/docs/solidity-payable-functions)
+* [Keccak256](https://github.com/fullstack-development/blockchain-wiki/tree/main/concepts/keccak256)
 
 ### Кошельки
 * Что такое кошелек? Что такое private key и public key? Перечислите хотя бы 5 разных кошельков.
@@ -36,8 +52,10 @@
 ### Токены
 * Что такое ERC-20 и ERC-721?
 * Что такое аппрув токена, зачем он нужен?
+  * Как можно узнать количество токенов, разрешенных для управления сторонним адресом?
 * Что такое decimals, зачем нужен? Почему это важно для работы dApp? Как узнать значение decimals?
-* Что такое minting, burning, staking?
+* Что такое minting и burning?
+* Что такое staking?
 * Что такое стейблкоин? В чём отличия между фиатными и алгоритмическими стейблкоинами?
 
 ##### Ресурсы
@@ -60,6 +78,7 @@
 
 ### Фронтенд
 * Как прочесть информацию из блокчейна и при чём тут RPC?
+* Почему при работе с числами из блокчейна нельзя пользоваться обычным типом `number`? Какой тип использовать вместо `number`?
 * Что такое etherscan?
 * Что такое TransactionReceipt?
 * Что такое viem? Что такое ethers.js?
@@ -70,7 +89,8 @@
     * useWriteContract
     * useWaitForTransactionReceipt
     * useAccount
-    * useBalance  
+    * useBalance 
+* Как можно слушать события на смарт контракте? Как получить историю событий?
 
 ##### Ресурсы
 
@@ -79,6 +99,8 @@
 * [Viem docs: Transaction Receipt](https://viem.sh/docs/glossary/terms#transaction-receipt)
 * [Viem docs: waitForTransactionReceipt](https://viem.sh/docs/actions/public/waitForTransactionReceipt.html)
 * [Wagmi docs](https://wagmi.sh/react/getting-started)
+* [Viem docs: watchEvent](https://viem.sh/docs/actions/public/watchEvent)
+* [Viem docs: getLogs](https://viem.sh/docs/actions/public/getLogs)
 
 
 ### Общие ресурсы
