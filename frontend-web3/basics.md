@@ -75,7 +75,7 @@
 ##### Ресурсы
 
 * [Anatomy of smart contracts](https://ethereum.org/en/developers/docs/smart-contracts/anatomy/)
-* [JSON-RPC API](https://ethereum.org/en/developers/docs/apis/json-rpc/). <br/> *Стоит ознакомиться как минимум с вводной частью. По сути это то, как шлются запросы в блокчейн на самом низком уровне, то есть под капотом у всех библиотек и sdk, таких как web3.js, ethers.js, viem, alchemy sdk и множества других. Например у viem, на каждый метод в документации есть ссылка на функцию, которую viem вызывает под капотом у JSON-RPC API.*
+* [JSON-RPC API](https://ethereum.org/en/developers/docs/apis/json-rpc/). <br/> *Стоит ознакомиться как минимум с вводной частью. По сути это то, как шлются запросы в блокчейн на самом низком уровне, то есть под капотом у всех библиотек и sdk, таких как web3.js, ethers.js, viem, alchemy sdk и множества других. Например, у viem на каждый метод в документации есть ссылка на функцию в JSON-RPC API, которую viem вызывает у себя под капотом.*
 * [Viem docs: Transaction Receipt](https://viem.sh/docs/glossary/terms#transaction-receipt)
 * [Viem docs: waitForTransactionReceipt](https://viem.sh/docs/actions/public/waitForTransactionReceipt.html)
 * [Wagmi docs](https://wagmi.sh/react/getting-started)
