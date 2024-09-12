@@ -48,6 +48,7 @@
 
 * [What Is a Crypto Wallet?](https://academy.binance.com/en/articles/crypto-wallet-types-explained)
 * [What is a Cryptocurrency Wallet? (3 Types + Key Examples)](https://www.youtube.com/watch?v=SQyg9pyJ1Ac&t=3s)
+* [What's the difference between a wallet and an account?](https://support.metamask.io/ru/managing-my-wallet/using-metamask/whats-the-difference-between-a-wallet-and-an-account-/)
 * [How to Use WalletConnect](https://academy.binance.com/en/articles/how-to-use-walletconnect) [[RU](https://academy.binance.com/ru/articles/how-to-use-walletconnect)]
 
 ### Токены
@@ -69,6 +70,7 @@
 * [Что такое апрувы токенов (Token Approvals)?](https://revoke.cash/ru/learn/approvals/what-are-token-approvals)
 * Что такое decimals? Ответ от chat-gpt [тут](./img/Screenshot_1.png) и [тут](./img/Screenshot_2.png). И косвенный ответ [тут](https://ethereum.stackexchange.com/questions/134958/erc20-decimals-in-smart-contract).
 * [Base mechanics: minting, burning, staking](https://github.com/fullstack-development/web3-roadmap/blob/main/defi/tokens/tokenomics/token_mechanics.md)
+* [Стейблкоины. Как привязывают и почему не отвязывается!?](https://habr.com/ru/companies/metalamp/articles/763538/)
 * [What are stablecoins, and how do they work?](https://www.youtube.com/watch?v=fdPmjHtQ5aM)
 
 ### IPFS
