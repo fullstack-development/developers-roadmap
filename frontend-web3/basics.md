@@ -52,9 +52,11 @@
 * [How to Use WalletConnect](https://academy.binance.com/en/articles/how-to-use-walletconnect) [[RU](https://academy.binance.com/ru/articles/how-to-use-walletconnect)]
 
 ### Токены
-* Что такое ERC-20 и ERC-721?
+* Что такое ERC-20 и ERC-721? В чем отличие этих токенов от нативной валюты блокчейна?
+* Что такое ERC-1155?
 * Что такое аппрув токена, зачем он нужен?
   * Как можно узнать количество токенов, разрешенных для управления сторонним адресом?
+* Что такое permit? в чем его отличие от approve?
 * Что такое decimals, зачем нужен? Почему это важно для работы dApp? Как узнать значение decimals?
 * Что такое minting и burning?
 * Что такое staking?
@@ -67,7 +69,10 @@
 
 * [An Introduction to ERC-20 Tokens](https://academy.binance.com/en/articles/an-introduction-to-erc-20-tokens)
 * [Ethereum Token Standards Part-II (ERC721)](https://medium.com/coinmonks/ethereum-token-standards-part-ii-erc721-4a4a7cbd5c74)
+* [What Is ERC-1155 and How Does It Work?](https://academy.binance.com/en/articles/what-is-erc-1155-and-how-does-it-work) [[RU](https://academy.binance.com/ru/articles/what-is-erc-1155-and-how-does-it-work)]
 * [Что такое апрувы токенов (Token Approvals)?](https://revoke.cash/ru/learn/approvals/what-are-token-approvals)
+* [Understanding ERC-20 Permit and Associated Risks](https://readmedium.com/understanding-erc-20-permit-and-associated-risks-41c29c969862)
+* [ERC-2612: Permit Extension for EIP-20 Signed Approvals](https://eips.ethereum.org/EIPS/eip-2612)
 * Что такое decimals? Ответ от chat-gpt [тут](./img/Screenshot_1.png) и [тут](./img/Screenshot_2.png). И косвенный ответ [тут](https://ethereum.stackexchange.com/questions/134958/erc20-decimals-in-smart-contract).
 * [Base mechanics: minting, burning, staking](https://github.com/fullstack-development/web3-roadmap/blob/main/defi/tokens/tokenomics/token_mechanics.md)
 * [Стейблкоины. Как привязывают и почему не отвязывается!?](https://habr.com/ru/companies/metalamp/articles/763538/)
