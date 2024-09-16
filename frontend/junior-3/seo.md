@@ -27,7 +27,7 @@
 
 ### Ресурсы
 
-* [Большая подборка материалов](https://habr.com/ru/articles/469139/)
+* [Большая подборка материалов](https://habr.com/ru/articles/469139/), наиболее полезные:
   * [Как работает поиск Яндекса](https://yandex.ru/support/webmaster/yandex-indexing/site-indexing.html)
   * [Подробное руководство по принципам работы Google Поиска](https://developers.google.com/search/docs/fundamentals/how-search-works?hl=ru&visit_id=638608767731277346-2134489696&rd=1)
   * [Что такое структура сайта, как её создать и проанализировать](https://netpeaksoftware.com/ru/blog/site-structure-how-to-build-and-analyze-it)
