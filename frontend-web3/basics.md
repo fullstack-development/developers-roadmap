@@ -53,6 +53,8 @@
 
 ### Токены
 * Что такое ERC-20 и ERC-721? В чем отличие этих токенов от нативной валюты блокчейна?
+  * Какие вы знаете методы у ERC-20 и ERC-721?
+  * Какие вы знаете популярные ERC-20 токены?
 * Что такое ERC-1155?
 * Что такое аппрув токена, зачем он нужен?
   * Как можно узнать количество токенов, разрешенных для управления сторонним адресом?
@@ -68,6 +70,8 @@
 ##### Ресурсы
 
 * [An Introduction to ERC-20 Tokens](https://academy.binance.com/en/articles/an-introduction-to-erc-20-tokens)
+* [ERC-20: Token Standard](https://eips.ethereum.org/EIPS/eip-20)
+* [ERC-721 Non-Fungible Token Standard](https://ethereum.org/en/developers/docs/standards/tokens/erc-721/)
 * [Ethereum Token Standards Part-II (ERC721)](https://medium.com/coinmonks/ethereum-token-standards-part-ii-erc721-4a4a7cbd5c74)
 * [What Is ERC-1155 and How Does It Work?](https://academy.binance.com/en/articles/what-is-erc-1155-and-how-does-it-work) [[RU](https://academy.binance.com/ru/articles/what-is-erc-1155-and-how-does-it-work)]
 * [Что такое апрувы токенов (Token Approvals)?](https://revoke.cash/ru/learn/approvals/what-are-token-approvals)
