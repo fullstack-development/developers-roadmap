@@ -33,6 +33,12 @@
 - Для работы с блокчейном рекомендуется использоваться [wagmi](https://wagmi.sh/) + [viem](https://viem.sh/). Для интерфейса подключения кошелька можно использовать одно из [сторонних решений](https://wagmi.sh/react/guides/connect-wallet#third-party-libraries). 
 - Для запросов в блокчейн использовать в качестве RPC провайдера [стороннего провайдера](https://wagmi.sh/core/api/transports/http), а не публичные RPC URL. Например, Alchemy, RPC URL которого можно получить в [личном кабинете](https://dashboard.alchemy.com/).
 
+## Макеты
+
+Макеты можно взять [тут](https://www.figma.com/design/5bea2k2sfc8CMytdahfeKW/MetaLamp-Developers-Roadmap-%2F-Frontend-Web3?node-id=2008-1789&node-type=canvas&t=HaYr0qVXTtVr2aDV-0). Ссылка на конкретные макеты больше нужна для понимания того, как может выглядеть ваш интерфейс. Вы можете использовать эти макеты или реализовать свой интерфейс. Обратите внимание, что в макетах нет интерфейса админки, вам его нужно продумать самим.
+
+В макетах есть Preview Mode, можете прокликать интерфейс.
+
 
 ## Смарт-контракт
 
