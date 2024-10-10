@@ -1,7 +1,7 @@
 # React
 
 * useEffect
-  * Нужно ли указывать функции в виде зависимостей эффектов?
+  * Нужно ли указывать функции в виде зависимостей эффектов? Как минимизировать количество зависимостей?
   * Что выведется в консоли для следующего кода, если быстро нажать 5 раз на кнопку, и почему?
     ```javascript
     function Counter() {
@@ -46,6 +46,9 @@
       );
     }
     ```
+  * В какой момент может выполниться эффект и функция очистки?
+  * Для чего предназначены хуки `useLayoutEffect`, `useInsertionEffect`, `useSyncExternalStore`?
+  * Почему использовать `fetch` в `useEffect` - не самая хорошая идея? Какие есть альтернативы?
 * Performance
   * Для чего в хук `useState` можно передавать функцию вместо `initialState`?
   * Когда передача инлайн-коллбека ухудшает производительность и почему? Пример: `<LoginButton onClick={(e) => handleClick(e, user)}>`
@@ -78,8 +81,9 @@
             </MemoComponent>
           );
         };
-      ```    
+      ```
 * State Management
+  * Каков алгоритм организации состояния в react при декларативном программировании?
   * Какие есть способы организации состояния, когда в этом состоянии нуждаются несколько компонентов?
   * Почему поднятие состояния до общего родителя может быть неудобным?
   * Для чего предназначен хук `useReducer`? Как с ним работать?
@@ -89,6 +93,7 @@
     * Как обновить Context из глубоко вложенной компоненты (т.е. пробрасывать коллбэк в таком случае - очень неудобное решение)?
     * Можно ли вкладывать провайдеры одного и того же Context друг в друга? Из какого провайдера при этом будут браться данные?
     * Почему не стоит злоупотреблять Context?
+  * Какие группы пакетов по управлению состоянием существуют и какие проблемы каждая решает? Какие особенности реализации используются и какие ограничения из-за этого могут накладываться?
 * Что такое HOC? Когда хоки могут быть полезны?
 * Portals
   * Что это такое? Зачем нужны? Как использовать?
@@ -104,11 +109,18 @@
     }
   }
   ```
+* Как отрендерить разный контент между клиентом и сервере и не нарушить процесс гидратации?
 
 ### Ресурсы
 
-* [React Documentation](https://reactJS.org/docs/getting-started.html)
+* [React Documentation](https://react.dev/learn)
 * [Полное руководство по useEffect](https://habr.com/ru/company/ruvds/blog/445276/) - объёмная, но очень классная статья по useEffect, которая поможет раскрыть глаза на многие вещи. Возможно придётся осилить в 2 подхода.
 * [Все ли вы знаете о useCallback](https://habr.com/ru/post/529950/)
 * [Интересная ветка обсуждения в комментариях статьи выше](https://habr.com/ru/post/529950/comments/#comment_22380330)
-* [Passing Data Deeply with Context](https://beta.reactjs.org/learn/passing-data-deeply-with-context)
+* [Passing Data Deeply with Context](https://react.dev//learn/passing-data-deeply-with-context)
+* [STATE MANAGEMENT - лучший стейт менеджер для react?](https://www.youtube.com/watch?v=AUbWwzez_Dg)
+* [zustand comparison](https://zustand.docs.pmnd.rs/getting-started/comparison)
+* [recoiljs motivation](https://recoiljs.org/docs/introduction/motivation/)
+* [jotai comparison](https://jotai.org/docs/basics/comparison)
+* [jotai concepts](https://jotai.org/docs/basics/concepts)
+* [mobX principles](https://mobx.js.org/the-gist-of-mobx.html#principles)

@@ -3,6 +3,107 @@
 * Reconciliation
   * Что такое? Какую функцию выполняет?
   * Каким образом reconciliation алгоритм использует тип элемента (что происходит, если тип изменился, не изменился и т.д.)?
+    * Являются ли следующие два примера эквивалентными? Почему?
+
+    ```jsx
+    if (isPacked) {
+      return <li className="item">{name} ✅</li>;
+    }
+    return <li className="item">{name}</li>;
+    ```
+
+    ```jsx
+    return (
+      <li className="item">
+        {isPacked ? name + ' ✅' : name}
+      </li>
+    );
+    ```
+
+    * Произойдет ли сброс состояния `Counter`? Почему?
+
+    ```jsx
+    export default function App() {
+      const [isFancy, setIsFancy] = useState(false);
+      if (isFancy) {
+        return (
+          <div>
+            <Counter isFancy={true} />
+            <label>
+              <input
+                type="checkbox"
+                checked={isFancy}
+                onChange={e => {
+                  setIsFancy(e.target.checked)
+                }}
+              />
+              Use fancy styling
+            </label>
+          </div>
+        );
+      }
+      return (
+        <div>
+          <Counter isFancy={false} />
+          <label>
+            <input
+              type="checkbox"
+              checked={isFancy}
+              onChange={e => {
+                setIsFancy(e.target.checked)
+              }}
+            />
+            Use fancy styling
+          </label>
+        </div>
+      );
+    }
+    ```
+
+    * Произойдет ли сброс состояния `Counter`? Почему?
+
+    ```jsx
+    {isFancy ? (
+      <div>
+        <Counter isFancy={true} /> 
+      </div>
+    ) : (
+      <section>
+        <Counter isFancy={false} />
+      </section>
+    )}
+    ```
+
+    * В чем проблемное место и как надо поступить?
+
+    ```jsx
+    export default function MyComponent() {
+      const [counter, setCounter] = useState(0);
+
+      function MyTextField() {
+        const [text, setText] = useState('');
+
+        return (
+          <input
+            value={text}
+            onChange={e => setText(e.target.value)}
+          />
+        );
+      }
+    }
+    ```
+
+    ```jsx
+      return (
+        <>
+          <MyTextField />
+          <button onClick={() => {
+            setCounter(counter + 1)
+          }}>Clicked {counter} times</button>
+        </>
+      );
+    ```
+
   * Атрибут `key`
     * Зачем нужен?
     * Почему лучше не использовать индекс элемента массива в качестве значения? Когда этим правилом можно пренебречь?
@@ -14,6 +115,29 @@
         </ul>
       ```
       Предположим, что в каждом инпуте содержится какой-то текст. Если добавить в начало `list` еще один элемент, то какой из инпутов окажется пустым и почему?
+  * Как сбросить внутренние состояния компонента?
+  * как сохранить внутренние состояния при размонтировании?
+* Concurrent mode
+  * Что это такое? Какие проблемы решает? Чем отличается от режима по-умолчанию?
+  * Как перейти в данный режим?
+  * Какие в react есть категории update? Как они работают?
+  * Для чего предназначены и как использовать хуки: `useTransition` и `useDeferredValue`?
+  * В какой последовательности сработает `console.log`, почему?
+
+  ```js
+  console.log(1);
+  startTransition(() => {
+    console.log(2);
+    setPage('/about');
+  });
+  console.log(3);
+  ```
+
+* Batching
+  * Что это такое?
+  * В каких случаях происходит? Что для этого нужно?
+  * Когда следует задумываться о необходимости такой оптимизации?
+  * Как вызвать немедленное обновление состояний компонента внутри `callback`? Когда это может быть полезно?
 * Performance
   * Что такое windowing или virtualizing списков?
   * Всегда ли происходит перерисовка DOM-элемента, если `shouldComponentUpdate` вернул `true`?
@@ -73,9 +197,11 @@
 
 ### Ресурсы
 
-* [React Documentation](https://reactjs.org/docs/getting-started.html)
+* [React Documentation](https://react.dev/learn)
 * [React as a UI Runtime](https://overreacted.io/react-as-a-ui-runtime/)
 * [Index as a key is an anti-pattern](https://medium.com/@robinpokorny/index-as-a-key-is-an-anti-pattern-e0349aece318)
 * [React Fiber Architecture](https://github.com/acdlite/react-fiber-architecture) - здесь неплохо написано про reconciliation в целом, часть про детали реализации (fiber) опциональна.
+* [React concurrency](https://www.youtube.com/watch?v=M1OBMTYsKpo)
+* [Батчинг в react](https://www.youtube.com/watch?v=VfQ-qSjIalU)
 * [React events in depth w/ Kent C. Dodds, Ben Alpert, & Dan Abramov](https://www.youtube.com/watch?v=dRo_egw7tBc)
 * [Getting to know React DOM’s event handling system inside out](https://medium.com/the-guild/getting-to-know-react-doms-event-handling-system-inside-out-378c44d2a5d0)
