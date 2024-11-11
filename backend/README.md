@@ -1,6 +1,7 @@
 # Programming languages
 
 - [Haskell](./haskell/README.md)
+- [Node.js](./node.js/README.md)
 - [Python](./python/README.md)
 
 ## Optional topics
