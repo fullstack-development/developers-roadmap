@@ -21,7 +21,7 @@
 
 ### Ресурсы
 
-* [Сайд эффекты](http://blog.csssr.ru/2017/10/07/side-effects)
+* [Осторожно! Возможны побочные эффекты](https://blog.csssr.com/ru/article/side-effects/)
 * [Composition vs inheritance](https://javarevisited.blogspot.com/2013/06/why-favor-composition-over-inheritance-java-oops-design.html)
 * [Наследование vs Композиция vs Агрегация](http://sergeyteplyakov.blogspot.com/2012/12/vs-vs.html)
 * [Wikipedia: Наследование](https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D0%BA%D0%B0%D0%BF%D1%81%D1%83%D0%BB%D1%8F%D1%86%D0%B8%D1%8F_(%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5))
