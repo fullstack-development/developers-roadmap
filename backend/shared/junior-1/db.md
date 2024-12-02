@@ -44,3 +44,13 @@
 
 - [SQL Tutorial](https://www.w3schools.com/sql/default.asp)
 - [Введение в SQL и работу с базой данных](https://netology.ru/programs/vvedenie-v-sql-i-rabotu-s-bazoi-dannih#/)
+
+
+#### Additional resources
+
+* [Литература с Postgrespro](https://postgrespro.ru/education/books):
+  * Новиков, Б. А. Основы технологий баз данных, часть 1:
+    * Теоретические основы БД - 2.1, 2.2
+  * Моргунов, Е. П. PostgreSQL. Основы языка SQL:
+    * Основы SQL - главы 1-7
+* [Введение в базы данных, курс Stepik](https://stepik.org/course/551/)
