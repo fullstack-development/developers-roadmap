@@ -17,6 +17,8 @@
 
 - [What is a database?](https://www.oracle.com/database/what-is-database/)
 - [What is a relational database?](https://www.oracle.com/database/what-is-a-relational-database/)
+- [Relational database](https://www.techtarget.com/searchdatamanagement/definition/relational-database)
+- [Реляционные базы данных](https://yandex.cloud/ru/docs/glossary/relational-databases?utm_referrer=https%3A%2F%2Fgist.github.com%2F)
 
 ## SQL
 
@@ -41,3 +43,4 @@
 #### Resources
 
 - [SQL Tutorial](https://www.w3schools.com/sql/default.asp)
+- [Введение в SQL и работу с базой данных](https://netology.ru/programs/vvedenie-v-sql-i-rabotu-s-bazoi-dannih#/)
