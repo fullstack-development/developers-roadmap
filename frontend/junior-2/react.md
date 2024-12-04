@@ -122,8 +122,3 @@
 * [Интересная ветка обсуждения в комментариях статьи выше](https://habr.com/ru/post/529950/comments/#comment_22380330)
 * [Passing Data Deeply with Context](https://react.dev//learn/passing-data-deeply-with-context)
 * [STATE MANAGEMENT - лучший стейт менеджер для react?](https://www.youtube.com/watch?v=AUbWwzez_Dg)
-* [zustand comparison](https://zustand.docs.pmnd.rs/getting-started/comparison)
-* [recoiljs motivation](https://recoiljs.org/docs/introduction/motivation/)
-* [jotai comparison](https://jotai.org/docs/basics/comparison)
-* [jotai concepts](https://jotai.org/docs/basics/concepts)
-* [mobX principles](https://mobx.js.org/the-gist-of-mobx.html#principles)
