@@ -50,7 +50,7 @@
   * Что это такое? Зачем нужны? Как их использовать?
   * Как и для чего использовать хуки `useRef` и `useImperativeHandle`?
   * Что делает и зачем нужен метод `React.forwardRef`?
-  * Как управлять массивом ref-ов?
+  * Вам необходимо передать ref в каждый элемент списка, но вы не знаете заранее сколько элементов в этом списке может быть. Как поступить в таком случае?
   * Почему refs стоит использовать умеренно?
 
 ### Ресурсы
@@ -60,3 +60,4 @@
 * [React hooks: not magic, just arrays](https://medium.com/@ryardley/react-hooks-not-magic-just-arrays-cd4f1857236e)
 * [Keeping Components Pure](https://react.dev//learn/keeping-components-pure)
 * [Lifecycle of reactive effects](https://react.dev//learn/lifecycle-of-reactive-effects)
+* [How to manage a list of refs using a ref callback](https://react.dev/learn/manipulating-the-dom-with-refs#how-to-manage-a-list-of-refs-using-a-ref-callback)
