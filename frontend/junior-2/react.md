@@ -118,6 +118,7 @@
 
 * [React Documentation](https://react.dev/learn)
 * [Полное руководство по useEffect](https://habr.com/ru/company/ruvds/blog/445276/) - объёмная, но очень классная статья по useEffect, которая поможет раскрыть глаза на многие вещи. Возможно придётся осилить в 2 подхода.
+* [What are good alternatives to data fetching in Effects?](https://react.dev/reference/react/useEffect#what-are-good-alternatives-to-data-fetching-in-effects)
 * [Все ли вы знаете о useCallback](https://habr.com/ru/post/529950/)
 * [Интересная ветка обсуждения в комментариях статьи выше](https://habr.com/ru/post/529950/comments/#comment_22380330)
 * [Thinking about UI declaratively](https://react.dev/learn/reacting-to-input-with-state#thinking-about-ui-declaratively)
