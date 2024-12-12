@@ -5,113 +5,138 @@
   * Каким образом reconciliation алгоритм использует тип элемента (что происходит, если тип изменился, не изменился и т.д.)?
     * Являются ли следующие два примера эквивалентными? Почему?
 
-    ```jsx
-    if (isPacked) {
-      return <li className="item">{name} ✅</li>;
-    }
-    return <li className="item">{name}</li>;
-    ```
+      <details>
+        <summary>Подробности:</summary>
 
-    ```jsx
-    return (
-      <li className="item">
-        {isPacked ? name + ' ✅' : name}
-      </li>
-    );
-    ```
+        ```jsx
+        if (isPacked) {
+          return <li className="item">{name} ✅</li>;
+        }
+        return <li className="item">{name}</li>;
+        ```
 
-    * Произойдет ли сброс состояния `Counter`? Почему?
-
-    ```jsx
-    export default function App() {
-      const [isFancy, setIsFancy] = useState(false);
-      if (isFancy) {
+        ```jsx
         return (
-          <div>
-            <Counter isFancy={true} />
-            <label>
-              <input
-                type="checkbox"
-                checked={isFancy}
-                onChange={e => {
-                  setIsFancy(e.target.checked)
-                }}
-              />
-              Use fancy styling
-            </label>
-          </div>
+          <li className="item">
+            {isPacked ? name + ' ✅' : name}
+          </li>
         );
-      }
-      return (
-        <div>
-          <Counter isFancy={false} />
-          <label>
-            <input
-              type="checkbox"
-              checked={isFancy}
-              onChange={e => {
-                setIsFancy(e.target.checked)
-              }}
-            />
-            Use fancy styling
-          </label>
-        </div>
-      );
-    }
-    ```
+        ```
+
+      </details>
 
     * Произойдет ли сброс состояния `Counter`? Почему?
 
-    ```jsx
-    {isFancy ? (
-      <div>
-        <Counter isFancy={true} /> 
-      </div>
-    ) : (
-      <section>
-        <Counter isFancy={false} />
-      </section>
-    )}
-    ```
+      <details>
+        <summary>Подробности:</summary>
+
+        ```jsx
+        export default function App() {
+          const [isFancy, setIsFancy] = useState(false);
+          if (isFancy) {
+            return (
+              <div>
+                <Counter isFancy={true} />
+                <label>
+                  <input
+                    type="checkbox"
+                    checked={isFancy}
+                    onChange={e => {
+                      setIsFancy(e.target.checked)
+                    }}
+                  />
+                  Use fancy styling
+                </label>
+              </div>
+            );
+          }
+          return (
+            <div>
+              <Counter isFancy={false} />
+              <label>
+                <input
+                  type="checkbox"
+                  checked={isFancy}
+                  onChange={e => {
+                    setIsFancy(e.target.checked)
+                  }}
+                />
+                Use fancy styling
+              </label>
+            </div>
+          );
+        }
+        ```
+
+      </details>
+
+    * Произойдет ли сброс состояния `Counter`? Почему?
+
+      <details>
+        <summary>Подробности:</summary>
+
+        ```jsx
+        {isFancy ? (
+          <div>
+            <Counter isFancy={true} /> 
+          </div>
+        ) : (
+          <section>
+            <Counter isFancy={false} />
+          </section>
+        )}
+        ```
+
+      </details>
 
     * В чем проблемное место и как надо поступить?
 
-    ```jsx
-    export default function MyComponent() {
-      const [counter, setCounter] = useState(0);
+      <details>
+        <summary>Подробности:</summary>
 
-      function MyTextField() {
-        const [text, setText] = useState('');
+        ```jsx
+        export default function MyComponent() {
+          const [counter, setCounter] = useState(0);
 
-        return (
-          <input
-            value={text}
-            onChange={e => setText(e.target.value)}
-          />
-        );
-      }
-    }
-    ```
+          function MyTextField() {
+            const [text, setText] = useState('');
 
-    ```jsx
-      return (
-        <>
-          <MyTextField />
-          <button onClick={() => {
-            setCounter(counter + 1)
-          }}>Clicked {counter} times</button>
-        </>
-      );
-    ```
+            return (
+              <input
+                value={text}
+                onChange={e => setText(e.target.value)}
+              />
+            );
+          }
+        }
+        ```
+
+        ```jsx
+          return (
+            <>
+              <MyTextField />
+              <button onClick={() => {
+                setCounter(counter + 1)
+              }}>Clicked {counter} times</button>
+            </>
+          );
+        ```
+
+      </details>
 
     * Будет ли заново монтироваться компонент `<Input id="3" />`, если я добавлю/удалю что-то в массиве `data`?
 
-    ```jsx
-    <React.Fragment>
-      {data.map((i) => <Input key={i} id={i} />)}
-      <Input id="3" />
-    </React.Fragment>
-    ```
+      <details>
+        <summary>Подробности:</summary>
+
+        ```jsx
+        <React.Fragment>
+          {data.map((i) => <Input key={i} id={i} />)}
+          <Input id="3" />
+        </React.Fragment>
+        ```
+
+      </details>
 
   * Атрибут `key`
     * Зачем нужен?
@@ -133,14 +158,19 @@
   * Для чего предназначены и как использовать хуки: `useTransition` и `useDeferredValue`?
   * В какой последовательности сработает `console.log`, почему?
 
-  ```js
-  console.log(1);
-  startTransition(() => {
-    console.log(2);
-    setPage('/about');
-  });
-  console.log(3);
-  ```
+    <details>
+      <summary>Подробности:</summary>
+
+      ```js
+      console.log(1);
+      startTransition(() => {
+        console.log(2);
+        setPage('/about');
+      });
+      console.log(3);
+      ```
+
+    </details>
 
 * Batching
   * Что это такое?
@@ -164,40 +194,52 @@
   * Как HOC влияет на forwarded ref?
   * В чем преимущество использование HOC для получения значения из контекста перед useContext и наоборот?
     * with useContext:
-      ```typescript
-      type Props = {
-          prop1: any;
-      }
 
-      const MyComp: FC<Props> = ({ prop1 }) => {
-          const { prop2,  prop3 } = useContext(context);
-          ...
-      } 
+      <details>
+        <summary>Подробности:</summary>
 
-      // usage
-      <MyComp prop1="asd" />
-      ```
+        ```typescript
+        type Props = {
+            prop1: any;
+        }
 
+        const MyComp: FC<Props> = ({ prop1 }) => {
+            const { prop2,  prop3 } = useContext(context);
+            ...
+        } 
+
+        // usage
+        <MyComp prop1="asd" />
+        ```
+
+      </details>
 
     * with HOC:
-      ```typescript
-      type Props = {
-          prop1: any;
-          prop2: any;
-          prop3: any;
-      }
 
-      const MyComp: FC<Props> = ({ prop1, prop2, prop3 }) => {...}
+      <details>
+        <summary>Подробности:</summary>
 
-      // селектор тут скорее концепция, в данном случае селектор частично удовлетворяет интерфейс компонента
-      const selector1 = () => {...} // прокидывает в компоненту prop2 и prop3
-      const MyCompWithStore1 = withSomething(selector1)(MyComp);
-      const selector2 = () => {...} // прокидывает в компоненту prop1 и prop3
-      const MyCompWithStore2 = withSomething(selector2)(MyComp);
+        ```typescript
+        type Props = {
+            prop1: any;
+            prop2: any;
+            prop3: any;
+        }
 
-      <MyCompWithStore1 prop1="asd" />
-      <MyCompWithStore2 prop2="asd" />
-      ```
+        const MyComp: FC<Props> = ({ prop1, prop2, prop3 }) => {...}
+
+        // селектор тут скорее концепция, в данном случае селектор частично удовлетворяет интерфейс компонента
+        const selector1 = () => {...} // прокидывает в компоненту prop2 и prop3
+        const MyCompWithStore1 = withSomething(selector1)(MyComp);
+        const selector2 = () => {...} // прокидывает в компоненту prop1 и prop3
+        const MyCompWithStore2 = withSomething(selector2)(MyComp);
+
+        <MyCompWithStore1 prop1="asd" />
+        <MyCompWithStore2 prop2="asd" />
+        ```
+
+      </details>
+
 * Что такое Render Prop? Где и как может использоваться такой приём?
 * Custom Hooks
   * Как и для чего создавать пользовательские хуки?
