@@ -253,5 +253,6 @@
 * [React Fiber Architecture](https://github.com/acdlite/react-fiber-architecture) - здесь неплохо написано про reconciliation в целом, часть про детали реализации (fiber) опциональна.
 * [React concurrency](https://www.youtube.com/watch?v=M1OBMTYsKpo)
 * [Батчинг в react](https://www.youtube.com/watch?v=VfQ-qSjIalU)
+* [Automatic Batching](https://react.dev/blog/2022/03/08/react-18-upgrade-guide#automatic-batching)
 * [React events in depth w/ Kent C. Dodds, Ben Alpert, & Dan Abramov](https://www.youtube.com/watch?v=dRo_egw7tBc)
 * [Getting to know React DOM’s event handling system inside out](https://medium.com/the-guild/getting-to-know-react-doms-event-handling-system-inside-out-378c44d2a5d0)
