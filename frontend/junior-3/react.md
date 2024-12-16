@@ -247,6 +247,7 @@
 ### Ресурсы
 
 * [React Documentation](https://react.dev/learn)
+* [How react reconciliation works](https://gist.github.com/zagazat/db926ec7ab69061934246a55b64913c3)
 * [React as a UI Runtime](https://overreacted.io/react-as-a-ui-runtime/)
 * [Index as a key is an anti-pattern](https://medium.com/@robinpokorny/index-as-a-key-is-an-anti-pattern-e0349aece318)
 * [React Fiber Architecture](https://github.com/acdlite/react-fiber-architecture) - здесь неплохо написано про reconciliation в целом, часть про детали реализации (fiber) опциональна.
