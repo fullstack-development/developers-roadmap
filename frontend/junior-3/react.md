@@ -108,9 +108,8 @@
               />
             );
           }
-        }
-        
-        return (
+
+          return (
             <>
               <MyTextField />
               <button onClick={() => {
@@ -118,6 +117,7 @@
               }}>Clicked {counter} times</button>
             </>
           );
+        }
         ```
 
       </details>
