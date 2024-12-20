@@ -130,10 +130,17 @@
         <summary>Подробности:</summary>
 
         ```jsx
-        <React.Fragment>
-          {data.map((i) => <Input key={i} id={i} />)}
-          <Input id="3" />
-        </React.Fragment>
+        const data = ['1', '2'];
+
+        const Component = () => {
+
+          return (
+            <React.Fragment>
+              {data.map((i) => <Input key={i} id={i} />)}
+              <Input id="3" />
+            </React.Fragment>
+          )
+        }
         ```
 
       </details>
