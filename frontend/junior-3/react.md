@@ -25,7 +25,7 @@
 
       </details>
 
-    * Произойдет ли сброс состояния `Counter`? Почему?
+    * Произойдет ли сброс состояния `Counter` при изменении значения `IsFancy` на `true`? Почему?
 
       <details>
         <summary>Подробности:</summary>
@@ -33,6 +33,7 @@
         ```jsx
         export default function App() {
           const [isFancy, setIsFancy] = useState(false);
+
           if (isFancy) {
             return (
               <div>
@@ -50,6 +51,7 @@
               </div>
             );
           }
+
           return (
             <div>
               <Counter isFancy={false} />
