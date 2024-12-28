@@ -6,3 +6,4 @@
 - [Typescript](./ts/ts.md)
 - [SQL](./databases/sql.md)
 - [NoSql](./databases/nosql.md)
+- [Patterns](./patterns/patterns.md)
