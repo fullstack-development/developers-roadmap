@@ -10,6 +10,7 @@
 - Give an example of how `LIMIT` and `OFFSET` can be used.
 - What is the `JSONB`?
 - Which data structure might `JSONB` be suitable for?
+- What is the `SELF JOIN`?
 
 - `ACID`, what is it?
 
