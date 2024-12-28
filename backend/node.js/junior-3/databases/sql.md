@@ -2,17 +2,26 @@
 
 ##### `The Postgresql DBMS dialect`
 
-- What are `aggregation functions`?
-- What are the `aggregation functions` for?
-- What does each of these `aggregation functions` do? `COUNT`, `MIN`, `MAX`, `AVG`, `ARRAY_AGG`, `JSON_AGG`, `JSON_ARRAYAGG`, `SUM`, `XMLAGG`
-- What is the `GROUP BY`?
-- What is the `HAVING`?
-- Give an example of how `LIMIT` and `OFFSET` can be used.
-- What is the `JSONB`?
-- Which data structure might `JSONB` be suitable for?
-- What is the `SELF JOIN`?
+- ###### `aggregation functions`
 
-- `ACID`, what is it?
+* What are `aggregation functions`?
+* What are the `aggregation functions` for?
+* What does each of these `aggregation functions` do? `COUNT`, `MIN`, `MAX`, `AVG`, `ARRAY_AGG`, `JSON_AGG`, `JSON_ARRAYAGG`, `SUM`, `XMLAGG`
+* What is the `GROUP BY`?
+* What is the `HAVING`?
+
+- ###### `JSON structure in database`
+
+* What is the `JSONB`?
+* Which data structure might `JSONB` be suitable for?
+
+- ###### `JOIN`
+
+* What is the `SELF JOIN`?
+
+- ###### `General`
+
+* `ACID`, what is it?
 
 ### Resources
 

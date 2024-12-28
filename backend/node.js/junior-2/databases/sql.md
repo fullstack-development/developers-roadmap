@@ -2,8 +2,13 @@
 
 ##### `The Postgresql DBMS dialect`
 
+- ###### `ORDER BY`
+
 - What is an `ORDER BY` and what is it used for?
 - What types of `ORDER BY` sorting exist?
+
+- ###### `LIMIT and OFFSET`
+
 - What is the `LIMIT`?
 - What is the `OFFSET`?
 - Give an example of how `LIMIT` and `OFFSET` can be used.
