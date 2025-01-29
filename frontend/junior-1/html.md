@@ -1,42 +1,42 @@
 # HTML
 
-* HTML5 теги, как сделать верстку семантичной и зачем это нужно?
-* Что такое `doctype` и зачем он нужен? Что будет, если не написать `doctype`?
-* Какие есть отличия у тегов `div`, `p`, `span`, `a`?
-* Что такое инлайновые элементы (например, `b`, `i`, `strong`, `em`)?
-* Как создавать таблицы в html?
+* What are HTML5 tags, how to make semantic markup and why is it necessary?
+* What is `doctype` and what is it for? What will happen if `doctype` is not written?
+* What are the differences between the tags `div`, `p`, `span`, `a`?
+* What are inline elements (for example, `b`, `i`, `strong`, `em`)?
+* How to create tables in HTML?
   * `border-spacing`, `border-collapse`
   * `colspan`, `rowspan`
   * `table-layout`
   * `caption`
   * `scope`
-  * `display: table`, `table-cell`, `table-row` и т.д.
-* В чем заключаются отличие чекбокса от радио кнопок? Как связать радиокнопки в группу?
-* Что такое тег `<label>` и как с ним работать?
-* Что такое БЭМ и в чем его польза?
-  * Блок
-    * Что такое, когда следует создавать?
-    * Может ли блок содержать другие блоки?
-    * Почему не стоит задавать внешнюю геометрию блокам?
-  * Элемент
-    * Что такое, когда следует создавать?
-    * Может ли элемент содержать другие элементы?
-    * Может ли элемент содержать блоки (блок, к которому он относится, или другие блоки)?
-    * Можно ли создавать элемент элемента?
-    * Может ли элемент использоваться вне блока?
-    * Может ли существовать блок без элементов?
-  * Модификатор
-    * Что такое, когда следует использовать?
-    * Когда следует использовать булевый модификатор, а когда модификатор ключ-значение?
-    * Является ли корректным следующий код:
+  * `display: table`, `table-cell`, `table-row`, etc.
+* What is the difference between a checkbox and radio buttons? How to group radio buttons?
+* What is the `<label>` tag and how to work with it?
+* What is BEM and what is its use?
+  * Block
+    * What is it, when should it be created?
+    * Can a block contain other blocks?
+    * Why should you not set the outer geometry of blocks?
+  * Element
+    * What is it, when should it be created?
+    * Can an element contain other elements?
+    * Can an element contain blocks (the block to which it belongs, or other blocks)?
+    * Can an element of an element be created?
+    * Can an element be used outside of a block?
+    * Can a block exist without elements?
+  * Modifier
+    * What is it, when should it be used?
+    * When should a boolean modifier be used, and when should a key-value modifier be used?
+    * Is the following code correct:
         ```html
         <div class="button_red"> Click me </div>
         ```
-  * Почему в CSS по БЭМ не рекомендуется использовать селекторы по id и по тегам?
-  * Как препроцессоры помогают избежать боли с дублированием названий в коде?
-  * Какие альтернативы есть БЭМ и в чем сила/слабость каждого? Знать хотя бы 2 альтернативы данному подходу, плюсы/минусы подходов.
-  * Что такое миксы в БЭМе и какие особенности работы с ними есть?
-  * Как бы отрефакторили данный код:
+  * Why is it not recommended to use selectors by id and by tags in CSS by BEM?
+  * How do preprocessors help avoid pain with name duplication in code?
+  * What alternatives are there to BEM and what is the strength/weakness of each? Know at least 2 alternatives to this approach, the pros/cons of the approaches.
+  * What are mixes in BEM and what are the features of working with them?
+  * How would you refactor following code:
     ```html
     <header class="header">
         <img class="logo">
@@ -50,18 +50,21 @@
         </ul>
     </header>
     ```
-* Зачем нужны метатеги?
-* Что такое data-атрибуты, и привести примеры, когда они полезны?
-* Когда стоит использовать тег `img`, а когда `background-image`?
-* Как стилизовать `svg`? Какие основные атрибуты и CSS-свойства используются для этого?
-* Что такое специальные html-сущности (неразрывный пробел, тире, которое не дефис) и как с ними работать?
+* What are meta tags for?
+* What are data attributes, and give examples of when they are useful?
+* When should the `img` tag be used, and when should `background-image` be used?
+* How to style `svg`? What are the main attributes and CSS properties used for this?
+* What are special HTML entities (non-breaking space, dash, which is not a hyphen) and how to work with them?
 
-### Ресурсы
+### Resources
 
-* [Людоедский интерфейс, Вадим Макеев](https://www.youtube.com/watch?v=ssJsjGZE2sc)
-* [HTML Academy](https://htmlacademy.ru/)
+* [Ludoeedskiy interfeys, Vadim Makeev](https://www.youtube.com/watch?v=ssJsjGZE2sc)
+* [HTML Academy](https://htmlacademy.org/)
 * [HTML (MDN)](https://developer.mozilla.org/ru/docs/Web/HTML)
-* [HTML и HTML5. Описание тегов по основным разделам](https://html5book.ru/html-html5/)
-* [Основы методологии БЭМ](https://ru.bem.info/methodology/quick-start/)
-* [Способы организации CSS-кода](https://habr.com/ru/post/256109/)
-* [SVG: заливка и обводка](http://css.yoksel.ru/svg-fill-and-stroke/)
+<!-- TODO:: find resource on English -->
+* [HTML and HTML5. Description of tags by main sections](https://html5book.ru/html-html5/)
+* [Basics of the BEM methodology](https://en.bem.info/methodology/quick-start/)
+<!-- TODO:: find resource on English -->
+* [Ways to organize CSS code](https://habr.com/ru/post/256109/)
+<!-- TODO:: find resource on English -->
+* [SVG: fill and stroke](http://css.yoksel.ru/svg-fill-and-stroke/)
