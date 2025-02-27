@@ -21,6 +21,8 @@ Learn how to design complex systems according to engineering heuristics gathered
 * [Basic design principles](./design.md)
 * [OOP](./oop.md)
 
+## Common resources
+* [Do the SOLID principles apply to Functional Programming?](https://dev.to/patferraggi/do-the-solid-principles-apply-to-functional-programming-56lm)
 
 ## The Single Responsibility Principle (SRP)
 * What is The Single Responsibility Principle?
@@ -39,6 +41,8 @@ Learn how to design complex systems according to engineering heuristics gathered
 #### Resources
 * [The Single Responsibility Principle](https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html)
 * [Think you understand the Single Responsibility Principle?](https://hackernoon.com/you-dont-understand-the-single-responsibility-principle-abfdd005b137)
+* [Single Responsibility Principle revisited](https://thevaluable.dev/single-responsibility-principle-revisited/)
+* [DRY vs SRP](https://www.geeksforgeeks.org/dont-repeat-yourselfdry-in-software-development/#dont-repeat-yourself-dry-vs-single-responsibility-principle-srp)
 * [On the Criteria To Be Used in Decomposing Systems into Modules](https://www.win.tue.nl/~wstomv/edu/2ip30/references/criteria_for_modularization.pdf) (closely related to SRP)
 * [Review of "On the criteria to be used in decomposing systems into modules"](https://blog.acolyer.org/2016/09/05/on-the-criteria-to-be-used-in-decomposing-systems-into-modules/)
 * [The Modular Structure of Complex Systems](https://www.researchgate.net/publication/2814490_The_Modular_Structure_of_Complex_Systems)
@@ -88,6 +92,7 @@ Learn how to design complex systems according to engineering heuristics gathered
 
 #### Resources
 * [The Interface Segregation Principle — it’s confused](https://medium.com/@jim_ej/the-interface-segregation-principle-its-confused-aa856de97d36)
+* [Interface Segregation Principle: Everything You Need to Know](https://reflectoring.io/interface-segregation-principle/)
 
 
 ## The Dependency Inversion Principle (DIP)
