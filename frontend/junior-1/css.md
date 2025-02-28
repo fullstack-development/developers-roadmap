@@ -83,6 +83,7 @@
       * `transition-duration`
       * `transition-property`
       * `transition-timing-function`
+      * `transition-behavior`
     * Можно ли задать несколько анимаций для элемента?
   * Трансформации
     * Что делает свойство `transform`? Какие значения ему можно задавать?
