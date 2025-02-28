@@ -104,6 +104,7 @@ Learn how to design complex systems according to engineering heuristics gathered
 * How is the DIP related to the OCP?
 * Where should abstraction be declared that connects high-level and low-level modules? Can it be declared in a low-level module and then be imported into a high-level one?
 * Does library violate the DIP (for example React) if it is both concrete and widely used in your project?
+* What techniques allow you to implement DIP?
 * What is the Stable Dependencies Principle (SDP) and how is it related to the DIP?
 * What is the stability metric and what does it measure?
 * Why do modules with high stability tend to be less volatile?
@@ -112,6 +113,7 @@ Learn how to design complex systems according to engineering heuristics gathered
 * What is The Stable Abstractions Principle and how is it related to the SDP?
 * Why Instability and Abstraction metrics should be balanced?
 * What is the Main Sequence where the sum of Instability and Abstraction is 1?
+* Is the DIP the same as DI, or IoC?
 * Can the DIP also be useful for a project written in FP style?
 
 

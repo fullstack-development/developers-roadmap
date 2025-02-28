@@ -8,6 +8,7 @@
   * Когда в TS проявляется Covariance? Когда Contravariance?
   * Если в функцию передать коллбек, который принимает другой коллбек, то параметры будут проявлять Covariance или Contravariance (вывести на примере самостоятельно)?
   * Если бы объекты и классы TS были Invariant, то как бы это повлияло на type safety и на удобство разработки?
+  * Как задать конкретный variance у generic типа?
 * Почему TS считает compatible тип функции с меньшим количество аргументов
    ```typescript
    ((a: number) => 0; assignable to (b: number, s: string) => 0;)
@@ -32,6 +33,7 @@
 * [How can a statically typed language support duck typing?](https://softwareengineering.stackexchange.com/questions/252984/how-can-a-statically-typed-language-support-duck-typing)
 * [Flavoring: Flexible Nominal Typing for TypeScript](https://spin.atomicobject.com/2018/01/15/typescript-flexible-nominal-typing/)
 * [Wiki: Variance (определение)](https://en.wikipedia.org/wiki/Covariance_and_contravariance_(computer_science)) [RUS](https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C_%D0%B8_%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%B0%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C_(%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5))
+* [Generics Variance Annotations](https://www.typescriptlang.org/docs/handbook/2/generics.html#variance-annotations)
 * [Номинативная типизация в TypeScript или как защитить свой интерфейс от чужих идентификаторов](https://habr.com/ru/post/446768/)
 * [Programming TypeScript by Boris Cherny. Chapter 6.](https://learning.oreilly.com/library/view/programming-typescript/9781492037644/ch06.html)
 * [Reference Checker Widening Narrowing](https://github.com/microsoft/TypeScript/wiki/Reference-Checker-Widening-Narrowing)
