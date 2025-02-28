@@ -53,6 +53,7 @@
       * Теперь сделайте так, чтобы в объекте `survivedAvengers` ключи типа `Head` были опциональными.
       * Теперь сделайте так, чтобы в объекте `survivedAvengers` ключи типа `Head` были опциональными, за исключением ключей, переданных в дженерик, т.е. общие ключи из `Head` и `T` должны быть обязательными, а все остальные ключи из `Head` должны быть опциональными.
 * Каково назначение нижеперечисленных типов?
+  * `Awaited<T>`
   * `Partial<T>`
   * `Readonly<T>`
   * `Required<T>`
@@ -65,6 +66,7 @@
   * `ReturnType<T>`
   * `Parameters<T>`
   * `InstanceType<T>`
+  * `NoInfer<T>`
   * `ThisType<T>`
 * Для чего предназначены Conditional Types?
   * Как проявляется дистрибутивность в Conditional Types?
@@ -75,6 +77,7 @@
 ### Ресурсы
 
 * [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/advanced-types.html)
+* [Перегрузка функций в TypeScript](https://habr.com/ru/companies/otus/articles/688270/)
 * [How 2 TypeScript: Serious business with TypeScript's infer keyword](https://dev.to/miracleblue/how-2-typescript-serious-business-with-typescripts-infer-keyword-40i5)
 * [Conditional Types in TypeScript](https://mariusschulz.com/blog/conditional-types-in-typescript)
 * [Recursive Type Aliases](https://dev.to/busypeoples/notes-on-typescript-recursive-types-and-immutability-5ck1)
