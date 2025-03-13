@@ -8,6 +8,7 @@
 * Что такое гидратация (hydration)?
   * Как отрендерить разный контент между клиентом и сервером и не нарушить процесс гидратации?
 * Что такое streaming? Как включить в react?
+  * Куда буду всплывать ошибки, выброшенные в компонентах при рендере на сервере, если используется server streaming API?
 * Когда вы бы посоветовали заказчику использовать клиентский рендер, а когда изоморфный?
 
 # Ресурсы
@@ -16,4 +17,5 @@
 * [Talk, Server Rendering with React and React Router v4](https://www.youtube.com/watch?v=mZEv4mHsU5E)
 * [Why Isomorphic JavaScript?](https://www.oreilly.com/library/view/building-isomorphic-javascript/9781491932926/ch01.html)
 * [New Suspense SSR Architecture in React 18](https://github.com/reactwg/react-18/discussions/37)
+* [Providing a fallback for server errors and client-only content](https://react.dev/reference/react/Suspense#providing-a-fallback-for-server-errors-and-client-only-content)
 * [Streaming Server Rendering with Suspense](https://www.youtube.com/watch?v=pj5N-Khihgc&ab_channel=ReactConf2021)
