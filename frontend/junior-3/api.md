@@ -14,5 +14,5 @@
 * [JSON API – работаем по спецификации](https://habr.com/ru/companies/oleg-bunin/articles/433322/)
 * [JSON API Specification](http://jsonapi.org/format/)
 * [JSON RPC Specification](https://www.jsonrpc.org/specification)
-* [GraphQL Specification](https://facebook.github.io/graphql/)
+* [GraphQL Specification](https://spec.graphql.org/)
 * [Introduction to GraphQL](https://graphql.org/learn/)

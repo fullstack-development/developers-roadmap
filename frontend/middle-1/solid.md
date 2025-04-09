@@ -21,6 +21,8 @@ Learn how to design complex systems according to engineering heuristics gathered
 * [Basic design principles](./design.md)
 * [OOP](./oop.md)
 
+## Common resources
+* [Do the SOLID principles apply to Functional Programming?](https://dev.to/patferraggi/do-the-solid-principles-apply-to-functional-programming-56lm)
 
 ## The Single Responsibility Principle (SRP)
 * What is The Single Responsibility Principle?
@@ -39,6 +41,8 @@ Learn how to design complex systems according to engineering heuristics gathered
 #### Resources
 * [The Single Responsibility Principle](https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html)
 * [Think you understand the Single Responsibility Principle?](https://hackernoon.com/you-dont-understand-the-single-responsibility-principle-abfdd005b137)
+* [Single Responsibility Principle revisited](https://thevaluable.dev/single-responsibility-principle-revisited/)
+* [DRY vs SRP](https://www.geeksforgeeks.org/dont-repeat-yourselfdry-in-software-development/#dont-repeat-yourself-dry-vs-single-responsibility-principle-srp)
 * [On the Criteria To Be Used in Decomposing Systems into Modules](https://www.win.tue.nl/~wstomv/edu/2ip30/references/criteria_for_modularization.pdf) (closely related to SRP)
 * [Review of "On the criteria to be used in decomposing systems into modules"](https://blog.acolyer.org/2016/09/05/on-the-criteria-to-be-used-in-decomposing-systems-into-modules/)
 * [The Modular Structure of Complex Systems](https://www.researchgate.net/publication/2814490_The_Modular_Structure_of_Complex_Systems)
@@ -88,6 +92,7 @@ Learn how to design complex systems according to engineering heuristics gathered
 
 #### Resources
 * [The Interface Segregation Principle — it’s confused](https://medium.com/@jim_ej/the-interface-segregation-principle-its-confused-aa856de97d36)
+* [Interface Segregation Principle: Everything You Need to Know](https://reflectoring.io/interface-segregation-principle/)
 
 
 ## The Dependency Inversion Principle (DIP)
@@ -99,6 +104,7 @@ Learn how to design complex systems according to engineering heuristics gathered
 * How is the DIP related to the OCP?
 * Where should abstraction be declared that connects high-level and low-level modules? Can it be declared in a low-level module and then be imported into a high-level one?
 * Does library violate the DIP (for example React) if it is both concrete and widely used in your project?
+* What techniques allow you to implement DIP?
 * What is the Stable Dependencies Principle (SDP) and how is it related to the DIP?
 * What is the stability metric and what does it measure?
 * Why do modules with high stability tend to be less volatile?
@@ -107,6 +113,7 @@ Learn how to design complex systems according to engineering heuristics gathered
 * What is The Stable Abstractions Principle and how is it related to the SDP?
 * Why Instability and Abstraction metrics should be balanced?
 * What is the Main Sequence where the sum of Instability and Abstraction is 1?
+* Is the DIP the same as DI, or IoC?
 * Can the DIP also be useful for a project written in FP style?
 
 

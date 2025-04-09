@@ -1,6 +1,11 @@
 # Безопасность
 
 * Атаки
+  * Supply chain attacks
+    * Что такое?
+    * Как работает?
+    * Из-за чего чаще всего происходит?
+    * Какие есть способы предотвратить (необязательно перечислять все)?
   * XSS (Cross-site scripting)
     * Что такое?
     * Как работает?
@@ -25,6 +30,7 @@
 
 ### Ресурсы
 
+* [Supply chain attacks](https://nodejs.org/en/learn/getting-started/security-best-practices#supply-chain-attacks)
 * [Основы XSS](https://hackware.ru/?p=1174)
 * [XSS](https://portswigger.net/web-security/cross-site-scripting)
 * [XSS Game](https://xss-game.appspot.com/level1)
