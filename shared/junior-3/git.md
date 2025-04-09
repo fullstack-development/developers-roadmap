@@ -2,6 +2,7 @@
 
 * Рассказать про объектную модель (blob, tree, commit, tag) и .pack файлы.
 * Что такое "The Three Trees" (The HEAD, The Index, The Working Directory)?
+* Что такое `HEAD` и `detached HEAD`? Что значат `HEAD^`, `HEAD~`, `HEAD@{1}`?
 * Как производить отмену изменений? Где какой способ стоит применять? Рассказать в этом контексте про команды:
   * `checkout`
   * `reset`
@@ -25,7 +26,6 @@
   * Как отменить merge commit?
   * Что такое fast-forward merge?
   * Что делают флаги `--squash` и `--no-ff`?
-* Что такое `HEAD` и `detached HEAD`? Что значат `HEAD^`, `HEAD~`, `HEAD@{1}`?
 * Что такое Git workflow, какие знаете примеры?
 
 ### Ресурсы

@@ -15,4 +15,7 @@
 ### Ресурсы
 
 * [Boundary value analysis](https://www.guru99.com/equivalence-partitioning-boundary-value-analysis.html)
-* [Unit testing with fixtures](https://goodguydaniel.com/blog/unit-testing-with-fixtures-unleashed)
+* [What are fixtures in programming](https://stackoverflow.com/questions/12071344/what-are-fixtures-in-programming)
+* [What is code coverage? от Atlassian](https://www.atlassian.com/continuous-delivery/software-testing/code-coverage)
+* [Unit testing best practices](https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices)
+
