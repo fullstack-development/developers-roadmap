@@ -42,7 +42,7 @@
       ```js
       console.log(toFunctionDeclaration('const sayHi = function (who) { alert(`Hello, ${who}`); }')) // function sayHi(who) { alert(`Hello, ${who}`); }
 
-      function toFunctionDeclaration(functionExpression:string){
+      function toFunctionDeclaration(functionExpression:string) {
         return
       }
       ```
@@ -57,7 +57,7 @@
       ```js
       console.log(toFunctionExpression('function sayHi(who) { alert(`Hello, ${who}`); }')) // const sayHi = function (who) { alert(`Hello, ${who}`); }
 
-      function toFunctionExpression(functionDeclaration:string){
+      function toFunctionExpression(functionDeclaration:string) {
         return
       }
       ```

@@ -42,11 +42,11 @@
       <summary>Подробности:</summary>
 
       ```javascript
-      function addOne(acc){ return acc + 1 }
-      function addTwo(acc){ return acc + 2 }
-      function addThree(acc){ return acc + 3 }
+      function addOne(acc) { return acc + 1 }
+      function addTwo(acc) { return acc + 2 }
+      function addThree(acc) { return acc + 3 }
 
-      const composed = compose(addThree,addTwo,addOne);
+      const composed = compose(addThree, addTwo, addOne);
 
       console.log(composed(0)) // 6
       ```
