@@ -185,6 +185,16 @@
   * Как вызвать немедленное обновление состояний компонента внутри `callback`? Когда это может быть полезно?
 * Performance
   * Что такое windowing или virtualizing списков?
+  * Server Components
+    * Какие преимущества дают?
+    * Какие есть ограничения?
+    * Как реализуется фетчинг данных? Что можно сделать, чтобы не блокировать рендер, если ответ запроса данных по тем или иным причинам слишком долгий?
+    * Когда Client Component будет лучшей альтернативой даже если мы можем использовать Server Component?
+    * Где рендерятся клиентские компоненты, а где серверные
+      * когда нет клиентского сервера?
+      * при включенном SSR?
+    * Станет ли модуль компонента без `'use client'` всегда клиентским, если он импортируется в модуль компонента с `'use client'` и также используется в модуле серверного компонента?
+    * Как отрендерить серверный компонент в клиентском(объяснить почему это так работает)?
 * Synthetic Events
   * Что такое и зачем нужны?
   * Какие всплывают? Какие есть особенности всплытия у разных типов событий?
@@ -198,7 +208,6 @@
   * Зачем делать функцию, которая возвращает функцию высшего порядка, создающую HOC? Как это помогает сделать HOC композабельным?
   * Какие проблемы могут возникать, если HOC не будет прокидывать входящие props дальше в потомка?
   * Как обрабатывать `displayName` при создании HOC?
-  * Как HOC влияет на forwarded ref?
   * В чем преимущество использование HOC для получения значения из контекста перед useContext и наоборот?
     * with useContext:
 
@@ -251,6 +260,7 @@
 * Custom Hooks
   * Как и для чего создавать пользовательские хуки?
   * Как правильно именовать пользовательские хуки? Почему?
+* Какие есть особенности рендеринга у `<title>`, `<meta>`, `<link>`, `<style>`, `<script>`?
 
 ### Ресурсы
 
@@ -262,5 +272,6 @@
 * [React concurrency](https://www.youtube.com/watch?v=M1OBMTYsKpo)
 * [Батчинг в react](https://www.youtube.com/watch?v=VfQ-qSjIalU)
 * [Automatic Batching](https://react.dev/blog/2022/03/08/react-18-upgrade-guide#automatic-batching)
+* [Client Components can render Server Components](https://react.dev/reference/rsc/use-client#why-is-copyright-a-server-component)
 * [React events in depth w/ Kent C. Dodds, Ben Alpert, & Dan Abramov](https://www.youtube.com/watch?v=dRo_egw7tBc)
 * [Getting to know React DOM’s event handling system inside out](https://medium.com/the-guild/getting-to-know-react-doms-event-handling-system-inside-out-378c44d2a5d0)
