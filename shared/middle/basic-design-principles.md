@@ -52,6 +52,7 @@
 
 * [Abstraction, Encapsulation, and Information Hiding](http://www.tonymarston.co.uk/php-mysql/abstraction.txt)
 * [Difference between Abstraction and Encapsulation](https://www.guru99.com/difference-between-abstraction-and-encapsulation.html#2)
+* [Coupling & Cohesion](https://www.geeksforgeeks.org/software-engineering-coupling-and-cohesion/)
 * [Cohesion](https://www.chegg.com/learn/computer-science/computer-software/module-cohesion)
 * [Coupling](https://www.chegg.com/learn/computer-science/computer-software/module-coupling)
 * [The DRY Principle Explained: Its Benefit and Cost with Examples](https://thevaluable.dev/dry-principle-explained/) [[Перевод](https://habr.com/ru/company/mailru/blog/349978/)]
@@ -61,6 +62,7 @@
 * [A Detailed Explanation of The KISS Principle in Software](https://thevaluable.dev/kiss-principle-explained/)
 * [Simple Made Easy — talk of Rich Hickey](https://www.infoq.com/presentations/Simple-Made-Easy/)
 * [The Art of Separation of Concerns](http://aspiringcraftsman.com/2008/01/03/art-of-separation-of-concerns/)
+* [Separation of Concerns - SoC](https://www.geeksforgeeks.org/separation-of-concerns-soc/)
 * [Cross cutting concern example on SO](https://stackoverflow.com/questions/23700540/cross-cutting-concern-example)
 * [Cross cutting concern on Wiki](https://en.wikipedia.org/wiki/Cross-cutting_concern)
 * [Coarse-grained vs fine-grained on SO](https://stackoverflow.com/questions/3766845/coarse-grained-vs-fine-grained)
