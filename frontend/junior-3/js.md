@@ -34,9 +34,36 @@
   * Можно ли дать группе имя? Когда это может быть полезно?
   * Как использовать значение группы в новой подстроке в методе replace?
 * Как работают опережающие и ретроспективные проверки?
-* Решить задачи:
+* Решить задачи (практика):
   * Написать регулярное выражение по переводу Function Expression в Function Declaration.
+    <details>
+      <summary>Подробности:</summary>
+
+      ```js
+      console.log(toFunctionDeclaration('const sayHi = function (who) { alert(`Hello, ${who}`); }')) // function sayHi(who) { alert(`Hello, ${who}`); }
+
+      function toFunctionDeclaration(functionExpression:string) {
+        return
+      }
+      ```
+
+    </details>
+
   * Написать регулярное выражение по переводу Function Declaration в Function Expression.
+
+    <details>
+      <summary>Подробности:</summary>
+
+      ```js
+      console.log(toFunctionExpression('function sayHi(who) { alert(`Hello, ${who}`); }')) // const sayHi = function (who) { alert(`Hello, ${who}`); }
+
+      function toFunctionExpression(functionDeclaration:string) {
+        return
+      }
+      ```
+
+    </details>
+
   * Написать регулярное выражение для поиска всех команд Телеграма в сообщении (примеры: `/help`, `/start`, `/active_orders`, `/order123`). Учесть, что команд в подстроке может быть несколько.
 
 ## Итераторы и генераторы

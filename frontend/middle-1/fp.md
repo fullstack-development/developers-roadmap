@@ -15,7 +15,7 @@
   * Когда может быть полезным каррирование?
   * В чем их отличия?
   * Каково их влияние на арность функций?
-  * Реализовать функцию `curry` с поддержкой плейсхолдеров:
+  * Реализовать функцию `curry` с поддержкой плейсхолдеров (практика):
     <details>
       <summary>Подробности:</summary>
       
@@ -24,20 +24,34 @@
 
         const curried = curry(abc);
 
-        curried(1, 2, 3); // => [1, 2, 3]
-        curried(1)(2)(3); // => [1, 2, 3]
-        curried(1, 2)(3); // => [1, 2, 3]
-        curried(_, 2, 3)(1); // => [1, 2, 3]
-        curried(1, _, 3)(2); // => [1, 2, 3]
-        curried(1, _, _)(2, 3); // => [1, 2, 3]
-        curried(_, _, 3)(1)(2); // => [1, 2, 3]
+        console.log(curried(1, 2, 3)); // => [1, 2, 3]
+        console.log(curried(1)(2)(3)); // => [1, 2, 3]
+        console.log(curried(1, 2)(3)); // => [1, 2, 3]
+        console.log(curried(_, 2, 3)(1)); // => [1, 2, 3]
+        console.log(curried(1, _, 3)(2)); // => [1, 2, 3]
+        console.log(curried(1, _, _)(2, 3)); // => [1, 2, 3]
+        console.log(curried(_, _, 3)(1)(2)); // => [1, 2, 3]
       ```
     </details>
 * Композиция функций
   * Что такое?
   * Для чего используется?
   * Что такое `pipe`?
-  * Как реализовать функцию `compose`?
+  * Как реализовать функцию `compose` (практика)?
+    <details>
+      <summary>Подробности:</summary>
+
+      ```javascript
+      function addOne(acc) { return acc + 1 }
+      function addTwo(acc) { return acc + 2 }
+      function addThree(acc) { return acc + 3 }
+
+      const composed = compose(addThree, addTwo, addOne);
+
+      console.log(composed(0)) // 6
+      ```
+
+    </details>
 * Point-free style
   * Что такое?
   * Какие может дать преимущества?
